@@ -1,0 +1,23 @@
+version: "3.4"
+name: musee
+services:
+  frontend:
+    build:
+      context: frontend
+    image: musee-frontend
+    command: ["npm", "run", "demo"]
+    restart: always
+    ports:
+      - 5173:5173
+      - 4173:4173
+    volumes:
+      - .:/src
+      - node-modules:/src/frontend/node_modules
+    networks:
+      - musee
+
+networks:
+  musee:
+
+volumes:
+  node-modules:

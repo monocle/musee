@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders with baseline className 1`] = `
+<button
+  class="btn foo"
+/>
+`;
