@@ -26,30 +26,37 @@ def fetch_data(url, params=None):
 
 
 url = "https://api.harvardartmuseums.org/object"
-results_per_page = 10  # API default. max = 100
+max_per_page = 100  # API default is 10
 response_fields = [
-    "title",
-    "people",
-    "dateend",
+    "colors",
     "dated",
-    "primaryimageurl",
-    "url",
-    "medium",
+    "dateend",
     "dimensions",
+    "id",
+    "imagepermissionlevel",
+    "images",
+    "medium",
+    "people",
+    "primaryimageurl",
+    "title",
+    "url",
 ]
 params = {
     "apikey": api_key,
     "classification": "Paintings",
     "hasimage": 1,
     "sort": "random",
-    "size": 100,
+    "size": max_per_page,
     "fields": ",".join(response_fields),
+    # "q": "_exists_:primaryimageurl AND _exists_:images", # not working
 }
 
 status_code, data = fetch_data(url, params)
 
 if status_code == 200:
     # Don't include data["info"] since it has the API key in it.
-    write_json("paintings.json", {"records": data["records"]})
+    write_json(
+        "paintings.json", {"records": data["records"], "count": len(data["records"])}
+    )
 else:
     print(f"error: {status_code}\n {data}")
