@@ -2,7 +2,7 @@ import { rest } from "msw";
 import paintingsResponse from "./paintings.json";
 
 export const handlers = [
-  rest.get("api/paintings", async (req, res, ctx) => {
+  rest.get("/api/paintings", async (req, res, ctx) => {
     const maxRecords = paintingsResponse.records.length;
     const offset = Number(req.url.searchParams.get("offset") ?? "0");
     const limit = Number(req.url.searchParams.get("limit") ?? "20");

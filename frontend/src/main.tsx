@@ -5,8 +5,9 @@ import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import router from "./router.ts";
 import "./index.css";
 
-const isDemo = import.meta.env.MODE === "demo";
+const isDemo = import.meta.env.VITE_IS_DEMO;
 const isDev = import.meta.env.DEV;
+const isGithub = import.meta.env.VITE_HOST === "github";
 const startWorker = async () => {
   if (isDemo) {
     const { worker } = await import("./mocks/browser");
@@ -31,7 +32,7 @@ const queryClient = new QueryClient({
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
+      <RouterProvider router={router} basepath={isGithub ? "musee/" : ""} />
     </QueryClientProvider>
   </React.StrictMode>
 );

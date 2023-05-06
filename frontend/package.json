@@ -7,7 +7,7 @@
     "dev": "vite",
     "demo": "vite --mode demo",
     "build": "tsc && vite build",
-    "build:demo": "tsc && vite build --mode demo",
+    "build:github": "tsc && vite build --mode github",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest",
