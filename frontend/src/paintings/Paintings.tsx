@@ -25,13 +25,17 @@ export default function Paintings() {
 
   return (
     <section>
-      <h2>Paintings</h2>
-      <PageControls
-        offset={offset}
-        limit={limit}
-        total={totalRecords}
-        onOffsetChange={(offset) => setOffset(offset)}
-      />
+      <h2 className="mb-4 text-center font-heading text-2xl font-bold">
+        Paintings
+      </h2>
+      <div className="text-center">
+        <PageControls
+          offset={offset}
+          limit={limit}
+          total={totalRecords}
+          onOffsetChange={(offset) => setOffset(offset)}
+        />
+      </div>
       {isLoading && <div>Loading...</div>}
       {isError && <ErrorMessage error={error} />}
       {isSuccess && (
