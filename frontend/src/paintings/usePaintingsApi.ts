@@ -19,7 +19,6 @@ export const useGetPaintings = (params: UseGetPaintingsProps) =>
         );
 
         records.forEach((painting) => {
-          painting.colors = painting.colors.slice(0, 1);
           if (painting.dimensions) {
             painting.dimensionsArr = painting.dimensions.split("\r\n");
           } else {

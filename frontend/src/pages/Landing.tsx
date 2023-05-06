@@ -1,6 +1,10 @@
+import { Link } from "@tanstack/react-router";
+import Header from "../common/Header";
+
 export default function Landing() {
   return (
     <>
+      <Header />
       <div
         className="hero h-[80vh]"
         style={{
@@ -14,7 +18,10 @@ export default function Landing() {
             <p className="mx-auto mb-5 w-72">
               Explore museum paitings and collect the ones that inspire you.
             </p>
-            <button className="btn-accent btn">Get Started</button>
+
+            <Link to="/painting">
+              <button className="btn-accent btn">Get Started</button>
+            </Link>
           </div>
         </div>
       </div>

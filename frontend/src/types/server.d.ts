@@ -44,7 +44,7 @@ export interface Painting {
   images: Image[];
   medium: string;
   people: Person[];
-  primaryimageurl: string | null;
+  primaryimageurl: string; // Guaranteed with post fetch processing
   title: string;
   url: string;
   // Attributes set after fetch
