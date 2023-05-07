@@ -2,6 +2,7 @@ interface Props {
   offset: number;
   limit: number;
   total: number;
+  showDetails?: boolean;
   className?: string;
   onOffsetChange: (newOffset: number) => void;
 }
@@ -10,6 +11,7 @@ export default function PageControls({
   offset,
   limit,
   total,
+  showDetails = true,
   className = "",
   onOffsetChange,
 }: Props) {
@@ -30,18 +32,22 @@ export default function PageControls({
   return (
     <div className={`btn-group ${className}`}>
       <button
-        className="btn-sm btn"
+        className="btn-sm btn lg:btn-md"
         disabled={isFirstPage}
         onClick={handleDecrement}
       >
         «
       </button>
-      <button className="btn-disabled btn-sm btn">
-        {offset + 1} {offset !== lastPos - 1 && `- ${lastPos}`} / {total}
+      <button className="btn-disabled btn-sm btn lg:btn-md">
+        {showDetails && (
+          <>
+            {offset + 1} {offset !== lastPos - 1 && `- ${lastPos}`} / {total}
+          </>
+        )}
       </button>
 
       <button
-        className="btn-sm btn"
+        className="btn-sm btn lg:btn-md"
         disabled={isLastPage}
         onClick={handleIncrement}
       >
