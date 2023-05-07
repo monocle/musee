@@ -52,8 +52,7 @@ export default function Paintings() {
                 <th>Dimensions</th>
                 <th>Colors</th>
                 <th># Images</th>
-                <th>Image URL</th>
-                <th>HAM Link</th>
+                <th>Museum Link</th>
               </tr>
             </thead>
             <tbody>
@@ -68,7 +67,6 @@ export default function Paintings() {
                     id,
                     images,
                     medium,
-                    primaryimageurl,
                     title,
                     url,
                   }) => (
@@ -93,17 +91,13 @@ export default function Paintings() {
                       </td>
                       <td>{images.length}</td>
                       <td>
-                        {primaryimageurl ? (
-                          <a className="link-info link" href={primaryimageurl}>
-                            link
-                          </a>
-                        ) : (
-                          "None"
-                        )}
-                      </td>
-                      <td>
                         {url ? (
-                          <a className="link-info link" href={url}>
+                          <a
+                            className="link-info link"
+                            href={url}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
                             link
                           </a>
                         ) : (
