@@ -12,6 +12,7 @@ const startWorker = async () => {
   if (isDemo) {
     const { worker } = await import("./mocks/browser");
     worker.start({
+      onUnhandledRequest: "bypass",
       serviceWorker: {
         url: "./mockServiceWorker.js",
       },
