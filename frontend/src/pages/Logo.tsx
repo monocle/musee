@@ -6,7 +6,7 @@ interface Props {
 }
 
 export default function Logo({ className = "", showDemo = true }: Props) {
-  const isDemo = import.meta.env.MODE === "demo";
+  const isDemo = import.meta.env.VITE_IS_DEMO;
 
   return (
     <div className="flex items-center">
