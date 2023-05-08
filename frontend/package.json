@@ -19,6 +19,9 @@
     "precommit": "npm run style:all && npm run coverage"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@tanstack/react-query": "^4.29.5",
     "@tanstack/react-router": "^0.0.1-beta.83",
     "axios": "^1.3.6",
