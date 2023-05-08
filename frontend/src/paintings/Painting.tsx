@@ -37,8 +37,26 @@ export default function Painting() {
   const date = dated ?? dateend;
 
   return (
-    <div className="flex flex-col-reverse lg:flex-row">
-      <section className="relative flex w-full items-center justify-center lg:w-4/5">
+    <div className="lg:flex lg:h-screen lg:flex-col lg:flex-wrap">
+      <div className="px-2 pb-2 dark:bg-gray-800 lg:order-2 lg:w-1/5 lg:px-2">
+        <header className="flex justify-between">
+          <Logo />
+          <button className="btn-ghost btn-square btn">
+            <MenuIcon />
+          </button>
+        </header>
+        <div className="mb-3 mt-2 flex justify-center">
+          <PageControls
+            offset={idx}
+            limit={1}
+            total={data.records.length}
+            showDetails={false}
+            onOffsetChange={handleIdxChange}
+          />
+        </div>
+      </div>
+
+      <section className="relative flex w-full items-center justify-center lg:order-1 lg:w-4/5">
         {!isImgLoaded && <Spinner className="absolute" />}
         <figure
           className={`flex max-w-full flex-col lg:h-screen ${
@@ -59,22 +77,7 @@ export default function Painting() {
         </figure>
       </section>
 
-      <section className="min-h-screen w-full px-4 py-1 dark:bg-gray-800 lg:w-1/5">
-        <div className="flex justify-between">
-          <Logo />
-          <button className="btn-ghost btn-square btn">
-            <MenuIcon />
-          </button>
-        </div>
-        <div className="mb-8 mt-3 flex justify-center">
-          <PageControls
-            offset={idx}
-            limit={1}
-            total={data.records.length}
-            showDetails={false}
-            onOffsetChange={handleIdxChange}
-          />
-        </div>
+      <section className="px-4 pb-4 pt-2 dark:bg-gray-800 lg:order-3 lg:w-1/5 lg:grow lg:px-4">
         <ul className="list">
           <li className="mb-2">{artist?.name ?? "Unknown"}</li>
           {artist?.culture && <li className="mb-2">{artist.culture}</li>}
