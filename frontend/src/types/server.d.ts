@@ -1,4 +1,4 @@
-export interface Color {
+interface Color {
   color: string;
   css3: string;
   hue: string;
@@ -6,7 +6,7 @@ export interface Color {
   spectrum: string;
 }
 
-export interface Image {
+interface Image {
   baseimageurl: string;
   displayorder: number;
   format: string;
@@ -15,7 +15,7 @@ export interface Image {
   width: number;
 }
 
-export interface Person {
+interface Person {
   alphasort: string | null;
   birthplace: string | null;
   culture: string | null;
@@ -34,7 +34,7 @@ export interface Person {
 // 0 – ok to display images at any size
 // 1 – images have restrictions; display at a maximum pixel dimension of 256px
 // 2 – do not display any images
-export interface Painting {
+interface Painting {
   colors: Color[];
   dated: string | null;
   dateend: string | number;
@@ -52,11 +52,11 @@ export interface Painting {
   dimensionsArr?: string[];
 }
 
-export interface PaintingsResponse {
+interface PaintingsResponse {
   count: number;
   records: Painting[];
 }
 
-export interface ServerError {
+interface ServerError {
   message: string;
 }

@@ -1,5 +1,3 @@
-import { Painting } from "../types";
-
 interface Props {
   painting: Painting;
   source: string;

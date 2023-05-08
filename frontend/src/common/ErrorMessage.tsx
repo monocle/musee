@@ -1,5 +1,3 @@
-import { ServerError } from "../types";
-
 interface Props {
   error: ServerError;
 }

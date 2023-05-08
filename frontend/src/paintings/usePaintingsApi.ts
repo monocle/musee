@@ -1,5 +1,4 @@
 import { useQuery } from "@tanstack/react-query";
-import type { PaintingsResponse, ServerError } from "../types";
 import { get } from "../services/fetch";
 
 interface UseGetPaintingsProps {

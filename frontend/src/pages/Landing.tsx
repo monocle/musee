@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
-import type { Painting } from "../types";
 import Header from "./Header";
 import Spinner from "../svgs/Spinner";
 import BriefPaintingInfo from "../paintings/BriefPaintingInfo";
