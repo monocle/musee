@@ -1,10 +1,11 @@
 import { useState } from "react";
 import ErrorMessage from "../common/ErrorMessage";
-import Logo from "../common/Logo";
+import Logo from "../pages/Logo";
 import { useGetPaintings } from "./usePaintingsApi";
 import PageControls from "./PageControls";
 import MenuIcon from "../svgs/MenuIcon";
 import Spinner from "../svgs/Spinner";
+import ThemeIcon from "../common/ThemeIcon";
 
 export default function Painting() {
   const [idx, setIdx] = useState(0);
@@ -38,9 +39,10 @@ export default function Painting() {
 
   return (
     <div className="lg:flex lg:h-screen lg:flex-col lg:flex-wrap">
-      <div className="px-2 pb-2 dark:bg-gray-800 lg:order-2 lg:w-1/5 lg:px-2">
-        <header className="flex justify-between">
+      <div className="bg-base-200 px-2 pb-2 lg:order-2 lg:w-1/5 lg:px-2">
+        <header className="flex items-center justify-between">
           <Logo />
+          <ThemeIcon />
           <button className="btn-ghost btn-square btn">
             <MenuIcon />
           </button>
@@ -77,18 +79,18 @@ export default function Painting() {
         </figure>
       </section>
 
-      <section className="px-4 pb-4 pt-2 dark:bg-gray-800 lg:order-3 lg:w-1/5 lg:grow lg:px-4">
+      <section className="bg-base-200 px-4 pb-4 pt-2 lg:order-3 lg:w-1/5 lg:grow lg:px-4">
         <ul className="list">
-          <li className="mb-2">{artist?.name ?? "Unknown"}</li>
-          {artist?.culture && <li className="mb-2">{artist.culture}</li>}
-          {date !== 0 && <li className="mb-2">{date}</li>}
-          <li className="mb-2">{medium}</li>
-          <li className="mb-2 text-sm">
+          <li className="mb-3">{artist?.name ?? "Unknown"}</li>
+          {artist?.culture && <li className="mb-3">{artist.culture}</li>}
+          {date !== 0 && <li className="mb-3">{date}</li>}
+          <li className="mb-3">{medium}</li>
+          <li className="mb-3 text-sm">
             {dimensionsArr?.map((dim) => (
               <div key={dim}>{dim}</div>
             ))}
           </li>
-          <li className="mb-2">
+          <li className="mb-3">
             {url ? (
               <a
                 className="link-info link"
@@ -103,7 +105,7 @@ export default function Painting() {
             )}
           </li>
           {colors.slice(0, 6).map((color) => (
-            <li className="mb-2 text-xs" key={color.color}>
+            <li className="mb-3 text-xs" key={color.color}>
               <div className="flex">
                 <div className="w-2/3">
                   {color.hue} ({color.color})

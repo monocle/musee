@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import Logo from "./Logo";
+import ThemeIcon from "../common/ThemeIcon";
 
 export default function Header() {
   return (
@@ -17,6 +18,8 @@ export default function Header() {
         >
           Paintings
         </Link>
+
+        <ThemeIcon />
       </div>
     </header>
   );

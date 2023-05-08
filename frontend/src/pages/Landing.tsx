@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import type { Painting } from "../types";
-import Header from "../common/Header";
+import Header from "./Header";
 import Spinner from "../svgs/Spinner";
 import BriefPaintingInfo from "../paintings/BriefPaintingInfo";
 
@@ -63,7 +63,7 @@ export default function Landing() {
             onLoad={() => setIsImgLoaded(true)}
           />
           <div className="hero-content text-center">
-            <div className="max-w-md text-gray-900 dark:text-gray-100">
+            <div className="max-w-md text-accent-content">
               <h1 className="mb-5 text-5xl font-bold">Artwork to Inspire</h1>
               <p className="mx-auto mb-5 w-72">
                 Explore museum paitings and collect the ones that inspire you.

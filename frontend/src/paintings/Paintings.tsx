@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useGetPaintings } from "./usePaintingsApi";
 import ErrorMessage from "../common/ErrorMessage";
-import Header from "../common/Header";
+import Header from "../pages/Header";
 import PageControls from "./PageControls";
 
 function toPercent(num: number, minimumFractionDigits = 0) {
