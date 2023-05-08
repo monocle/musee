@@ -1,3 +1,9 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faChevronLeft,
+  faChevronRight,
+} from "@fortawesome/free-solid-svg-icons";
+
 interface Props {
   offset: number;
   limit: number;
@@ -36,7 +42,7 @@ export default function PageControls({
         disabled={isFirstPage}
         onClick={handleDecrement}
       >
-        «
+        <FontAwesomeIcon icon={faChevronLeft} />
       </button>
       <button className="btn-disabled btn-md btn">
         {showDetails && (
@@ -51,7 +57,7 @@ export default function PageControls({
         disabled={isLastPage}
         onClick={handleIncrement}
       >
-        »
+        <FontAwesomeIcon icon={faChevronRight} />
       </button>
     </div>
   );

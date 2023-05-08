@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import Header from "./Header";
-import Spinner from "../svgs/Spinner";
+import Spinner from "../icons/Spinner";
 import BriefPaintingInfo from "../paintings/BriefPaintingInfo";
 
 const heroPainting: Painting = {

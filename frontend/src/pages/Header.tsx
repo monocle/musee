@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import Logo from "./Logo";
-import ThemeIcon from "../common/ThemeIcon";
+import ThemeIcon from "../icons/ThemeIcon";
 
 export default function Header() {
   return (

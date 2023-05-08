@@ -3,9 +3,9 @@ import ErrorMessage from "../common/ErrorMessage";
 import Logo from "../pages/Logo";
 import { useGetPaintings } from "./usePaintingsApi";
 import PageControls from "./PageControls";
-import MenuIcon from "../svgs/MenuIcon";
-import Spinner from "../svgs/Spinner";
-import ThemeIcon from "../common/ThemeIcon";
+import MenuIcon from "../icons/MenuIcon";
+import Spinner from "../icons/Spinner";
+import ThemeIcon from "../icons/ThemeIcon";
 
 export default function Painting() {
   const [idx, setIdx] = useState(0);
