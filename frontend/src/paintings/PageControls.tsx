@@ -32,13 +32,13 @@ export default function PageControls({
   return (
     <div className={`btn-group ${className}`}>
       <button
-        className="btn-sm btn lg:btn-md"
+        className="btn-md btn"
         disabled={isFirstPage}
         onClick={handleDecrement}
       >
         «
       </button>
-      <button className="btn-disabled btn-sm btn lg:btn-md">
+      <button className="btn-disabled btn-md btn">
         {showDetails && (
           <>
             {offset + 1} {offset !== lastPos - 1 && `- ${lastPos}`} / {total}
@@ -47,7 +47,7 @@ export default function PageControls({
       </button>
 
       <button
-        className="btn-sm btn lg:btn-md"
+        className="btn-md btn"
         disabled={isLastPage}
         onClick={handleIncrement}
       >
