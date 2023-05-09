@@ -10,14 +10,10 @@ export default function BriefPaintingInfo({ painting, source }: Props) {
     <figcaption className="flex gap-4 px-2 py-2">
       <p className="font-semibold">{painting.title}</p>
       <p>
-        {artist ? (
-          <>
-            {artist.name}, {artist.culture} ({artist.birthplace}{" "}
-            {artist.displaydate})
-          </>
-        ) : (
-          "Unknown Artist"
-        )}
+        <>
+          {artist.name}, {artist.culture} ({artist.birthplace}{" "}
+          {artist.displaydate})
+        </>
       </p>
       <cite>
         <a
