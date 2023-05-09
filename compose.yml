@@ -1,4 +1,4 @@
-version: "3.4"
+version: "3.9"
 name: musee
 services:
   frontend:
@@ -16,8 +16,20 @@ services:
     networks:
       - musee
 
-networks:
-  musee:
+  backend:
+    build:
+      context: backend
+      target: build-image
+    image: musee-backend
+    env_file: ./backend/.env
+    stdin_open: true
+    volumes:
+      - .:/home/appuser/src
+    networks:
+      - musee
 
 volumes:
   node-modules:
+
+networks:
+  musee:

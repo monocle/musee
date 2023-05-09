@@ -12,10 +12,20 @@
     "plaintext": "html"
   },
   "tailwindCSS.emmetCompletions": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
   "eslint.workingDirectories": ["frontend"],
+  "python.analysis.typeCheckingMode": "basic",
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
   },
-  "python.formatting.provider": "none"
+  "python.formatting.provider": "none",
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
+  "python.linting.mypyEnabled": true,
 }

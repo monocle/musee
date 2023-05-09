@@ -1,11 +1,21 @@
 PROJ_NAME := musee
 FRONTEND := frontend
+BACKEND := backend
 
 up:
 	docker compose up -d
 
 down:
 	docker compose down
+
+backend_shell:
+	docker exec -it $(PROJ_NAME)-$(BACKEND)-1 /bin/bash
+
+backend_test:
+	docker exec -it $(PROJ_NAME)-$(BACKEND)-1 python scripts/auto_run_tests.py
+
+backend_test_cov:
+	docker exec -it $(PROJ_NAME)-$(BACKEND)-1 pytest --cov=backend/src/app --cov-report=term-missing 
 
 frontend_logs:
 	docker compose logs -f $(FRONTEND)
