@@ -1,0 +1,5912 @@
+{
+  "records": [
+    {
+      "medium": "Opaque watercolor and gold on paper; Malwa Style",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC000143_dynmc",
+      "colors": [
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.2673584905660377,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.22018867924528301,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#964b4b",
+          "spectrum": "#c25687",
+          "hue": "Red",
+          "percent": 0.19874213836477989,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.09333333333333334,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#7d7d64",
+          "spectrum": "#6cbd45",
+          "hue": "Yellow",
+          "percent": 0.08477987421383648,
+          "css3": "#808080"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.04886792452830189,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.04710691823899371,
+          "css3": "#696969"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.03962264150943396,
+          "css3": "#dcdcdc"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/216282",
+      "title": "Madhumadhavi Ragini, Illustration from a Ragamala (Garland of Melodies) Series",
+      "id": 216282,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": null,
+        "displayname": "Unknown Artist",
+        "alphasort": "Unknown Artist",
+        "name": "Unknown Artist",
+        "personid": 23184,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "sight: 22.5 x 15 cm (8 7/8 x 5 7/8 in.)"
+      ],
+      "date": "c. 1640-1660"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS244866",
+      "colors": [
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.33013550135501357,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.23831978319783198,
+          "css3": "#696969"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.10861788617886178,
+          "css3": "#808080"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.09203252032520325,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.08476964769647696,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.07956639566395664,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.056910569105691054,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.004878048780487805,
+          "css3": "#000000"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.004769647696476965,
+          "css3": "#dcdcdc"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/231632",
+      "title": "Seascape with Rocks",
+      "id": 231632,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Portage City, WI",
+        "gender": "male",
+        "displaydate": "1868 - 1931",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Merton Clivette",
+        "alphasort": "Clivette, Merton",
+        "name": "Merton Clivette",
+        "personid": 32927,
+        "deathplace": "New York, NY",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "45.7 x 55.9 cm (18 x 22 in.)"
+      ],
+      "date": "19th-20th century"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101634_dynmc",
+      "colors": [
+        {
+          "color": "#324b4b",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.48779874213836477,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#e1afaf",
+          "spectrum": "#e36769",
+          "hue": "Red",
+          "percent": 0.149937106918239,
+          "css3": "#ffb6c1"
+        },
+        {
+          "color": "#e1c8c8",
+          "spectrum": "#c15689",
+          "hue": "Orange",
+          "percent": 0.12672955974842767,
+          "css3": "#d8bfd8"
+        },
+        {
+          "color": "#c89696",
+          "spectrum": "#c15689",
+          "hue": "Red",
+          "percent": 0.12578616352201258,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#966464",
+          "spectrum": "#b65590",
+          "hue": "Violet",
+          "percent": 0.06641509433962264,
+          "css3": "#808080"
+        },
+        {
+          "color": "#af7d7d",
+          "spectrum": "#c25687",
+          "hue": "Red",
+          "percent": 0.041132075471698115,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.0020754716981132076,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#e1964b",
+          "spectrum": "#f58843",
+          "hue": "Yellow",
+          "percent": 0.00012578616352201257,
+          "css3": "#cd853f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/230750",
+      "title": "Portrait of a Young Man, Hand on Chest",
+      "id": 230750,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Cincinnati, OH",
+        "gender": "male",
+        "displaydate": "1853 - 1935",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Denman Waldo Ross",
+        "alphasort": "Ross, Denman Waldo",
+        "name": "Denman Waldo Ross",
+        "personid": 28370,
+        "deathplace": "London, England",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "35.9 x 25.4 cm (14 1/8 x 10 in.)"
+      ],
+      "date": "19th-20th century"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:78037_dynmc",
+      "colors": [
+        {
+          "color": "#321919",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.5024932249322493,
+          "css3": "#000000"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.28579945799457995,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.09517615176151761,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#64644b",
+          "spectrum": "#59ba4a",
+          "hue": "Green",
+          "percent": 0.0564769647696477,
+          "css3": "#696969"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.013766937669376695,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.011490514905149051,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#af7d64",
+          "spectrum": "#c85783",
+          "hue": "Brown",
+          "percent": 0.00953929539295393,
+          "css3": "#cd5c5c"
+        },
+        {
+          "color": "#c89664",
+          "spectrum": "#ed7758",
+          "hue": "Brown",
+          "percent": 0.006341463414634147,
+          "css3": "#bdb76b"
+        },
+        {
+          "color": "#7d7d64",
+          "spectrum": "#6cbd45",
+          "hue": "Yellow",
+          "percent": 0.006070460704607046,
+          "css3": "#808080"
+        },
+        {
+          "color": "#96644b",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.0055284552845528455,
+          "css3": "#a0522d"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/222343",
+      "title": "Self-Portrait",
+      "id": 222343,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Cincinnati, Ohio, U.S.A.",
+        "gender": "unknown",
+        "displaydate": "1864 - 1951",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "William Valentine Schevill",
+        "alphasort": "Schevill, William Valentine",
+        "name": "William Valentine Schevill",
+        "personid": 28524,
+        "deathplace": "Weston, Massachusetts",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "107.3 x 86.4 cm (42 1/4 x 34 in.)"
+      ],
+      "date": "19th-20th century"
+    },
+    {
+      "medium": "One of a pair of handscrolls; ink and light color on paper",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:781949",
+      "colors": [
+        {
+          "color": "#c8c8af",
+          "spectrum": "#b55592",
+          "hue": "Green",
+          "percent": 0.7304761904761905,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#e1c8c8",
+          "spectrum": "#c15689",
+          "hue": "Orange",
+          "percent": 0.14285714285714285,
+          "css3": "#d8bfd8"
+        },
+        {
+          "color": "#4b6464",
+          "spectrum": "#5e6db3",
+          "hue": "Blue",
+          "percent": 0.05142857142857143,
+          "css3": "#696969"
+        },
+        {
+          "color": "#96967d",
+          "spectrum": "#8e5ea7",
+          "hue": "Green",
+          "percent": 0.03190476190476191,
+          "css3": "#808080"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.03,
+          "css3": "#808080"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.006190476190476191,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#c8967d",
+          "spectrum": "#e66c64",
+          "hue": "Grey",
+          "percent": 0.0038095238095238095,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#c8644b",
+          "spectrum": "#e46867",
+          "hue": "Red",
+          "percent": 0.0019047619047619048,
+          "css3": "#cd5c5c"
+        },
+        {
+          "color": "#c87d64",
+          "spectrum": "#e66c64",
+          "hue": "Orange",
+          "percent": 0.0014285714285714286,
+          "css3": "#cd5c5c"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/202615",
+      "title": "Genre Scenes in Kyoto: Autumn (Kanpu itteki: aki)",
+      "id": 202615,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Anafuto, Tamba province",
+        "gender": "male",
+        "displaydate": "1733 - 1795",
+        "prefix": "Copy After",
+        "culture": "Japanese",
+        "displayname": "Copy After Maruyama Ōkyo 円山応挙",
+        "alphasort": "Maruyama, Ōkyo",
+        "name": "Maruyama Ōkyo 円山応挙",
+        "personid": 27899,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "H. 30.5 x W. 358.7 cm (12 x 141 1/4 in.)"
+      ],
+      "date": "Late Edo period, early 19th century"
+    },
+    {
+      "medium": "Oil on panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS16298_dynmc",
+      "colors": [
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.24369146005509643,
+          "css3": "#000000"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.18446280991735536,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.1794490358126722,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.1769146005509642,
+          "css3": "#000000"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.1256198347107438,
+          "css3": "#696969"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.0828099173553719,
+          "css3": "#808080"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.0070523415977961435,
+          "css3": "#fffafa"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/227513",
+      "title": "Saint Francis Embracing the Crucified Christ (after a painting in the Museo de Bellas Artes, Seville)",
+      "id": 227513,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Seville",
+        "gender": "unknown",
+        "displaydate": "1618 - 1682",
+        "prefix": "Copy after",
+        "culture": "Spanish",
+        "displayname": "Copy after Bartolomé Esteban Murillo",
+        "alphasort": "Murillo, Bartolomé Esteban",
+        "name": "Bartolomé Esteban Murillo",
+        "personid": 27741,
+        "deathplace": "Seville",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "22.4 x 16.7 cm (8 13/16 x 6 9/16 in.)",
+        "framed: 56.8 x 32.1 x 7.3 cm (22 3/8 x 12 5/8 x 2 7/8 in.)"
+      ],
+      "date": "17th century"
+    },
+    {
+      "medium": "Oil on wood panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:62121_dynmc",
+      "colors": [
+        {
+          "color": "#96967d",
+          "spectrum": "#8e5ea7",
+          "hue": "Green",
+          "percent": 0.3621455938697318,
+          "css3": "#808080"
+        },
+        {
+          "color": "#647d64",
+          "spectrum": "#4fb94f",
+          "hue": "Green",
+          "percent": 0.27233716475095787,
+          "css3": "#696969"
+        },
+        {
+          "color": "#96af96",
+          "spectrum": "#8163ab",
+          "hue": "Green",
+          "percent": 0.15977011494252874,
+          "css3": "#8fbc8f"
+        },
+        {
+          "color": "#4b644b",
+          "spectrum": "#3db657",
+          "hue": "Green",
+          "percent": 0.1271264367816092,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#324b4b",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.02666666666666667,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#4b4b32",
+          "spectrum": "#4ab851",
+          "hue": "Green",
+          "percent": 0.016628352490421456,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.016091954022988506,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.014559386973180077,
+          "css3": "#000000"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.004674329501915709,
+          "css3": "#000000"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/230342",
+      "title": "Harmony in Blue and Silver:  Beaching the Boat, Étretat",
+      "id": 230342,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Lowell, MA",
+        "gender": "male",
+        "displaydate": "1834 - 1903",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "James Abbott McNeill Whistler",
+        "alphasort": "Whistler, James Abbott McNeill",
+        "name": "James Abbott McNeill Whistler",
+        "personid": 29383,
+        "deathplace": "London, England",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "13.6 x 23.5 cm (5 3/8 x 9 1/4 in.)",
+        "framed: 29.5 x 40 x 4.5 cm (11 5/8 x 15 3/4 x 1 3/4 in.)"
+      ],
+      "date": "c. 1897"
+    },
+    {
+      "medium": "Tempera and gold leaf on wood with engaged frame",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:33750_dynmc",
+      "colors": [
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.292090395480226,
+          "css3": "#808080"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.28141242937853106,
+          "css3": "#696969"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.16180790960451977,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.1183050847457627,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.07451977401129943,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.030225988700564973,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.021016949152542375,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.018587570621468926,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.002033898305084746,
+          "css3": "#000000"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/232271",
+      "title": "Lamentation over the Dead Christ",
+      "id": 232271,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": "1300 - 1325",
+        "prefix": null,
+        "culture": "Italian",
+        "displayname": "Lippo di Benivieni",
+        "alphasort": "Lippo di Benivieni",
+        "name": "Lippo di Benivieni",
+        "personid": 27218,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "sight: 49.4 x 33.8 x 1.8 cm (19 7/16 x 13 5/16 x 11/16 in.)"
+      ],
+      "date": "c. 1320"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS19605_dynmc",
+      "colors": [
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.15579234972677597,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.13191256830601092,
+          "css3": "#000000"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.11420765027322405,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.10907103825136612,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.09830601092896175,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.08693989071038251,
+          "css3": "#696969"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.08114754098360656,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.08103825136612022,
+          "css3": "#808080"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.06256830601092896,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.045136612021857925,
+          "css3": "#fffafa"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/227798",
+      "title": "Portrait of a Young Man",
+      "id": 227798,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Ruabon, Wrexham, Wales",
+        "gender": "unknown",
+        "displaydate": "1750 - 1824",
+        "prefix": "Attributed to",
+        "culture": "British",
+        "displayname": "Attributed to John Downman",
+        "alphasort": "Downman, John",
+        "name": "John Downman",
+        "personid": 18584,
+        "deathplace": "Wrexham, Wrexham, Wales",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "25.4 x 20.32 cm (10 x 8 in.)",
+        "framed: 36.2 x 30.8 cm (14 1/4 x 12 1/8 in.)"
+      ],
+      "date": "18th-19th century"
+    },
+    {
+      "medium": "Oil on panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC254084_dynmc",
+      "colors": [
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.5354855643044619,
+          "css3": "#000000"
+        },
+        {
+          "color": "#4b3232",
+          "spectrum": "#4ab851",
+          "hue": "Red",
+          "percent": 0.21034120734908138,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#190000",
+          "spectrum": "#2eb45d",
+          "hue": "Black",
+          "percent": 0.149501312335958,
+          "css3": "#000000"
+        },
+        {
+          "color": "#e1e1c8",
+          "spectrum": "#e9715f",
+          "hue": "Green",
+          "percent": 0.03874015748031496,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#644b32",
+          "spectrum": "#59ba4a",
+          "hue": "Brown",
+          "percent": 0.01627296587926509,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#e1af96",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.015380577427821522,
+          "css3": "#deb887"
+        },
+        {
+          "color": "#af7d64",
+          "spectrum": "#c85783",
+          "hue": "Brown",
+          "percent": 0.012178477690288713,
+          "css3": "#cd5c5c"
+        },
+        {
+          "color": "#c8967d",
+          "spectrum": "#e66c64",
+          "hue": "Grey",
+          "percent": 0.011443569553805774,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#7d644b",
+          "spectrum": "#b25593",
+          "hue": "Yellow",
+          "percent": 0.010656167979002625,
+          "css3": "#696969"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/228324",
+      "title": "Portrait of a Young Woman with White Cap",
+      "id": 228324,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": null,
+        "displayname": "Unidentified Artist",
+        "alphasort": "Unidentified Artist",
+        "name": "Unidentified Artist",
+        "personid": 34147,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "66.04 x 56.36 cm (26 x 22 3/16 in.)"
+      ],
+      "date": "17th century"
+    },
+    {
+      "medium": "Opaque watercolor on paper",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:ISL10318_dynmc",
+      "colors": [
+        {
+          "color": "#643232",
+          "spectrum": "#ae5596",
+          "hue": "Red",
+          "percent": 0.1998581560283688,
+          "css3": "#8b4513"
+        },
+        {
+          "color": "#964b32",
+          "spectrum": "#d0577c",
+          "hue": "Orange",
+          "percent": 0.1324822695035461,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#324b4b",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.11843971631205674,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#4b1919",
+          "spectrum": "#4ab851",
+          "hue": "Red",
+          "percent": 0.08964539007092198,
+          "css3": "#800000"
+        },
+        {
+          "color": "#96644b",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.07553191489361702,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#967d64",
+          "spectrum": "#b65590",
+          "hue": "Brown",
+          "percent": 0.05780141843971631,
+          "css3": "#808080"
+        },
+        {
+          "color": "#af7d4b",
+          "spectrum": "#e9715f",
+          "hue": "Yellow",
+          "percent": 0.05028368794326241,
+          "css3": "#cd853f"
+        },
+        {
+          "color": "#e1e1c8",
+          "spectrum": "#e9715f",
+          "hue": "Green",
+          "percent": 0.048581560283687944,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.04780141843971631,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#afaf96",
+          "spectrum": "#8e5ea7",
+          "hue": "Green",
+          "percent": 0.04652482269503546,
+          "css3": "#a9a9a9"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/217078",
+      "title": "Portrait of Maharaja Uthram Thirunal Marthanda Varma of Travancore",
+      "id": 217078,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": null,
+        "displayname": "Unknown Artist",
+        "alphasort": "Unknown Artist",
+        "name": "Unknown Artist",
+        "personid": 23184,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "35 x 25 cm (13 3/4 x 9 13/16 in.)"
+      ],
+      "date": "mid 19th century"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC234285_dynmc",
+      "colors": [
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.43824,
+          "css3": "#000000"
+        },
+        {
+          "color": "#323219",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.32672,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#64644b",
+          "spectrum": "#59ba4a",
+          "hue": "Green",
+          "percent": 0.06341333333333334,
+          "css3": "#696969"
+        },
+        {
+          "color": "#4b4b32",
+          "spectrum": "#4ab851",
+          "hue": "Green",
+          "percent": 0.05125333333333333,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#967d64",
+          "spectrum": "#b65590",
+          "hue": "Brown",
+          "percent": 0.044906666666666664,
+          "css3": "#808080"
+        },
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.032106666666666665,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#afaf96",
+          "spectrum": "#8e5ea7",
+          "hue": "Green",
+          "percent": 0.014186666666666667,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#e1c8af",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.01264,
+          "css3": "#f5deb3"
+        },
+        {
+          "color": "#c8afaf",
+          "spectrum": "#b55592",
+          "hue": "Red",
+          "percent": 0.009226666666666666,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#e1af96",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.006826666666666667,
+          "css3": "#deb887"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/231844",
+      "title": "Portrait of a Preacher",
+      "id": 231844,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Antwerp or Malines",
+        "gender": "male",
+        "displaydate": "1581 - 1666",
+        "prefix": null,
+        "culture": "Dutch",
+        "displayname": "Frans Hals",
+        "alphasort": "Hals, Frans",
+        "name": "Frans Hals",
+        "personid": 24542,
+        "deathplace": "Haarlem, Netherlands",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "61.6 x 51.4 cm (24 1/4 x 20 1/4 in.)",
+        "framed: 78 x 67.8 cm (30 11/16 x 26 11/16 in.)"
+      ],
+      "date": "c. 1625"
+    },
+    {
+      "medium": "Opaque watercolor and gold on paper",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:758420",
+      "colors": [
+        {
+          "color": "#c8967d",
+          "spectrum": "#e66c64",
+          "hue": "Grey",
+          "percent": 0.1766376811594203,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#c8af64",
+          "spectrum": "#b0d136",
+          "hue": "Yellow",
+          "percent": 0.15484057971014492,
+          "css3": "#bdb76b"
+        },
+        {
+          "color": "#c84b32",
+          "spectrum": "#e46867",
+          "hue": "Orange",
+          "percent": 0.14371014492753623,
+          "css3": "#d2691e"
+        },
+        {
+          "color": "#647d64",
+          "spectrum": "#4fb94f",
+          "hue": "Green",
+          "percent": 0.12289855072463768,
+          "css3": "#696969"
+        },
+        {
+          "color": "#c8af96",
+          "spectrum": "#e66c64",
+          "hue": "Brown",
+          "percent": 0.11060869565217392,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#e1c8af",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.0921159420289855,
+          "css3": "#f5deb3"
+        },
+        {
+          "color": "#c87d64",
+          "spectrum": "#e66c64",
+          "hue": "Orange",
+          "percent": 0.06347826086956522,
+          "css3": "#cd5c5c"
+        },
+        {
+          "color": "#324b4b",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.050898550724637684,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#c8644b",
+          "spectrum": "#e46867",
+          "hue": "Red",
+          "percent": 0.042376811594202896,
+          "css3": "#cd5c5c"
+        },
+        {
+          "color": "#7d4b32",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.02481159420289855,
+          "css3": "#8b4513"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/310629",
+      "title": "Rama and Lakshmana Converse with Atri at His Ashram While Sita Talks to his Wife, Anasuya; from a Ramayana series",
+      "id": 310629,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": null,
+        "displayname": "Unknown Artist",
+        "alphasort": "Unknown Artist",
+        "name": "Unknown Artist",
+        "personid": 23184,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "17.3 x 23 cm (6 13/16 x 9 1/16 in.)"
+      ],
+      "date": "c. 1635"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC254121_dynmc",
+      "colors": [
+        {
+          "color": "#321919",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.25689655172413794,
+          "css3": "#000000"
+        },
+        {
+          "color": "#644b32",
+          "spectrum": "#59ba4a",
+          "hue": "Brown",
+          "percent": 0.185,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#4b3219",
+          "spectrum": "#4ab851",
+          "hue": "Brown",
+          "percent": 0.167816091954023,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#967d4b",
+          "spectrum": "#7fc241",
+          "hue": "Brown",
+          "percent": 0.1071264367816092,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#af9664",
+          "spectrum": "#e9715f",
+          "hue": "Yellow",
+          "percent": 0.08735632183908046,
+          "css3": "#bdb76b"
+        },
+        {
+          "color": "#191900",
+          "spectrum": "#2eb45d",
+          "hue": "Brown",
+          "percent": 0.08580459770114943,
+          "css3": "#000000"
+        },
+        {
+          "color": "#7d644b",
+          "spectrum": "#b25593",
+          "hue": "Yellow",
+          "percent": 0.07701149425287357,
+          "css3": "#696969"
+        },
+        {
+          "color": "#c8af64",
+          "spectrum": "#b0d136",
+          "hue": "Yellow",
+          "percent": 0.029540229885057473,
+          "css3": "#bdb76b"
+        },
+        {
+          "color": "#e1c8af",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.0034482758620689655,
+          "css3": "#f5deb3"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/340104",
+      "title": "Samuel Anointing Saul",
+      "id": 340104,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Metz, France",
+        "gender": "unknown",
+        "displaydate": "c. 1593- after 1644",
+        "prefix": null,
+        "culture": "French",
+        "displayname": "François de Nomé",
+        "alphasort": "Nomé, François de",
+        "name": "François de Nomé",
+        "personid": 57734,
+        "deathplace": "Naples, Italy",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "118 x 152 cm (46 7/16 x 59 13/16 in.)",
+        "framed: 134.5 x 169 x 8 cm (52 15/16 x 66 9/16 x 3 1/8 in.)"
+      ],
+      "date": "c. 1625-1650"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG6269_dynmc",
+      "colors": [
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 1,
+          "css3": "#000000"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/304677",
+      "title": "Nathaniel Southgate Shaler (1841-1906)",
+      "id": 304677,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Newburgh, NY",
+        "gender": "female",
+        "displaydate": "1873 - 1959",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Margarita Pumpelly Smyth",
+        "alphasort": "Smyth, Margarita Pumpelly",
+        "name": "Margarita Pumpelly Smyth",
+        "personid": 29965,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "60.5 x 49 cm (23 13/16 x 19 5/16 in.)"
+      ],
+      "date": "19th-20th century"
+    },
+    {
+      "medium": "Hanging scroll; ink on paper",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS17201_dynmc",
+      "colors": [
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.4888888888888889,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.11972222222222222,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.11794444444444445,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.09383333333333334,
+          "css3": "#000000"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.09377777777777778,
+          "css3": "#fffafa"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.08583333333333333,
+          "css3": "#a9a9a9"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/202491",
+      "title": "Branch of Blossoming Plum",
+      "id": 202491,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Ise",
+        "gender": "male",
+        "displaydate": "1730 - 1781",
+        "prefix": null,
+        "culture": "Japanese",
+        "displayname": "Soga Shōhaku 曾我蕭白",
+        "alphasort": "Soga, Shōhaku",
+        "name": "Soga Shōhaku 曾我蕭白",
+        "personid": 18827,
+        "deathplace": "Kyoto",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "H. 35.5 x W. 48.3 cm (14 x 19 in.)"
+      ],
+      "date": "Mid Edo period, circa 1770"
+    },
+    {
+      "medium": "Oil on panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV185596_dynmc",
+      "colors": [
+        {
+          "color": "#191900",
+          "spectrum": "#2eb45d",
+          "hue": "Brown",
+          "percent": 0.5616816816816816,
+          "css3": "#000000"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.2536936936936937,
+          "css3": "#000000"
+        },
+        {
+          "color": "#967d4b",
+          "spectrum": "#7fc241",
+          "hue": "Brown",
+          "percent": 0.054654654654654654,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#7d9696",
+          "spectrum": "#7069af",
+          "hue": "Green",
+          "percent": 0.05297297297297297,
+          "css3": "#778899"
+        },
+        {
+          "color": "#af7d64",
+          "spectrum": "#c85783",
+          "hue": "Brown",
+          "percent": 0.024444444444444446,
+          "css3": "#cd5c5c"
+        },
+        {
+          "color": "#003232",
+          "spectrum": "#0cb06e",
+          "hue": "Green",
+          "percent": 0.02006006006006006,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#7d6432",
+          "spectrum": "#6cbd45",
+          "hue": "Yellow",
+          "percent": 0.018618618618618618,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#647d7d",
+          "spectrum": "#6c6ab0",
+          "hue": "Blue",
+          "percent": 0.013873873873873874,
+          "css3": "#708090"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/228323",
+      "title": "Portrait of A Lady",
+      "id": 228323,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": null,
+        "displayname": "Unidentified Artist",
+        "alphasort": "Unidentified Artist",
+        "name": "Unidentified Artist",
+        "personid": 34147,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "24.13 x 34.61 cm (9 1/2 x 13 5/8 in.)"
+      ],
+      "date": "17th century"
+    },
+    {
+      "medium": "Folded book with wooden covers; ink and color on paper",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV007731_dynmc",
+      "colors": [
+        {
+          "color": "#fae1e1",
+          "spectrum": "#e76d63",
+          "hue": "Red",
+          "percent": 0.9918888888888889,
+          "css3": "#ffe4e1"
+        },
+        {
+          "color": "#e1af96",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.006888888888888889,
+          "css3": "#deb887"
+        },
+        {
+          "color": "#af9696",
+          "spectrum": "#ae5596",
+          "hue": "Brown",
+          "percent": 0.00044444444444444447,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#e1967d",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.0003333333333333333,
+          "css3": "#e9967a"
+        },
+        {
+          "color": "#96967d",
+          "spectrum": "#8e5ea7",
+          "hue": "Green",
+          "percent": 0.00022222222222222223,
+          "css3": "#808080"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.00011111111111111112,
+          "css3": "#000000"
+        },
+        {
+          "color": "#64644b",
+          "spectrum": "#59ba4a",
+          "hue": "Green",
+          "percent": 0.00011111111111111112,
+          "css3": "#696969"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/211316",
+      "title": "Illustrated Book of Cherry Blossom Species (ōkafu)",
+      "id": 211316,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": "active 20th century? - ",
+        "prefix": null,
+        "culture": "Japanese",
+        "displayname": "Kobayashi Mintei",
+        "alphasort": "Kobayashi, Mintei",
+        "name": "Kobayashi Mintei",
+        "personid": 19367,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "28.5 x 11.7 cm (11 1/4 x 4 5/8 in.)"
+      ],
+      "date": "20th century"
+    },
+    {
+      "medium": "Oil on wood panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS39642",
+      "colors": [
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.799,
+          "css3": "#000000"
+        },
+        {
+          "color": "#000019",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.07088888888888889,
+          "css3": "#000000"
+        },
+        {
+          "color": "#190000",
+          "spectrum": "#2eb45d",
+          "hue": "Black",
+          "percent": 0.063,
+          "css3": "#000000"
+        },
+        {
+          "color": "#e1c8af",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.006666666666666667,
+          "css3": "#f5deb3"
+        },
+        {
+          "color": "#e13232",
+          "spectrum": "#dd5872",
+          "hue": "Red",
+          "percent": 0.0065,
+          "css3": "#dc143c"
+        },
+        {
+          "color": "#007de1",
+          "spectrum": "#008ed1",
+          "hue": "Blue",
+          "percent": 0.005944444444444444,
+          "css3": "#1e90ff"
+        },
+        {
+          "color": "#fae100",
+          "spectrum": "#fdde02",
+          "hue": "Yellow",
+          "percent": 0.0057777777777777775,
+          "css3": "#ffd700"
+        },
+        {
+          "color": "#007d19",
+          "spectrum": "#1eb264",
+          "hue": "Green",
+          "percent": 0.005722222222222222,
+          "css3": "#008000"
+        },
+        {
+          "color": "#4b1919",
+          "spectrum": "#4ab851",
+          "hue": "Red",
+          "percent": 0.0047777777777777775,
+          "css3": "#800000"
+        },
+        {
+          "color": "#af0032",
+          "spectrum": "#d75776",
+          "hue": "Red",
+          "percent": 0.004333333333333333,
+          "css3": "#b22222"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/230256",
+      "title": "James Gallatin (1796-1876)",
+      "id": 230256,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Greenlaw, Scotland",
+        "gender": "male",
+        "displaydate": "1802 - 1888",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "George Linen",
+        "alphasort": "Linen, George",
+        "name": "George Linen",
+        "personid": 27208,
+        "deathplace": "New York, NY",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "oval: 17.5 x 15.2 cm (6 7/8 x 6 in.)",
+        "framed: 24.1 x 19.7 x 3.2 cm (9 1/2 x 7 3/4 x 1 1/4 in.)"
+      ],
+      "date": "1837"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101114_dynmc",
+      "colors": [
+        {
+          "color": "#af9664",
+          "spectrum": "#e9715f",
+          "hue": "Yellow",
+          "percent": 0.3143157894736842,
+          "css3": "#bdb76b"
+        },
+        {
+          "color": "#c8af96",
+          "spectrum": "#e66c64",
+          "hue": "Brown",
+          "percent": 0.23171929824561405,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#7d7d4b",
+          "spectrum": "#6cbd45",
+          "hue": "Green",
+          "percent": 0.17649122807017545,
+          "css3": "#696969"
+        },
+        {
+          "color": "#e1c8af",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.13473684210526315,
+          "css3": "#f5deb3"
+        },
+        {
+          "color": "#64644b",
+          "spectrum": "#59ba4a",
+          "hue": "Green",
+          "percent": 0.09515789473684211,
+          "css3": "#696969"
+        },
+        {
+          "color": "#e1e1c8",
+          "spectrum": "#e9715f",
+          "hue": "Green",
+          "percent": 0.024842105263157895,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#4b4b32",
+          "spectrum": "#4ab851",
+          "hue": "Green",
+          "percent": 0.02273684210526316,
+          "css3": "#556b2f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/231299",
+      "title": "Cappucini Amalfi Monastery",
+      "id": 231299,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Pawtucket, RI",
+        "gender": "male",
+        "displaydate": "1863 - 1950",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Joseph Lindon Smith",
+        "alphasort": "Smith, Joseph Lindon",
+        "name": "Joseph Lindon Smith",
+        "personid": 28754,
+        "deathplace": "Dublin, NH",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "31.1 x 48.6 x 2.5 cm (12 1/4 x 19 1/8 x 1 in.)"
+      ],
+      "date": "1887"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS33987_dynmc",
+      "colors": [
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.3925146198830409,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.18099415204678362,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.15900584795321637,
+          "css3": "#696969"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.1056140350877193,
+          "css3": "#808080"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.05175438596491228,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.038421052631578946,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.03064327485380117,
+          "css3": "#000000"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.023918128654970762,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.015438596491228071,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.0012865497076023392,
+          "css3": "#fffafa"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/231385",
+      "title": "Saint Verdiana Healing a Child",
+      "id": 231385,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Florence",
+        "gender": "unknown",
+        "displaydate": "1660 - 1731",
+        "prefix": null,
+        "culture": "Italian",
+        "displayname": "Giovanni Camillo Sagrestani",
+        "alphasort": "Sagrestani, Giovanni Camillo",
+        "name": "Giovanni Camillo Sagrestani",
+        "personid": 28455,
+        "deathplace": "Florence",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "44.8 x 30.5 cm (17 5/8 x 12 in.)"
+      ],
+      "date": "c. 1711"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:30218_dynmc",
+      "colors": [
+        {
+          "color": "#c8afaf",
+          "spectrum": "#b55592",
+          "hue": "Red",
+          "percent": 0.37123456790123455,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.19623456790123456,
+          "css3": "#000000"
+        },
+        {
+          "color": "#323219",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.08148148148148149,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.07364197530864197,
+          "css3": "#808080"
+        },
+        {
+          "color": "#4b4b32",
+          "spectrum": "#4ab851",
+          "hue": "Green",
+          "percent": 0.06641975308641976,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.06617283950617284,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#7d644b",
+          "spectrum": "#b25593",
+          "hue": "Yellow",
+          "percent": 0.06419753086419754,
+          "css3": "#696969"
+        },
+        {
+          "color": "#967d64",
+          "spectrum": "#b65590",
+          "hue": "Brown",
+          "percent": 0.03808641975308642,
+          "css3": "#808080"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.03518518518518519,
+          "css3": "#000000"
+        },
+        {
+          "color": "#e1e1fa",
+          "spectrum": "#8c5fa8",
+          "hue": "Violet",
+          "percent": 0.007160493827160494,
+          "css3": "#e6e6fa"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/305165",
+      "title": "College Yard: A View from the President's House",
+      "id": 305165,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Needham, MA",
+        "gender": "male",
+        "displaydate": "1792 - 1863",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Alvan Fisher",
+        "alphasort": "Fisher, Alvan",
+        "name": "Alvan Fisher",
+        "personid": 20261,
+        "deathplace": "Dedham, MA",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "49.2 x 69.2 cm (19 3/8 x 27 1/4 in.)",
+        "framed: 64 x 84 cm (25 3/16 x 33 1/16 in.)"
+      ],
+      "date": "1821"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:73537_dynmc",
+      "colors": [
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.41449035812672175,
+          "css3": "#000000"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.3830853994490358,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.10732782369146006,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.06661157024793389,
+          "css3": "#000000"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.028484848484848484,
+          "css3": "#696969"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/310987",
+      "title": "Charles Burnham Porter (1840-1909)",
+      "id": 310987,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Bangor, ME",
+        "gender": "male",
+        "displaydate": "1846 - 1911",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Frederic Porter Vinton",
+        "alphasort": "Vinton, Frederic Porter",
+        "name": "Frederic Porter Vinton",
+        "personid": 29234,
+        "deathplace": "Boston, MA",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "123.2 x 99.1 cm (48 1/2 x 39 in.)",
+        "framed: 132.7 x 109.9 x 3.8 cm (52 1/4 x 43 1/4 x 1 1/2 in.)"
+      ],
+      "date": "1911"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:51199_dynmc",
+      "colors": [
+        {
+          "color": "#321919",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.40588235294117647,
+          "css3": "#000000"
+        },
+        {
+          "color": "#644b4b",
+          "spectrum": "#8362aa",
+          "hue": "Brown",
+          "percent": 0.24016806722689077,
+          "css3": "#696969"
+        },
+        {
+          "color": "#7d6464",
+          "spectrum": "#8e5ea7",
+          "hue": "Brown",
+          "percent": 0.18280112044817928,
+          "css3": "#696969"
+        },
+        {
+          "color": "#4b4b32",
+          "spectrum": "#4ab851",
+          "hue": "Green",
+          "percent": 0.11249299719887955,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.029411764705882353,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.016358543417366946,
+          "css3": "#000000"
+        },
+        {
+          "color": "#c8af96",
+          "spectrum": "#e66c64",
+          "hue": "Brown",
+          "percent": 0.009299719887955181,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#190000",
+          "spectrum": "#2eb45d",
+          "hue": "Black",
+          "percent": 0.003585434173669468,
+          "css3": "#000000"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/230367",
+      "title": "Tournelle, called Dublin (1761-1820)",
+      "id": 230367,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "female",
+        "displaydate": "1749 - 1803",
+        "prefix": null,
+        "culture": "French",
+        "displayname": "Adélaïde Labille-Guiard",
+        "alphasort": "Labille-Guiard, Adélaïde",
+        "name": "Adélaïde Labille-Guiard",
+        "personid": 27032,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "71.4 x 57.2 cm (28 1/8 x 22 1/2 in.)",
+        "framed: 89 x 74.5 cm (35 1/16 x 29 5/16 in.)"
+      ],
+      "date": "c. 1799"
+    },
+    {
+      "medium": "Tempera on wood panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:huam:STR000538_dynmc",
+      "colors": [
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.3960655737704918,
+          "css3": "#000000"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.34169398907103826,
+          "css3": "#000000"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.26224043715846995,
+          "css3": "#2f4f4f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/223162",
+      "title": "The Agony in the Garden",
+      "id": 223162,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": null,
+        "displayname": "Unidentified Artist",
+        "alphasort": "Unidentified Artist",
+        "name": "Unidentified Artist",
+        "personid": 34147,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "76.2 x 47 cm (30 x 18 1/2 in.)"
+      ],
+      "date": "c. 1425-1430"
+    },
+    {
+      "medium": "Hanging scroll; ink on paper",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:764625",
+      "colors": [
+        {
+          "color": "#c8c8af",
+          "spectrum": "#b55592",
+          "hue": "Green",
+          "percent": 0.4831275720164609,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#afaf96",
+          "spectrum": "#8e5ea7",
+          "hue": "Green",
+          "percent": 0.1788477366255144,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.1162962962962963,
+          "css3": "#808080"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.10477366255144033,
+          "css3": "#696969"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.06452674897119341,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.04477366255144033,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#321919",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.007654320987654321,
+          "css3": "#000000"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/340539",
+      "title": "Lotus in Autumn",
+      "id": 340539,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "female",
+        "displaydate": "1837 - 1913",
+        "prefix": null,
+        "culture": "Japanese",
+        "displayname": "Okuhara Seiko 奥原晴湖",
+        "alphasort": "Okuhara, Seiko",
+        "name": "Okuhara Seiko 奥原晴湖",
+        "personid": 57848,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "painting proper: H. 178.3 × W. 97 cm (70 3/16 × 38 3/16 in.)",
+        "overall mounting, including roller ends and suspension cord: H. 240 × W. 103.2 cm (94 1/2 × 40 5/8 in.)"
+      ],
+      "date": "1872"
+    },
+    {
+      "medium": "Oil on canvasboard",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101768_dynmc",
+      "colors": [
+        {
+          "color": "#c8af96",
+          "spectrum": "#e66c64",
+          "hue": "Brown",
+          "percent": 0.25257309941520467,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#4b3232",
+          "spectrum": "#4ab851",
+          "hue": "Red",
+          "percent": 0.2445029239766082,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#e1c8af",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.1354970760233918,
+          "css3": "#f5deb3"
+        },
+        {
+          "color": "#321919",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.11473684210526315,
+          "css3": "#000000"
+        },
+        {
+          "color": "#644b4b",
+          "spectrum": "#8362aa",
+          "hue": "Brown",
+          "percent": 0.08760233918128656,
+          "css3": "#696969"
+        },
+        {
+          "color": "#c8967d",
+          "spectrum": "#e66c64",
+          "hue": "Grey",
+          "percent": 0.06643274853801169,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#7d6464",
+          "spectrum": "#8e5ea7",
+          "hue": "Brown",
+          "percent": 0.05374269005847953,
+          "css3": "#696969"
+        },
+        {
+          "color": "#af7d64",
+          "spectrum": "#c85783",
+          "hue": "Brown",
+          "percent": 0.04491228070175438,
+          "css3": "#cd5c5c"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/231014",
+      "title": "Portrait of a Young Man",
+      "id": 231014,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Cincinnati, OH",
+        "gender": "male",
+        "displaydate": "1853 - 1935",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Denman Waldo Ross",
+        "alphasort": "Ross, Denman Waldo",
+        "name": "Denman Waldo Ross",
+        "personid": 28370,
+        "deathplace": "London, England",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "34.9 x 26.7 cm (13 3/4 x 10 1/2 in.)"
+      ],
+      "date": "19th-20th century"
+    },
+    {
+      "medium": "Oil on canvas on pressed board",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS17344_dynmc",
+      "colors": [
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.22683333333333333,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.19794444444444445,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.14322222222222222,
+          "css3": "#000000"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.105,
+          "css3": "#000000"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.09438888888888888,
+          "css3": "#696969"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.08361111111111111,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.06888888888888889,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.0645,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.01561111111111111,
+          "css3": "#fffafa"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/311767",
+      "title": "Portrait of a Man",
+      "id": 311767,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "London England",
+        "gender": "unknown",
+        "displaydate": "1758 - 1810",
+        "prefix": "Attributed to",
+        "culture": "British",
+        "displayname": "Attributed to John Hoppner",
+        "alphasort": "Hoppner, John",
+        "name": "John Hoppner",
+        "personid": 26603,
+        "deathplace": "London England",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "sight: 68.26 x 86.04 cm (26 7/8 x 33 7/8 in.)"
+      ],
+      "date": "18th-19th century"
+    },
+    {
+      "medium": "Album leaf; ink, color, and gold on silk",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP14551_dynmc",
+      "colors": [
+        {
+          "color": "#e1c896",
+          "spectrum": "#ed765a",
+          "hue": "Yellow",
+          "percent": 0.6706521739130434,
+          "css3": "#deb887"
+        },
+        {
+          "color": "#c8af7d",
+          "spectrum": "#e9715f",
+          "hue": "Brown",
+          "percent": 0.14152173913043478,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#af964b",
+          "spectrum": "#9ecb3b",
+          "hue": "Yellow",
+          "percent": 0.0932608695652174,
+          "css3": "#cd853f"
+        },
+        {
+          "color": "#7d9664",
+          "spectrum": "#6cbd45",
+          "hue": "Green",
+          "percent": 0.04427536231884058,
+          "css3": "#808080"
+        },
+        {
+          "color": "#967d4b",
+          "spectrum": "#7fc241",
+          "hue": "Brown",
+          "percent": 0.028115942028985506,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#7d6432",
+          "spectrum": "#6cbd45",
+          "hue": "Yellow",
+          "percent": 0.010289855072463768,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#32967d",
+          "spectrum": "#24b362",
+          "hue": "Green",
+          "percent": 0.004492753623188406,
+          "css3": "#3cb371"
+        },
+        {
+          "color": "#644b19",
+          "spectrum": "#64bc46",
+          "hue": "Orange",
+          "percent": 0.0018840579710144927,
+          "css3": "#8b4513"
+        },
+        {
+          "color": "#4b644b",
+          "spectrum": "#3db657",
+          "hue": "Green",
+          "percent": 0.0014492753623188406,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#c84b64",
+          "spectrum": "#d75776",
+          "hue": "Red",
+          "percent": 0.0011594202898550724,
+          "css3": "#cd5c5c"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/199787",
+      "title": "Peacocks and Peony",
+      "id": 199787,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "male",
+        "displaydate": "1613 - 1685",
+        "prefix": null,
+        "culture": "Japanese",
+        "displayname": "Kano Yasunobu",
+        "alphasort": "Kano, Yasunobu",
+        "name": "Kano Yasunobu",
+        "personid": 19364,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "H. 26.8 cm x W. 43.0 cm (10 9/16 x 16 15/16 in.)"
+      ],
+      "date": "c. 1683"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC237620_dynmc",
+      "colors": [
+        {
+          "color": "#7d644b",
+          "spectrum": "#b25593",
+          "hue": "Yellow",
+          "percent": 0.5269945355191257,
+          "css3": "#696969"
+        },
+        {
+          "color": "#644b32",
+          "spectrum": "#59ba4a",
+          "hue": "Brown",
+          "percent": 0.1446448087431694,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#4b3232",
+          "spectrum": "#4ab851",
+          "hue": "Red",
+          "percent": 0.07770491803278688,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#af9696",
+          "spectrum": "#ae5596",
+          "hue": "Brown",
+          "percent": 0.07174863387978142,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#643219",
+          "spectrum": "#59ba4a",
+          "hue": "Brown",
+          "percent": 0.05644808743169399,
+          "css3": "#8b4513"
+        },
+        {
+          "color": "#af3232",
+          "spectrum": "#d75776",
+          "hue": "Red",
+          "percent": 0.05333333333333334,
+          "css3": "#a52a2a"
+        },
+        {
+          "color": "#c8afaf",
+          "spectrum": "#b55592",
+          "hue": "Red",
+          "percent": 0.03530054644808743,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#647d96",
+          "spectrum": "#656cb2",
+          "hue": "Blue",
+          "percent": 0.015846994535519125,
+          "css3": "#708090"
+        },
+        {
+          "color": "#e1c8c8",
+          "spectrum": "#c15689",
+          "hue": "Orange",
+          "percent": 0.009508196721311476,
+          "css3": "#d8bfd8"
+        },
+        {
+          "color": "#af7d4b",
+          "spectrum": "#e9715f",
+          "hue": "Yellow",
+          "percent": 0.008469945355191256,
+          "css3": "#cd853f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/228773",
+      "title": "Elizabeth Winslow Whitman Williams (Mrs. Samuel King Williams) (1795-1886)",
+      "id": 228773,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "North Kingstown, RI",
+        "gender": "male",
+        "displaydate": "1755 - 1828",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Gilbert Stuart",
+        "alphasort": "Stuart, Gilbert",
+        "name": "Gilbert Stuart",
+        "personid": 28884,
+        "deathplace": "Boston, MA",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "68.6 x 55.9 cm (27 x 22 in.)",
+        "framed: 85.7 x 73 x 7 cm (33 3/4 x 28 3/4 x 2 3/4 in.)"
+      ],
+      "date": "1824"
+    },
+    {
+      "medium": "Oil on panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:78900_dynmc",
+      "colors": [
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.5973451327433629,
+          "css3": "#000000"
+        },
+        {
+          "color": "#4b3232",
+          "spectrum": "#4ab851",
+          "hue": "Red",
+          "percent": 0.3296755162241888,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#e1af96",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.02182890855457227,
+          "css3": "#deb887"
+        },
+        {
+          "color": "#c8967d",
+          "spectrum": "#e66c64",
+          "hue": "Grey",
+          "percent": 0.013805309734513275,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#96644b",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.010855457227138644,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#e1c8af",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.008495575221238939,
+          "css3": "#f5deb3"
+        },
+        {
+          "color": "#af7d64",
+          "spectrum": "#c85783",
+          "hue": "Brown",
+          "percent": 0.007374631268436578,
+          "css3": "#cd5c5c"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.004660766961651917,
+          "css3": "#808080"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.003185840707964602,
+          "css3": "#696969"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.0024188790560471978,
+          "css3": "#a9a9a9"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/228006",
+      "title": "Self-Portrait",
+      "id": 228006,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Brussels",
+        "gender": "unknown",
+        "displaydate": "1602 - 1674",
+        "prefix": null,
+        "culture": "French",
+        "displayname": "Philippe de Champaigne",
+        "alphasort": "Champaigne, Philippe de",
+        "name": "Philippe de Champaigne",
+        "personid": 31909,
+        "deathplace": "Paris",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "45.7 x 34.4 cm (18 x 13 9/16 in.)"
+      ],
+      "date": "c. 1650"
+    },
+    {
+      "medium": "Oil on panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS80417_dynmc",
+      "colors": [
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.272,
+          "css3": "#000000"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.1955,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.16055555555555556,
+          "css3": "#000000"
+        },
+        {
+          "color": "#afafc8",
+          "spectrum": "#8761aa",
+          "hue": "Blue",
+          "percent": 0.14772222222222223,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#9696c8",
+          "spectrum": "#7b65ad",
+          "hue": "Blue",
+          "percent": 0.07316666666666667,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#000019",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.06811111111111111,
+          "css3": "#000000"
+        },
+        {
+          "color": "#001900",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.05266666666666667,
+          "css3": "#000000"
+        },
+        {
+          "color": "#321964",
+          "spectrum": "#4f6fb6",
+          "hue": "Violet",
+          "percent": 0.004111111111111111,
+          "css3": "#191970"
+        },
+        {
+          "color": "#007de1",
+          "spectrum": "#008ed1",
+          "hue": "Blue",
+          "percent": 0.004,
+          "css3": "#1e90ff"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.003611111111111111,
+          "css3": "#fffafa"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/228963",
+      "title": "A Canal at Abbeville",
+      "id": 228963,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Honfleur",
+        "gender": "male",
+        "displaydate": "1824 - 1898",
+        "prefix": null,
+        "culture": "French",
+        "displayname": "Louis-Eugène Boudin",
+        "alphasort": "Boudin, Louis-Eugène",
+        "name": "Louis-Eugène Boudin",
+        "personid": 29202,
+        "deathplace": "Deauville",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "32.4 x 41 cm (12 3/4 x 16 1/8 in.)"
+      ],
+      "date": "1894"
+    },
+    {
+      "medium": "Oil on canvasboard",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV100693_dynmc",
+      "colors": [
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.2530434782608696,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#96afe1",
+          "spectrum": "#7268af",
+          "hue": "Blue",
+          "percent": 0.2523478260869565,
+          "css3": "#b0c4de"
+        },
+        {
+          "color": "#c8afaf",
+          "spectrum": "#b55592",
+          "hue": "Red",
+          "percent": 0.22231884057971016,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.07298550724637681,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.0615072463768116,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#967d64",
+          "spectrum": "#b65590",
+          "hue": "Brown",
+          "percent": 0.03901449275362319,
+          "css3": "#808080"
+        },
+        {
+          "color": "#c89664",
+          "spectrum": "#ed7758",
+          "hue": "Brown",
+          "percent": 0.03240579710144927,
+          "css3": "#bdb76b"
+        },
+        {
+          "color": "#7d644b",
+          "spectrum": "#b25593",
+          "hue": "Yellow",
+          "percent": 0.03188405797101449,
+          "css3": "#696969"
+        },
+        {
+          "color": "#af7d4b",
+          "spectrum": "#e9715f",
+          "hue": "Yellow",
+          "percent": 0.014376811594202898,
+          "css3": "#cd853f"
+        },
+        {
+          "color": "#644b32",
+          "spectrum": "#59ba4a",
+          "hue": "Brown",
+          "percent": 0.01008695652173913,
+          "css3": "#556b2f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/230776",
+      "title": "Tunis Street Scene",
+      "id": 230776,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Cincinnati, OH",
+        "gender": "male",
+        "displaydate": "1853 - 1935",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Denman Waldo Ross",
+        "alphasort": "Ross, Denman Waldo",
+        "name": "Denman Waldo Ross",
+        "personid": 28370,
+        "deathplace": "London, England",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "34.9 x 26.7 cm (13 3/4 x 10 1/2 in.)"
+      ],
+      "date": "1901"
+    },
+    {
+      "medium": "Hanging scroll; ink and slight color on paper; with artist's signature and seal",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:766034",
+      "colors": [
+        {
+          "color": "#c8af7d",
+          "spectrum": "#e9715f",
+          "hue": "Brown",
+          "percent": 0.92625,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#af7d4b",
+          "spectrum": "#e9715f",
+          "hue": "Yellow",
+          "percent": 0.07354166666666667,
+          "css3": "#cd853f"
+        },
+        {
+          "color": "#644b32",
+          "spectrum": "#59ba4a",
+          "hue": "Brown",
+          "percent": 0.00020833333333333335,
+          "css3": "#556b2f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/211654",
+      "title": "Wind God",
+      "id": 211654,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Edo",
+        "gender": "male",
+        "displaydate": "1843 - 1890",
+        "prefix": null,
+        "culture": "Japanese",
+        "displayname": "Kobayashi Eitaku",
+        "alphasort": "Kobayashi, Eitaku",
+        "name": "Kobayashi Eitaku",
+        "personid": 19311,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "painting proper: H. 128.7 x W. 55 cm (50 11/16 x 21 5/8 in.)",
+        "mounting, inlcuding suspension core and roller ends: H. 206.4 x W. 78.6 cm (81 1/4 x 30 15/16 in.)"
+      ],
+      "date": "Late 19th century"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:73530_dynmc",
+      "colors": [
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.38697819314641746,
+          "css3": "#000000"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.324797507788162,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.23962616822429905,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.018691588785046728,
+          "css3": "#696969"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.010218068535825546,
+          "css3": "#808080"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.009158878504672898,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.005358255451713396,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.004735202492211838,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.00043613707165109035,
+          "css3": "#dcdcdc"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/305310",
+      "title": "Col. James Savage Jr. (1832-1862)",
+      "id": 305310,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Pennsylvania",
+        "gender": "unknown",
+        "displaydate": "1827 - 1867",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "William Henry Furness, Jr.",
+        "alphasort": "Furness, William Henry Jr.",
+        "name": "William Henry Furness, Jr.",
+        "personid": 21280,
+        "deathplace": "Cambridge, MA",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "sight: 118.8 x 85.1 cm (46 3/4 x 33 1/2 in.)",
+        "framed: 142.2 x 106.7 x 12.7 cm (56 x 42 x 5 in.)"
+      ],
+      "date": "1865"
+    },
+    {
+      "medium": "Album leaf; ink on paper",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:761802",
+      "colors": [
+        {
+          "color": "#c8af96",
+          "spectrum": "#e66c64",
+          "hue": "Brown",
+          "percent": 0.8287687687687688,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#c8c8af",
+          "spectrum": "#b55592",
+          "hue": "Green",
+          "percent": 0.0945945945945946,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.046786786786786785,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#967d64",
+          "spectrum": "#b65590",
+          "hue": "Brown",
+          "percent": 0.026546546546546545,
+          "css3": "#808080"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.0016216216216216215,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#64644b",
+          "spectrum": "#59ba4a",
+          "hue": "Green",
+          "percent": 0.0015615615615615615,
+          "css3": "#696969"
+        },
+        {
+          "color": "#4b3232",
+          "spectrum": "#4ab851",
+          "hue": "Red",
+          "percent": 0.00012012012012012012,
+          "css3": "#2f4f4f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/200559",
+      "title": "Wagtail on a Bramble",
+      "id": 200559,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": "born 1637",
+        "prefix": "Traditionally attributed to",
+        "culture": "Korean",
+        "displayname": "Traditionally attributed to Cho Chi-un [Jo Ji-un]",
+        "alphasort": "Cho, Chi-un",
+        "name": "Cho Chi-un [Jo Ji-un]",
+        "personid": 34649,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "painting proper: H. 34.7 x W. 25.5 cm (13 11/16 x 10 1/16 in.)"
+      ],
+      "date": "17th century"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC231984_dynmc",
+      "colors": [
+        {
+          "color": "#323219",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.2252336448598131,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#4b4b32",
+          "spectrum": "#4ab851",
+          "hue": "Green",
+          "percent": 0.17289719626168223,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.16598130841121495,
+          "css3": "#000000"
+        },
+        {
+          "color": "#c8c8af",
+          "spectrum": "#b55592",
+          "hue": "Green",
+          "percent": 0.09862928348909657,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#afaf96",
+          "spectrum": "#8e5ea7",
+          "hue": "Green",
+          "percent": 0.09152647975077882,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.0881619937694704,
+          "css3": "#808080"
+        },
+        {
+          "color": "#64644b",
+          "spectrum": "#59ba4a",
+          "hue": "Green",
+          "percent": 0.08473520249221184,
+          "css3": "#696969"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.07283489096573209,
+          "css3": "#a9a9a9"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/229099",
+      "title": "Merrimack River Landscape",
+      "id": 229099,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Needham, MA",
+        "gender": "male",
+        "displaydate": "1792 - 1863",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Alvan Fisher",
+        "alphasort": "Fisher, Alvan",
+        "name": "Alvan Fisher",
+        "personid": 20261,
+        "deathplace": "Dedham, MA",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "64.5 x 90.6 cm (25 3/8 x 35 11/16 in.)"
+      ],
+      "date": "1830s"
+    },
+    {
+      "medium": "Tempera on wood panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG278063",
+      "colors": [
+        {
+          "color": "#966432",
+          "spectrum": "#e46867",
+          "hue": "Orange",
+          "percent": 0.2561904761904762,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#644b19",
+          "spectrum": "#64bc46",
+          "hue": "Orange",
+          "percent": 0.14530612244897959,
+          "css3": "#8b4513"
+        },
+        {
+          "color": "#967d64",
+          "spectrum": "#b65590",
+          "hue": "Brown",
+          "percent": 0.14244897959183672,
+          "css3": "#808080"
+        },
+        {
+          "color": "#7d644b",
+          "spectrum": "#b25593",
+          "hue": "Yellow",
+          "percent": 0.1073469387755102,
+          "css3": "#696969"
+        },
+        {
+          "color": "#323219",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.09551020408163265,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#c89632",
+          "spectrum": "#f79738",
+          "hue": "Yellow",
+          "percent": 0.07482993197278912,
+          "css3": "#cd853f"
+        },
+        {
+          "color": "#c89664",
+          "spectrum": "#ed7758",
+          "hue": "Brown",
+          "percent": 0.06639455782312925,
+          "css3": "#bdb76b"
+        },
+        {
+          "color": "#af7d32",
+          "spectrum": "#f17c4f",
+          "hue": "Yellow",
+          "percent": 0.039047619047619046,
+          "css3": "#cd853f"
+        },
+        {
+          "color": "#c8af7d",
+          "spectrum": "#e9715f",
+          "hue": "Brown",
+          "percent": 0.020136054421768707,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#321900",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.017414965986394557,
+          "css3": "#000000"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/228621",
+      "title": "Nativity",
+      "id": 228621,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Florence",
+        "gender": "unknown",
+        "displaydate": "1418 - 1492",
+        "prefix": "Attributed to",
+        "culture": "Italian",
+        "displayname": "Attributed to Neri di Bicci",
+        "alphasort": "Neri di Bicci",
+        "name": "Neri di Bicci",
+        "personid": 27803,
+        "deathplace": "Florence",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "21.8 × 69.6 cm (8 9/16 × 27 3/8 in.)",
+        "frame: 24 × 71.7 cm (9 7/16 × 28 1/4 in.)"
+      ],
+      "date": "15th century"
+    },
+    {
+      "medium": "Fan-shaped painting; ink and gold on mica-coated paper",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS18118_dynmc",
+      "colors": [
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.47249299719887955,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.13238095238095238,
+          "css3": "#fffafa"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.12599439775910365,
+          "css3": "#000000"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.12005602240896358,
+          "css3": "#696969"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.09092436974789916,
+          "css3": "#808080"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.058151260504201684,
+          "css3": "#2f4f4f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/202173",
+      "title": "Three Sages",
+      "id": 202173,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "male",
+        "displaydate": "1551 - 1601",
+        "prefix": null,
+        "culture": "Japanese",
+        "displayname": "Kano Sōshū",
+        "alphasort": "Kano, Suenobu",
+        "name": "Kano Sōshū",
+        "personid": 19834,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "H. 20.1 x W. 51.6 cm (7 15/16 x 20 5/16 in.)"
+      ],
+      "date": "16th century"
+    },
+    {
+      "medium": "Oil on panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:huam:LEG010100_dynmc",
+      "colors": [
+        {
+          "color": "#4b3232",
+          "spectrum": "#4ab851",
+          "hue": "Red",
+          "percent": 0.22108108108108107,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.2160960960960961,
+          "css3": "#000000"
+        },
+        {
+          "color": "#644b4b",
+          "spectrum": "#8362aa",
+          "hue": "Brown",
+          "percent": 0.16288288288288288,
+          "css3": "#696969"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.14366366366366368,
+          "css3": "#696969"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.08072072072072072,
+          "css3": "#808080"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.03915915915915916,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#967d64",
+          "spectrum": "#b65590",
+          "hue": "Brown",
+          "percent": 0.027327327327327327,
+          "css3": "#808080"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.01843843843843844,
+          "css3": "#fffafa"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.017297297297297298,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.016996996996996996,
+          "css3": "#bc8f8f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/231951",
+      "title": "Mother and Children at Evening Prayer",
+      "id": 231951,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Avesnes",
+        "gender": "unknown",
+        "displaydate": "1828 - 1868",
+        "prefix": null,
+        "culture": "French",
+        "displayname": "Jules-Marc Chamerlat",
+        "alphasort": "Chamerlat, Jules-Marc",
+        "name": "Jules-Marc Chamerlat",
+        "personid": 31898,
+        "deathplace": "Paris",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "40.64 x 32.07 cm (16 x 12 5/8 in.)"
+      ],
+      "date": "1864"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG6411_dynmc",
+      "colors": [
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.17023622047244094,
+          "css3": "#000000"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.1526509186351706,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.13548556430446193,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.12561679790026248,
+          "css3": "#808080"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.1204724409448819,
+          "css3": "#696969"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.11223097112860893,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.06566929133858268,
+          "css3": "#000000"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.04383202099737533,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.03805774278215223,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.03574803149606299,
+          "css3": "#fffafa"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/304786",
+      "title": "Bliss Perry (1860-1954)",
+      "id": 304786,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Cambridge, MA",
+        "gender": "male",
+        "displaydate": "1869 - 1962",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Charles Sydney Hopkinson",
+        "alphasort": "Hopkinson, Charles Sydney",
+        "name": "Charles Sydney Hopkinson",
+        "personid": 26597,
+        "deathplace": "Cambridge, MA",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "114.3 x 97.1 cm (45 x 38 1/4 in.)",
+        "framed: 132.4 x 114.3 x 5.1 cm (52 1/8 x 45 x 2 in.)"
+      ],
+      "date": "1931"
+    },
+    {
+      "medium": "Oil on paper",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV177967_dynmc",
+      "colors": [
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.9986666666666667,
+          "css3": "#000000"
+        },
+        {
+          "color": "#190000",
+          "spectrum": "#2eb45d",
+          "hue": "Black",
+          "percent": 0.0013333333333333333,
+          "css3": "#000000"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/225519",
+      "title": "White on Black",
+      "id": 225519,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Ogden, Utah",
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Jane Slater Marquis",
+        "alphasort": "Marquis, Jane Slater",
+        "name": "Jane Slater Marquis",
+        "personid": 27396,
+        "deathplace": "Claremont, CA",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "58.7 x 51.1 cm (23 1/8 x 20 1/8 in.)"
+      ],
+      "date": "20th century"
+    },
+    {
+      "medium": "Hanging scroll; ink, light color and gold on silk with signature reading \"Bunrin sha\"",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS41265_dynmc",
+      "colors": [
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.2808888888888889,
+          "css3": "#fffafa"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.2298888888888889,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.12361111111111112,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.12183333333333334,
+          "css3": "#000000"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.09677777777777778,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.08905555555555555,
+          "css3": "#696969"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.057944444444444444,
+          "css3": "#2f4f4f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/202847",
+      "title": "Incense Burner",
+      "id": 202847,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "male",
+        "displaydate": "1808 - 1877",
+        "prefix": null,
+        "culture": "Japanese",
+        "displayname": "Shiokawa Bunrin",
+        "alphasort": "Shiokawa, Bunrin",
+        "name": "Shiokawa Bunrin",
+        "personid": 30265,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "110.1 x 36.2 cm (43 3/8 x 14 1/4 in.)"
+      ],
+      "date": "Late Edo-early Meiji period, mid 19th century"
+    },
+    {
+      "medium": "Two-panel folding screen; ink on paper; with inscription, signature, and three seals of the artist",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:73802_dynmc",
+      "colors": [
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.6540845070422535,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.11492957746478873,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.0571830985915493,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.0436150234741784,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.033990610328638496,
+          "css3": "#808080"
+        },
+        {
+          "color": "#c8af96",
+          "spectrum": "#e66c64",
+          "hue": "Brown",
+          "percent": 0.0284037558685446,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.02647887323943662,
+          "css3": "#696969"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.016807511737089203,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.01676056338028169,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.007746478873239437,
+          "css3": "#2f4f4f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/92838",
+      "title": "Section of an Old, Blossoming Plum Tree",
+      "id": 92838,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": "Attributed to",
+        "culture": "Korean",
+        "displayname": "Attributed to Ko Pong-chae (also known as Chae-gang)",
+        "alphasort": "Ko, Pong-chae",
+        "name": "Ko Pong-chae (also known as Chae-gang)",
+        "personid": 23642,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "H. 127.9 x W. 121.3 cm (50 3/8 x 47 3/4 in.)"
+      ],
+      "date": "19th-20th century"
+    },
+    {
+      "medium": "Oil on panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS46524_dynmc",
+      "colors": [
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.24483333333333332,
+          "css3": "#696969"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.1996111111111111,
+          "css3": "#808080"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.17416666666666666,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.07866666666666666,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.07261111111111111,
+          "css3": "#000000"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.06977777777777777,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.06938888888888889,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.05583333333333333,
+          "css3": "#fffafa"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.035111111111111114,
+          "css3": "#c0c0c0"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/229267",
+      "title": "Virgin and Child (modern pastiche)",
+      "id": 229267,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": null,
+        "displayname": "Unidentified Artist",
+        "alphasort": "Unidentified Artist",
+        "name": "Unidentified Artist",
+        "personid": 34147,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [],
+      "date": "late 19th-early 20th century"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG6482_dynmc",
+      "colors": [
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.7404166666666666,
+          "css3": "#000000"
+        },
+        {
+          "color": "#323219",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.1074404761904762,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.028035714285714285,
+          "css3": "#fffafa"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.024047619047619047,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.0225,
+          "css3": "#808080"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.018154761904761906,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.016785714285714286,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.015773809523809523,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.015178571428571428,
+          "css3": "#696969"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.011666666666666667,
+          "css3": "#c0c0c0"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/304908",
+      "title": "Albert Bushnell Hart (1854-1943)",
+      "id": 304908,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": null,
+        "displayname": "Unidentified Artist",
+        "alphasort": "Unidentified Artist",
+        "name": "Unidentified Artist",
+        "personid": 34147,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "81.4 x 61.3 cm (32 1/16 x 24 1/8 in.)",
+        "framed: 96.5 x 76.2 x 5.4 cm (38 x 30 x 2 1/8 in.)"
+      ],
+      "date": "c. 1910"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV013916_dynmc",
+      "colors": [
+        {
+          "color": "#644b4b",
+          "spectrum": "#8362aa",
+          "hue": "Brown",
+          "percent": 0.6015576323987539,
+          "css3": "#696969"
+        },
+        {
+          "color": "#4b3232",
+          "spectrum": "#4ab851",
+          "hue": "Red",
+          "percent": 0.2798753894080997,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#7d644b",
+          "spectrum": "#b25593",
+          "hue": "Yellow",
+          "percent": 0.11856697819314642,
+          "css3": "#696969"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/231019",
+      "title": "Portrait of a Boy in Suit and Tie",
+      "id": 231019,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Cincinnati, OH",
+        "gender": "male",
+        "displaydate": "1853 - 1935",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Denman Waldo Ross",
+        "alphasort": "Ross, Denman Waldo",
+        "name": "Denman Waldo Ross",
+        "personid": 28370,
+        "deathplace": "London, England",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "35.6 x 25.4 cm (14 x 10 in.)"
+      ],
+      "date": "19th-20th century"
+    },
+    {
+      "medium": "Oil on canvas, mounted on cardboard",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:756567",
+      "colors": [
+        {
+          "color": "#c8af96",
+          "spectrum": "#e66c64",
+          "hue": "Brown",
+          "percent": 0.4367601246105919,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#4b6464",
+          "spectrum": "#5e6db3",
+          "hue": "Blue",
+          "percent": 0.15738317757009346,
+          "css3": "#696969"
+        },
+        {
+          "color": "#324b4b",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.09638629283489096,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.08149532710280374,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#7d644b",
+          "spectrum": "#b25593",
+          "hue": "Yellow",
+          "percent": 0.07246105919003115,
+          "css3": "#696969"
+        },
+        {
+          "color": "#4b4b32",
+          "spectrum": "#4ab851",
+          "hue": "Green",
+          "percent": 0.04716510903426791,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#967d64",
+          "spectrum": "#b65590",
+          "hue": "Brown",
+          "percent": 0.04629283489096573,
+          "css3": "#808080"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.03632398753894081,
+          "css3": "#808080"
+        },
+        {
+          "color": "#c8c8af",
+          "spectrum": "#b55592",
+          "hue": "Green",
+          "percent": 0.02573208722741433,
+          "css3": "#c0c0c0"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/232612",
+      "title": "Market Scene",
+      "id": 232612,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Cincinnati, OH",
+        "gender": "male",
+        "displaydate": "1853 - 1935",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Denman Waldo Ross",
+        "alphasort": "Ross, Denman Waldo",
+        "name": "Denman Waldo Ross",
+        "personid": 28370,
+        "deathplace": "London, England",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "25.4 x 35.6 cm (10 x 14 in.)",
+        "framed: 30.5 x 40.6 x 2.2 cm (12 x 16 x 7/8 in.)"
+      ],
+      "date": "1900"
+    },
+    {
+      "medium": "Album leaf; ink on paper",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:46379_dynmc",
+      "colors": [
+        {
+          "color": "#e1c896",
+          "spectrum": "#ed765a",
+          "hue": "Yellow",
+          "percent": 0.7055297157622739,
+          "css3": "#deb887"
+        },
+        {
+          "color": "#afaf7d",
+          "spectrum": "#9ecb3b",
+          "hue": "Green",
+          "percent": 0.20315245478036176,
+          "css3": "#bdb76b"
+        },
+        {
+          "color": "#969664",
+          "spectrum": "#84c441",
+          "hue": "Green",
+          "percent": 0.0662015503875969,
+          "css3": "#808080"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.010077519379844961,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#4b4b32",
+          "spectrum": "#4ab851",
+          "hue": "Green",
+          "percent": 0.009870801033591732,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#64644b",
+          "spectrum": "#59ba4a",
+          "hue": "Green",
+          "percent": 0.00516795865633075,
+          "css3": "#696969"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/219588",
+      "title": "Fruiting Grape Branch",
+      "id": 219588,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": "born 1586",
+        "prefix": null,
+        "culture": "Korean",
+        "displayname": "Yi Che-hyŏn (also known as Yul-ch'on)",
+        "alphasort": "Yi, Che-hyŏn",
+        "name": "Yi Che-hyŏn (also known as Yul-ch'on)",
+        "personid": 29469,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "painting proper: H. 37.5 x W. 43.5 cm (14 3/4 x 17 1/8 in.)"
+      ],
+      "date": "first half 17th century"
+    },
+    {
+      "medium": "One of two hanging scrolls (left); ink and light color on paper",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS16721_dynmc",
+      "colors": [
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.22727777777777777,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.14655555555555555,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.14644444444444443,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.13227777777777777,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.12627777777777777,
+          "css3": "#808080"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.12222222222222222,
+          "css3": "#696969"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.069,
+          "css3": "#000000"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.029944444444444444,
+          "css3": "#fffafa"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/201899",
+      "title": "Go Game in the Pine Pavilion",
+      "id": 201899,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Nagato Province",
+        "gender": "male",
+        "displaydate": "1785 - 1862",
+        "prefix": null,
+        "culture": "Japanese",
+        "displayname": "Oda Kaisen",
+        "alphasort": "Oda, Kaisen",
+        "name": "Oda Kaisen",
+        "personid": 26805,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "132.2 x 61.1 cm (52 1/16 x 24 1/16 in.)"
+      ],
+      "date": "19th-20th century"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101603_dynmc",
+      "colors": [
+        {
+          "color": "#644b64",
+          "spectrum": "#8362aa",
+          "hue": "Violet",
+          "percent": 0.41707165109034267,
+          "css3": "#696969"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.16124610591900312,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#321919",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.08149532710280374,
+          "css3": "#000000"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.08068535825545171,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#4b3232",
+          "spectrum": "#4ab851",
+          "hue": "Red",
+          "percent": 0.06429906542056074,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#e1afaf",
+          "spectrum": "#e36769",
+          "hue": "Red",
+          "percent": 0.059750778816199376,
+          "css3": "#ffb6c1"
+        },
+        {
+          "color": "#c89696",
+          "spectrum": "#c15689",
+          "hue": "Red",
+          "percent": 0.037757009345794394,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#964b64",
+          "spectrum": "#b65590",
+          "hue": "Red",
+          "percent": 0.03258566978193146,
+          "css3": "#696969"
+        },
+        {
+          "color": "#96647d",
+          "spectrum": "#ae5596",
+          "hue": "Violet",
+          "percent": 0.029158878504672896,
+          "css3": "#808080"
+        },
+        {
+          "color": "#af7d7d",
+          "spectrum": "#c25687",
+          "hue": "Red",
+          "percent": 0.020747663551401868,
+          "css3": "#bc8f8f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/231055",
+      "title": "Portrait of a Young Man in Open White Shirt",
+      "id": 231055,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Cincinnati, OH",
+        "gender": "male",
+        "displaydate": "1853 - 1935",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Denman Waldo Ross",
+        "alphasort": "Ross, Denman Waldo",
+        "name": "Denman Waldo Ross",
+        "personid": 28370,
+        "deathplace": "London, England",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "35.6 x 25.7 cm (14 x 10 1/8 in.)"
+      ],
+      "date": "19th-20th century"
+    },
+    {
+      "medium": "Oil on panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS37503_dynmc",
+      "colors": [
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.3545762711864407,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.2905084745762712,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.12514124293785311,
+          "css3": "#696969"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.04757062146892655,
+          "css3": "#808080"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.04395480225988701,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.039265536723163845,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.03214689265536723,
+          "css3": "#000000"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.028361581920903954,
+          "css3": "#000000"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.02016949152542373,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.01830508474576271,
+          "css3": "#fffafa"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/230637",
+      "title": "Holy Family",
+      "id": 230637,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": null,
+        "displayname": "Unidentified Artist",
+        "alphasort": "Unidentified Artist",
+        "name": "Unidentified Artist",
+        "personid": 34147,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "27.6 x 21.9 cm (10 7/8 x 8 5/8 in.)"
+      ],
+      "date": "19th century"
+    },
+    {
+      "medium": "Album leaf; ink on paper",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:761803",
+      "colors": [
+        {
+          "color": "#c8af96",
+          "spectrum": "#e66c64",
+          "hue": "Brown",
+          "percent": 0.6966386554621848,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.11647058823529412,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#c8c8af",
+          "spectrum": "#b55592",
+          "hue": "Green",
+          "percent": 0.07971988795518208,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#e1af4b",
+          "spectrum": "#f89c35",
+          "hue": "Yellow",
+          "percent": 0.03540616246498599,
+          "css3": "#f4a460"
+        },
+        {
+          "color": "#967d64",
+          "spectrum": "#b65590",
+          "hue": "Brown",
+          "percent": 0.025098039215686273,
+          "css3": "#808080"
+        },
+        {
+          "color": "#64644b",
+          "spectrum": "#59ba4a",
+          "hue": "Green",
+          "percent": 0.022016806722689075,
+          "css3": "#696969"
+        },
+        {
+          "color": "#7d6464",
+          "spectrum": "#8e5ea7",
+          "hue": "Brown",
+          "percent": 0.02196078431372549,
+          "css3": "#696969"
+        },
+        {
+          "color": "#967d32",
+          "spectrum": "#86c440",
+          "hue": "Yellow",
+          "percent": 0.002689075630252101,
+          "css3": "#a0522d"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/201010",
+      "title": "Wagtail on a Lakeside Rock amidst Blossoming Pinks",
+      "id": 201010,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": "born 1637",
+        "prefix": "Traditionally attributed to",
+        "culture": "Korean",
+        "displayname": "Traditionally attributed to Cho Chi-un [Jo Ji-un]",
+        "alphasort": "Cho, Chi-un",
+        "name": "Cho Chi-un [Jo Ji-un]",
+        "personid": 34649,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "painting proper: H. 30.4 x W. 25.6 cm (11 15/16 x 10 1/16 in.)"
+      ],
+      "date": "17th century"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101079_dynmc",
+      "colors": [
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.41171521035598707,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.3794822006472492,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.1537864077669903,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#7d96af",
+          "spectrum": "#7069af",
+          "hue": "Blue",
+          "percent": 0.03385113268608414,
+          "css3": "#778899"
+        },
+        {
+          "color": "#4b967d",
+          "spectrum": "#3db657",
+          "hue": "Green",
+          "percent": 0.017346278317152103,
+          "css3": "#3cb371"
+        },
+        {
+          "color": "#4b6496",
+          "spectrum": "#536fb5",
+          "hue": "Blue",
+          "percent": 0.002524271844660194,
+          "css3": "#483d8b"
+        },
+        {
+          "color": "#644b4b",
+          "spectrum": "#8362aa",
+          "hue": "Brown",
+          "percent": 0.001035598705501618,
+          "css3": "#696969"
+        },
+        {
+          "color": "#96644b",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.0001941747572815534,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#af7d4b",
+          "spectrum": "#e9715f",
+          "hue": "Yellow",
+          "percent": 6.472491909385113e-05,
+          "css3": "#cd853f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/231106",
+      "title": "Concarneau, France",
+      "id": 231106,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Pawtucket, RI",
+        "gender": "male",
+        "displaydate": "1863 - 1950",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Joseph Lindon Smith",
+        "alphasort": "Smith, Joseph Lindon",
+        "name": "Joseph Lindon Smith",
+        "personid": 28754,
+        "deathplace": "Dublin, NH",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "39.4 x 57.8 cm (15 1/2 x 22 3/4 in.)"
+      ],
+      "date": "1884"
+    },
+    {
+      "medium": "Set of three hanging scrolls; ink, color, and gold on silk",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:767777",
+      "colors": [
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.2684981684981685,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.2284981684981685,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#967d64",
+          "spectrum": "#b65590",
+          "hue": "Brown",
+          "percent": 0.2213919413919414,
+          "css3": "#808080"
+        },
+        {
+          "color": "#64644b",
+          "spectrum": "#59ba4a",
+          "hue": "Green",
+          "percent": 0.1265934065934066,
+          "css3": "#696969"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.11472527472527473,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.039926739926739924,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.0003663003663003663,
+          "css3": "#000000"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/340541",
+      "title": "Auspicious Signs",
+      "id": 340541,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "male",
+        "displaydate": "1796 - 1846",
+        "prefix": null,
+        "culture": "Japanese",
+        "displayname": "Kano Seisen'in Osanobu 狩野晴川院養信",
+        "alphasort": "Kano, Seisen'in Osanobu",
+        "name": "Kano Seisen'in Osanobu 狩野晴川院養信",
+        "personid": 28610,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "each, painting proper: H. 69.5 × W. 21.1 cm (27 3/8 × 8 5/16 in.)",
+        "each, overall mounting, including roller ends and cord: H. 158.2 × W. 28.5 cm (62 5/16 × 11 1/4 in.)"
+      ],
+      "date": "c. 1819-34"
+    },
+    {
+      "medium": "Two-panel folding screen: ink and colors on gold paper",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:769872",
+      "colors": [
+        {
+          "color": "#967d4b",
+          "spectrum": "#7fc241",
+          "hue": "Brown",
+          "percent": 0.8468055555555556,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#4b3219",
+          "spectrum": "#4ab851",
+          "hue": "Brown",
+          "percent": 0.057916666666666665,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#644b32",
+          "spectrum": "#59ba4a",
+          "hue": "Brown",
+          "percent": 0.04833333333333333,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#c8af96",
+          "spectrum": "#e66c64",
+          "hue": "Brown",
+          "percent": 0.025833333333333333,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.021111111111111112,
+          "css3": "#bc8f8f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/211587",
+      "title": "Two White Herons in Snow-Covered Willow",
+      "id": 211587,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": null,
+        "displayname": "Unknown Artist",
+        "alphasort": "Unknown Artist",
+        "name": "Unknown Artist",
+        "personid": 23184,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "painting proper: H. 51.7 x W. 167 cm (20 3/8 x 65 3/4 in.)",
+        "frame: H. 54.6 x W. 171 cm (21 1/2 x 67 5/16 in.)"
+      ],
+      "date": "17th-18th century"
+    },
+    {
+      "medium": "Tempera (?) on panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC254046_dynmc",
+      "colors": [
+        {
+          "color": "#644b32",
+          "spectrum": "#59ba4a",
+          "hue": "Brown",
+          "percent": 0.2581578947368421,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#7d6432",
+          "spectrum": "#6cbd45",
+          "hue": "Yellow",
+          "percent": 0.17149122807017544,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#967d4b",
+          "spectrum": "#7fc241",
+          "hue": "Brown",
+          "percent": 0.13017543859649122,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#4b644b",
+          "spectrum": "#3db657",
+          "hue": "Green",
+          "percent": 0.09421052631578947,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.09078947368421053,
+          "css3": "#696969"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.08157894736842106,
+          "css3": "#fffafa"
+        },
+        {
+          "color": "#af9664",
+          "spectrum": "#e9715f",
+          "hue": "Yellow",
+          "percent": 0.0730701754385965,
+          "css3": "#bdb76b"
+        },
+        {
+          "color": "#4b3219",
+          "spectrum": "#4ab851",
+          "hue": "Brown",
+          "percent": 0.056578947368421055,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#c8af7d",
+          "spectrum": "#e9715f",
+          "hue": "Brown",
+          "percent": 0.03543859649122807,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.006842105263157895,
+          "css3": "#dcdcdc"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/230473",
+      "title": "Virgin and Child Enthroned",
+      "id": 230473,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": "c. 1415 - 1476/84",
+        "prefix": null,
+        "culture": "Italian",
+        "displayname": "Antonio Vivarini",
+        "alphasort": "Vivarini, Antonio",
+        "name": "Antonio Vivarini",
+        "personid": 29249,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "111.1 × 52.7 cm (43 3/4 × 20 3/4 in.)"
+      ],
+      "date": "15th century"
+    },
+    {
+      "medium": "Rasika text label states that it contains metallic gray watercolor",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS19211_dynmc",
+      "colors": [
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.2633608815426997,
+          "css3": "#fffafa"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.2602203856749311,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.14909090909090908,
+          "css3": "#000000"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.12738292011019284,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.11360881542699725,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.08633608815426998,
+          "css3": "#a9a9a9"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/215394",
+      "title": "Krishna Wins the Daughter of Jambhavan, folio from a dispersed manuscript of the Bhagavata Purana (Ancient Stories of Lord Vishnu)",
+      "id": 215394,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": null,
+        "displayname": "Unknown Artist",
+        "alphasort": "Unknown Artist",
+        "name": "Unknown Artist",
+        "personid": 23184,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "22.86 x 31.59 cm (9 x 12 7/16 in.)"
+      ],
+      "date": "early 18th century"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG606_dynmc_dynmc",
+      "colors": [
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.8300546448087431,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#644b4b",
+          "spectrum": "#8362aa",
+          "hue": "Brown",
+          "percent": 0.08530054644808743,
+          "css3": "#696969"
+        },
+        {
+          "color": "#967d64",
+          "spectrum": "#b65590",
+          "hue": "Brown",
+          "percent": 0.03546448087431694,
+          "css3": "#808080"
+        },
+        {
+          "color": "#c8af96",
+          "spectrum": "#e66c64",
+          "hue": "Brown",
+          "percent": 0.012896174863387979,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.012349726775956284,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#e1c8af",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.008360655737704918,
+          "css3": "#f5deb3"
+        },
+        {
+          "color": "#fae1c8",
+          "spectrum": "#ed765a",
+          "hue": "Yellow",
+          "percent": 0.008306010928961749,
+          "css3": "#ffe4c4"
+        },
+        {
+          "color": "#fafae1",
+          "spectrum": "#ed765a",
+          "hue": "Green",
+          "percent": 0.00726775956284153,
+          "css3": "#ffffe0"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/299880",
+      "title": "Lady Susanna Holworthy (c. 1640-1690)",
+      "id": 299880,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Stockholm, Sweden",
+        "gender": "unknown",
+        "displaydate": "1656 - 1743",
+        "prefix": "Attributed to",
+        "culture": "Swedish",
+        "displayname": "Attributed to Michael Dahl",
+        "alphasort": "Dahl, Michael",
+        "name": "Michael Dahl",
+        "personid": 29715,
+        "deathplace": "London, England",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "124.6 x 101 cm (49 1/16 x 39 3/4 in.)",
+        "framed: 148 x 124.6 x 6 cm (58 1/4 x 49 1/16 x 2 3/8 in.)"
+      ],
+      "date": "17th century"
+    },
+    {
+      "medium": "Tempera on panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS45592_dynmc",
+      "colors": [
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.16821052631578948,
+          "css3": "#696969"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.14280701754385966,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.11557894736842106,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.10463157894736842,
+          "css3": "#808080"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.09340350877192982,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.08785964912280701,
+          "css3": "#000000"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.0823859649122807,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.08210526315789474,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.06028070175438596,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.04112280701754386,
+          "css3": "#000000"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/229083",
+      "title": "Standing Figure of a Saint",
+      "id": 229083,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": null,
+        "displayname": "Unidentified Artist",
+        "alphasort": "Unidentified Artist",
+        "name": "Unidentified Artist",
+        "personid": 34147,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "13.6 x 7 x 1.3 cm (5 3/8 x 2 3/4 x 1/2 in.)"
+      ],
+      "date": "19th-20th century"
+    },
+    {
+      "medium": "Opaque watercolor and gold on paper; Rajput Style",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:ISL10302_dynmc",
+      "colors": [
+        {
+          "color": "#7d967d",
+          "spectrum": "#7866ad",
+          "hue": "Green",
+          "percent": 0.41244094488188976,
+          "css3": "#808080"
+        },
+        {
+          "color": "#e1af19",
+          "spectrum": "#fcb41a",
+          "hue": "Yellow",
+          "percent": 0.19643044619422573,
+          "css3": "#daa520"
+        },
+        {
+          "color": "#967d32",
+          "spectrum": "#86c440",
+          "hue": "Yellow",
+          "percent": 0.0920734908136483,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#c8af96",
+          "spectrum": "#e66c64",
+          "hue": "Brown",
+          "percent": 0.06120734908136483,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.055433070866141736,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#7d6432",
+          "spectrum": "#6cbd45",
+          "hue": "Yellow",
+          "percent": 0.04876640419947507,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#c8c8af",
+          "spectrum": "#b55592",
+          "hue": "Green",
+          "percent": 0.03984251968503937,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#644b32",
+          "spectrum": "#59ba4a",
+          "hue": "Brown",
+          "percent": 0.029501312335958006,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#64644b",
+          "spectrum": "#59ba4a",
+          "hue": "Green",
+          "percent": 0.022992125984251967,
+          "css3": "#696969"
+        },
+        {
+          "color": "#e14b32",
+          "spectrum": "#eb735c",
+          "hue": "Red",
+          "percent": 0.014803149606299212,
+          "css3": "#d2691e"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/310834",
+      "title": "Maharao Durjan Sal of Kota Plaiting Krishna's Hair",
+      "id": 310834,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": "Attributed to",
+        "culture": "Indian",
+        "displayname": "Attributed to The Kota Master",
+        "alphasort": "Kota Master",
+        "name": "The Kota Master",
+        "personid": 34558,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "35.2 x 30 cm (13 7/8 x 11 13/16 in.)",
+        "framed: 66.04 x 58.42 x 1.91 cm (26 x 23 x 3/4 in.)"
+      ],
+      "date": "c. 1730"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:62141_dynmc",
+      "colors": [
+        {
+          "color": "#4b3219",
+          "spectrum": "#4ab851",
+          "hue": "Brown",
+          "percent": 0.20922118380062305,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#7d4b32",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.2084735202492212,
+          "css3": "#8b4513"
+        },
+        {
+          "color": "#321919",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.20579439252336448,
+          "css3": "#000000"
+        },
+        {
+          "color": "#967d4b",
+          "spectrum": "#7fc241",
+          "hue": "Brown",
+          "percent": 0.1108411214953271,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#966432",
+          "spectrum": "#e46867",
+          "hue": "Orange",
+          "percent": 0.07482866043613708,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#c8af96",
+          "spectrum": "#e66c64",
+          "hue": "Brown",
+          "percent": 0.05588785046728972,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#afaf7d",
+          "spectrum": "#9ecb3b",
+          "hue": "Green",
+          "percent": 0.04965732087227415,
+          "css3": "#bdb76b"
+        },
+        {
+          "color": "#af9664",
+          "spectrum": "#e9715f",
+          "hue": "Yellow",
+          "percent": 0.048785046728971965,
+          "css3": "#bdb76b"
+        },
+        {
+          "color": "#e1c8af",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.02573208722741433,
+          "css3": "#f5deb3"
+        },
+        {
+          "color": "#e1af64",
+          "spectrum": "#f6903d",
+          "hue": "Yellow",
+          "percent": 0.00573208722741433,
+          "css3": "#f4a460"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/232263",
+      "title": "Schoolroom",
+      "id": 232263,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Boston, MA",
+        "gender": "unknown",
+        "displaydate": "1816 - 1888",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "William Tolman Carlton",
+        "alphasort": "Carlton, William Tolman",
+        "name": "William Tolman Carlton",
+        "personid": 31196,
+        "deathplace": "Dorchester, MA",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "49.2 x 69.6 cm (19 3/8 x 27 3/8 in.)"
+      ],
+      "date": "c. 1856"
+    },
+    {
+      "medium": "Hanging scroll; ink on paper with signature reading Yao gongshou",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:758119",
+      "colors": [
+        {
+          "color": "#af9696",
+          "spectrum": "#ae5596",
+          "hue": "Brown",
+          "percent": 0.8101851851851852,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.07629629629629629,
+          "css3": "#696969"
+        },
+        {
+          "color": "#7d7d64",
+          "spectrum": "#6cbd45",
+          "hue": "Yellow",
+          "percent": 0.07490740740740741,
+          "css3": "#808080"
+        },
+        {
+          "color": "#e1c8c8",
+          "spectrum": "#c15689",
+          "hue": "Orange",
+          "percent": 0.023240740740740742,
+          "css3": "#d8bfd8"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.015370370370370371,
+          "css3": "#2f4f4f"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/202769",
+      "title": "Bamboo in Rain",
+      "id": 202769,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": "1423 - 1495",
+        "prefix": null,
+        "culture": "Chinese",
+        "displayname": "Yao Shou 姚綬",
+        "alphasort": "Yao, Shou",
+        "name": "Yao Shou 姚綬",
+        "personid": 29460,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "135 x 65.7 cm (53 1/8 x 25 7/8 in.)"
+      ],
+      "date": "1494"
+    },
+    {
+      "medium": "Oil on canvasboard",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101746_dynmc",
+      "colors": [
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.3994920634920635,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.18133333333333335,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#af7d7d",
+          "spectrum": "#c25687",
+          "hue": "Red",
+          "percent": 0.1417142857142857,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.10457142857142857,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#c8afaf",
+          "spectrum": "#b55592",
+          "hue": "Red",
+          "percent": 0.05422222222222222,
+          "css3": "#c0c0c0"
+        },
+        {
+          "color": "#af6464",
+          "spectrum": "#c65684",
+          "hue": "Red",
+          "percent": 0.03980952380952381,
+          "css3": "#cd5c5c"
+        },
+        {
+          "color": "#4b6464",
+          "spectrum": "#5e6db3",
+          "hue": "Blue",
+          "percent": 0.022476190476190476,
+          "css3": "#696969"
+        },
+        {
+          "color": "#641919",
+          "spectrum": "#b65590",
+          "hue": "Red",
+          "percent": 0.020761904761904763,
+          "css3": "#800000"
+        },
+        {
+          "color": "#964b32",
+          "spectrum": "#d0577c",
+          "hue": "Orange",
+          "percent": 0.014031746031746032,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#7d9696",
+          "spectrum": "#7069af",
+          "hue": "Green",
+          "percent": 0.010793650793650795,
+          "css3": "#778899"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/229537",
+      "title": "Portrait of a Young Man",
+      "id": 229537,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Cincinnati, OH",
+        "gender": "male",
+        "displaydate": "1853 - 1935",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Denman Waldo Ross",
+        "alphasort": "Ross, Denman Waldo",
+        "name": "Denman Waldo Ross",
+        "personid": 28370,
+        "deathplace": "London, England",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "35.6 x 25.1 cm (14 x 9 7/8 in.)"
+      ],
+      "date": "19th-20th century"
+    },
+    {
+      "medium": "Oil on panel",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:76807_dynmc",
+      "colors": [
+        {
+          "color": "#7d4b32",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.44812324929971986,
+          "css3": "#8b4513"
+        },
+        {
+          "color": "#4b3232",
+          "spectrum": "#4ab851",
+          "hue": "Red",
+          "percent": 0.29507002801120447,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#96644b",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.2061064425770308,
+          "css3": "#a0522d"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.04067226890756302,
+          "css3": "#000000"
+        },
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.00957983193277311,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#c8af96",
+          "spectrum": "#e66c64",
+          "hue": "Brown",
+          "percent": 0.0004481792717086835,
+          "css3": "#d2b48c"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/226588",
+      "title": "Virgin and Child Seated on a Gothic Throne",
+      "id": 226588,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": null,
+        "prefix": null,
+        "culture": null,
+        "displayname": "Unidentified Artist",
+        "alphasort": "Unidentified Artist",
+        "name": "Unidentified Artist",
+        "personid": 34147,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "38 x 30.5 cm (14 15/16 x 12 in.)"
+      ],
+      "date": "Unknown"
+    },
+    {
+      "medium": "Album leaf; ink, color, and gold on silk",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV020568_dynmc",
+      "colors": [
+        {
+          "color": "#c8af7d",
+          "spectrum": "#e9715f",
+          "hue": "Brown",
+          "percent": 0.38804347826086955,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#e1af96",
+          "spectrum": "#e9715f",
+          "hue": "Orange",
+          "percent": 0.23978260869565218,
+          "css3": "#deb887"
+        },
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.12536231884057972,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#c89664",
+          "spectrum": "#ed7758",
+          "hue": "Brown",
+          "percent": 0.10420289855072463,
+          "css3": "#bdb76b"
+        },
+        {
+          "color": "#967d64",
+          "spectrum": "#b65590",
+          "hue": "Brown",
+          "percent": 0.0817391304347826,
+          "css3": "#808080"
+        },
+        {
+          "color": "#7d644b",
+          "spectrum": "#b25593",
+          "hue": "Yellow",
+          "percent": 0.03927536231884058,
+          "css3": "#696969"
+        },
+        {
+          "color": "#644b32",
+          "spectrum": "#59ba4a",
+          "hue": "Brown",
+          "percent": 0.01144927536231884,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#4b3232",
+          "spectrum": "#4ab851",
+          "hue": "Red",
+          "percent": 0.008333333333333333,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#323219",
+          "spectrum": "#3db657",
+          "hue": "Brown",
+          "percent": 0.0015217391304347826,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#6496af",
+          "spectrum": "#5b6eb4",
+          "hue": "Blue",
+          "percent": 0.00014492753623188405,
+          "css3": "#5f9ea0"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/199414",
+      "title": "Huang Shigong on Horseback and Zhang Liang on a Dragon",
+      "id": 199414,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Kyoto",
+        "gender": "male",
+        "displaydate": "1636 - 1713",
+        "prefix": null,
+        "culture": "Japanese",
+        "displayname": "Kano Tsunenobu",
+        "alphasort": "Kano, Tsunenobu",
+        "name": "Kano Tsunenobu",
+        "personid": 29106,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "H. 26.8 cm x W. 43.0 cm (10 9/16 x 16 15/16 in.)"
+      ],
+      "date": "c. 1683"
+    },
+    {
+      "medium": "Album leaf; ink and light colors on silk",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:73789_dynmc",
+      "colors": [
+        {
+          "color": "#af967d",
+          "spectrum": "#c25687",
+          "hue": "Brown",
+          "percent": 0.42613861386138613,
+          "css3": "#bc8f8f"
+        },
+        {
+          "color": "#c8af7d",
+          "spectrum": "#e9715f",
+          "hue": "Brown",
+          "percent": 0.31617161716171616,
+          "css3": "#d2b48c"
+        },
+        {
+          "color": "#967d64",
+          "spectrum": "#b65590",
+          "hue": "Brown",
+          "percent": 0.17683168316831682,
+          "css3": "#808080"
+        },
+        {
+          "color": "#7d644b",
+          "spectrum": "#b25593",
+          "hue": "Yellow",
+          "percent": 0.0625082508250825,
+          "css3": "#696969"
+        },
+        {
+          "color": "#4b4b32",
+          "spectrum": "#4ab851",
+          "hue": "Green",
+          "percent": 0.013597359735973598,
+          "css3": "#556b2f"
+        },
+        {
+          "color": "#e1e1c8",
+          "spectrum": "#e9715f",
+          "hue": "Green",
+          "percent": 0.004752475247524752,
+          "css3": "#dcdcdc"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/200283",
+      "title": "Landscape with a Gentleman Riding a Donkey on a Mountain Path Trailed by an Attendant",
+      "id": 200283,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": "1581 - after 1674",
+        "prefix": "Perhaps by",
+        "culture": "Korean",
+        "displayname": "Perhaps by Yi Ching [Yi Jing]",
+        "alphasort": "Yi, Ching",
+        "name": "Yi Ching [Yi Jing]",
+        "personid": 34766,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "painting proper: H. 32.8 x W. 21.8 cm (12 15/16 x 8 9/16 in.)"
+      ],
+      "date": "first half 17th century"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101569_dynmc",
+      "colors": [
+        {
+          "color": "#64647d",
+          "spectrum": "#7069af",
+          "hue": "Blue",
+          "percent": 0.20655737704918034,
+          "css3": "#696969"
+        },
+        {
+          "color": "#4b4b64",
+          "spectrum": "#686ab1",
+          "hue": "Violet",
+          "percent": 0.20092896174863387,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#966464",
+          "spectrum": "#b65590",
+          "hue": "Violet",
+          "percent": 0.12366120218579235,
+          "css3": "#808080"
+        },
+        {
+          "color": "#32324b",
+          "spectrum": "#4f6fb6",
+          "hue": "Blue",
+          "percent": 0.11896174863387979,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#967d7d",
+          "spectrum": "#955ba5",
+          "hue": "Brown",
+          "percent": 0.10306010928961748,
+          "css3": "#808080"
+        },
+        {
+          "color": "#7d7d96",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.09076502732240437,
+          "css3": "#778899"
+        },
+        {
+          "color": "#9696af",
+          "spectrum": "#8163ab",
+          "hue": "Blue",
+          "percent": 0.06437158469945355,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#321932",
+          "spectrum": "#686ab1",
+          "hue": "Violet",
+          "percent": 0.055300546448087434,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.014699453551912569,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.01273224043715847,
+          "css3": "#c0c0c0"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/230698",
+      "title": "Portrait of a Seated Young Man",
+      "id": 230698,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Cincinnati, OH",
+        "gender": "male",
+        "displaydate": "1853 - 1935",
+        "prefix": null,
+        "culture": "American",
+        "displayname": "Denman Waldo Ross",
+        "alphasort": "Ross, Denman Waldo",
+        "name": "Denman Waldo Ross",
+        "personid": 28370,
+        "deathplace": "London, England",
+        "displayorder": 1
+      },
+      "dimensions": [
+        "81.9 x 65.7 cm (32 1/4 x 25 7/8 in.)"
+      ],
+      "date": "19th-20th century"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS20433_dynmc",
+      "colors": [
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.197103825136612,
+          "css3": "#fffafa"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.15032786885245902,
+          "css3": "#696969"
+        },
+        {
+          "color": "#e1e1e1",
+          "spectrum": "#955ba5",
+          "hue": "Grey",
+          "percent": 0.1492896174863388,
+          "css3": "#dcdcdc"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.1415846994535519,
+          "css3": "#808080"
+        },
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.10967213114754099,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.0859016393442623,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#afafaf",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.08562841530054645,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.039234972677595625,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.015956284153005464,
+          "css3": "#000000"
+        },
+        {
+          "color": "#c8c8c8",
+          "spectrum": "#8c5fa8",
+          "hue": "Grey",
+          "percent": 0.015901639344262294,
+          "css3": "#c0c0c0"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/190953",
+      "title": "Untitled",
+      "id": 190953,
+      "artist": {
+        "role": "Artist",
+        "birthplace": "Dresden, Germany",
+        "gender": "male",
+        "displaydate": "1932 -",
+        "prefix": null,
+        "culture": "German",
+        "displayname": "Gerhard Richter",
+        "alphasort": "Richter, Gerhard",
+        "name": "Gerhard Richter",
+        "personid": 28291,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "16.2 x 18.3 cm (6 3/8 x 7 3/16 in.)"
+      ],
+      "date": "1964"
+    },
+    {
+      "medium": "Oil on canvas",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS47278_dynmc",
+      "colors": [
+        {
+          "color": "#4b4b4b",
+          "spectrum": "#3db657",
+          "hue": "Grey",
+          "percent": 0.17062146892655367,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#7d7d7d",
+          "spectrum": "#8362aa",
+          "hue": "Grey",
+          "percent": 0.1648587570621469,
+          "css3": "#808080"
+        },
+        {
+          "color": "#323232",
+          "spectrum": "#2eb45d",
+          "hue": "Grey",
+          "percent": 0.15372881355932203,
+          "css3": "#2f4f4f"
+        },
+        {
+          "color": "#646464",
+          "spectrum": "#7866ad",
+          "hue": "Grey",
+          "percent": 0.14135593220338982,
+          "css3": "#696969"
+        },
+        {
+          "color": "#000000",
+          "spectrum": "#1eb264",
+          "hue": "Black",
+          "percent": 0.13508474576271187,
+          "css3": "#000000"
+        },
+        {
+          "color": "#191919",
+          "spectrum": "#1eb264",
+          "hue": "Grey",
+          "percent": 0.11446327683615819,
+          "css3": "#000000"
+        },
+        {
+          "color": "#969696",
+          "spectrum": "#8761aa",
+          "hue": "Grey",
+          "percent": 0.0955367231638418,
+          "css3": "#a9a9a9"
+        },
+        {
+          "color": "#fafafa",
+          "spectrum": "#955ba5",
+          "hue": "White",
+          "percent": 0.024350282485875705,
+          "css3": "#fffafa"
+        }
+      ],
+      "url": "https://www.harvardartmuseums.org/collections/object/229636",
+      "title": "Portrait of a Lady as Diana",
+      "id": 229636,
+      "artist": {
+        "role": "Artist",
+        "birthplace": null,
+        "gender": "unknown",
+        "displaydate": "1662 - 1744",
+        "prefix": "Studio of",
+        "culture": "French",
+        "displayname": "Studio of Pierre Gobert",
+        "alphasort": "Gobert, Pierre",
+        "name": "Pierre Gobert",
+        "personid": 27592,
+        "deathplace": null,
+        "displayorder": 1
+      },
+      "dimensions": [
+        "110.65 x 94.3 cm (43 9/16 x 37 1/8 in.)",
+        "framed: 140.8 x 124.7 x 12 cm (55 7/16 x 49 1/8 x 4 3/4 in.)"
+      ],
+      "date": "17th-18th century"
+    }
+  ],
+  "count": 70
+}
