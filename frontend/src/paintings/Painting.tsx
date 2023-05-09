@@ -36,7 +36,7 @@ export default function Painting() {
   } = painting;
 
   return (
-    <div className="lg:flex lg:h-screen lg:flex-col lg:flex-wrap">
+    <div className="lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
       <div className="bg-base-200 px-2 pb-2 lg:order-2 lg:w-1/5 lg:px-2">
         <header className="flex items-center justify-between">
           <Logo />
@@ -82,9 +82,9 @@ export default function Painting() {
           <li className="mb-3">{artist?.name ?? "Unknown"}</li>
           {artist?.culture && <li className="mb-3">{artist.culture}</li>}
           {date !== 0 && <li className="mb-3">{date}</li>}
-          <li className="mb-3">{medium}</li>
-          <li className="mb-3 text-sm">
-            {dimensions?.map((dim) => (
+          <li className="mb-3 lg:text-sm">{medium}</li>
+          <li className="mb-3 lg:text-xs">
+            {dimensions.slice(0, 1).map((dim) => (
               <div key={dim}>{dim}</div>
             ))}
           </li>
@@ -102,8 +102,8 @@ export default function Painting() {
               "None"
             )}
           </li>
-          {colors.slice(0, 6).map((color) => (
-            <li className="mb-3 text-xs" key={color.color}>
+          {colors.slice(0, 5).map((color) => (
+            <li className="mb-3 lg:text-xs" key={color.color}>
               <div className="flex">
                 <div className="w-2/3">
                   {color.hue} ({color.color})
