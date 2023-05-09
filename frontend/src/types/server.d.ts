@@ -6,15 +6,6 @@ interface Color {
   spectrum: string;
 }
 
-interface Image {
-  baseimageurl: string;
-  displayorder: number;
-  format: string;
-  height: number;
-  imageid: number;
-  width: number;
-}
-
 interface Person {
   alphasort: string | null;
   birthplace: string | null;
@@ -30,26 +21,16 @@ interface Person {
   role: "Artist" | "Previous attribution" | "Sitter" | string;
 }
 
-// imagepermissionlevel
-// 0 – ok to display images at any size
-// 1 – images have restrictions; display at a maximum pixel dimension of 256px
-// 2 – do not display any images
 interface Painting {
+  artist: Person;
   colors: Color[];
-  dated: string | null;
-  dateend: string | number;
-  dimensions: string | null;
+  date: string | number;
+  dimensions: string[];
   id: number;
-  imagepermissionlevel: 0 | 1 | 2;
-  images: Image[];
   medium: string;
-  people: Person[];
-  primaryimageurl: string; // Guaranteed with post fetch processing
+  primaryimageurl: string;
   title: string;
   url: string;
-  // Attributes set after fetch
-  artist?: Person;
-  dimensionsArr?: string[];
 }
 
 interface PaintingsResponse {

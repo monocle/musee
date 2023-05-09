@@ -51,7 +51,6 @@ export default function Paintings() {
                 <th>Medium</th>
                 <th>Dimensions</th>
                 <th>Colors</th>
-                <th># Images</th>
                 <th>Museum Link</th>
               </tr>
             </thead>
@@ -61,11 +60,9 @@ export default function Paintings() {
                   ({
                     artist,
                     colors,
-                    dated,
-                    dateend,
-                    dimensionsArr,
+                    date,
+                    dimensions,
                     id,
-                    images,
                     medium,
                     title,
                     url,
@@ -73,10 +70,10 @@ export default function Paintings() {
                     <tr key={id}>
                       <td className="whitespace-normal">{title}</td>
                       <td>{artist?.name ?? "Unknown"}</td>
-                      <td>{dated ?? dateend}</td>
+                      <td>{date}</td>
                       <td>{medium}</td>
                       <td>
-                        {dimensionsArr?.map((dim) => (
+                        {dimensions.map((dim) => (
                           <div key={dim}>{dim}</div>
                         ))}
                       </td>
@@ -89,7 +86,6 @@ export default function Paintings() {
                           </React.Fragment>
                         ))}
                       </td>
-                      <td>{images.length}</td>
                       <td>
                         {url ? (
                           <a
