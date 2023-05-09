@@ -1,5 +1,5 @@
 import { rest } from "msw";
-import paintingsResponse from "./paintings.json";
+import paintingsResponse from "./ham_paintings_1.json";
 
 export const handlers = [
   rest.get("/api/paintings", async (req, res, ctx) => {

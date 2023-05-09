@@ -27,15 +27,13 @@ export default function Painting() {
   const {
     artist,
     colors,
-    dated,
-    dateend,
-    dimensionsArr,
+    date,
+    dimensions,
     medium,
     primaryimageurl,
     title,
     url,
   } = painting;
-  const date = dated ?? dateend;
 
   return (
     <div className="lg:flex lg:h-screen lg:flex-col lg:flex-wrap">
@@ -86,7 +84,7 @@ export default function Painting() {
           {date !== 0 && <li className="mb-3">{date}</li>}
           <li className="mb-3">{medium}</li>
           <li className="mb-3 text-sm">
-            {dimensionsArr?.map((dim) => (
+            {dimensions?.map((dim) => (
               <div key={dim}>{dim}</div>
             ))}
           </li>

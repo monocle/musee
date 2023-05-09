@@ -11,23 +11,5 @@ export const useGetPaintings = (params: UseGetPaintingsProps) =>
     queryKey: ["paintings", params.offset],
     keepPreviousData: true,
     queryFn: () =>
-      get("paintings", params).then((data: PaintingsResponse) => {
-        const records = data.records.filter(
-          (painting) =>
-            painting.primaryimageurl && painting.imagepermissionlevel === 0
-        );
-
-        records.forEach((painting) => {
-          if (painting.dimensions) {
-            painting.dimensionsArr = painting.dimensions.split("\r\n");
-          } else {
-            painting.dimensionsArr = [];
-          }
-          painting.artist = painting.people?.find(
-            (person) => person.role === "Artist"
-          );
-        });
-
-        return { records, count: data.count } as PaintingsResponse;
-      }),
+      get("paintings", params)
   });
