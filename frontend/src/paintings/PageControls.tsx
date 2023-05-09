@@ -38,13 +38,13 @@ export default function PageControls({
   return (
     <div className={`btn-group ${className}`}>
       <button
-        className="btn-md btn"
+        className="btn-sm btn"
         disabled={isFirstPage}
         onClick={handleDecrement}
       >
         <FontAwesomeIcon icon={faChevronLeft} />
       </button>
-      <button className="btn-disabled btn-md btn">
+      <button className="btn-disabled btn-sm btn">
         {showDetails && (
           <>
             {offset + 1} {offset !== lastPos - 1 && `- ${lastPos}`} / {total}
@@ -53,7 +53,7 @@ export default function PageControls({
       </button>
 
       <button
-        className="btn-md btn"
+        className="btn-sm btn"
         disabled={isLastPage}
         onClick={handleIncrement}
       >
