@@ -63,10 +63,10 @@ export default function Landing() {
           <div className="hero-content text-center">
             <div className="max-w-md text-accent-content">
               <h1 className="mb-8 text-5xl font-bold">Artwork to Inspire</h1>
-              <p className="mx-auto mb-8 w-72">
-                <div>Explore paintings from the</div>
-                <div className="text-xl font-bold">Harvard Art Museums</div>
-              </p>
+              <div className="mx-auto mb-8 w-72">
+                <p>Explore paintings from the</p>
+                <p className="text-xl font-bold">Harvard Art Museums</p>
+              </div>
 
               <ExploreLink
                 content={<button className="btn-accent btn">Let's Go</button>}
