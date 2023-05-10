@@ -1,45 +1,50 @@
-import { useState, useEffect, Dispatch, SetStateAction } from "react";
+import { useState, useEffect } from "react";
 
-type SetValue<T> = Dispatch<SetStateAction<T>>;
-type UseLocalStorageReturnType<T> = [T, SetValue<T>];
+// https://github.com/Modernizr/Modernizr/blob/master/feature-detects/storage/localstorage.js
+function localStorageAvailable() {
+  try {
+    const x = "__local_storage_test__";
 
-function useLocalStorage<T>(
-  key: string,
-  initialValue: T
-): UseLocalStorageReturnType<T> {
-  const [storedValue, setStoredValue] = useState<T>(() => {
-    try {
-      const item = window.localStorage.getItem(key);
-      return item ? JSON.parse(item) : initialValue;
-    } catch (error) {
-      console.error("Error reading from localStorage:", error);
-      return initialValue;
-    }
-  });
+    window.localStorage.setItem(x, x);
+    window.localStorage.removeItem(x);
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
 
-  const setValue: SetValue<T> = (value) => {
-    try {
-      const valueToStore =
-        value instanceof Function ? value(storedValue) : value;
-      setStoredValue(valueToStore);
-      window.localStorage.setItem(key, JSON.stringify(valueToStore));
-    } catch (error) {
-      console.error("Error setting value in localStorage:", error);
+function useLocalStorage<T>(key: string, initialValue: T) {
+  const canUseLocalStorage = localStorageAvailable();
+  let _initialValue: T;
+
+  if (!canUseLocalStorage) {
+    console.warn("localStorage is not available");
+    _initialValue = initialValue;
+  } else {
+    const item = window.localStorage.getItem(key);
+    _initialValue = item ? JSON.parse(item) : initialValue;
+  }
+
+  const [storedValue, setStoredValue] = useState<T>(_initialValue);
+
+  const setValue = (value: T) => {
+    if (canUseLocalStorage) {
+      setStoredValue(value);
+      window.localStorage.setItem(key, JSON.stringify(value));
+    } else {
+      console.warn("Unable to set localStorage value");
     }
   };
 
   useEffect(() => {
-    const handleStorageChange = (e: StorageEvent) => {
+    window.addEventListener("storage", (e: StorageEvent) => {
       if (e.key === key) {
         setStoredValue(JSON.parse(e.newValue as string));
       }
-    };
-
-    window.addEventListener("storage", handleStorageChange);
-    return () => window.removeEventListener("storage", handleStorageChange);
+    });
   }, [key]);
 
-  return [storedValue, setValue];
+  return [storedValue, setValue] as const;
 }
 
 export default useLocalStorage;
