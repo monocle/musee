@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { useNavigate } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
+import { useSearch, useNavigate } from "@tanstack/react-router";
 import useLocalStorage from "../services/useLocalStorage";
 import { useGetPaintings } from "./usePaintingsApi";
 import ErrorMessage from "../common/ErrorMessage";
@@ -10,9 +10,10 @@ import Spinner from "../icons/Spinner";
 import ThemeIcon from "../icons/ThemeIcon";
 
 export default function Painting() {
+  const { page, painting: paintingIdx } = useSearch({ from: "/explore" });
   const navigate = useNavigate();
-  const [page] = useLocalStorage("page", 1);
-  const [idx, setIdx] = useLocalStorage<number>("paintingIdx", 0);
+  const [, setStoredPage] = useLocalStorage("page", page);
+  const [, setIdx] = useLocalStorage("paintingIdx", paintingIdx);
   const [isImgLoaded, setIsImgLoaded] = useState(false);
   const { isLoading, isError, data, error } = useGetPaintings({
     offset: 0,
@@ -25,10 +26,15 @@ export default function Painting() {
     setIsImgLoaded(false);
   };
 
+  useEffect(() => {
+    setStoredPage(page);
+    setIdx(paintingIdx);
+  }, [page, paintingIdx, setStoredPage, setIdx]);
+
   if (isLoading) return <div>Loading...</div>;
   if (isError) return <ErrorMessage error={error} />;
 
-  const painting = data.records[idx];
+  const painting = data.records[paintingIdx];
   const {
     artist,
     colors,
@@ -52,7 +58,7 @@ export default function Painting() {
         </header>
         <div className="mb-3 mt-2 flex justify-center">
           <PageControls
-            offset={idx}
+            offset={paintingIdx}
             limit={1}
             total={data.records.length}
             showDetails={false}
