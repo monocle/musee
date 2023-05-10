@@ -1,14 +1,18 @@
 import { useState } from "react";
+import { useNavigate } from "@tanstack/react-router";
+import useLocalStorage from "../services/useLocalStorage";
+import { useGetPaintings } from "./usePaintingsApi";
 import ErrorMessage from "../common/ErrorMessage";
 import Logo from "../pages/Logo";
-import { useGetPaintings } from "./usePaintingsApi";
-import PageControls from "./PageControls";
 import MenuIcon from "../icons/MenuIcon";
+import PageControls from "./PageControls";
 import Spinner from "../icons/Spinner";
 import ThemeIcon from "../icons/ThemeIcon";
 
 export default function Painting() {
-  const [idx, setIdx] = useState(0);
+  const navigate = useNavigate();
+  const [page] = useLocalStorage("page", 1);
+  const [idx, setIdx] = useLocalStorage<number>("paintingIdx", 0);
   const [isImgLoaded, setIsImgLoaded] = useState(false);
   const { isLoading, isError, data, error } = useGetPaintings({
     offset: 0,
@@ -16,6 +20,7 @@ export default function Painting() {
   });
 
   const handleIdxChange = (newIdx: number) => {
+    navigate({ search: { page, painting: newIdx } });
     setIdx(newIdx);
     setIsImgLoaded(false);
   };
@@ -59,7 +64,7 @@ export default function Painting() {
       <section className="relative flex w-full items-center justify-center lg:order-1 lg:w-4/5">
         {!isImgLoaded && <Spinner className="absolute" />}
         <figure
-          className={`flex max-w-full flex-col lg:h-screen ${
+          className={`flex max-w-full flex-col px-1 lg:h-screen ${
             isImgLoaded
               ? "opacity-100 transition-opacity duration-1000"
               : "opacity-0"
