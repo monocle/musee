@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Link } from "@tanstack/react-router";
 import Header from "./Header";
 import Spinner from "../icons/Spinner";
+import ExploreLink from "../common/ExploreLink";
 import BriefPaintingInfo from "../paintings/BriefPaintingInfo";
 
 const heroPainting: Painting = {
@@ -31,6 +31,8 @@ const heroPainting: Painting = {
     "painting proper: H. 30.7 x W. 32.6 cm (12 1/16 x 12 13/16 in.)",
     "mounting, including cord and roller ends: H. 132.7 x W. 54.6 cm (52 1/4 x 21 1/2 in.)",
   ],
+  page: 0,
+  display_order: 0,
 };
 
 export default function Landing() {
@@ -66,9 +68,9 @@ export default function Landing() {
                 <div className="text-xl font-bold">Harvard Art Museums</div>
               </p>
 
-              <Link to="/painting">
-                <button className="btn-accent btn">Let's Go</button>
-              </Link>
+              <ExploreLink
+                content={<button className="btn-accent btn">Let's Go</button>}
+              />
             </div>
           </div>
         </div>

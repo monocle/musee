@@ -26,8 +26,10 @@ interface Painting {
   colors: Color[];
   date: string | number;
   dimensions: string[];
+  display_order: number;
   id: number;
   medium: string;
+  page: number;
   primaryimageurl: string;
   title: string;
   url: string;

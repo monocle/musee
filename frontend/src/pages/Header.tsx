@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import ExploreLink from "../common/ExploreLink";
 import Logo from "./Logo";
 import ThemeIcon from "../icons/ThemeIcon";
 
@@ -8,9 +9,10 @@ export default function Header() {
       <Logo />
 
       <div>
-        <Link to="/painting" className="pr-4 font-semibold hover:text-blue-500">
-          Painting
-        </Link>
+        <ExploreLink
+          content="Explore"
+          className="pr-4 font-semibold hover:text-blue-500"
+        />
 
         <Link
           to="/paintings"
