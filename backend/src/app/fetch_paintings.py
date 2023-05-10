@@ -24,22 +24,24 @@ def filter_records(records: list[HAMObject]):
     ]
 
 
-def transform_records(records: list[HAMObject]) -> list[APIObject]:
+def transform_records(records: list[HAMObject], page: int) -> list[APIObject]:
     """
     Assumes there is always an "Artist" in record["people"]
     """
     api_records: list[APIObject] = []
 
-    for record in records:
+    for idx, record in enumerate(records):
         artist = next(
             person for person in record["people"] if person["role"] == "Artist"
         )
         base_object = {key: record.get(key) for key in HAMBaseObject.__required_keys__}
         base_object["artist"] = artist
+        base_object["date"] = record["dated"] or record["dateend"] or "Unknown"
         base_object["dimensions"] = (
             record["dimensions"].split("\r\n") if record["dimensions"] else []
         )
-        base_object["date"] = record["dated"] or record["dateend"] or "Unknown"
+        base_object["display_order"] = idx
+        base_object["page"] = page
         api_records.append(cast(APIObject, base_object))
 
     return api_records
@@ -59,7 +61,7 @@ def fetch_data(url: str, params=None):
     return status_code, data
 
 
-def fetch_ham_paintings(num_records=None, should_write=False) -> None:
+def fetch_ham_paintings(page=1, num_records=None, should_write=False) -> None:
     dotenv_path = os.path.join(os.path.dirname(__file__), "..", "..", ".env")
     ham_api_key = dotenv_values(dotenv_path).get("HAM_API_KEY")
 
@@ -88,20 +90,20 @@ def fetch_ham_paintings(num_records=None, should_write=False) -> None:
         "sort": "random:1",  # 1 is a seed number
         "size": num_records or max_per_page,
         "fields": ",".join(response_fields),
-        "page": 2,
+        "page": page,
     }
 
     status_code, data = fetch_data(url, {**params, "apikey": ham_api_key})
-    records = transform_records(filter_records(data["records"]))
+    records = transform_records(filter_records(data["records"]), page)
     data_chunk: DataChunk = {"records": records, "count": len(records)}
 
     if status_code == 200:
         if should_write:
-            write_json("paintings.json", data_chunk)
+            write_json(f"ham_paintings_{page}.json", data_chunk)
         else:
             print(data_chunk["records"][0:5])
     else:
         print(f"error: {status_code}\n {data}")
 
 
-fetch_ham_paintings(should_write=True)
+fetch_ham_paintings(page=2, should_write=True)

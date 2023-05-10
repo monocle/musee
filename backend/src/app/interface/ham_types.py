@@ -58,6 +58,8 @@ class APIObject(HAMBaseObject):
     artist: HAMPerson
     date: str | int
     dimensions: list[str]
+    display_order: int
+    page: int
 
 
 class HAMResponse(TypedDict):

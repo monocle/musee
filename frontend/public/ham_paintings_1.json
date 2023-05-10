@@ -1,10 +1,8 @@
 {
   "records": [
     {
-      "medium": "Oil on canvas",
-      "title": "Portrait of a Man, probably Sir George Downing (1624-1684), after Thomas Smith (d. 1691)",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG252976",
       "id": 297467,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#323232",
@@ -64,6 +62,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/297467",
+      "title": "Portrait of a Man, probably Sir George Downing (1624-1684), after Thomas Smith (d. 1691)",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG252976",
       "artist": {
         "role": "Artist",
         "birthplace": "Binghamton, NY",
@@ -78,16 +78,16 @@
         "deathplace": "New York, NY",
         "displayorder": 1
       },
+      "date": "1872",
       "dimensions": [
         "110.5 x 90.2 cm (43 1/2 x 35 1/2 in.)"
       ],
-      "date": "1872"
+      "display_order": 0,
+      "page": 1
     },
     {
-      "medium": "Tempera on panel",
-      "title": "Left wing of a portable tabernacle: Saint Ansanus; Above: Virgin of the Annunciation",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:77016_dynmc",
       "id": 231678,
+      "medium": "Tempera on panel",
       "colors": [
         {
           "color": "#000000",
@@ -147,6 +147,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/231678",
+      "title": "Left wing of a portable tabernacle: Saint Ansanus; Above: Virgin of the Annunciation",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:77016_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -161,16 +163,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "14th century",
       "dimensions": [
         "54.8 x 11.1 x 1.8 cm (21 9/16 x 4 3/8 x 11/16 in.)"
       ],
-      "date": "14th century"
+      "display_order": 1,
+      "page": 1
     },
     {
-      "medium": "Tempera on shaped panel",
-      "title": "Virgin and Child Enthroned with Eight Angels",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC253176_dynmc",
       "id": 231700,
+      "medium": "Tempera on shaped panel",
       "colors": [
         {
           "color": "#7d644b",
@@ -244,6 +246,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/231700",
+      "title": "Virgin and Child Enthroned with Eight Angels",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC253176_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -258,17 +262,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "c. 1410",
       "dimensions": [
         "75.2 x 45 cm (29 5/8 x 17 11/16 in.)",
         "frame: 92.3 x 58 x 6 cm (36 5/16 x 22 13/16 x 2 3/8 in.)"
       ],
-      "date": "c. 1410"
+      "display_order": 2,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Self Portrait",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:77602_dynmc",
       "id": 55320,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#644b4b",
@@ -335,6 +339,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/55320",
+      "title": "Self Portrait",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:77602_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Munich, Germany",
@@ -349,16 +355,16 @@
         "deathplace": "Bathampton, Somerset, England",
         "displayorder": 1
       },
+      "date": "c. 1920s",
       "dimensions": [
         "25.4 x 20.32 cm (10 x 8 in.)"
       ],
-      "date": "c. 1920s"
+      "display_order": 3,
+      "page": 1
     },
     {
-      "medium": "Handscroll; ink and color on silk",
-      "title": "Legendary Beauties through the Ages",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:758574",
       "id": 211252,
+      "medium": "Handscroll; ink and color on silk",
       "colors": [
         {
           "color": "#c8af7d",
@@ -425,6 +431,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/211252",
+      "title": "Legendary Beauties through the Ages",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:758574",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -439,17 +447,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "18th century",
       "dimensions": [
         "painting proper: H. 29.7 cm (11 11/16 in.)",
         "with mounting: H. 34.6 cm (13 5/8 in.)"
       ],
-      "date": "18th century"
+      "display_order": 4,
+      "page": 1
     },
     {
-      "medium": "Oil on composite board",
-      "title": "Birch Tree in a Landscape",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:61440_dynmc",
       "id": 97363,
+      "medium": "Oil on composite board",
       "colors": [
         {
           "color": "#64644b",
@@ -523,6 +531,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/97363",
+      "title": "Birch Tree in a Landscape",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:61440_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Dresden, Germany",
@@ -537,17 +547,17 @@
         "deathplace": "Worpswede, Germany",
         "displayorder": 1
       },
+      "date": "1899",
       "dimensions": [
         "55.4 x 42.1 cm (21 13/16 x 16 9/16 in.)",
         "framed: 64.6 x 51.4 x 3 cm (25 7/16 x 20 1/4 x 1 3/16 in.)"
       ],
-      "date": "1899"
+      "display_order": 5,
+      "page": 1
     },
     {
-      "medium": "One of two vertical panels mounted as hanging scrolls, the panels from a folding screen and probably from a set of eight; ink and colors on paper",
-      "title": "Blossoming Plum Tree",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:73825_dynmc",
       "id": 93773,
+      "medium": "One of two vertical panels mounted as hanging scrolls, the panels from a folding screen and probably from a set of eight; ink and colors on paper",
       "colors": [
         {
           "color": "#e1e1c8",
@@ -607,6 +617,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/93773",
+      "title": "Blossoming Plum Tree",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:73825_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -621,17 +633,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "mid-19th century",
       "dimensions": [
         "H. 143.9 x W. 41.9 cm (56 5/8 x 16 1/2 in.)",
         "mount: H. 220.98 x W. 66.36 cm (87 x 26 1/8 in.)"
       ],
-      "date": "mid-19th century"
+      "display_order": 6,
+      "page": 1
     },
     {
-      "medium": "Album leaf; ink and slight color on silk",
-      "title": "Two Birds on a Rock Nestled amidst Pinks Near a Stream",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP04225_dynmc",
       "id": 201050,
+      "medium": "Album leaf; ink and slight color on silk",
       "colors": [
         {
           "color": "#967d4b",
@@ -677,6 +689,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/201050",
+      "title": "Two Birds on a Rock Nestled amidst Pinks Near a Stream",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP04225_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -691,16 +705,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "17th-early 18th century",
       "dimensions": [
         "H. 31.2 x W. 21 cm (12 5/16 x 8 1/4 in.)"
       ],
-      "date": "17th-early 18th century"
+      "display_order": 7,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Beach Scene",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS19352_dynmc",
       "id": 228108,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#e1e1e1",
@@ -753,6 +767,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/228108",
+      "title": "Beach Scene",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS19352_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Honfleur",
@@ -767,16 +783,16 @@
         "deathplace": "Deauville",
         "displayorder": 1
       },
+      "date": "19th century",
       "dimensions": [
         "24.2 x 35.4 cm (9 1/2 x 13 15/16 in.)"
       ],
-      "date": "19th century"
+      "display_order": 8,
+      "page": 1
     },
     {
-      "medium": "Tempera on canvas?",
-      "title": "Figure of Saint with book",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS45909_dynmc",
       "id": 228738,
+      "medium": "Tempera on canvas?",
       "colors": [
         {
           "color": "#646464",
@@ -836,6 +852,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/228738",
+      "title": "Figure of Saint with book",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS45909_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -850,17 +868,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "Unknown",
       "dimensions": [
         "39 x 28.2 x 2.5 cm (15 3/8 x 11 1/8 x 1 in.)",
         "with hook for hanging: 40.3 cm (15 7/8 in.)"
       ],
-      "date": "Unknown"
+      "display_order": 9,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Portrait of a Young Man in a White Shirt",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101322_dynmc",
       "id": 230748,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#191932",
@@ -934,6 +952,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/230748",
+      "title": "Portrait of a Young Man in a White Shirt",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101322_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Cincinnati, OH",
@@ -948,16 +968,16 @@
         "deathplace": "London, England",
         "displayorder": 1
       },
+      "date": "19th-20th century",
       "dimensions": [
         "53.7 x 38.4 cm (21 1/8 x 15 1/8 in.)"
       ],
-      "date": "19th-20th century"
+      "display_order": 10,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Two Evangelists",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:61340_dynmc",
       "id": 226868,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#e1c896",
@@ -1031,6 +1051,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/226868",
+      "title": "Two Evangelists",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:61340_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Fürth, Germany",
@@ -1045,16 +1067,16 @@
         "deathplace": "Vienna, VA",
         "displayorder": 1
       },
+      "date": "c. 1865",
       "dimensions": [
         "81.1 x 38.1 cm (31 15/16 x 15 in.)"
       ],
-      "date": "c. 1865"
+      "display_order": 11,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Death and Victory",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:82246_dynmc",
       "id": 305207,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#323219",
@@ -1128,6 +1150,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/305207",
+      "title": "Death and Victory",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:82246_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Florence, Italy",
@@ -1142,16 +1166,16 @@
         "deathplace": "London, England",
         "displayorder": 1
       },
+      "date": "1922",
       "dimensions": [
         "439.4 x 186.7 cm (173 x 73 1/2 in.)"
       ],
-      "date": "1922"
+      "display_order": 12,
+      "page": 1
     },
     {
-      "medium": "Hanging scroll; ink and color on paper; with artist's inscription; with artist's signature reading \"Bonian Ren Yi xie\"; and with artist's seal impression reading \"Yi yin\"",
-      "title": "Kingfisher Over a Lotus Pond (Putang cuiyu tu)",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:78690_dynmc",
       "id": 176958,
+      "medium": "Hanging scroll; ink and color on paper; with artist's inscription; with artist's signature reading \"Bonian Ren Yi xie\"; and with artist's seal impression reading \"Yi yin\"",
       "colors": [
         {
           "color": "#e1c8af",
@@ -1197,6 +1221,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/176958",
+      "title": "Kingfisher Over a Lotus Pond (Putang cuiyu tu)",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:78690_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -1211,17 +1237,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "late 19th century",
       "dimensions": [
         "painting proper: H. 144.6 x W. 36.9 cm (56 15/16 x 14 1/2 in.)",
         "mounting, including cord and roller ends: H. 287 x W. 69.9 cm (113 x 27 1/2 in.)"
       ],
-      "date": "late 19th century"
+      "display_order": 13,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Nelson Robinson, Jr. (d. 1899)",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG6580_dynmc",
       "id": 305010,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#000000",
@@ -1253,6 +1279,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/305010",
+      "title": "Nelson Robinson, Jr. (d. 1899)",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG6580_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Rome, Italy",
@@ -1267,17 +1295,17 @@
         "deathplace": "Versailles, France",
         "displayorder": 1
       },
+      "date": "1900",
       "dimensions": [
         "141.61 x 92.08 cm (55 3/4 x 36 1/4 in.)",
         "framed: 176.53 x 127 x 17.78 cm (69 1/2 x 50 x 7 in.)"
       ],
-      "date": "1900"
+      "display_order": 14,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Portrait of a Young Boy in Black Shirt and Cap",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101620_dynmc",
       "id": 231301,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#c8af96",
@@ -1337,6 +1365,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/231301",
+      "title": "Portrait of a Young Boy in Black Shirt and Cap",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101620_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Cincinnati, OH",
@@ -1351,16 +1381,16 @@
         "deathplace": "London, England",
         "displayorder": 1
       },
+      "date": "19th-20th century",
       "dimensions": [
         "35.6 x 25.7 cm (14 x 10 1/8 in.)"
       ],
-      "date": "19th-20th century"
+      "display_order": 15,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Half-Length Portrait of a Young Man",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101326_dynmc",
       "id": 230335,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#c8af96",
@@ -1434,6 +1464,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/230335",
+      "title": "Half-Length Portrait of a Young Man",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101326_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Cincinnati, OH",
@@ -1448,16 +1480,16 @@
         "deathplace": "London, England",
         "displayorder": 1
       },
+      "date": "19th-20th century",
       "dimensions": [
         "53.7 x 38.4 cm (21 1/8 x 15 1/8 in.)"
       ],
-      "date": "19th-20th century"
+      "display_order": 16,
+      "page": 1
     },
     {
-      "medium": "Album leaf; ink, color, and gold on silk",
-      "title": "Mandarin Ducks by the Water",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP14567_dynmc",
       "id": 199478,
+      "medium": "Album leaf; ink, color, and gold on silk",
       "colors": [
         {
           "color": "#e1c87d",
@@ -1531,6 +1563,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/199478",
+      "title": "Mandarin Ducks by the Water",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP14567_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -1545,16 +1579,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "c. 1683",
       "dimensions": [
         "H. 26.8 cm x W. 43.0 cm (10 9/16 x 16 15/16 in.)"
       ],
-      "date": "c. 1683"
+      "display_order": 17,
+      "page": 1
     },
     {
-      "medium": "Oil on canvasboard",
-      "title": "Profile Portrait of a Young Boy with Red Bow",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101778_dynmc",
       "id": 231302,
+      "medium": "Oil on canvasboard",
       "colors": [
         {
           "color": "#4b6496",
@@ -1628,6 +1662,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/231302",
+      "title": "Profile Portrait of a Young Boy with Red Bow",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101778_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Cincinnati, OH",
@@ -1642,16 +1678,16 @@
         "deathplace": "London, England",
         "displayorder": 1
       },
+      "date": "19th-20th century",
       "dimensions": [
         "35.6 x 25.4 cm (14 x 10 in.)"
       ],
-      "date": "19th-20th century"
+      "display_order": 18,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Lady Louisa Manners",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:huam:DDC112114_dynmc",
       "id": 311570,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#191919",
@@ -1704,6 +1740,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/311570",
+      "title": "Lady Louisa Manners",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:huam:DDC112114_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Plympton, England",
@@ -1718,17 +1756,17 @@
         "deathplace": "London, England",
         "displayorder": 1
       },
+      "date": "after 1780",
       "dimensions": [
         "61 x 50.8 cm (24 x 20 in.)",
         "framed: 77.5 x 67.2 x 7.8 cm (30 1/2 x 26 7/16 x 3 1/16 in.)"
       ],
-      "date": "after 1780"
+      "display_order": 19,
+      "page": 1
     },
     {
-      "medium": "Unmounted painting matted as an album leaf; ink and color on paper",
-      "title": "Standing Woman with Straw Hat",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS33675_dynmc",
       "id": 210276,
+      "medium": "Unmounted painting matted as an album leaf; ink and color on paper",
       "colors": [
         {
           "color": "#969696",
@@ -1802,6 +1840,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/210276",
+      "title": "Standing Woman with Straw Hat",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS33675_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -1816,16 +1856,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "Mid Edo period, datable to 1735",
       "dimensions": [
         "H. 29.9 cm x W. 15.7 cm (11 3/4 x 6 3/16 in.)"
       ],
-      "date": "Mid Edo period, datable to 1735"
+      "display_order": 20,
+      "page": 1
     },
     {
-      "medium": "Oil on academy board",
-      "title": "House and Tree",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV186869_dynmc",
       "id": 227605,
+      "medium": "Oil on academy board",
       "colors": [
         {
           "color": "#af9664",
@@ -1899,6 +1939,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/227605",
+      "title": "House and Tree",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV186869_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Moscow, Russia",
@@ -1913,16 +1955,16 @@
         "deathplace": "Paris, France",
         "displayorder": 1
       },
+      "date": "1926",
       "dimensions": [
         "sight: 39.37 x 31.75 cm (15 1/2 x 12 1/2 in.)"
       ],
-      "date": "1926"
+      "display_order": 21,
+      "page": 1
     },
     {
-      "medium": "The eighteenth of a series of 54 painted album leaves mounted in an album with calligraphic excerpts; ink, color, and gold on paper",
-      "title": "Wind in the Pines (Matsukaze), Illustration to Chapter 18 of the Tale of Genji (Genji monogatari)",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:huam:75040A_dynmc",
       "id": 200162,
+      "medium": "The eighteenth of a series of 54 painted album leaves mounted in an album with calligraphic excerpts; ink, color, and gold on paper",
       "colors": [
         {
           "color": "#af9664",
@@ -1996,6 +2038,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/200162",
+      "title": "Wind in the Pines (Matsukaze), Illustration to Chapter 18 of the Tale of Genji (Genji monogatari)",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:huam:75040A_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -2010,16 +2054,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "Muromachi period, datable to 1509-1510",
       "dimensions": [
         "H. 24.3 cm x W. 17.8 cm (9 9/16 x 7 in.)"
       ],
-      "date": "Muromachi period, datable to 1509-1510"
+      "display_order": 22,
+      "page": 1
     },
     {
-      "medium": "Tempera on canvas",
-      "title": "Christ Blessing",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:51492_dynmc",
       "id": 230048,
+      "medium": "Tempera on canvas",
       "colors": [
         {
           "color": "#7d644b",
@@ -2072,6 +2116,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/230048",
+      "title": "Christ Blessing",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:51492_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "London, England",
@@ -2086,17 +2132,17 @@
         "deathplace": "London, England",
         "displayorder": 1
       },
+      "date": "c. 1810",
       "dimensions": [
         "76.5 x 63.5 cm (30 1/8 x 25 in.)",
         "framed: 99.5 x 86.5 cm (39 3/16 x 34 1/16 in.)"
       ],
-      "date": "c. 1810"
+      "display_order": 23,
+      "page": 1
     },
     {
-      "medium": "One leaf from an album of eleven (originally twelve) leaves; ink and color on paper; with signature of the artist reading 'Zixiang'",
-      "title": "Flowers (One of Twelve Album Leaves)",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP14374_dynmc",
       "id": 201450,
+      "medium": "One leaf from an album of eleven (originally twelve) leaves; ink and color on paper; with signature of the artist reading 'Zixiang'",
       "colors": [
         {
           "color": "#fae1e1",
@@ -2170,6 +2216,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/201450",
+      "title": "Flowers (One of Twelve Album Leaves)",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:CARP14374_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -2184,16 +2232,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "1859",
       "dimensions": [
         "16.6 x 22.1 cm (6 9/16 x 8 11/16 in.)"
       ],
-      "date": "1859"
+      "display_order": 24,
+      "page": 1
     },
     {
-      "medium": "Wood",
-      "title": "Profile Portrait of a Young Man",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS37551_dynmc",
       "id": 230714,
+      "medium": "Wood",
       "colors": [
         {
           "color": "#323232",
@@ -2239,6 +2287,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/230714",
+      "title": "Profile Portrait of a Young Man",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS37551_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -2253,16 +2303,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "late 19th-early 20th century",
       "dimensions": [
         "29.21 x 24.13 cm (11 1/2 x 9 1/2 in.)"
       ],
-      "date": "late 19th-early 20th century"
+      "display_order": 25,
+      "page": 1
     },
     {
-      "medium": "Opaque watercolor on paper",
-      "title": "Hanuman Before Rama and Sita, with Lakshmana, Illustration from a Ramayana Series",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:ISL10252_dynmc",
       "id": 216326,
+      "medium": "Opaque watercolor on paper",
       "colors": [
         {
           "color": "#646432",
@@ -2336,6 +2386,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/216326",
+      "title": "Hanuman Before Rama and Sita, with Lakshmana, Illustration from a Ramayana Series",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:ISL10252_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -2350,16 +2402,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "19th century",
       "dimensions": [
         "26 x 30.5 cm (10 1/4 x 12 in.)"
       ],
-      "date": "19th century"
+      "display_order": 26,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Portrait of a Young Man in Open Shirt",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101214_dynmc",
       "id": 231050,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#323232",
@@ -2426,6 +2478,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/231050",
+      "title": "Portrait of a Young Man in Open Shirt",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101214_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Cincinnati, OH",
@@ -2440,16 +2494,16 @@
         "deathplace": "London, England",
         "displayorder": 1
       },
+      "date": "19th-20th century",
       "dimensions": [
         "35.9 x 25.7 cm (14 1/8 x 10 1/8 in.)"
       ],
-      "date": "19th-20th century"
+      "display_order": 27,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Portrait of a Young Man in Open White Shirt",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101579_dynmc",
       "id": 231140,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#321919",
@@ -2516,6 +2570,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/231140",
+      "title": "Portrait of a Young Man in Open White Shirt",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV101579_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Cincinnati, OH",
@@ -2530,16 +2586,16 @@
         "deathplace": "London, England",
         "displayorder": 1
       },
+      "date": "19th-20th century",
       "dimensions": [
         "35.6 x 25.7 cm (14 x 10 1/8 in.)"
       ],
-      "date": "19th-20th century"
+      "display_order": 28,
+      "page": 1
     },
     {
-      "medium": "Album leaf; ink on silk",
-      "title": "Daikoku's Hammer and Three Mice",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS60556_dynmc",
       "id": 203231,
+      "medium": "Album leaf; ink on silk",
       "colors": [
         {
           "color": "#afafaf",
@@ -2599,6 +2655,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/203231",
+      "title": "Daikoku's Hammer and Three Mice",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS60556_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Edo",
@@ -2613,16 +2671,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "Meiji period, circa 1878",
       "dimensions": [
         "24.5 x 20.7 cm (9 5/8 x 8 1/8 in.)"
       ],
-      "date": "Meiji period, circa 1878"
+      "display_order": 29,
+      "page": 1
     },
     {
-      "medium": "Hanging scroll; ink and color on silk; with signature reading \"Sin-chŏn An Chung-sik\"; with two seals of the artist",
-      "title": "Playing the Zither under the Pines",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:73828_dynmc",
       "id": 92915,
+      "medium": "Hanging scroll; ink and color on silk; with signature reading \"Sin-chŏn An Chung-sik\"; with two seals of the artist",
       "colors": [
         {
           "color": "#e1c8af",
@@ -2668,6 +2726,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/92915",
+      "title": "Playing the Zither under the Pines",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:73828_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -2682,17 +2742,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "1908",
       "dimensions": [
         "painting proper: H. 129.2 x W. 35.7 cm (50 7/8 x 14 1/16 in.)",
         "mounting, including cord and roller ends: H. 214.6 x W. 57.8 cm (84 1/2 x 22 3/4 in.)"
       ],
-      "date": "1908"
+      "display_order": 30,
+      "page": 1
     },
     {
-      "medium": "Oil on panel",
-      "title": "Scene from \"The Odyssey\": Calypso and Hermes",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG278039",
       "id": 231739,
+      "medium": "Oil on panel",
       "colors": [
         {
           "color": "#644b32",
@@ -2759,6 +2819,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/231739",
+      "title": "Scene from \"The Odyssey\": Calypso and Hermes",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG278039",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -2773,16 +2835,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "c. 1440",
       "dimensions": [
         "28.5 x 15.7 cm (11 1/4 x 6 3/16 in.)"
       ],
-      "date": "c. 1440"
+      "display_order": 31,
+      "page": 1
     },
     {
-      "medium": "The twenty-third of a series of 54 painted album leaves mounted in an album with calligraphic excerpts; ink, color, and gold on paper",
-      "title": "The Warbler’s First Song (Hatsune), Illustration to Chapter 23 of the Tale of Genji (Genji monogatari)",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:huam:75045A_dynmc",
       "id": 200178,
+      "medium": "The twenty-third of a series of 54 painted album leaves mounted in an album with calligraphic excerpts; ink, color, and gold on paper",
       "colors": [
         {
           "color": "#af9664",
@@ -2849,6 +2911,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/200178",
+      "title": "The Warbler’s First Song (Hatsune), Illustration to Chapter 23 of the Tale of Genji (Genji monogatari)",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:huam:75045A_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -2863,16 +2927,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "Muromachi period, datable to 1509-1510",
       "dimensions": [
         "H. 24.5 cm x W. 17.8 cm (9 5/8 x 7 in.)"
       ],
-      "date": "Muromachi period, datable to 1509-1510"
+      "display_order": 32,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Victorine Meurend, after Manet",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV185039_dynmc",
       "id": 227961,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#7d6432",
@@ -2946,6 +3010,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/227961",
+      "title": "Victorine Meurend, after Manet",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV185039_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -2960,17 +3026,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "19th-20th century",
       "dimensions": [
         "41.2 x 41.2 cm (16 1/4 x 16 1/4 in.)",
         "framed: 60 x 60.3 x 5.7 cm (23 5/8 x 23 3/4 x 2 1/4 in.)"
       ],
-      "date": "19th-20th century"
+      "display_order": 33,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Suzanne Fourment, after Rubens",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:776760",
       "id": 370169,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#191919",
@@ -3016,6 +3082,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/370169",
+      "title": "Suzanne Fourment, after Rubens",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:776760",
       "artist": {
         "role": "Artist",
         "birthplace": "Charenton Saint-Maurice France",
@@ -3030,17 +3098,17 @@
         "deathplace": "Paris France",
         "displayorder": 1
       },
+      "date": "19th century",
       "dimensions": [
         "65.5 × 54 cm (25 13/16 × 21 1/4 in.)",
         "framed: 84.5 × 73.7 cm (33 1/4 × 29 in.)"
       ],
-      "date": "19th century"
+      "display_order": 34,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Portrait of a Woman",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS19626",
       "id": 227814,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#323232",
@@ -3114,6 +3182,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/227814",
+      "title": "Portrait of a Woman",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS19626",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -3128,17 +3198,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "c. 1750-1775",
       "dimensions": [
         "127.95 x 102.24 cm (50 3/8 x 40 1/4 in.)",
         "framed: 161.93 x 135.89 cm (63 3/4 x 53 1/2 in.)"
       ],
-      "date": "c. 1750-1775"
+      "display_order": 35,
+      "page": 1
     },
     {
-      "medium": "Oil on panel",
-      "title": "Portrait of a Woman",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:755604",
       "id": 227805,
+      "medium": "Oil on panel",
       "colors": [
         {
           "color": "#323219",
@@ -3212,6 +3282,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/227805",
+      "title": "Portrait of a Woman",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:755604",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -3226,17 +3298,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "1640",
       "dimensions": [
         "69.2 × 56.2 cm (27 1/4 × 22 1/8 in.)",
         "frame: 125.4 × 109.9 × 11.4 cm (49 3/8 × 43 1/4 × 4 1/2 in.)"
       ],
-      "date": "1640"
+      "display_order": 36,
+      "page": 1
     },
     {
-      "medium": "Tempera on panel",
-      "title": "Saint Friday",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:70292_dynmc",
       "id": 221193,
+      "medium": "Tempera on panel",
       "colors": [
         {
           "color": "#af7d32",
@@ -3310,6 +3382,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/221193",
+      "title": "Saint Friday",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:70292_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -3324,17 +3398,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "1530 -1550",
       "dimensions": [
         "19.4 x 18 x 2 cm (7 5/8 x 7 1/16 x 13/16 in.)",
         "panel with warp: 3.3 cm (1 5/16 in.)"
       ],
-      "date": "1530 -1550"
+      "display_order": 37,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Portrait of Miss Dennison and her Brother",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:770382",
       "id": 311292,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#191919",
@@ -3408,6 +3482,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/311292",
+      "title": "Portrait of Miss Dennison and her Brother",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:770382",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -3422,17 +3498,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "c. 1770",
       "dimensions": [
         "150.5 x 95.57 cm (59 1/4 x 37 5/8 in.)",
         "framed: 175.9 x 120.02 x 9.53 cm (69 1/4 x 47 1/4 x 3 3/4 in.)"
       ],
-      "date": "c. 1770"
+      "display_order": 38,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Christ Appearing to a Nobleman",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS30004_dynmc",
       "id": 231930,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#191900",
@@ -3506,6 +3582,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/231930",
+      "title": "Christ Appearing to a Nobleman",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS30004_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Bassano del Grappa, Italy",
@@ -3520,16 +3598,16 @@
         "deathplace": "Venice, Italy",
         "displayorder": 1
       },
+      "date": "c. 1580",
       "dimensions": [
         "81 x 112.7 cm (31 7/8 x 44 3/8 in.)"
       ],
-      "date": "c. 1580"
+      "display_order": 39,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Il Ramoscello",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:51333_dynmc",
       "id": 230159,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#193219",
@@ -3603,6 +3681,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/230159",
+      "title": "Il Ramoscello",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:51333_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "London, England",
@@ -3617,17 +3697,17 @@
         "deathplace": "Birchington-on-Sea, England",
         "displayorder": 1
       },
+      "date": "1865",
       "dimensions": [
         "47.6 x 39.4 cm (18 3/4 x 15 1/2 in.)",
         "framed: 68.6 x 59.4 x 8.3 cm (27 x 23 3/8 x 3 1/4 in.)"
       ],
-      "date": "1865"
+      "display_order": 40,
+      "page": 1
     },
     {
-      "medium": "Ink and watercolor on paper",
-      "title": "Dervish in a Landscape",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC102324_dynmc",
       "id": 216672,
+      "medium": "Ink and watercolor on paper",
       "colors": [
         {
           "color": "#c8af96",
@@ -3645,6 +3725,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/216672",
+      "title": "Dervish in a Landscape",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC102324_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -3659,16 +3741,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "c. 1630",
       "dimensions": [
         "18.2 x 8.9 cm (7 3/16 x 3 1/2 in.)"
       ],
-      "date": "c. 1630"
+      "display_order": 41,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Tyler Bigelow (1778-1865)",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:huam:DDC113646_dynmc",
       "id": 304800,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#191919",
@@ -3735,6 +3817,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/304800",
+      "title": "Tyler Bigelow (1778-1865)",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:huam:DDC113646_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Conway, MA",
@@ -3749,17 +3833,17 @@
         "deathplace": "Boston, MA",
         "displayorder": 1
       },
+      "date": "1830s",
       "dimensions": [
         "76.9 x 63.5 cm (30 1/4 x 25 in.)",
         "framed: 101.6 x 91.4 x 9.2 cm (40 x 36 x 3 5/8 in.)"
       ],
-      "date": "1830s"
+      "display_order": 42,
+      "page": 1
     },
     {
-      "medium": "Right screen of a pair of six-panel folding screens; ink and color on silk\r\n",
-      "title": "This Morning's Autumn (right)",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:764178",
       "id": 358129,
+      "medium": "Right screen of a pair of six-panel folding screens; ink and color on silk\r\n",
       "colors": [
         {
           "color": "#967d4b",
@@ -3812,6 +3896,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/358129",
+      "title": "This Morning's Autumn (right)",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:764178",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -3826,16 +3912,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "1918 (Taishō 7)",
       "dimensions": [
         "each screen: 172 × 363 cm (67 11/16 × 142 15/16 in.)"
       ],
-      "date": "1918 (Taishō 7)"
+      "display_order": 43,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Reduced Study of Tintoret's \"Madonna of the Faithful,\" in the Academy of Venice",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:75695_dynmc",
       "id": 231912,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#4b4b32",
@@ -3909,6 +3995,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/231912",
+      "title": "Reduced Study of Tintoret's \"Madonna of the Faithful,\" in the Academy of Venice",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:75695_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "New York, NY",
@@ -3923,16 +4011,16 @@
         "deathplace": "Harley Witney, Hampshire, England",
         "displayorder": 1
       },
+      "date": "1876",
       "dimensions": [
         "61.9 x 31.1 cm (24 3/8 x 12 1/4 in.)"
       ],
-      "date": "1876"
+      "display_order": 44,
+      "page": 1
     },
     {
-      "medium": "Opaque watercolor, gold, and silver on paper; Rajput Style",
-      "title": "Procession Scene with Shiva, Brahma, and Kali",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:ISL10250_dynmc",
       "id": 216423,
+      "medium": "Opaque watercolor, gold, and silver on paper; Rajput Style",
       "colors": [
         {
           "color": "#324b64",
@@ -4006,6 +4094,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/216423",
+      "title": "Procession Scene with Shiva, Brahma, and Kali",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:ISL10250_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -4020,16 +4110,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "18th-19th century",
       "dimensions": [
         "22.23 x 26.67 cm (8 3/4 x 10 1/2 in.)"
       ],
-      "date": "18th-19th century"
+      "display_order": 45,
+      "page": 1
     },
     {
-      "medium": "Opaque watercolor, ink, and metallic pigment on paper; Pahari Style",
-      "title": "Yashoda Shows Krishna the Moon in a Mirror",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:ISL10228_dynmc",
       "id": 215673,
+      "medium": "Opaque watercolor, ink, and metallic pigment on paper; Pahari Style",
       "colors": [
         {
           "color": "#c83232",
@@ -4103,6 +4193,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/215673",
+      "title": "Yashoda Shows Krishna the Moon in a Mirror",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:ISL10228_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -4117,16 +4209,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "18th century",
       "dimensions": [
         "22.86 x 16.35 cm (9 x 6 7/16 in.)"
       ],
-      "date": "18th century"
+      "display_order": 46,
+      "page": 1
     },
     {
-      "medium": "Tempera and gold on panel",
-      "title": "Madonna and Child",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:766851",
       "id": 228227,
+      "medium": "Tempera and gold on panel",
       "colors": [
         {
           "color": "#644b32",
@@ -4200,6 +4292,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/228227",
+      "title": "Madonna and Child",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:766851",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -4214,17 +4308,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "15th century",
       "dimensions": [
         "128.3 × 64.5 cm (50 1/2 × 25 3/8 in.)",
         "frame: 140.5 × 78.5 × 7.5 cm (55 5/16 × 30 7/8 × 2 15/16 in.)"
       ],
-      "date": "15th century"
+      "display_order": 47,
+      "page": 1
     },
     {
-      "medium": "Tempera on panel",
-      "title": "The Risen Christ Presenting the Redeemed of the Old Dispensation to his Mother",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS41975_dynmc",
       "id": 228345,
+      "medium": "Tempera on panel",
       "colors": [
         {
           "color": "#7d7d7d",
@@ -4298,6 +4392,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/228345",
+      "title": "The Risen Christ Presenting the Redeemed of the Old Dispensation to his Mother",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS41975_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -4312,16 +4408,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "16th century",
       "dimensions": [
         "35.88 x 23.81 cm (14 1/8 x 9 3/8 in.)"
       ],
-      "date": "16th century"
+      "display_order": 48,
+      "page": 1
     },
     {
-      "medium": "Oil on linen",
-      "title": "Rocky Mountains, \"Lander's Peak\"",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:52101_dynmc",
       "id": 303976,
+      "medium": "Oil on linen",
       "colors": [
         {
           "color": "#321919",
@@ -4388,6 +4484,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/303976",
+      "title": "Rocky Mountains, \"Lander's Peak\"",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:52101_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Solingen (near Dusseldorf), Germany",
@@ -4402,17 +4500,17 @@
         "deathplace": "New York, NY",
         "displayorder": 1
       },
+      "date": "1863",
       "dimensions": [
         "110.8 x 90.2 cm (43 5/8 x 35 1/2 in.)",
         "frame: 146.4 x 126.4 x 10.8 cm (57 5/8 x 49 3/4 x 4 1/4 in.)"
       ],
-      "date": "1863"
+      "display_order": 49,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Portrait of a Man",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS37587_dynmc",
       "id": 311187,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#191919",
@@ -4486,6 +4584,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/311187",
+      "title": "Portrait of a Man",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS37587_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Tournus",
@@ -4500,17 +4600,17 @@
         "deathplace": "Paris",
         "displayorder": 1
       },
+      "date": "c. 1805-1810",
       "dimensions": [
         "71.3 x 57.3 cm (28 1/16 x 22 9/16 in.)",
         "framed: 91.6 x 78 x 4.8 cm (36 1/16 x 30 11/16 x 1 7/8 in.)"
       ],
-      "date": "c. 1805-1810"
+      "display_order": 50,
+      "page": 1
     },
     {
-      "medium": "Tempera on panel",
-      "title": "Virgin and Child with Saints John the Baptist, Christopher, an Unidentified Bishop Saint, Anthony Abbot, above: Christ as Man of Sorrows; left panel: Saint Andrew and the Archangel Gabriel; right panel: Saint Ansanus and the Annunciate Virgin",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:huam:LEG009917_dynmc",
       "id": 231672,
+      "medium": "Tempera on panel",
       "colors": [
         {
           "color": "#321919",
@@ -4584,6 +4684,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/231672",
+      "title": "Virgin and Child with Saints John the Baptist, Christopher, an Unidentified Bishop Saint, Anthony Abbot, above: Christ as Man of Sorrows; left panel: Saint Andrew and the Archangel Gabriel; right panel: Saint Ansanus and the Annunciate Virgin",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:huam:LEG009917_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -4598,19 +4700,19 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "14th century",
       "dimensions": [
         "overall: 63.5 x 49.3 x 2.8 cm (25 x 19 7/16 x 1 1/8 in.)",
         "left wing: 55.7 x 12.2 x 1.8 cm (21 15/16 x 4 13/16 x 11/16 in.)",
         "center: 63.5 x 24.2 x 2.8 cm (25 x 9 1/2 x 1 1/8 in.)",
         "right wing: 55.5 x 12.8 x 1.9 cm (21 7/8 x 5 1/16 x 3/4 in.)"
       ],
-      "date": "14th century"
+      "display_order": 51,
+      "page": 1
     },
     {
-      "medium": "Pair of six-panel folding screens; ink on paper",
-      "title": "Precipitous Rocks and Rushing Water",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:764280",
       "id": 340564,
+      "medium": "Pair of six-panel folding screens; ink on paper",
       "colors": [
         {
           "color": "#c8af96",
@@ -4656,6 +4758,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/340564",
+      "title": "Precipitous Rocks and Rushing Water",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:764280",
       "artist": {
         "role": "Artist",
         "birthplace": "Bizen",
@@ -4670,17 +4774,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "1843",
       "dimensions": [
         "painting proper: H. 153.4 × W. 358.4 cm (60 3/8 × 141 1/8 in.)",
         "overall, flexed open at 160-degree angle: H. 170.5 × W. 355.6 cm (67 1/8 × 140 in.)"
       ],
-      "date": "1843"
+      "display_order": 52,
+      "page": 1
     },
     {
-      "medium": "Oil on canvasboard",
-      "title": "Landscape with Trees",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV100822_dynmc",
       "id": 230895,
+      "medium": "Oil on canvasboard",
       "colors": [
         {
           "color": "#afaf64",
@@ -4754,6 +4858,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/230895",
+      "title": "Landscape with Trees",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV100822_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Cincinnati, OH",
@@ -4768,16 +4874,16 @@
         "deathplace": "London, England",
         "displayorder": 1
       },
+      "date": "1902",
       "dimensions": [
         "25.4 x 35.2 cm (10 x 13 7/8 in.)"
       ],
-      "date": "1902"
+      "display_order": 53,
+      "page": 1
     },
     {
-      "medium": "Oil on wood panel",
-      "title": "William James (1771-1832)",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS64891_dynmc",
       "id": 305068,
+      "medium": "Oil on wood panel",
       "colors": [
         {
           "color": "#323232",
@@ -4851,6 +4957,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/305068",
+      "title": "William James (1771-1832)",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS64891_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Framingham, MA",
@@ -4865,17 +4973,17 @@
         "deathplace": "Albany, NY",
         "displayorder": 1
       },
+      "date": "1822",
       "dimensions": [
         "91 x 70 cm (35 13/16 x 27 9/16 in.)",
         "framed: 113 x 93.4 x 8.9 cm (44 1/2 x 36 3/4 x 3 1/2 in.)"
       ],
-      "date": "1822"
+      "display_order": 54,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Seaport Scene",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:44939_dynmc",
       "id": 312301,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#c8c8c8",
@@ -4942,6 +5050,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/312301",
+      "title": "Seaport Scene",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:44939_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -4956,17 +5066,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "1725-1750",
       "dimensions": [
         "99.9 x 138.6 cm (39 5/16 x 54 9/16 in.)",
         "framed: 129.54 x 168.91 x 6.35 cm (51 x 66 1/2 x 2 1/2 in.)"
       ],
-      "date": "1725-1750"
+      "display_order": 55,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Valley of the Bedford",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:62115_dynmc",
       "id": 232037,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#e1e1c8",
@@ -5040,6 +5150,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/232037",
+      "title": "Valley of the Bedford",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:62115_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Paisley, Scotland",
@@ -5054,16 +5166,16 @@
         "deathplace": "Mt Vernon, NY",
         "displayorder": 1
       },
+      "date": "c. 1859",
       "dimensions": [
         "28.6 x 51.1 cm (11 1/4 x 20 1/8 in.)"
       ],
-      "date": "c. 1859"
+      "display_order": 56,
+      "page": 1
     },
     {
-      "medium": "Oil on paper mounted on canvas",
-      "title": "John Snelling Popkin (1771-1852)",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV183978_dynmc",
       "id": 304645,
+      "medium": "Oil on paper mounted on canvas",
       "colors": [
         {
           "color": "#000000",
@@ -5123,6 +5235,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/304645",
+      "title": "John Snelling Popkin (1771-1852)",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV183978_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -5137,16 +5251,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "19th century",
       "dimensions": [
         "sight: 73.9 x 61.2 cm (29 1/8 x 24 1/8 in.)"
       ],
-      "date": "19th century"
+      "display_order": 57,
+      "page": 1
     },
     {
-      "medium": "Oil on panel",
-      "title": "Saint John the Baptist",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG267003",
       "id": 230278,
+      "medium": "Oil on panel",
       "colors": [
         {
           "color": "#191919",
@@ -5213,6 +5327,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/230278",
+      "title": "Saint John the Baptist",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG267003",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -5227,16 +5343,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "16th-17th century",
       "dimensions": [
         "29.2 x 22.9 cm (11 1/2 x 9 in.)"
       ],
-      "date": "16th-17th century"
+      "display_order": 58,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "John Feeney; verso: Sketches, Two Faces",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV100519_dynmc",
       "id": 231075,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#4b3232",
@@ -5289,6 +5405,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/231075",
+      "title": "John Feeney; verso: Sketches, Two Faces",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV100519_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Cincinnati, OH",
@@ -5303,16 +5421,16 @@
         "deathplace": "London, England",
         "displayorder": 1
       },
+      "date": "1919",
       "dimensions": [
         "36.2 x 25.7 cm (14 1/4 x 10 1/8 in.)"
       ],
-      "date": "1919"
+      "display_order": 59,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Susanna and the Elders",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:18933_dynmc",
       "id": 227348,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#323232",
@@ -5386,6 +5504,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/227348",
+      "title": "Susanna and the Elders",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:18933_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -5400,16 +5520,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "c. 1610",
       "dimensions": [
         "179.5 x 155 cm (70 11/16 x 61 in.)"
       ],
-      "date": "c. 1610"
+      "display_order": 60,
+      "page": 1
     },
     {
-      "medium": "Oil on panel",
-      "title": "Nativity",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS46725_dynmc",
       "id": 229426,
+      "medium": "Oil on panel",
       "colors": [
         {
           "color": "#646464",
@@ -5476,6 +5596,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/229426",
+      "title": "Nativity",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:VRS46725_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -5490,16 +5612,16 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "1524 -1544",
       "dimensions": [
         "26.4 x 17.8 cm (10 3/8 x 7 in.)"
       ],
-      "date": "1524 -1544"
+      "display_order": 61,
+      "page": 1
     },
     {
-      "medium": "Oil on canvasboard",
-      "title": "Portrait of a Young Man Bending Over",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV100980_dynmc",
       "id": 229241,
+      "medium": "Oil on canvasboard",
       "colors": [
         {
           "color": "#afafc8",
@@ -5559,6 +5681,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/229241",
+      "title": "Portrait of a Young Man Bending Over",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV100980_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Cincinnati, OH",
@@ -5573,16 +5697,16 @@
         "deathplace": "London, England",
         "displayorder": 1
       },
+      "date": "19th-20th century",
       "dimensions": [
         "35.2 x 25.4 cm (13 7/8 x 10 in.)"
       ],
-      "date": "19th-20th century"
+      "display_order": 62,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Calvin Ellis (1826-1883)",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG6291_dynmc",
       "id": 310946,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#191919",
@@ -5656,6 +5780,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/310946",
+      "title": "Calvin Ellis (1826-1883)",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG6291_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Bangor, ME",
@@ -5670,17 +5796,17 @@
         "deathplace": "Boston, MA",
         "displayorder": 1
       },
+      "date": "c. 1880-1885",
       "dimensions": [
         "stretcher: 68.8 × 55.8 cm (27 1/16 × 21 15/16 in.)",
         "frame: 99.4 × 86.7 × 15.2 cm (39 1/8 × 34 1/8 × 6 in.)"
       ],
-      "date": "c. 1880-1885"
+      "display_order": 63,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Portrait of a Man",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:765882",
       "id": 230458,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#191919",
@@ -5712,6 +5838,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/230458",
+      "title": "Portrait of a Man",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:765882",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -5726,17 +5854,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "19th-20th century",
       "dimensions": [
         "39.1 x 31.4 cm (15 3/8 x 12 3/8 in.)",
         "framed: 59.1 x 51.4 x 6.4 cm (23 1/4 x 20 1/4 x 2 1/2 in.)"
       ],
-      "date": "19th-20th century"
+      "display_order": 64,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Rembrandt's Daughter",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:30005_dynmc",
       "id": 231931,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#191919",
@@ -5810,6 +5938,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/231931",
+      "title": "Rembrandt's Daughter",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:30005_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "London, England",
@@ -5824,17 +5954,17 @@
         "deathplace": "Chelsea, England",
         "displayorder": 1
       },
+      "date": "1827",
       "dimensions": [
         "121.9 × 89.5 cm (48 × 35 1/4 in.)",
         "framed: 159.4 × 127 × 11.4 cm (62 3/4 × 50 × 4 1/2 in.)"
       ],
-      "date": "1827"
+      "display_order": 65,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "The Bridge at Villeneuve-La-Garenne",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:51244_dynmc",
       "id": 230254,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#c8c8c8",
@@ -5908,6 +6038,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/230254",
+      "title": "The Bridge at Villeneuve-La-Garenne",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:51244_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Paris",
@@ -5922,17 +6054,17 @@
         "deathplace": "Moret-sur-Loing",
         "displayorder": 1
       },
+      "date": "1872",
       "dimensions": [
         "51.8 x 61 cm (20 3/8 x 24 in.)",
         "framed: 63 x 72 cm (24 13/16 x 28 3/8 in.)"
       ],
-      "date": "1872"
+      "display_order": 66,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Study for \"The Unveiling of Truth,\" Museum of Fine Arts, Boston",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:51732_dynmc",
       "id": 230797,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#c8af96",
@@ -5985,6 +6117,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/230797",
+      "title": "Study for \"The Unveiling of Truth,\" Museum of Fine Arts, Boston",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:51732_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Florence, Italy",
@@ -5999,17 +6133,17 @@
         "deathplace": "London, England",
         "displayorder": 1
       },
+      "date": "1916 - 1921",
       "dimensions": [
         "71.1 x 127 cm (28 x 50 in.)",
         "framed: 80 x 135.9 x 4.5 cm (31 1/2 x 53 1/2 x 1 3/4 in.)"
       ],
-      "date": "1916 - 1921"
+      "display_order": 67,
+      "page": 1
     },
     {
-      "medium": "Oil on canvas",
-      "title": "Frederic Ward Putnam (1839-1915)",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG6300_dynmc",
       "id": 310949,
+      "medium": "Oil on canvas",
       "colors": [
         {
           "color": "#000000",
@@ -6020,6 +6154,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/310949",
+      "title": "Frederic Ward Putnam (1839-1915)",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:LEG6300_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -6034,17 +6170,17 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "1900",
       "dimensions": [
         "79.5 x 64.3 cm (31 5/16 x 25 5/16 in.)",
         "framed: 104.1 x 88.9 x 10.2 cm (41 x 35 x 4 in.)"
       ],
-      "date": "1900"
+      "display_order": 68,
+      "page": 1
     },
     {
-      "medium": "Tempera on panel",
-      "title": "The Adoration of the Magi",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC252560_dynmc",
       "id": 232327,
+      "medium": "Tempera on panel",
       "colors": [
         {
           "color": "#4b3232",
@@ -6118,6 +6254,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/232327",
+      "title": "The Adoration of the Magi",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:DDC252560_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": "Ferrara",
@@ -6132,17 +6270,17 @@
         "deathplace": "Ferrara",
         "displayorder": 1
       },
+      "date": "c. 1480",
       "dimensions": [
         "38.7 x 38.4 cm (15 1/4 x 15 1/8 in.)",
         "framed: 50 x 48.9 x 5.3 cm (19 11/16 x 19 1/4 x 2 1/16 in.)"
       ],
-      "date": "c. 1480"
+      "display_order": 69,
+      "page": 1
     },
     {
-      "medium": "Tempera on linden wood",
-      "title": "Head of Christ",
-      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV203012_dynmc",
       "id": 97541,
+      "medium": "Tempera on linden wood",
       "colors": [
         {
           "color": "#191919",
@@ -6216,6 +6354,8 @@
         }
       ],
       "url": "https://www.harvardartmuseums.org/collections/object/97541",
+      "title": "Head of Christ",
+      "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV203012_dynmc",
       "artist": {
         "role": "Artist",
         "birthplace": null,
@@ -6230,10 +6370,12 @@
         "deathplace": null,
         "displayorder": 1
       },
+      "date": "18th century",
       "dimensions": [
         "39.37 x 31.75 x 2.54 cm (15 1/2 x 12 1/2 x 1 in.)"
       ],
-      "date": "18th century"
+      "display_order": 70,
+      "page": 1
     }
   ],
   "count": 71
