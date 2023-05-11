@@ -1,16 +1,24 @@
 import { rest } from "msw";
 
+const HAM_PAGE_MAX = 2;
+
+function getApiParams(params: URLSearchParams) {
+  let page = Number(params.get("page")) ?? 1;
+  let source = params.get("source");
+
+  if (source !== "ham") source = "ham";
+  if (page < 1 || page > HAM_PAGE_MAX) page = 1;
+
+  return { page, source };
+}
+
 export const handlers = [
   rest.get("/api/paintings", async (req, res, ctx) => {
-    const fetchRes = await fetch("/ham_paintings_1.json");
+    const { page, source } = getApiParams(req.url.searchParams);
+    const fetchRes = await fetch(`/${source}_paintings_${page}.json`);
     const paintingsResponse = await fetchRes.json();
-    const maxRecords = paintingsResponse.records.length;
-    const offset = Number(req.url.searchParams.get("offset") ?? "0");
-    const limit = Number(req.url.searchParams.get("limit") ?? "20");
-    const first = offset < 0 ? 0 : offset;
-    const last = Math.min(first + limit, maxRecords);
-    const records = paintingsResponse.records.slice(first, last);
+    const records = paintingsResponse.records;
 
-    return res(ctx.status(200), ctx.json({ records, count: maxRecords }));
+    return res(ctx.status(200), ctx.json({ records, page_max: HAM_PAGE_MAX }));
   }),
 ];

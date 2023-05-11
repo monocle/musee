@@ -16,8 +16,8 @@ export default function Painting() {
   const [, setIdx] = useLocalStorage("paintingIdx", paintingIdx);
   const [isImgLoaded, setIsImgLoaded] = useState(false);
   const { isLoading, isError, data, error } = useGetPaintings({
-    offset: 0,
-    limit: 100,
+    page,
+    source: "ham",
   });
 
   const handleIdxChange = (newIdx: number) => {
