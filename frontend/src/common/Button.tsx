@@ -23,8 +23,12 @@ export default function Button({
 
   return (
     <button {...rest} className={fullClassName}>
-      {text}
-      {children}
+      {!isLoading && (
+        <>
+          {text}
+          {children}
+        </>
+      )}
     </button>
   );
 }

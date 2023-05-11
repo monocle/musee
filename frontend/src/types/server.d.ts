@@ -36,7 +36,7 @@ interface Painting {
 }
 
 interface PaintingsResponse {
-  count: number;
+  page_max: number;
   records: Painting[];
 }
 

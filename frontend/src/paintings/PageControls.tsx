@@ -1,64 +1,62 @@
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import Button from "../common/Button";
 
 interface Props {
-  offset: number;
-  limit: number;
-  total: number;
-  showDetails?: boolean;
+  page: number;
+  pageMax: number;
+  isLoading?: boolean;
   className?: string;
-  onOffsetChange: (newOffset: number) => void;
+  onPageChange: (newPage: number) => void;
 }
 
 export default function PageControls({
-  offset,
-  limit,
-  total,
-  showDetails = true,
+  page,
+  pageMax,
+  isLoading = false,
   className = "",
-  onOffsetChange,
+  onPageChange,
 }: Props) {
-  const lastPos = offset + Math.min(limit, total - offset);
-  const isFirstPage = offset === 0;
-  const isLastPage = lastPos >= total;
-
-  const handleDecrement = () => {
-    const newOffset = offset - limit;
-    onOffsetChange(newOffset < 0 ? 0 : newOffset);
+  const [lastClicked, setLastClicked] = useState<"next" | "prev">("prev");
+  const handleIncrement = () => {
+    if (page > pageMax) return;
+    onPageChange(page + 1);
+    setLastClicked("next");
   };
 
-  const handleIncrement = () => {
-    const newOffset = offset + limit;
-    onOffsetChange(newOffset > total ? total : newOffset);
+  const handleDecrement = () => {
+    if (page < 1) return;
+    onPageChange(page - 1);
+    setLastClicked("prev");
   };
 
   return (
     <div className={`btn-group ${className}`}>
-      <button
-        className="btn-sm btn"
-        disabled={isFirstPage}
+      <Button
+        className="btn-sm"
+        disabled={page === 1 || isLoading}
+        isLoading={isLoading && lastClicked === "prev"}
         onClick={handleDecrement}
       >
         <FontAwesomeIcon icon={faChevronLeft} />
-      </button>
+      </Button>
+
       <button className="btn-disabled btn-sm btn">
-        {showDetails && (
-          <>
-            {offset + 1} {offset !== lastPos - 1 && `- ${lastPos}`} / {total}
-          </>
-        )}
+        {page} / {pageMax}
       </button>
 
-      <button
+      <Button
         className="btn-sm btn"
-        disabled={isLastPage}
+        disabled={page >= pageMax || isLoading}
+        isLoading={isLoading && lastClicked === "next"}
         onClick={handleIncrement}
       >
         <FontAwesomeIcon icon={faChevronRight} />
-      </button>
+      </Button>
     </div>
   );
 }
