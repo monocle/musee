@@ -30,9 +30,13 @@ const paintingRoute = new Route({
   path: "/explore",
   component: Painting,
   validateSearch: (search: Record<string, unknown>): ExploreParams => {
+    let painting = Number(search?.painting ?? 1);
+
+    if (painting < 1) painting = 1;
+
     return {
       page: Number(search?.page ?? 1),
-      painting: Number(search?.painting ?? 1),
+      painting,
     };
   },
 });
