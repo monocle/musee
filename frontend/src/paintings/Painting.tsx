@@ -15,7 +15,7 @@ export default function Painting() {
   const [, setStoredPage] = useLocalStorage("page", page);
   const [, setIdx] = useLocalStorage("paintingIdx", paintingIdx);
   const [isImgLoaded, setIsImgLoaded] = useState(false);
-  const { isLoading, isError, data, error } = useGetPaintings({
+  const { isLoading, isFetching, isError, data, error } = useGetPaintings({
     page,
     source: "ham",
   });
@@ -34,7 +34,7 @@ export default function Painting() {
   if (isLoading) return <div>Loading...</div>;
   if (isError) return <ErrorMessage error={error} />;
 
-  const painting = data.records[paintingIdx];
+  const painting = data.records[paintingIdx - 1];
   const {
     artist,
     colors,
@@ -58,11 +58,10 @@ export default function Painting() {
         </header>
         <div className="mb-3 mt-2 flex justify-center">
           <PageControls
-            offset={paintingIdx}
-            limit={1}
-            total={data.records.length}
-            showDetails={false}
-            onOffsetChange={handleIdxChange}
+            page={paintingIdx}
+            pageMax={data.records.length}
+            isLoading={isFetching}
+            onPageChange={handleIdxChange}
           />
         </div>
       </div>
