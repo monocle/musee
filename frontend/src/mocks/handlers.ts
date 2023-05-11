@@ -1,5 +1,6 @@
 import { rest } from "msw";
 
+const VITE_BASEPATH: string = import.meta.env.VITE_BASEPATH;
 const HAM_PAGE_MAX = 2;
 
 function getApiParams(params: URLSearchParams) {
@@ -15,7 +16,10 @@ function getApiParams(params: URLSearchParams) {
 export const handlers = [
   rest.get("/api/paintings", async (req, res, ctx) => {
     const { page, source } = getApiParams(req.url.searchParams);
-    const fetchRes = await fetch(`/${source}_paintings_${page}.json`);
+    const basepath = VITE_BASEPATH ? "/" + VITE_BASEPATH : "";
+    const fetchRes = await fetch(
+      `${basepath}/data/${source}_paintings_${page}.json`
+    );
     const paintingsResponse = await fetchRes.json();
     const records = paintingsResponse.records;
 

@@ -6,10 +6,11 @@ import queryClient from "./queryClient.ts";
 import router from "./router.ts";
 import "./index.css";
 
-const isDemo = import.meta.env.VITE_IS_DEMO;
-const isGithub = import.meta.env.VITE_HOST === "github";
+const VITE_IS_DEMO: boolean = import.meta.env.VITE_IS_DEMO;
+const VITE_BASEPATH: string = import.meta.env.VITE_BASEPATH;
+
 const startWorker = async () => {
-  if (isDemo) {
+  if (VITE_IS_DEMO) {
     const { worker } = await import("./mocks/browser");
     worker.start({
       onUnhandledRequest: "bypass",
@@ -25,7 +26,7 @@ startWorker();
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} basepath={isGithub ? "musee/" : ""} />
+      <RouterProvider router={router} basepath={VITE_BASEPATH} />
     </QueryClientProvider>
   </React.StrictMode>
 );
