@@ -7,11 +7,10 @@ interface Props {
 }
 
 export default function ExploreLink({ className = "", content }: Props) {
-  const [page] = useLocalStorage("page", 1);
   const [painting] = useLocalStorage("paintingIdx", 1);
 
   return (
-    <Link className={className} to="/explore" search={{ page, painting }}>
+    <Link className={className} to="/explore" search={{ painting }}>
       {content}
     </Link>
   );

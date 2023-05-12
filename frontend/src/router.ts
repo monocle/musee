@@ -4,8 +4,7 @@ import Landing from "./pages/Landing";
 import Paintings from "./paintings/Paintings";
 import Painting from "./paintings/Painting";
 
-interface ExploreParams {
-  page: number;
+interface ExploreSearchParams {
   painting: number;
 }
 
@@ -29,14 +28,11 @@ const paintingRoute = new Route({
   getParentRoute: () => rootRoute,
   path: "/explore",
   component: Painting,
-  validateSearch: (search: Record<string, unknown>): ExploreParams => {
-    let painting = Number(search?.painting ?? 1);
-
-    if (painting < 1) painting = 1;
+  validateSearch: (search: Record<string, unknown>): ExploreSearchParams => {
+    const painting = Number(search?.painting ?? 1);
 
     return {
-      page: Number(search?.page ?? 1),
-      painting,
+      painting: painting < 1 ? 1 : painting,
     };
   },
 });
