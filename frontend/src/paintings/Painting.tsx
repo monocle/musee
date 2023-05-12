@@ -3,12 +3,13 @@ import { useSearch, useNavigate } from "@tanstack/react-router";
 import useLocalStorage from "../services/useLocalStorage";
 import { useGetPainting } from "./usePaintingsApi";
 import useFetchImage from "../services/useFetchImage";
+import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
 import Logo from "../pages/Logo";
 import MenuIcon from "../icons/MenuIcon";
 import PageControls from "./PageControls";
-import Spinner from "../icons/Spinner";
 import ThemeIcon from "../icons/ThemeIcon";
+import Spinner from "../icons/Spinner";
 
 export default function Painting() {
   const navigate = useNavigate();
@@ -29,7 +30,9 @@ export default function Painting() {
     setIsImgLoaded(false);
   };
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading) {
+    return <CenterScreenSpinner />;
+  }
 
   if (isError) {
     if (error?.type === "missing") {
@@ -125,7 +128,7 @@ export default function Painting() {
             )}
           </li>
           {colors.slice(0, 5).map((color) => (
-            <li className="mb-3 lg:text-sm" key={color.color}>
+            <li className="mb-3 lg:text-xs" key={color.color}>
               <div className="flex">
                 <div className="w-2/3">
                   {color.hue} ({color.color})

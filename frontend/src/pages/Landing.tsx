@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "./Header";
-import Spinner from "../icons/Spinner";
 import ExploreLink from "../common/ExploreLink";
+import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import BriefPaintingInfo from "../paintings/BriefPaintingInfo";
 
 const heroPainting: Painting = {
@@ -41,11 +41,7 @@ export default function Landing() {
   return (
     <>
       <Header />
-      {!isImgLoaded && (
-        <div className="hero h-[80vh]">
-          <Spinner />
-        </div>
-      )}
+      {!isImgLoaded && <CenterScreenSpinner />}
       <div
         className={
           isImgLoaded
