@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useSearch, useNavigate } from "@tanstack/react-router";
 import useLocalStorage from "../services/useLocalStorage";
 import { useGetPainting } from "./usePaintingsApi";
+import useFetchImage from "../services/useFetchImage";
 import ErrorMessage from "../common/ErrorMessage";
 import Logo from "../pages/Logo";
 import MenuIcon from "../icons/MenuIcon";
@@ -12,31 +13,28 @@ import ThemeIcon from "../icons/ThemeIcon";
 export default function Painting() {
   const navigate = useNavigate();
   const { painting: paintingIdx } = useSearch({ from: "/explore" });
-  const [, setIdx] = useLocalStorage("paintingIdx", paintingIdx);
+  const [storedIdx, setStoredIdx] = useLocalStorage("paintingIdx", paintingIdx);
   const [isImgLoaded, setIsImgLoaded] = useState(false);
+  const [maxSequence, setMaxSequence] = useState(Infinity);
   const { isLoading, isFetching, isError, data, error } =
     useGetPainting(paintingIdx);
+
+  useFetchImage(paintingIdx < maxSequence ? paintingIdx + 1 : paintingIdx);
 
   const handleIdxChange = (newIdx: number) => {
     if (!data) return;
 
     navigate({ search: { painting: newIdx } });
-    setIdx(newIdx);
+    setStoredIdx(newIdx);
     setIsImgLoaded(false);
   };
 
-  useEffect(() => {
-    setIdx(paintingIdx);
-  }, [paintingIdx, setIdx]);
-
-  useEffect(() => {
-    if (error?.type === "missing") {
-      setIdx(1);
-    }
-  }, [isError, error, setIdx]);
-
   if (isLoading) return <div>Loading...</div>;
+
   if (isError) {
+    if (error?.type === "missing") {
+      setStoredIdx(1);
+    }
     return <ErrorMessage error={error} />;
   }
 
@@ -52,6 +50,14 @@ export default function Painting() {
     url,
   } = painting;
 
+  if (storedIdx !== paintingIdx) {
+    setStoredIdx(paintingIdx);
+  }
+
+  if (maxSequence === Infinity) {
+    setMaxSequence(data.max_sequence);
+  }
+
   return (
     <div className="lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
       <div className="bg-base-200 px-2 pb-2 lg:order-2  lg:w-1/5 lg:px-2">
@@ -65,7 +71,7 @@ export default function Painting() {
         <div className="mb-3 mt-2 flex justify-center">
           <PageControls
             page={paintingIdx}
-            pageMax={data.max_records}
+            pageMax={data.max_sequence}
             isLoading={isFetching}
             onPageChange={handleIdxChange}
           />

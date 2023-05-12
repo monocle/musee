@@ -78,7 +78,7 @@ export const handlers = [
     if (painting) {
       return res(
         ctx.status(200),
-        ctx.json({ painting, max_records: cache.maxRecords })
+        ctx.json({ painting, max_sequence: cache.maxRecords + 1 })
       );
     }
 

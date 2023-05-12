@@ -44,7 +44,7 @@ interface PaintingsResponse {
 
 interface PaintingResponse {
   painting: Painting;
-  max_records: number;
+  max_sequence: number;
 }
 
 interface ServerError {
