@@ -43,7 +43,7 @@ const routeTree = rootRoute.addChildren([
   paintingRoute,
 ]);
 
-const router = new Router({ routeTree });
+const router = new Router({ routeTree, defaultPreload: "intent" });
 
 declare module "@tanstack/router" {
   interface Register {
