@@ -17,7 +17,7 @@ export default function Logo({ className = "", showDemo = true }: Props) {
         Musee
       </Link>
       {isDemo && showDemo && (
-        <span className="badge ml-4 text-xs italic">Demo</span>
+        <span className="badge ml-3 text-xs italic">Demo</span>
       )}
     </div>
   );
