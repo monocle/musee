@@ -18,10 +18,11 @@ export default function ThemeIcon({ className }: Props) {
   };
 
   return (
-    <FontAwesomeIcon
-      icon={theme === "dark" ? faMoon : faSun}
-      className={`text-accent-content ${className}`}
-      onClick={handleThemeChange}
-    />
+    <div className="btn-ghost btn" onClick={handleThemeChange}>
+      <FontAwesomeIcon
+        icon={theme === "dark" ? faMoon : faSun}
+        className={`text-accent-content  ${className}`}
+      />
+    </div>
   );
 }

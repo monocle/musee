@@ -8,7 +8,7 @@ import ErrorMessage from "../common/ErrorMessage";
 import Logo from "../pages/Logo";
 import MenuIcon from "../icons/MenuIcon";
 import PageControls from "./PageControls";
-import ThemeIcon from "../icons/ThemeIcon";
+import ThemeIcon from "../common/ThemeToggler";
 import Spinner from "../icons/Spinner";
 
 export default function Painting() {
