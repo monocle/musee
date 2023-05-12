@@ -16,7 +16,6 @@ export default function Paintings() {
   const { isLoading, isFetching, isError, isSuccess, data, error } =
     useGetPaintings({
       page,
-      source: "ham",
     });
 
   if (isLoading) return <div>Loading...</div>;
@@ -40,7 +39,8 @@ export default function Paintings() {
 
         <table className="table-compact">
           <thead>
-            <tr>
+            <tr className="text-left">
+              <th></th>
               <th>Title</th>
               <th>Artist</th>
               <th>Date</th>
@@ -53,17 +53,12 @@ export default function Paintings() {
           <tbody>
             {isSuccess &&
               data.records.map(
-                ({
-                  artist,
-                  colors,
-                  date,
-                  dimensions,
-                  id,
-                  medium,
-                  title,
-                  url,
-                }) => (
+                (
+                  { artist, colors, date, dimensions, id, medium, title, url },
+                  idx
+                ) => (
                   <tr key={id}>
+                    <td>{idx + 1 + (page - 1) * data.page_size}</td>
                     <td className="whitespace-normal">{title}</td>
                     <td>{artist?.name ?? "Unknown"}</td>
                     <td>{date}</td>

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSearch, useNavigate } from "@tanstack/react-router";
 import useLocalStorage from "../services/useLocalStorage";
-import { useGetPaintings } from "./usePaintingsApi";
+import { useGetPainting } from "./usePaintingsApi";
 import ErrorMessage from "../common/ErrorMessage";
 import Logo from "../pages/Logo";
 import MenuIcon from "../icons/MenuIcon";
@@ -10,31 +10,37 @@ import Spinner from "../icons/Spinner";
 import ThemeIcon from "../icons/ThemeIcon";
 
 export default function Painting() {
-  const { page, painting: paintingIdx } = useSearch({ from: "/explore" });
   const navigate = useNavigate();
-  const [, setStoredPage] = useLocalStorage("page", page);
+  const { painting: paintingIdx } = useSearch({ from: "/explore" });
   const [, setIdx] = useLocalStorage("paintingIdx", paintingIdx);
   const [isImgLoaded, setIsImgLoaded] = useState(false);
-  const { isLoading, isFetching, isError, data, error } = useGetPaintings({
-    page,
-    source: "ham",
-  });
+  const { isLoading, isFetching, isError, data, error } =
+    useGetPainting(paintingIdx);
 
   const handleIdxChange = (newIdx: number) => {
-    navigate({ search: { page, painting: newIdx } });
+    if (!data) return;
+
+    navigate({ search: { painting: newIdx } });
     setIdx(newIdx);
     setIsImgLoaded(false);
   };
 
   useEffect(() => {
-    setStoredPage(page);
     setIdx(paintingIdx);
-  }, [page, paintingIdx, setStoredPage, setIdx]);
+  }, [paintingIdx, setIdx]);
+
+  useEffect(() => {
+    if (error?.type === "missing") {
+      setIdx(1);
+    }
+  }, [isError, error, setIdx]);
 
   if (isLoading) return <div>Loading...</div>;
-  if (isError) return <ErrorMessage error={error} />;
+  if (isError) {
+    return <ErrorMessage error={error} />;
+  }
 
-  const painting = data.records[paintingIdx - 1];
+  const painting = data.painting;
   const {
     artist,
     colors,
@@ -59,7 +65,7 @@ export default function Painting() {
         <div className="mb-3 mt-2 flex justify-center">
           <PageControls
             page={paintingIdx}
-            pageMax={data.records.length}
+            pageMax={data.max_records}
             isLoading={isFetching}
             onPageChange={handleIdxChange}
           />
@@ -89,7 +95,7 @@ export default function Painting() {
 
       <section className="overflow-y-auto bg-base-200 px-4 pb-4 pt-2 lg:order-3 lg:flex lg:w-1/5 lg:flex-1 lg:px-4">
         <ul className="list">
-          <li className="mb-3">{artist?.name ?? "Unknown"}</li>
+          <li className="mb-3 font-bold">{artist?.name ?? "Unknown"}</li>
           {artist?.culture && <li className="mb-3">{artist.culture}</li>}
           {date !== 0 && <li className="mb-3">{date}</li>}
           <li className="mb-3">{medium}</li>

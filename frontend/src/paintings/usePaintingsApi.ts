@@ -3,7 +3,6 @@ import { get } from "../services/fetch";
 
 interface UseGetPaintingsProps {
   page: number;
-  source: string;
 }
 
 export const useGetPaintings = (params: UseGetPaintingsProps) =>
@@ -11,4 +10,11 @@ export const useGetPaintings = (params: UseGetPaintingsProps) =>
     queryKey: ["paintings", params],
     keepPreviousData: true,
     queryFn: () => get("paintings", params),
+  });
+
+export const useGetPainting = (sequence: number) =>
+  useQuery<PaintingResponse, ServerError>({
+    queryKey: ["paintings", sequence],
+    keepPreviousData: true,
+    queryFn: () => get(`paintings/${sequence}`),
   });

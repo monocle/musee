@@ -36,10 +36,18 @@ interface Painting {
 }
 
 interface PaintingsResponse {
+  max_records: number;
   page_max: number;
+  page_size: number;
   records: Painting[];
+}
+
+interface PaintingResponse {
+  painting: Painting;
+  max_records: number;
 }
 
 interface ServerError {
   message: string;
+  type: "missing";
 }
