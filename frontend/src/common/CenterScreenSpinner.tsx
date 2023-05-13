@@ -1,4 +1,4 @@
-import Spinner from "../icons/Spinner";
+import Spinner from "./Spinner";
 
 export default function CenterScreenSpinner() {
   return (

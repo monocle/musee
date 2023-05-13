@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import ExploreLink from "../common/ExploreLink";
 import Logo from "./Logo";
-import MenuIcon from "../icons/MenuIcon";
 import ThemeToggler from "../common/ThemeToggler";
 
 interface Props {
@@ -24,7 +25,7 @@ export default function Header({ showDemo = true }: Props) {
           className="btn-ghost btn"
           onClick={() => setShowNav(!showNav)}
         >
-          <MenuIcon />
+          <FontAwesomeIcon icon={faBars} className="h-5" />
         </label>
         <div
           className={`absolute right-0 top-16 z-50 flex w-44 flex-col items-center gap-2 rounded bg-base-300 py-4 ${

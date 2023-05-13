@@ -21,7 +21,7 @@ export default function ThemeIcon({ className }: Props) {
     <div className="btn-ghost btn" onClick={handleThemeChange}>
       <FontAwesomeIcon
         icon={theme === "dark" ? faMoon : faSun}
-        className={`text-accent-content  ${className}`}
+        className={`h-4 text-accent-content ${className}`}
       />
     </div>
   );
