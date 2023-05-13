@@ -119,7 +119,7 @@ export default function Painting() {
               "None"
             )}
           </li>
-          {colors.slice(0, 5).map((color) => (
+          {colors.map((color) => (
             <li className="mb-3 lg:text-xs" key={color.color}>
               <div className="flex">
                 <div className="w-2/3">
