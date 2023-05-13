@@ -12,7 +12,12 @@ export default function ExploreLink({ className = "", content }: Props) {
   useFetchImage(painting);
 
   return (
-    <Link className={className} to="/explore" search={{ painting }}>
+    <Link
+      className={className}
+      to="/explore"
+      search={{ painting }}
+      activeProps={{ style: { display: "none" } }}
+    >
       {content}
     </Link>
   );

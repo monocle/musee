@@ -5,10 +5,8 @@ import { useGetPainting } from "./usePaintingsApi";
 import useFetchImage from "../services/useFetchImage";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
-import Logo from "../pages/Logo";
-import MenuIcon from "../icons/MenuIcon";
+import Header from "../pages/Header";
 import PageControls from "./PageControls";
-import ThemeIcon from "../common/ThemeToggler";
 import Spinner from "../icons/Spinner";
 
 export default function Painting() {
@@ -63,14 +61,8 @@ export default function Painting() {
 
   return (
     <div className="lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
-      <div className="bg-base-200 px-2 pb-2 lg:order-2  lg:w-1/5 lg:px-2">
-        <header className="flex items-center justify-between">
-          <Logo />
-          <ThemeIcon />
-          <button className="btn-ghost btn-square btn">
-            <MenuIcon />
-          </button>
-        </header>
+      <div className="bg-base-200 px-2 pb-2 lg:order-2 lg:w-1/5 lg:px-2">
+        <Header showDemo={false} />
         <div className="mb-3 mt-2 flex justify-center">
           <PageControls
             page={paintingIdx}
@@ -81,7 +73,7 @@ export default function Painting() {
         </div>
       </div>
 
-      <section className="relative flex w-full items-center justify-center lg:order-1 lg:w-4/5">
+      <section className="relative flex w-full items-center justify-center bg-base-100 lg:order-1 lg:w-4/5">
         {!isImgLoaded && <Spinner className="absolute" />}
         <figure
           className={`flex max-w-full flex-col px-1 lg:h-screen lg:pb-1 ${
@@ -90,7 +82,7 @@ export default function Painting() {
               : "opacity-0"
           }`}
         >
-          <figcaption className="my-2 text-center font-bold">
+          <figcaption className="my-4 text-center font-bold lg:my-2">
             {title}
           </figcaption>
           <img
