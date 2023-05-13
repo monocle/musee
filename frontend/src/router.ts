@@ -4,8 +4,10 @@ import Landing from "./pages/Landing";
 import Paintings from "./paintings/Paintings";
 import Painting from "./paintings/Painting";
 
-interface ExploreSearchParams {
-  painting: number;
+declare module "@tanstack/router" {
+  interface Register {
+    router: typeof router;
+  }
 }
 
 const rootRoute = new RootRoute({
@@ -18,17 +20,37 @@ const landingRoute = new Route({
   component: Landing,
 });
 
-const paintingsRoute = new Route({
+const collectionsRoute = new Route({
   getParentRoute: () => rootRoute,
-  path: "/paintings",
+  path: "/collections",
+});
+
+const collectionRoute = new Route({
+  getParentRoute: () => collectionsRoute,
+  path: "$collectionName",
   component: Paintings,
+  validateSearch: (
+    search: Record<string, unknown>
+  ): {
+    page: number;
+  } => {
+    const page = Number(search?.page ?? 1);
+
+    return {
+      page: page < 1 ? 1 : page,
+    };
+  },
 });
 
 const paintingRoute = new Route({
   getParentRoute: () => rootRoute,
   path: "/explore",
   component: Painting,
-  validateSearch: (search: Record<string, unknown>): ExploreSearchParams => {
+  validateSearch: (
+    search: Record<string, unknown>
+  ): {
+    painting: number;
+  } => {
     const painting = Number(search?.painting ?? 1);
 
     return {
@@ -39,16 +61,10 @@ const paintingRoute = new Route({
 
 const routeTree = rootRoute.addChildren([
   landingRoute,
-  paintingsRoute,
+  collectionsRoute.addChildren([collectionRoute]),
   paintingRoute,
 ]);
 
 const router = new Router({ routeTree, defaultPreload: "intent" });
-
-declare module "@tanstack/router" {
-  interface Register {
-    router: typeof router;
-  }
-}
 
 export default router;
