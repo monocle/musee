@@ -10,12 +10,13 @@ const VITE_IS_DEMO: boolean = import.meta.env.VITE_IS_DEMO;
 const VITE_BASEPATH: string = import.meta.env.VITE_BASEPATH;
 
 const startWorker = async () => {
+  const basePath = VITE_BASEPATH ? "/" + VITE_BASEPATH : "";
   if (VITE_IS_DEMO) {
     const { worker } = await import("./mocks/browser");
     worker.start({
       onUnhandledRequest: "bypass",
       serviceWorker: {
-        url: "./mockServiceWorker.js",
+        url: basePath + "/mockServiceWorker.js",
       },
     });
   }
