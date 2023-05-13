@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import ExploreLink from "../common/ExploreLink";
+import ExploreLink from "./ExploreLink";
 import Logo from "./Logo";
-import ThemeToggler from "../common/ThemeToggler";
+import ThemeToggler from "./ThemeToggler";
 
 interface Props {
   showDemo?: boolean;

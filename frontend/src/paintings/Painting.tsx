@@ -7,7 +7,7 @@ import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
 import Header from "../pages/Header";
 import PageControls from "./PageControls";
-import Spinner from "../icons/Spinner";
+import Spinner from "../common/Spinner";
 
 export default function Painting() {
   const navigate = useNavigate();

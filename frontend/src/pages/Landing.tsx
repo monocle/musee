@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "./Header";
-import ExploreLink from "../common/ExploreLink";
+import ExploreLink from "./ExploreLink";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import BriefPaintingInfo from "../paintings/BriefPaintingInfo";
 
