@@ -34,14 +34,31 @@ export default function Header({ showDemo = true }: Props) {
         >
           <ExploreLink
             content="Explore"
-            className="btn-ghost btn font-semibold hover:text-blue-500"
+            className="btn-ghost btn w-full font-semibold hover:text-blue-500"
           />
+
+          <div className="mt-4 border-b border-base-100 py-2 text-xs italic text-base-content">
+            Collections
+          </div>
+
           <Link
-            to="/paintings"
-            className="btn-ghost btn font-semibold hover:text-blue-500"
+            className="btn-ghost btn w-full font-semibold hover:text-blue-500"
+            to="/collections/$collectionName"
+            params={{ collectionName: "favorites" }}
+            search={{ page: 1 }}
             activeProps={{ style: { display: "none" } }}
           >
-            Paintings
+            Favorites
+          </Link>
+
+          <Link
+            className="btn-ghost btn w-full font-semibold hover:text-blue-500"
+            to="/collections/$collectionName"
+            params={{ collectionName: "ham" }}
+            search={{ page: 1 }}
+            activeProps={{ style: { display: "none" } }}
+          >
+            HAM
           </Link>
         </div>
         <ThemeToggler />

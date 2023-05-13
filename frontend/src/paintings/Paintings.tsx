@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import { useSearch, useNavigate, useParams } from "@tanstack/react-router";
 import { useGetPaintings } from "./usePaintingsApi";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
@@ -13,17 +14,26 @@ function toPercent(num: number, minimumFractionDigits = 0) {
 }
 
 export default function Paintings() {
-  const [page, setPage] = useState(1);
+  const navigate = useNavigate();
+  const { collectionName } = useParams({
+    from: "/collections/$collectionName",
+  });
+  const search = useSearch({
+    from: "/collections/$collectionName",
+    strict: false,
+  });
+  const page = search?.page ?? 1;
   const { isLoading, isFetching, isError, isSuccess, data, error } =
-    useGetPaintings({
-      page,
-    });
+    useGetPaintings({ page, collectionName });
+  const handlePageChange = (newPage: number) =>
+    navigate({ search: { page: newPage } });
 
   if (isError) return <ErrorMessage error={error} />;
 
   return (
-    <div className="">
+    <div>
       <Header />
+
       <section>
         <h2 className="mb-4 text-center font-heading text-2xl font-bold">
           Paintings
@@ -36,7 +46,7 @@ export default function Paintings() {
                 page={page}
                 pageMax={data.page_max}
                 isLoading={isFetching}
-                onPageChange={(newPage) => setPage(newPage)}
+                onPageChange={handlePageChange}
               />
             </div>
 

@@ -3,6 +3,7 @@ import { get } from "../services/fetch";
 
 interface UseGetPaintingsProps {
   page: number;
+  collectionName: string;
 }
 
 export const useGetPaintings = (params: UseGetPaintingsProps) =>

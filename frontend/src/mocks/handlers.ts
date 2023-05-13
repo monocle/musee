@@ -22,7 +22,9 @@ class Cache {
     return painting;
   }
 
-  async getPage(page: number) {
+  async getPage(collectionName: string, page: number) {
+    if (collectionName !== "ham") return [];
+
     const startIdx = (page - 1) * this.pageSize;
     const stopIdx = page * this.pageSize;
     let records = this.paintings.slice(startIdx, stopIdx);
@@ -57,7 +59,8 @@ const cache = new Cache();
 export const handlers = [
   rest.get("/api/paintings", async (req, res, ctx) => {
     const page = Number(req.url.searchParams.get("page")) ?? 1;
-    const records = await cache.getPage(page < 1 ? 1 : page);
+    const collectionName = req.url.searchParams.get("collectionName") ?? "ham";
+    const records = await cache.getPage(collectionName, page < 1 ? 1 : page);
 
     return res(
       ctx.status(200),
