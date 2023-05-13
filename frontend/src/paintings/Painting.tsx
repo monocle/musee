@@ -7,6 +7,7 @@ import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
 import Header from "../pages/Header";
 import PageControls from "./PageControls";
+import PlusButton from "./PlusButton";
 import Spinner from "../common/Spinner";
 
 export default function Painting() {
@@ -63,13 +64,15 @@ export default function Painting() {
     <div className="lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
       <div className="bg-base-200 px-2 pb-2 lg:order-2 lg:w-1/5 lg:px-2">
         <Header showDemo={false} />
-        <div className="mb-3 mt-2 flex justify-center">
+
+        <div className="mb-3 mt-2 flex items-center justify-around">
           <PageControls
             page={paintingIdx}
             pageMax={data.max_sequence}
             isLoading={isFetching}
             onPageChange={handleIdxChange}
           />
+          <PlusButton />
         </div>
       </div>
 
