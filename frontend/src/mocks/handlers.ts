@@ -1,19 +1,33 @@
 import { rest } from "msw";
+import axios from "axios";
 
 const VITE_BASEPATH: string = import.meta.env.VITE_BASEPATH;
 
 class Cache {
-  basepath = VITE_BASEPATH ? "/" + VITE_BASEPATH : "";
+  basepath = (VITE_BASEPATH ? "/" + VITE_BASEPATH : "") + "/data";
   nextFileNum = 1;
   pageSize = 20;
-  maxRecords = 141;
+  #totalRecords = 0;
+  #recordsPerFile = 0;
   paintings: Painting[] = [];
 
-  get numPages() {
-    return Math.ceil(this.maxRecords / this.pageSize);
+  async totalRecords() {
+    if (this.#totalRecords === 0) await this.#fetchSummary();
+    return this.#totalRecords;
   }
 
-  async getSequence(sequence: number) {
+  async recordsPerFile() {
+    if (this.#recordsPerFile === 0) await this.#fetchSummary();
+    return this.#recordsPerFile;
+  }
+
+  async maxPages() {
+    return Math.ceil((await this.totalRecords()) / this.pageSize);
+  }
+
+  async getSequence(collectionName: string, sequence: number) {
+    if (collectionName !== "ham") return null;
+
     let painting = this.paintings[sequence - 1];
 
     if (!painting) await this.#fetchNext();
@@ -42,7 +56,7 @@ class Cache {
 
     try {
       const fetchRes = await fetch(
-        `${this.basepath}/data/ham_paintings_${this.nextFileNum}.json`
+        `${this.basepath}/ham_${this.nextFileNum}.json`
       );
       const data = await fetchRes.json();
 
@@ -52,36 +66,49 @@ class Cache {
       this.nextFileNum = 0;
     }
   }
+
+  async #fetchSummary() {
+    const res = await axios.get<HAMSummary>(
+      `${this.basepath}/ham_summary.json`
+    );
+
+    this.#totalRecords = res.data.totalRecords;
+    this.#recordsPerFile = res.data.recordsPerFile;
+  }
 }
 
 const cache = new Cache();
 
 export const handlers = [
-  rest.get("/api/paintings", async (req, res, ctx) => {
+  rest.get("/api/collections", async (req, res, ctx) => {
     const page = Number(req.url.searchParams.get("page")) ?? 1;
     const collectionName = req.url.searchParams.get("collectionName") ?? "ham";
     const records = await cache.getPage(collectionName, page < 1 ? 1 : page);
+    const maxRecords = await cache.totalRecords();
+    const maxPages = await cache.maxPages();
 
     return res(
       ctx.status(200),
       ctx.json({
         records,
-        page_max: cache.numPages,
-        page_size: cache.pageSize,
-        max_records: cache.maxRecords,
+        maxPages,
+        pageSize: cache.pageSize,
+        maxRecords,
       })
     );
   }),
 
-  rest.get("/api/paintings/:sequence", async (req, res, ctx) => {
+  rest.get("/api/collections/:collection/:sequence", async (req, res, ctx) => {
     const painting = await cache.getSequence(
+      req.params.collection as string,
       Number(req.params.sequence as string)
     );
+    const maxSequence = await cache.totalRecords();
 
     if (painting) {
       return res(
         ctx.status(200),
-        ctx.json({ painting, max_sequence: cache.maxRecords + 1 })
+        ctx.json({ painting, maxSequence: maxSequence + 1 })
       );
     }
 

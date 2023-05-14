@@ -8,7 +8,7 @@ import Button from "../common/Button";
 
 interface Props {
   page: number;
-  pageMax: number;
+  maxPages: number;
   isLoading?: boolean;
   className?: string;
   onPageChange: (newPage: number) => void;
@@ -16,14 +16,14 @@ interface Props {
 
 export default function PageControls({
   page,
-  pageMax,
+  maxPages,
   isLoading = false,
   className = "",
   onPageChange,
 }: Props) {
   const [lastClicked, setLastClicked] = useState<"next" | "prev">("prev");
   const handleIncrement = () => {
-    if (page > pageMax) return;
+    if (page > maxPages) return;
     onPageChange(page + 1);
     setLastClicked("next");
   };
@@ -46,12 +46,12 @@ export default function PageControls({
       </Button>
 
       <button className="btn-disabled btn-sm btn">
-        {page} / {pageMax}
+        {page} / {maxPages}
       </button>
 
       <Button
         className="btn-sm btn"
-        disabled={page >= pageMax || isLoading}
+        disabled={page >= maxPages || isLoading}
         isLoading={isLoading && lastClicked === "next"}
         onClick={handleIncrement}
       >

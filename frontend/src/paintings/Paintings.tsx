@@ -44,7 +44,7 @@ export default function Paintings() {
             <div className="text-center">
               <PageControls
                 page={page}
-                pageMax={data.page_max}
+                maxPages={data.maxPages}
                 isLoading={isFetching}
                 onPageChange={handlePageChange}
               />
@@ -80,7 +80,7 @@ export default function Paintings() {
                       idx
                     ) => (
                       <tr key={id}>
-                        <td>{idx + 1 + (page - 1) * data.page_size}</td>
+                        <td>{idx + 1 + (page - 1) * data.pageSize}</td>
                         <td className="whitespace-normal">{title}</td>
                         <td>{artist?.name ?? "Unknown"}</td>
                         <td>{date}</td>

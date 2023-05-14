@@ -12,14 +12,19 @@ import Spinner from "../common/Spinner";
 
 export default function Painting() {
   const navigate = useNavigate();
-  const { painting: paintingIdx } = useSearch({ from: "/explore" });
+  const { painting: paintingIdx, collection } = useSearch({ from: "/explore" });
   const [storedIdx, setStoredIdx] = useLocalStorage("paintingIdx", paintingIdx);
   const [isImgLoaded, setIsImgLoaded] = useState(false);
   const [maxSequence, setMaxSequence] = useState(Infinity);
-  const { isLoading, isFetching, isError, data, error } =
-    useGetPainting(paintingIdx);
+  const { isLoading, isFetching, isError, data, error } = useGetPainting(
+    collection,
+    paintingIdx
+  );
 
-  useFetchImage(paintingIdx < maxSequence ? paintingIdx + 1 : paintingIdx);
+  useFetchImage(
+    collection,
+    paintingIdx < maxSequence ? paintingIdx + 1 : paintingIdx
+  );
 
   const handleIdxChange = (newIdx: number) => {
     if (!data) return;
@@ -57,7 +62,7 @@ export default function Painting() {
   }
 
   if (maxSequence === Infinity) {
-    setMaxSequence(data.max_sequence);
+    setMaxSequence(data.maxSequence);
   }
 
   return (
@@ -66,10 +71,10 @@ export default function Painting() {
         <Header showDemo={false} />
 
         <div className="mb-3 mt-2 flex items-center justify-around">
-          <FavoriteToggle painting={painting} />
+          <FavoriteToggle />
           <PageControls
             page={paintingIdx}
-            pageMax={data.max_sequence}
+            maxPages={data.maxSequence}
             isLoading={isFetching}
             onPageChange={handleIdxChange}
           />

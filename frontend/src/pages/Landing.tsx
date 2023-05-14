@@ -32,7 +32,7 @@ const heroPainting: Painting = {
     "mounting, including cord and roller ends: H. 132.7 x W. 54.6 cm (52 1/4 x 21 1/2 in.)",
   ],
   page: 0,
-  display_order: 0,
+  sequence: 0,
 };
 
 export default function Landing() {

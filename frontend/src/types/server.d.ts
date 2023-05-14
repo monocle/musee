@@ -26,7 +26,7 @@ interface Painting {
   colors: Color[];
   date: string | number;
   dimensions: string[];
-  display_order: number;
+  sequence: number;
   id: number;
   medium: string;
   page: number;
@@ -36,18 +36,23 @@ interface Painting {
 }
 
 interface PaintingsResponse {
-  max_records: number;
-  page_max: number;
-  page_size: number;
+  maxRecords: number;
+  maxPages: number;
+  pageSize: number;
   records: Painting[];
 }
 
 interface PaintingResponse {
   painting: Painting;
-  max_sequence: number;
+  maxSequence: number;
 }
 
 interface ServerError {
   message: string;
   type: "missing";
+}
+
+interface HAMSummary {
+  totalRecords: number;
+  recordsPerFile: number;
 }
