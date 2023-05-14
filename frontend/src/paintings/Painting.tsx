@@ -7,7 +7,7 @@ import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
 import Header from "../pages/Header";
 import PageControls from "./PageControls";
-import PlusButton from "./PlusButton";
+import FavoriteToggle from "./FavoriteToggle";
 import Spinner from "../common/Spinner";
 
 export default function Painting() {
@@ -66,13 +66,13 @@ export default function Painting() {
         <Header showDemo={false} />
 
         <div className="mb-3 mt-2 flex items-center justify-around">
+          <FavoriteToggle painting={painting} />
           <PageControls
             page={paintingIdx}
             pageMax={data.max_sequence}
             isLoading={isFetching}
             onPageChange={handleIdxChange}
           />
-          <PlusButton />
         </div>
       </div>
 
