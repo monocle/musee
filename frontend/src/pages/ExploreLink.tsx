@@ -8,14 +8,15 @@ interface Props {
 }
 
 export default function ExploreLink({ className = "", content }: Props) {
+  const collection = "ham";
   const [painting] = useLocalStorage("paintingIdx", 1);
-  useFetchImage(painting);
+  useFetchImage(collection, painting);
 
   return (
     <Link
       className={className}
       to="/explore"
-      search={{ painting }}
+      search={{ collection, painting }}
       activeProps={{ style: { display: "none" } }}
     >
       {content}

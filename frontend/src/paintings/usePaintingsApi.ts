@@ -8,14 +8,14 @@ interface UseGetPaintingsProps {
 
 export const useGetPaintings = (params: UseGetPaintingsProps) =>
   useQuery<PaintingsResponse, ServerError>({
-    queryKey: ["paintings", params],
+    queryKey: ["collections", params],
     keepPreviousData: true,
-    queryFn: () => get("paintings", params),
+    queryFn: () => get("collections", params),
   });
 
-export const useGetPainting = (sequence: number) =>
+export const useGetPainting = (collection: string, sequence: number) =>
   useQuery<PaintingResponse, ServerError>({
-    queryKey: ["paintings", sequence],
+    queryKey: ["collections", collection, sequence],
     keepPreviousData: true,
-    queryFn: () => get(`paintings/${sequence}`),
+    queryFn: () => get(`collections/${collection}/${sequence}`),
   });

@@ -3,11 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
 import Button from "../common/Button";
 
-interface Props {
-  painting: Painting;
-}
-
-export default function FavoriteToggle({ painting }: Props) {
+export default function FavoriteToggle() {
   const [isFavorite, setIsFavorite] = useState(false);
   const icon = isFavorite ? faMinus : faPlus;
   const color = isFavorite ? "text-warning" : "text-success";

@@ -42,18 +42,21 @@ const collectionRoute = new Route({
   },
 });
 
-const paintingRoute = new Route({
+const exploreRoute = new Route({
   getParentRoute: () => rootRoute,
   path: "/explore",
   component: Painting,
   validateSearch: (
     search: Record<string, unknown>
   ): {
+    collection: string;
     painting: number;
   } => {
+    const collection = String(search?.collection ?? "ham");
     const painting = Number(search?.painting ?? 1);
 
     return {
+      collection,
       painting: painting < 1 ? 1 : painting,
     };
   },
@@ -62,7 +65,7 @@ const paintingRoute = new Route({
 const routeTree = rootRoute.addChildren([
   landingRoute,
   collectionsRoute.addChildren([collectionRoute]),
-  paintingRoute,
+  exploreRoute,
 ]);
 
 const router = new Router({ routeTree, defaultPreload: "intent" });
