@@ -58,8 +58,9 @@ class APIObject(HAMBaseObject):
     artist: HAMPerson
     date: str | int
     dimensions: list[str]
-    display_order: int
-    page: int
+    sequence: int
+    source: Literal["ham"]
+    fetch_date: str
 
 
 class HAMResponse(TypedDict):
@@ -67,6 +68,6 @@ class HAMResponse(TypedDict):
     records: list[HAMObject]
 
 
-class DataChunk(TypedDict):
+class DataFile(TypedDict):
     count: int
     records: list[APIObject]

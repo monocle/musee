@@ -23,6 +23,7 @@ services:
     image: musee-backend
     env_file: ./backend/.env
     stdin_open: true
+    command: bash
     volumes:
       - .:/home/appuser/src
     networks:

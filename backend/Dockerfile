@@ -22,7 +22,7 @@ ENV FLASK_APP=/home/appuser/src/backend/src/app
 
 
 RUN useradd --create-home appuser
-WORKDIR /home/appuser/src
+WORKDIR /home/appuser/src/backend
 USER appuser
 
-CMD ["/bin/bash"]
+CMD ["bash"]

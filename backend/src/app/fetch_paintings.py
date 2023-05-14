@@ -1,50 +1,66 @@
 import json
-import os
 import ssl
 import urllib.request
-from typing import cast
+from datetime import datetime
+from itertools import islice
+from typing import Iterable, Iterator, Optional, Tuple, TypeVar, cast
 from urllib.parse import urlencode
 
-from app.interface.ham_types import APIObject, DataChunk, HAMBaseObject, HAMObject
+from app.interface.ham_types import (
+    APIObject,
+    DataFile,
+    HAMBaseObject,
+    HAMObject,
+    HAMPerson,
+)
+from app.paths import dotenv_path, frontend_data_dir
 from dotenv import dotenv_values
 
+T = TypeVar("T")
 
-def write_json(filename: str, data: DataChunk):
-    with open(filename, "w", encoding="utf-8") as file:
+
+def chunked(seq: Iterable[T], chunk_size: int) -> Iterator[Tuple[int, list[T]]]:
+    iterator = iter(seq)
+    i = 0
+
+    while chunk := list(islice(iterator, chunk_size)):
+        yield i, chunk
+        i += 1
+
+
+def write_json(filepath: str, data: dict | DataFile):
+    with open(filepath, "w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
 
 
-def filter_records(records: list[HAMObject]):
-    return [
+def get_artist(people: list[HAMPerson]) -> Optional[HAMPerson]:
+    return next((person for person in people if person["role"] == "Artist"), None)
+
+
+def filter_records(records: Iterable[HAMObject]) -> Iterator[HAMObject]:
+    return (
         record
         for record in records
         if record.get("primaryimageurl")
         and record.get("imagepermissionlevel", 1) == 0
         and record.get("people")
-    ]
+        and get_artist(record.get("people", []))
+    )
 
 
-def transform_records(records: list[HAMObject], page: int) -> list[APIObject]:
-    """
-    Assumes there is always an "Artist" in record["people"]
-    """
-    api_records: list[APIObject] = []
-
+def transform_records(records: Iterator[HAMObject]) -> Iterator[APIObject]:
     for idx, record in enumerate(records):
-        artist = next(
-            person for person in record["people"] if person["role"] == "Artist"
-        )
+        artist = get_artist(record["people"])
         base_object = {key: record.get(key) for key in HAMBaseObject.__required_keys__}
         base_object["artist"] = artist
         base_object["date"] = record["dated"] or record["dateend"] or "Unknown"
         base_object["dimensions"] = (
             record["dimensions"].split("\r\n") if record["dimensions"] else []
         )
-        base_object["display_order"] = idx
-        base_object["page"] = page
-        api_records.append(cast(APIObject, base_object))
-
-    return api_records
+        base_object["sequence"] = idx + 1
+        base_object["source"] = "ham"
+        base_object["fetch_date"] = datetime.now().strftime("%Y-%m-%d")
+        yield cast(APIObject, base_object)
 
 
 def fetch_data(url: str, params=None):
@@ -61,16 +77,16 @@ def fetch_data(url: str, params=None):
     return status_code, data
 
 
-def fetch_ham_paintings(page=1, num_records=None, should_write=False) -> None:
-    dotenv_path = os.path.join(os.path.dirname(__file__), "..", "..", ".env")
+def fetch_ham_paintings(page=1, num_records=None) -> list[HAMObject]:
     ham_api_key = dotenv_values(dotenv_path).get("HAM_API_KEY")
 
     if not ham_api_key:
         print("HAM API key not found")
-        return
+        return []
 
     url = "https://api.harvardartmuseums.org/object"
     max_per_page = 100  # API default is 10
+    seed = 4
     response_fields = [
         "colors",
         "dated",
@@ -87,23 +103,39 @@ def fetch_ham_paintings(page=1, num_records=None, should_write=False) -> None:
     params = {
         "classification": "Paintings",
         "hasimage": 1,
-        "sort": "random:1",  # 1 is a seed number
+        "sort": f"random:{seed}",
         "size": num_records or max_per_page,
         "fields": ",".join(response_fields),
         "page": page,
     }
 
     status_code, data = fetch_data(url, {**params, "apikey": ham_api_key})
-    records = transform_records(filter_records(data["records"]), page)
-    data_chunk: DataChunk = {"records": records, "count": len(records)}
 
     if status_code == 200:
-        if should_write:
-            write_json(f"ham_paintings_{page}.json", data_chunk)
-        else:
-            print(data_chunk["records"][0:5])
+        return data["records"]
     else:
         print(f"error: {status_code}\n {data}")
+        return []
 
 
-fetch_ham_paintings(page=2, should_write=True)
+def create_ham_data_files(num_pages=4, num_records=100, page_size=100) -> None:
+    records = []
+    for page in range(1, num_pages + 1):
+        records += fetch_ham_paintings(page=page, num_records=num_records)
+
+    api_records = transform_records(filter_records(records))
+    total_records = 0
+
+    for i, chunk in chunked(api_records, page_size):
+        data_filepath = frontend_data_dir / f"ham_{i+1}.json"
+        len_chunk = len(chunk)
+        data: DataFile = {"records": chunk, "count": len_chunk}
+        write_json(str(data_filepath), data)
+        total_records += len_chunk
+
+    summary_filepath = frontend_data_dir / f"ham_summary.json"
+    summary = {"totalRecords": total_records, "recordsPerFile": page_size}
+    write_json(str(summary_filepath), summary)
+
+
+create_ham_data_files()
