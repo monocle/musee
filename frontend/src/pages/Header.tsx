@@ -47,6 +47,7 @@ export default function Header({ showDemo = true }: Props) {
             params={{ collectionName: "favorites" }}
             search={{ page: 1 }}
             activeProps={{ style: { display: "none" } }}
+            onClick={() => setShowNav(false)}
           >
             Favorites
           </Link>
@@ -57,6 +58,7 @@ export default function Header({ showDemo = true }: Props) {
             params={{ collectionName: "ham" }}
             search={{ page: 1 }}
             activeProps={{ style: { display: "none" } }}
+            onClick={() => setShowNav(false)}
           >
             HAM
           </Link>
