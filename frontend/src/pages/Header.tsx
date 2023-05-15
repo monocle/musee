@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Link } from "@tanstack/react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import CollectionLink from "./CollectionLink";
 import ExploreLink from "./ExploreLink";
 import Logo from "./Logo";
 import ThemeToggler from "./ThemeToggle";
@@ -41,27 +41,17 @@ export default function Header({ showDemo = true }: Props) {
             Collections
           </div>
 
-          <Link
-            className="btn-ghost btn w-full font-semibold hover:text-blue-500"
-            to="/collections/$collectionName"
-            params={{ collectionName: "favorites" }}
-            search={{ page: 1 }}
-            activeProps={{ style: { display: "none" } }}
+          <CollectionLink
+            collectionName="favorites"
+            content="Favorites"
             onClick={() => setShowNav(false)}
-          >
-            Favorites
-          </Link>
+          />
 
-          <Link
-            className="btn-ghost btn w-full font-semibold hover:text-blue-500"
-            to="/collections/$collectionName"
-            params={{ collectionName: "ham" }}
-            search={{ page: 1 }}
-            activeProps={{ style: { display: "none" } }}
+          <CollectionLink
+            collectionName="ham"
+            content="HAM"
             onClick={() => setShowNav(false)}
-          >
-            HAM
-          </Link>
+          />
         </div>
         <ThemeToggler />
       </div>
