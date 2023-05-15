@@ -1,7 +1,13 @@
-import type { DefaultBodyType, DelayMode } from "msw";
+import type {
+  RestHandler,
+  MockedRequest,
+  DefaultBodyType,
+  DelayMode,
+} from "msw";
 import { setupServer } from "msw/node";
 import { rest } from "msw";
-import { handlers } from "./handlers";
+
+const handlers: RestHandler<MockedRequest<DefaultBodyType>>[] = [];
 
 interface ServeDataProps {
   path: string;
