@@ -1,4 +1,9 @@
-import { Route, Router, RootRoute } from "@tanstack/react-router";
+import {
+  Route,
+  Router,
+  RootRoute,
+  createHashHistory,
+} from "@tanstack/react-router";
 import App from "./App";
 import Landing from "./pages/Landing";
 import Paintings from "./paintings/Paintings";
@@ -68,6 +73,10 @@ const routeTree = rootRoute.addChildren([
   exploreRoute,
 ]);
 
-const router = new Router({ routeTree, defaultPreload: "intent" });
+const router = new Router({
+  routeTree,
+  defaultPreload: "intent",
+  history: createHashHistory(),
+});
 
 export default router;
