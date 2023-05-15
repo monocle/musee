@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import ExploreLink from "./ExploreLink";
 import Logo from "./Logo";
-import ThemeToggler from "./ThemeToggler";
+import ThemeToggler from "./ThemeToggle";
 
 interface Props {
   showDemo?: boolean;

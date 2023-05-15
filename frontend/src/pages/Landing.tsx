@@ -2,9 +2,8 @@ import { useState } from "react";
 import Header from "./Header";
 import ExploreLink from "./ExploreLink";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
-import BriefPaintingInfo from "../paintings/BriefPaintingInfo";
 
-const heroPainting: Painting = {
+const heroPainting = {
   date: "Mid Edo period, circa 1757",
   id: 201168,
   medium:
@@ -12,31 +11,17 @@ const heroPainting: Painting = {
   title: "Peach Blossom Spring (after Shao Zhenxian)",
   primaryimageurl: "https://nrs.harvard.edu/urn-3:HUAM:DDC100686_dynmc",
   artist: {
-    role: "Artist",
     birthplace: "Kyoto",
-    gender: "male",
     displaydate: "1723 - 1776",
-    prefix: null,
     culture: "Japanese",
-    displayname: "Ikeno Taiga 池大雅",
-    alphasort: "Ikeno, Taiga",
     name: "Ikeno Taiga 池大雅",
-    personid: 28943,
-    deathplace: null,
-    displayorder: 1,
   },
-  colors: [],
   url: "https://www.harvardartmuseums.org/collections/object/201168",
-  dimensions: [
-    "painting proper: H. 30.7 x W. 32.6 cm (12 1/16 x 12 13/16 in.)",
-    "mounting, including cord and roller ends: H. 132.7 x W. 54.6 cm (52 1/4 x 21 1/2 in.)",
-  ],
-  page: 0,
-  sequence: 0,
 };
 
 export default function Landing() {
   const [isImgLoaded, setIsImgLoaded] = useState(false);
+  const artist = heroPainting.artist;
 
   return (
     <>
@@ -56,6 +41,7 @@ export default function Landing() {
             className="absolute left-0 top-0 h-full w-full object-cover opacity-60"
             onLoad={() => setIsImgLoaded(true)}
           />
+
           <div className="hero-content text-center">
             <div className="max-w-md text-accent-content">
               <h1 className="mb-8 text-5xl font-bold">Artwork to Inspire</h1>
@@ -70,10 +56,26 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        <BriefPaintingInfo
-          painting={heroPainting}
-          source="Harvard Art Museum"
-        />
+
+        <figcaption className="flex gap-4 px-2 py-2">
+          <p className="font-semibold">{heroPainting.title}</p>
+          <p>
+            <>
+              {artist.name}, {artist.culture} ({artist.birthplace}{" "}
+              {artist.displaydate})
+            </>
+          </p>
+          <cite>
+            <a
+              className="link"
+              href={heroPainting.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Harvard Art Museums
+            </a>
+          </cite>
+        </figcaption>
       </div>
     </>
   );

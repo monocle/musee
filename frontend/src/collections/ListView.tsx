@@ -1,10 +1,10 @@
 import React from "react";
 import { useSearch, useNavigate, useParams } from "@tanstack/react-router";
-import { useGetPaintings } from "./usePaintingsApi";
+import { useGetPaintings } from "../services/usePaintingsApi";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
 import Header from "../pages/Header";
-import PageControls from "./PageControls";
+import PageControls from "../common/PageControls";
 
 function toPercent(num: number, minimumFractionDigits = 0) {
   return new Intl.NumberFormat("en-US", {

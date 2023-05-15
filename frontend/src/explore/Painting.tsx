@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { useSearch, useNavigate } from "@tanstack/react-router";
 import useLocalStorage from "../services/useLocalStorage";
-import { useGetPainting } from "./usePaintingsApi";
+import { useGetPainting } from "../services/usePaintingsApi";
 import useFetchImage from "../services/useFetchImage";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
 import Header from "../pages/Header";
-import PageControls from "./PageControls";
+import PageControls from "../common/PageControls";
 import FavoriteToggle from "./FavoriteToggle";
 import Spinner from "../common/Spinner";
 

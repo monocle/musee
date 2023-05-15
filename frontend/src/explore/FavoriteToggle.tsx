@@ -6,11 +6,16 @@ import Button from "../common/Button";
 export default function FavoriteToggle() {
   const [isFavorite, setIsFavorite] = useState(false);
   const icon = isFavorite ? faMinus : faPlus;
-  const color = isFavorite ? "text-warning" : "text-success";
+  const color = isFavorite
+    ? "text-warning"
+    : "btn-accent btn-outline text-accent-content";
 
   return (
-    <Button className="btn-sm" onClick={() => setIsFavorite(!isFavorite)}>
-      <FontAwesomeIcon icon={icon} className={color} />
+    <Button
+      className={`btn-sm ${color}`}
+      onClick={() => setIsFavorite(!isFavorite)}
+    >
+      <FontAwesomeIcon icon={icon} />
     </Button>
   );
 }

@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { get } from "../services/fetch";
+import { get } from "./fetch";
 
 interface UseGetPaintingsProps {
   page: number;
