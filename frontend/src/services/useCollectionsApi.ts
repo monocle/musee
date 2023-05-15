@@ -1,13 +1,13 @@
 import { useQuery } from "@tanstack/react-query";
 import { get } from "./fetch";
 
-interface UseGetPaintingsProps {
+interface UseGetCollectionProps {
   page: number;
   collectionName: string;
 }
 
-export const useGetPaintings = (params: UseGetPaintingsProps) =>
-  useQuery<PaintingsResponse, ServerError>({
+export const useGetCollection = (params: UseGetCollectionProps) =>
+  useQuery<CollectionResponse, ServerError>({
     queryKey: ["collections", params],
     keepPreviousData: true,
     queryFn: () => get("collections", params),

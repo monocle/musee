@@ -35,7 +35,7 @@ interface Painting {
   url: string;
 }
 
-interface PaintingsResponse {
+interface CollectionResponse {
   maxRecords: number;
   maxPages: number;
   pageSize: number;

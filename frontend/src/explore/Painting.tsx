@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useSearch, useNavigate } from "@tanstack/react-router";
 import useLocalStorage from "../services/useLocalStorage";
-import { useGetPainting } from "../services/usePaintingsApi";
+import { useGetPainting } from "../services/useCollectionsApi";
 import useFetchImage from "../services/useFetchImage";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";

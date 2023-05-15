@@ -1,6 +1,6 @@
 import React from "react";
 import { useSearch, useNavigate, useParams } from "@tanstack/react-router";
-import { useGetPaintings } from "../services/usePaintingsApi";
+import { useGetCollection } from "../services/useCollectionsApi";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
 import Header from "../pages/Header";
@@ -24,7 +24,7 @@ export default function Paintings() {
   });
   const page = search?.page ?? 1;
   const { isLoading, isFetching, isError, isSuccess, data, error } =
-    useGetPaintings({ page, collectionName });
+    useGetCollection({ page, collectionName });
   const handlePageChange = (newPage: number) =>
     navigate({ search: { page: newPage } });
 
