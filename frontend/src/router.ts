@@ -6,7 +6,7 @@ import {
 } from "@tanstack/react-router";
 import App from "./App";
 import Landing from "./pages/Landing";
-import ListView from "./collections/ListView";
+import Collection from "./collections/Collection";
 import Painting from "./explore/Painting";
 
 declare module "@tanstack/router" {
@@ -33,7 +33,7 @@ const collectionsRoute = new Route({
 const collectionRoute = new Route({
   getParentRoute: () => collectionsRoute,
   path: "$collectionName",
-  component: ListView,
+  component: Collection,
   validateSearch: (
     search: Record<string, unknown>
   ): {
