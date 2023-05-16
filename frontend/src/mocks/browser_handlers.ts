@@ -27,7 +27,7 @@ const handlers = [
     if (painting) {
       return res(
         ctx.status(200),
-        ctx.json({ painting, maxSequence: cache.totalRecords + 1 })
+        ctx.json({ painting, maxSequence: cache.totalRecords })
       );
     }
 
