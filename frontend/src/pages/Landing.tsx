@@ -57,7 +57,7 @@ export default function Landing() {
           </div>
         </div>
 
-        <figcaption className="flex gap-4 px-2 py-2">
+        <figcaption className="flex gap-2 px-2 py-2 text-sm md:gap-4 md:text-base">
           <p className="font-semibold">{heroPainting.title}</p>
           <p>
             <>
