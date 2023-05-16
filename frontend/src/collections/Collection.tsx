@@ -42,9 +42,9 @@ export default function Collections() {
       {isError && <ErrorMessage error={error} />}
       {isSuccess && (
         <>
-          <div className="flex items-center justify-between px-10 py-4">
+          <div className="flex items-center justify-between gap-4 px-2 py-4 lg:px-10">
             <h2 className="text-center font-heading text-2xl font-bold">
-              Paintings
+              {collectionName === "ham" ? "Harvard Art Museums" : "Favorites"}
             </h2>
             <div className="flex items-center justify-evenly gap-10">
               <div className="text-center">
@@ -56,7 +56,7 @@ export default function Collections() {
                 />
               </div>
               <select
-                className="select select-sm"
+                className="select select-xs md:select-sm"
                 onChange={(e) => setView(e.target.value)}
               >
                 <option value="gallery">Gallery View</option>
