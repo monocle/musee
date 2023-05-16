@@ -53,6 +53,7 @@ interface ServerError {
 }
 
 interface HAMSummary {
+  totalFiles: number;
   totalRecords: number;
   recordsPerFile: number;
 }

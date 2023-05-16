@@ -123,8 +123,10 @@ def create_ham_data_files(num_pages=4, num_records=100, page_size=100) -> None:
     for page in range(1, num_pages + 1):
         records += fetch_ham_paintings(page=page, num_records=num_records)
 
+    # Frontend requires that records are sorted by "sequence"
     api_records = transform_records(filter_records(records))
     total_records = 0
+    total_files = 0
 
     for i, chunk in chunked(api_records, page_size):
         data_filepath = frontend_data_dir / f"ham_{i+1}.json"
@@ -132,9 +134,14 @@ def create_ham_data_files(num_pages=4, num_records=100, page_size=100) -> None:
         data: DataFile = {"records": chunk, "count": len_chunk}
         write_json(str(data_filepath), data)
         total_records += len_chunk
+        total_files = i + 1
 
     summary_filepath = frontend_data_dir / f"ham_summary.json"
-    summary = {"totalRecords": total_records, "recordsPerFile": page_size}
+    summary = {
+        "recordsPerFile": page_size,
+        "totalFiles": total_files,
+        "totalRecords": total_records,
+    }
     write_json(str(summary_filepath), summary)
 
 
