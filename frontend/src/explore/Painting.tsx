@@ -45,6 +45,14 @@ export default function Painting() {
     return <ErrorMessage error={error} />;
   }
 
+  if (storedIdx !== paintingIdx) {
+    setStoredIdx(paintingIdx);
+  }
+
+  if (maxSequence === Infinity) {
+    setMaxSequence(data.maxSequence);
+  }
+
   const painting = data.painting;
   const {
     artist,
@@ -56,14 +64,6 @@ export default function Painting() {
     title,
     url,
   } = painting;
-
-  if (storedIdx !== paintingIdx) {
-    setStoredIdx(paintingIdx);
-  }
-
-  if (maxSequence === Infinity) {
-    setMaxSequence(data.maxSequence);
-  }
 
   return (
     <div className="lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
@@ -92,7 +92,7 @@ export default function Painting() {
         >
           <img
             src={primaryimageurl}
-            alt="Not available"
+            alt={title}
             className={`h-full w-full object-contain`}
             onLoad={() => setIsImgLoaded(true)}
           />
