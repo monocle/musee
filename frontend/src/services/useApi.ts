@@ -12,11 +12,11 @@ async function processRequest(req: Promise<AxiosResponse>) {
 }
 
 async function apiGet(path: string, params?: AxiosRequestConfig) {
-  return processRequest(axios.get(API_PREFIX + path, params));
+  return processRequest(axios.get(API_PREFIX + path, { params }));
 }
 
-async function apiPost(path: string, params?: AxiosRequestConfig) {
-  return processRequest(axios.post(API_PREFIX + path, params));
+async function apiPost(path: string, body?: AxiosRequestConfig) {
+  return processRequest(axios.post(API_PREFIX + path, body));
 }
 
 async function apiDelete(path: string) {
