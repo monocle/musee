@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useSearch, useNavigate } from "@tanstack/react-router";
 import useLocalStorage from "../services/useLocalStorage";
-import { useGetPainting } from "../services/useCollectionsApi";
+import { useGetPainting } from "../services/useApi";
 import useFetchImage from "../services/useFetchImage";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
@@ -71,7 +71,7 @@ export default function Painting() {
         <Header showDemo={false} />
 
         <div className="mb-3 mt-2 flex items-center justify-around">
-          <FavoriteToggle />
+          <FavoriteToggle painting={painting} />
           <PageControls
             page={paintingIdx}
             maxPages={data.maxSequence}
@@ -90,9 +90,6 @@ export default function Painting() {
               : "opacity-0"
           }`}
         >
-          <figcaption className="my-4 text-center font-bold lg:my-2">
-            {title}
-          </figcaption>
           <img
             src={primaryimageurl}
             alt="Not available"
@@ -104,6 +101,7 @@ export default function Painting() {
 
       <section className="overflow-y-auto bg-base-200 px-4 pb-4 pt-2 lg:order-3 lg:flex lg:w-1/5 lg:flex-1 lg:px-4">
         <ul className="list">
+          <li className="mb-3 font-extrabold">{title}</li>
           <li className="mb-3 font-bold">{artist?.name ?? "Unknown"}</li>
           {artist?.culture && <li className="mb-3">{artist.culture}</li>}
           {date !== 0 && <li className="mb-3">{date}</li>}

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useGetPainting } from "./useCollectionsApi";
+import { useGetPainting } from "./useApi";
 
 export default function useFetchImage(collection: string, sequence: number) {
   const [prevSeq, setPrevSeq] = useState(0);

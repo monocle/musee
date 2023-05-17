@@ -31,6 +31,7 @@ interface Painting {
   medium: string;
   page: number;
   primaryimageurl: string;
+  source: string;
   title: string;
   url: string;
 }

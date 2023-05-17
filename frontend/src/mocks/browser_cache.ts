@@ -10,6 +10,7 @@ class BrowserCache {
   totalFiles = 0;
   totalRecords = 0;
   recordsPerFile = 0;
+  #favorites: number[] = [];
   #fileCache: Record<number, Painting[]> = {};
 
   async init() {
@@ -49,6 +50,16 @@ class BrowserCache {
     return records.filter(
       (painting) =>
         painting.sequence >= startSeq && painting.sequence <= stopSeq
+    );
+  }
+
+  addFavorite(newSequence: number) {
+    this.#favorites.push(newSequence);
+  }
+
+  removeFavorite(removeSeq: number) {
+    this.#favorites = this.#favorites.filter(
+      (sequence) => sequence !== removeSeq
     );
   }
 

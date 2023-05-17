@@ -36,6 +36,24 @@ const handlers = [
       ctx.json({ type: "missing", message: "Painting does not exist." })
     );
   }),
+
+  rest.post(
+    "/api/users/:userId/collections/:collectionName",
+    async (req, res, ctx) => {
+      const { sequence } = await req.json();
+
+      cache.addFavorite(sequence);
+      return res(ctx.status(200));
+    }
+  ),
+
+  rest.delete(
+    "/api/users/:userId/collections/:collectionName/:sequence",
+    async (req, res, ctx) => {
+      cache.removeFavorite(Number(req.params.sequence));
+      return res(ctx.status(200));
+    }
+  ),
 ];
 
 export default handlers;

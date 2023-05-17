@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSearch, useNavigate, useParams } from "@tanstack/react-router";
-import { useGetCollection } from "../services/useCollectionsApi";
+import { useGetCollection } from "../services/useApi";
 import useLocalStorage from "../services/useLocalStorage";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
