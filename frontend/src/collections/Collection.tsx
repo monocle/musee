@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useSearch, useNavigate, useParams } from "@tanstack/react-router";
 import { useGetCollection } from "../services/useApi";
 import useLocalStorage from "../services/useLocalStorage";
@@ -7,15 +6,15 @@ import ErrorMessage from "../common/ErrorMessage";
 import Header from "../pages/Header";
 import ListView from "./ListView";
 import GalleryView from "./GalleryView";
-import ViewControls from "./ViewControls";
+import PageControls from "./PageControls";
 
 export default function Collections() {
   const route = "/collections/$collectionId";
-  const [view, setView] = useState<string>("gallery");
-  const navigate = useNavigate();
+  const navigate = useNavigate({ from: "/collections/$collectionId" });
   const { collectionId } = useParams({ from: route });
   const search = useSearch({ from: route, strict: false });
   const page = search?.page ?? 1;
+  const view = search?.view ?? "gallery";
   const [storedPage, setStoredPage] = useLocalStorage(
     `${collectionId}-page`,
     page
@@ -27,7 +26,7 @@ export default function Collections() {
   const handlePageChange = (newPage: number) => {
     if (!data) return;
 
-    navigate({ search: { page: newPage } });
+    navigate({ search: (prev) => ({ ...prev, page: newPage }) });
     setStoredPage(newPage);
   };
 
@@ -46,8 +45,7 @@ export default function Collections() {
             <h2 className="text-center font-heading text-2xl font-bold">
               {collectionId === "ham" ? "Harvard Art Museums" : "Favorites"}
             </h2>
-            <ViewControls
-              onSelectChange={(newView) => setView(newView)}
+            <PageControls
               page={page}
               maxPages={data.maxPages}
               isLoading={isFetching}
@@ -62,8 +60,7 @@ export default function Collections() {
           )}
 
           <div className="flex justify-center px-2 pb-4 md:justify-end lg:px-10">
-            <ViewControls
-              onSelectChange={(newView) => setView(newView)}
+            <PageControls
               page={page}
               maxPages={data.maxPages}
               isLoading={isFetching}

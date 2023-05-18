@@ -38,11 +38,13 @@ const collectionRoute = new Route({
     search: Record<string, unknown>
   ): {
     page: number;
+    view: string;
   } => {
     const page = Number(search?.page ?? 1);
-
+    const view = String(search?.view ?? "gallery");
     return {
       page: page < 1 ? 1 : page,
+      view,
     };
   },
 });

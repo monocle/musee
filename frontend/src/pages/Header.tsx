@@ -1,25 +1,25 @@
 import { useState } from "react";
+import { useRouter } from "@tanstack/react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import CollectionLink from "./CollectionLink";
-import ExploreLink from "./ExploreLink";
 import Logo from "./Logo";
 import ThemeToggler from "./ThemeToggle";
+import SelectView from "../collections/SelectView";
 
-interface Props {
-  showDemo?: boolean;
-}
-
-export default function Header({ showDemo = true }: Props) {
+export default function Header() {
   const [showNav, setShowNav] = useState(false);
+  const router = useRouter();
+  const isViewing = router.state.currentLocation.pathname !== "/";
 
   return (
     <header className="navbar flex items-center justify-between bg-base-200 px-4 py-2">
       <div className="navbar-start">
-        <Logo showDemo={showDemo} />
+        <Logo showDemo={!isViewing} />
       </div>
 
-      <div className="navbar-end">
+      <div className="navbar-end md:flex md:gap-6">
+        {isViewing && <SelectView className="hidden md:block" />}
         <label
           tabIndex={0}
           className="btn-ghost btn"
@@ -32,28 +32,22 @@ export default function Header({ showDemo = true }: Props) {
             showNav ? "" : "hidden"
           }`}
         >
-          <ExploreLink
-            content="Explore"
-            className="btn-ghost btn w-full font-semibold hover:text-blue-500"
-          />
-
-          <div className="mt-4 border-b border-base-100 py-2 text-xs italic text-base-content">
-            Collections
-          </div>
+          <SelectView className="md:hidden" />
 
           <CollectionLink
-            collectionName="favorites"
+            collectionId="favorites"
             content="Favorites"
             onClick={() => setShowNav(false)}
           />
 
           <CollectionLink
-            collectionName="ham"
-            content="HAM"
+            collectionId="ham"
+            content="All"
             onClick={() => setShowNav(false)}
           />
+
+          <ThemeToggler />
         </div>
-        <ThemeToggler />
       </div>
     </header>
   );

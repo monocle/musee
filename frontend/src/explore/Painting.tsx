@@ -6,7 +6,7 @@ import useFetchImage from "../services/useFetchImage";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
 import Header from "../pages/Header";
-import PageControls from "../common/PageControls";
+import PageControls from "../collections/PageControls";
 import FavoriteToggle from "./FavoriteToggle";
 import Spinner from "../common/Spinner";
 
@@ -69,7 +69,7 @@ export default function Painting() {
   return (
     <div className="lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
       <div className="bg-base-200 px-2 pb-2 lg:order-2 lg:w-1/5 lg:px-2">
-        <Header showDemo={false} />
+        <Header />
 
         <div className="mb-3 mt-2 flex items-center justify-around">
           <FavoriteToggle id={id} />

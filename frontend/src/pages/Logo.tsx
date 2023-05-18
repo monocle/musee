@@ -1,11 +1,11 @@
 import { Link } from "@tanstack/react-router";
 
 interface Props {
+  showDemo: boolean;
   className?: string;
-  showDemo?: boolean;
 }
 
-export default function Logo({ className = "", showDemo = true }: Props) {
+export default function Logo({ showDemo, className = "" }: Props) {
   const isDemo = import.meta.env.VITE_IS_DEMO;
 
   return (
