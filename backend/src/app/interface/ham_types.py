@@ -39,7 +39,6 @@ class HAMInfo(TypedDict):
 # 2 – do not display any images
 class HAMBaseObject(TypedDict):
     colors: list[HAMColor]
-    id: int
     medium: str
     primaryimageurl: str | None
     title: str
@@ -49,6 +48,7 @@ class HAMBaseObject(TypedDict):
 class HAMObject(HAMBaseObject):
     dated: str | None
     dateend: str | int
+    id: int
     imagepermissionlevel: Literal[0, 1, 2]
     people: list[HAMPerson]
     dimensions: str | None
@@ -58,9 +58,11 @@ class APIObject(HAMBaseObject):
     artist: HAMPerson
     date: str | int
     dimensions: list[str]
+    fetch_date: str
+    id: str
     sequence: int
     source: Literal["ham"]
-    fetch_date: str
+    source_id: int | str
 
 
 class HAMResponse(TypedDict):

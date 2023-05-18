@@ -19,18 +19,15 @@ from dotenv import dotenv_values
 T = TypeVar("T")
 
 
-def chunked(seq: Iterable[T], chunk_size: int) -> Iterator[Tuple[int, list[T]]]:
+def chunked(
+    seq: Iterator[T], chunk_size: int, start_idx=1
+) -> Iterator[Tuple[int, list[T]]]:
     iterator = iter(seq)
-    i = 0
+    i = start_idx
 
     while chunk := list(islice(iterator, chunk_size)):
         yield i, chunk
         i += 1
-
-
-def write_json(filepath: str, data: dict | DataFile):
-    with open(filepath, "w", encoding="utf-8") as file:
-        json.dump(data, file, ensure_ascii=False, indent=2)
 
 
 def get_artist(people: list[HAMPerson]) -> Optional[HAMPerson]:
@@ -48,18 +45,27 @@ def filter_records(records: Iterable[HAMObject]) -> Iterator[HAMObject]:
     )
 
 
-def transform_records(records: Iterator[HAMObject]) -> Iterator[APIObject]:
+# Frontend requires that records are sorted by "sequence"
+def transform_records(
+    records: list[HAMObject], file_num: int, page_size: int
+) -> Iterator[APIObject]:
     for idx, record in enumerate(records):
         artist = get_artist(record["people"])
-        base_object = {key: record.get(key) for key in HAMBaseObject.__required_keys__}
-        base_object["artist"] = artist
-        base_object["date"] = record["dated"] or record["dateend"] or "Unknown"
-        base_object["dimensions"] = (
-            record["dimensions"].split("\r\n") if record["dimensions"] else []
-        )
-        base_object["sequence"] = idx + 1
-        base_object["source"] = "ham"
-        base_object["fetch_date"] = datetime.now().strftime("%Y-%m-%d")
+        base_object = {
+            **{key: record.get(key) for key in HAMBaseObject.__required_keys__},
+            **{
+                "artist": artist,
+                "date": record["dated"] or record["dateend"] or "Unknown",
+                "dimensions": (
+                    record["dimensions"].split("\r\n") if record["dimensions"] else []
+                ),
+                "fetch_date": datetime.now().strftime("%Y-%m-%d"),
+                "id": f"{file_num}-{idx}",
+                "sequence": (file_num - 1) * page_size + idx + 1,
+                "source": "ham",
+                "source_id": record["id"],
+            },
+        }
         yield cast(APIObject, base_object)
 
 
@@ -86,7 +92,7 @@ def fetch_ham_paintings(page=1, num_records=None) -> list[HAMObject]:
 
     url = "https://api.harvardartmuseums.org/object"
     max_per_page = 100  # API default is 10
-    seed = 4
+    seed = 5
     response_fields = [
         "colors",
         "dated",
@@ -118,31 +124,36 @@ def fetch_ham_paintings(page=1, num_records=None) -> list[HAMObject]:
         return []
 
 
+def write_json(filepath: str, data: dict | DataFile):
+    with open(filepath, "w", encoding="utf-8") as file:
+        json.dump(data, file, ensure_ascii=False, indent=2)
+
+
 def create_ham_data_files(num_pages=4, num_records=100, page_size=100) -> None:
-    records = []
+    summary = {
+        "recordsPerFile": page_size,
+        "totalFiles": 0,
+        "totalRecords": 0,
+    }
+    records: list[HAMObject] = []
+
     for page in range(1, num_pages + 1):
         records += fetch_ham_paintings(page=page, num_records=num_records)
 
-    # Frontend requires that records are sorted by "sequence"
-    api_records = transform_records(filter_records(records))
-    total_records = 0
-    total_files = 0
+    for file_num, chunk in chunked(filter_records(records), page_size, start_idx=1):
+        data_filepath = frontend_data_dir / f"ham_{file_num}.json"
+        api_records: list[APIObject] = list(
+            transform_records(chunk, file_num=file_num, page_size=page_size)
+        )
+        len_chunk = len(api_records)
+        data: DataFile = {"records": api_records, "count": len_chunk}
 
-    for i, chunk in chunked(api_records, page_size):
-        data_filepath = frontend_data_dir / f"ham_{i+1}.json"
-        len_chunk = len(chunk)
-        data: DataFile = {"records": chunk, "count": len_chunk}
+        summary["totalRecords"] += len_chunk
+        summary["totalFiles"] = file_num
         write_json(str(data_filepath), data)
-        total_records += len_chunk
-        total_files = i + 1
 
-    summary_filepath = frontend_data_dir / f"ham_summary.json"
-    summary = {
-        "recordsPerFile": page_size,
-        "totalFiles": total_files,
-        "totalRecords": total_records,
-    }
-    write_json(str(summary_filepath), summary)
+    write_json(str(frontend_data_dir / f"ham_summary.json"), summary)
+    print(summary)
 
 
 create_ham_data_files()
