@@ -2,10 +2,10 @@ import { rest } from "msw";
 import cache from "./browser_cache";
 
 const handlers = [
-  rest.get("/api/collections", async (req, res, ctx) => {
+  rest.get("/api/collections/:collectionId", async (req, res, ctx) => {
     const page = Number(req.url.searchParams.get("page")) ?? 1;
-    const collectionName = req.url.searchParams.get("collectionName") ?? "ham";
-    const records = await cache.getPage(collectionName, page < 1 ? 1 : page);
+    const collectionId = String(req.params.collectionId ?? "ham");
+    const records = await cache.getPage(collectionId, page < 1 ? 1 : page);
 
     return res(
       ctx.status(200),
@@ -18,39 +18,42 @@ const handlers = [
     );
   }),
 
-  rest.get("/api/collections/:collection/:sequence", async (req, res, ctx) => {
-    const painting = await cache.getSequence(
-      req.params.collection as string,
-      Number(req.params.sequence as string)
-    );
+  rest.get(
+    "/api/collections/:collectionId/sequence/:sequence",
+    async (req, res, ctx) => {
+      const painting = await cache.getSequence(
+        req.params.collectionId as string,
+        Number(req.params.sequence as string)
+      );
 
-    if (painting) {
+      if (painting) {
+        return res(
+          ctx.status(200),
+          ctx.json({ painting, maxSequence: cache.totalRecords })
+        );
+      }
+
       return res(
-        ctx.status(200),
-        ctx.json({ painting, maxSequence: cache.totalRecords })
+        ctx.status(400),
+        ctx.json({ type: "missing", message: "Painting does not exist." })
       );
     }
-
-    return res(
-      ctx.status(400),
-      ctx.json({ type: "missing", message: "Painting does not exist." })
-    );
-  }),
+  ),
 
   rest.post(
-    "/api/users/:userId/collections/:collectionName",
+    "/api/users/:userId/collections/:collectionId/paintings",
     async (req, res, ctx) => {
-      const { sequence } = await req.json();
+      const { id } = await req.json();
 
-      cache.addFavorite(sequence);
+      cache.addFavorite(id);
       return res(ctx.status(200));
     }
   ),
 
   rest.delete(
-    "/api/users/:userId/collections/:collectionName/:sequence",
+    "/api/users/:userId/collections/:collectionId/paintings/:id",
     async (req, res, ctx) => {
-      cache.removeFavorite(Number(req.params.sequence));
+      cache.removeFavorite(String(req.params.id));
       return res(ctx.status(200));
     }
   ),

@@ -10,17 +10,17 @@ import GalleryView from "./GalleryView";
 import ViewControls from "./ViewControls";
 
 export default function Collections() {
-  const route = "/collections/$collectionName";
+  const route = "/collections/$collectionId";
   const [view, setView] = useState<string>("gallery");
   const navigate = useNavigate();
-  const { collectionName } = useParams({ from: route });
+  const { collectionId } = useParams({ from: route });
   const search = useSearch({ from: route, strict: false });
   const page = search?.page ?? 1;
   const [storedPage, setStoredPage] = useLocalStorage(
-    `${collectionName}-page`,
+    `${collectionId}-page`,
     page
   );
-  const collectionRequest = useGetCollection({ page, collectionName });
+  const collectionRequest = useGetCollection({ page, collectionId });
   const { isSuccess, isLoading, isFetching, data, isError, error } =
     collectionRequest;
 
@@ -44,7 +44,7 @@ export default function Collections() {
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-center gap-4 px-2 py-4 md:justify-between lg:px-10">
             <h2 className="text-center font-heading text-2xl font-bold">
-              {collectionName === "ham" ? "Harvard Art Museums" : "Favorites"}
+              {collectionId === "ham" ? "Harvard Art Museums" : "Favorites"}
             </h2>
             <ViewControls
               onSelectChange={(newView) => setView(newView)}

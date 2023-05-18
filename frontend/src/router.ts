@@ -32,7 +32,7 @@ const collectionsRoute = new Route({
 
 const collectionRoute = new Route({
   getParentRoute: () => collectionsRoute,
-  path: "$collectionName",
+  path: "$collectionId",
   component: Collection,
   validateSearch: (
     search: Record<string, unknown>

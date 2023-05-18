@@ -10,7 +10,7 @@ class BrowserCache {
   totalFiles = 0;
   totalRecords = 0;
   recordsPerFile = 0;
-  #favorites: number[] = [];
+  #favorites: PaintingId[] = [];
   #fileCache: Record<number, Painting[]> = {};
 
   async init() {
@@ -27,15 +27,15 @@ class BrowserCache {
     return Math.ceil(this.totalRecords / this.pageSize);
   }
 
-  async getSequence(collectionName: string, sequence: number) {
-    if (collectionName !== "ham") return null;
+  async getSequence(collectionId: string, sequence: number) {
+    if (collectionId !== "ham") return null;
 
     const records = await this.#getFileRecords(sequence);
     return records.find((painting) => painting.sequence === sequence);
   }
 
-  async getPage(collectionName: string, page: number) {
-    if (collectionName !== "ham") return [];
+  async getPage(collectionId: string, page: number) {
+    if (collectionId !== "ham") return [];
 
     const startSeq = (page - 1) * this.pageSize;
     const stopSeq = page * this.pageSize;
@@ -53,14 +53,12 @@ class BrowserCache {
     );
   }
 
-  addFavorite(newSequence: number) {
-    this.#favorites.push(newSequence);
+  addFavorite(id: PaintingId) {
+    this.#favorites.push(id);
   }
 
-  removeFavorite(removeSeq: number) {
-    this.#favorites = this.#favorites.filter(
-      (sequence) => sequence !== removeSeq
-    );
+  removeFavorite(removeId: PaintingId) {
+    this.#favorites = this.#favorites.filter((id) => id !== removeId);
   }
 
   #getFileNum(sequence: number) {

@@ -25,52 +25,49 @@ async function apiDelete(path: string) {
 
 interface UseGetCollectionProps {
   page: number;
-  collectionName: string;
+  collectionId: string;
 }
 
-export const useGetCollection = (params: UseGetCollectionProps) =>
+export const useGetCollection = ({
+  collectionId,
+  page,
+}: UseGetCollectionProps) =>
   useQuery<CollectionResponse, ServerError>({
-    queryKey: ["collections", params],
+    queryKey: ["collections", { collectionId, page }],
     keepPreviousData: true,
-    queryFn: () => apiGet("collections", params as AxiosRequestConfig),
+    queryFn: () =>
+      apiGet(`collections/${collectionId}`, { page } as AxiosRequestConfig),
   });
 
-export const useGetPainting = (collection: string, sequence: number) =>
+export const useGetPainting = (collectionId: string, sequence: number) =>
   useQuery<PaintingResponse, ServerError>({
-    queryKey: ["collections", collection, sequence],
+    queryKey: ["collections", { collectionId, sequence }],
     keepPreviousData: true,
-    queryFn: () => apiGet(`collections/${collection}/${sequence}`),
+    queryFn: () => apiGet(`collections/${collectionId}/sequence/${sequence}`),
   });
 
 export const useUpdateFavorite = () => {
   const queryClient = useQueryClient();
   const userId = 1;
-  const collectionName = "favorites";
+  const collectionId = "favorites";
 
   return useMutation({
-    mutationFn: ({
-      painting,
-      isAdd,
-    }: {
-      painting: Painting;
-      isAdd: boolean;
-    }) => {
-      const { source, sequence } = painting;
-
+    mutationFn: ({ id, isAdd }: { id: PaintingId; isAdd: boolean }) => {
       if (isAdd) {
-        return apiPost(`users/${userId}/collections/${collectionName}`, {
-          source,
-          sequence,
-        } as AxiosRequestConfig);
-      } else {
-        return apiDelete(
-          `users/${userId}/collections/${collectionName}/${sequence}`
+        return apiPost(
+          `users/${userId}/collections/${collectionId}/paintings`,
+          {
+            id,
+          } as AxiosRequestConfig
         );
       }
+      return apiDelete(
+        `users/${userId}/collections/${collectionId}/paintings/${id}`
+      );
     },
     onSuccess: () =>
       queryClient.invalidateQueries({
-        queryKey: ["collections", collectionName],
+        queryKey: ["collections", collectionId],
       }),
   });
 };

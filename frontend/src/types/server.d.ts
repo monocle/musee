@@ -21,13 +21,15 @@ interface Person {
   role: "Artist" | "Previous attribution" | "Sitter" | string;
 }
 
+type PaintingId = number | string;
+
 interface Painting {
   artist: Person;
   colors: Color[];
   date: string | number;
   dimensions: string[];
   sequence: number;
-  id: number;
+  id: PaintingId;
   medium: string;
   page: number;
   primaryimageurl: string;

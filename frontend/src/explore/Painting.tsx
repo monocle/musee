@@ -59,6 +59,7 @@ export default function Painting() {
     colors,
     date,
     dimensions,
+    id,
     medium,
     primaryimageurl,
     title,
@@ -71,7 +72,7 @@ export default function Painting() {
         <Header showDemo={false} />
 
         <div className="mb-3 mt-2 flex items-center justify-around">
-          <FavoriteToggle painting={painting} />
+          <FavoriteToggle id={id} />
           <PageControls
             page={paintingIdx}
             maxPages={data.maxSequence}
