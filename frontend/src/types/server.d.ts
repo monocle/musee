@@ -21,7 +21,7 @@ interface Person {
   role: "Artist" | "Previous attribution" | "Sitter" | string;
 }
 
-type PaintingId = number | string;
+type PaintingId = string;
 
 interface Painting {
   artist: Person;

@@ -1,50 +1,46 @@
-import { useSearch, useNavigate, useParams } from "@tanstack/react-router";
+import { useNavigate, useParams, useSearch } from "@tanstack/react-router";
 import { useGetCollection } from "../services/useApi";
-import useLocalStorage from "../services/useLocalStorage";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
-import Header from "../pages/Header";
 import ListView from "./ListView";
 import GalleryView from "./GalleryView";
 import PageControls from "./PageControls";
+import SelectView from "./SelectView";
 
-export default function Collections() {
+export default function Collection() {
   const route = "/collections/$collectionId";
-  const navigate = useNavigate({ from: "/collections/$collectionId" });
+  const navigate = useNavigate({ from: route });
   const { collectionId } = useParams({ from: route });
-  const search = useSearch({ from: route, strict: false });
-  const page = search?.page ?? 1;
-  const view = search?.view ?? "gallery";
-  const [storedPage, setStoredPage] = useLocalStorage(
-    `${collectionId}-page`,
-    page
-  );
-  const collectionRequest = useGetCollection({ page, collectionId });
+  const { page, view } = useSearch({ from: route });
   const { isSuccess, isLoading, isFetching, data, isError, error } =
-    collectionRequest;
+    useGetCollection({ collectionId, page, view });
 
   const handlePageChange = (newPage: number) => {
-    if (!data) return;
-
+    window.scrollTo({ top: 0 });
     navigate({ search: (prev) => ({ ...prev, page: newPage }) });
-    setStoredPage(newPage);
   };
 
-  if (storedPage !== page) {
-    setStoredPage(page);
-  }
+  const handleClickPainting = (id: PaintingId) => {
+    navigate({
+      from: route,
+      to: "/paintings/$id",
+      params: { id },
+    });
+  };
+  console.log(data);
 
   return (
-    <div>
-      <Header />
+    <div className="relative">
       {isLoading && <CenterScreenSpinner />}
       {isError && <ErrorMessage error={error} />}
       {isSuccess && (
-        <div className="container mx-auto">
-          <div className="flex flex-wrap items-center justify-center gap-4 px-2 py-4 md:justify-between lg:px-10">
-            <h2 className="text-center font-heading text-2xl font-bold">
+        <div className="container relative mx-auto">
+          <div className="sticky top-12 z-30 flex flex-wrap items-center justify-center gap-4 bg-base-100 px-2 py-2 md:justify-between lg:px-10">
+            <h2 className="text-center font-heading font-bold md:text-xl">
               {collectionId === "ham" ? "Harvard Art Museums" : "Favorites"}
             </h2>
+            <SelectView />
+
             <PageControls
               page={page}
               maxPages={data.maxPages}
@@ -54,19 +50,16 @@ export default function Collections() {
           </div>
 
           {view === "gallery" ? (
-            <GalleryView collectionRequest={collectionRequest} />
-          ) : (
-            <ListView collectionRequest={collectionRequest} />
-          )}
-
-          <div className="flex justify-center px-2 pb-4 md:justify-end lg:px-10">
-            <PageControls
-              page={page}
-              maxPages={data.maxPages}
-              isLoading={isFetching}
-              onPageChange={handlePageChange}
+            <GalleryView
+              paintings={data.records}
+              onClickPainting={handleClickPainting}
             />
-          </div>
+          ) : (
+            <ListView
+              paintings={data.records}
+              onClickPainting={handleClickPainting}
+            />
+          )}
         </div>
       )}
     </div>

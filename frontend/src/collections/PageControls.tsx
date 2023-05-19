@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
@@ -21,17 +20,14 @@ export default function PageControls({
   className = "",
   onPageChange,
 }: Props) {
-  const [lastClicked, setLastClicked] = useState<"next" | "prev">("prev");
   const handleIncrement = () => {
     if (page > maxPages) return;
     onPageChange(page + 1);
-    setLastClicked("next");
   };
 
   const handleDecrement = () => {
     if (page < 1) return;
     onPageChange(page - 1);
-    setLastClicked("prev");
   };
 
   return (
@@ -39,7 +35,6 @@ export default function PageControls({
       <Button
         className="btn-sm"
         disabled={page === 1 || isLoading}
-        isLoading={isLoading && lastClicked === "prev"}
         onClick={handleDecrement}
       >
         <FontAwesomeIcon icon={faChevronLeft} />
@@ -52,7 +47,6 @@ export default function PageControls({
       <Button
         className="btn-sm btn"
         disabled={page >= maxPages || isLoading}
-        isLoading={isLoading && lastClicked === "next"}
         onClick={handleIncrement}
       >
         <FontAwesomeIcon icon={faChevronRight} />

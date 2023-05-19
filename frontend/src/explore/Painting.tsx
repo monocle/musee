@@ -1,52 +1,24 @@
 import { useState } from "react";
-import { useSearch, useNavigate } from "@tanstack/react-router";
-import useLocalStorage from "../services/useLocalStorage";
+import { useParams } from "@tanstack/react-router";
 import { useGetPainting } from "../services/useApi";
-import useFetchImage from "../services/useFetchImage";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
-import Header from "../pages/Header";
-import PageControls from "../collections/PageControls";
 import FavoriteToggle from "./FavoriteToggle";
 import Spinner from "../common/Spinner";
 
 export default function Painting() {
-  const navigate = useNavigate();
-  const { painting: paintingIdx, collection } = useSearch({ from: "/explore" });
-  const [storedIdx, setStoredIdx] = useLocalStorage("paintingIdx", paintingIdx);
+  const route = "/paintings/$id";
+  const { id } = useParams({ from: route });
   const [isImgLoaded, setIsImgLoaded] = useState(false);
   const [maxSequence, setMaxSequence] = useState(Infinity);
-  const { isLoading, isFetching, isError, data, error } = useGetPainting(
-    collection,
-    paintingIdx
-  );
-
-  useFetchImage(
-    collection,
-    paintingIdx < maxSequence ? paintingIdx + 1 : paintingIdx
-  );
-
-  const handleIdxChange = (newIdx: number) => {
-    if (!data) return;
-
-    navigate({ search: { painting: newIdx } });
-    setStoredIdx(newIdx);
-    setIsImgLoaded(false);
-  };
+  const { isLoading, isError, data, error } = useGetPainting(id);
 
   if (isLoading) {
     return <CenterScreenSpinner />;
   }
 
   if (isError) {
-    if (error?.type === "missing") {
-      setStoredIdx(1);
-    }
     return <ErrorMessage error={error} />;
-  }
-
-  if (storedIdx !== paintingIdx) {
-    setStoredIdx(paintingIdx);
   }
 
   if (maxSequence === Infinity) {
@@ -59,7 +31,6 @@ export default function Painting() {
     colors,
     date,
     dimensions,
-    id,
     medium,
     primaryimageurl,
     title,
@@ -67,18 +38,10 @@ export default function Painting() {
   } = painting;
 
   return (
-    <div className="lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
-      <div className="bg-base-200 px-2 pb-2 lg:order-2 lg:w-1/5 lg:px-2">
-        <Header />
-
-        <div className="mb-3 mt-2 flex items-center justify-around">
+    <div className="bg-base-200 lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
+      <div className=" px-2 pb-2 lg:order-2 lg:w-1/5 lg:px-2">
+        <div className="flex items-center justify-around pb-3 pt-2">
           <FavoriteToggle id={id} />
-          <PageControls
-            page={paintingIdx}
-            maxPages={data.maxSequence}
-            isLoading={isFetching}
-            onPageChange={handleIdxChange}
-          />
         </div>
       </div>
 
@@ -100,7 +63,7 @@ export default function Painting() {
         </figure>
       </section>
 
-      <section className="overflow-y-auto bg-base-200 px-4 pb-4 pt-2 lg:order-3 lg:flex lg:w-1/5 lg:flex-1 lg:px-4">
+      <section className="overflow-y-auto px-4 pb-4 pt-2 lg:order-3 lg:flex lg:w-1/5 lg:flex-1 lg:px-4">
         <ul className="list">
           <li className="mb-3 font-extrabold">{title}</li>
           <li className="mb-3 font-bold">{artist?.name ?? "Unknown"}</li>

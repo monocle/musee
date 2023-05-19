@@ -27,11 +27,12 @@ class BrowserCache {
     return Math.ceil(this.totalRecords / this.pageSize);
   }
 
-  async getSequence(collectionId: string, sequence: number) {
-    if (collectionId !== "ham") return null;
-
-    const records = await this.#getFileRecords(sequence);
-    return records.find((painting) => painting.sequence === sequence);
+  async getPainting(id: string) {
+    const split = id.split("-");
+    const fileNum = Number(split[0]);
+    const idx = Number(split[1]);
+    const records = await this.#getFileRecords(fileNum);
+    return records[idx];
   }
 
   async getPage(collectionId: string, page: number) {
@@ -41,10 +42,10 @@ class BrowserCache {
     const stopSeq = page * this.pageSize;
     const startFileNum = this.#getFileNum(startSeq);
     const stopFileNum = this.#getFileNum(stopSeq);
-    let records = await this.#getFileRecords(startSeq);
+    let records = await this.#getFileRecords(startFileNum);
 
     if (startFileNum !== stopFileNum) {
-      records = records.concat(await this.#getFileRecords(stopSeq));
+      records = records.concat(await this.#getFileRecords(stopFileNum));
     }
 
     return records.filter(
@@ -65,9 +66,8 @@ class BrowserCache {
     return 1 + Math.floor(sequence / this.recordsPerFile);
   }
 
-  async #getFileRecords(sequence: number) {
-    const file = this.#getFileNum(sequence);
-    return this.#fileCache[file] ?? (await this.#fetchFile(file));
+  async #getFileRecords(fileNum: number) {
+    return this.#fileCache[fileNum] ?? (await this.#fetchFile(fileNum));
   }
 
   async #fetchFile(fileNum: number): Promise<Painting[]> {

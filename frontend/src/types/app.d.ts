@@ -1,7 +1,4 @@
 interface CollectionViewProps {
-  collectionRequest: import("@tanstack/react-query").QueryObserverSuccessResult<
-    CollectionResponse,
-    ServerError
-  >;
-  page?: number;
+  paintings: Painting[];
+  onClickPainting: (id: PaintingId) => void;
 }

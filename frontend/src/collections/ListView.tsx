@@ -7,9 +7,7 @@ function toPercent(num: number, minimumFractionDigits = 0) {
   }).format(num);
 }
 
-export default function ListView({ collectionRequest }: CollectionViewProps) {
-  const { data } = collectionRequest;
-
+export default function ListView({ paintings }: CollectionViewProps) {
   return (
     <table className="table-compact w-full text-left">
       <thead>
@@ -25,7 +23,7 @@ export default function ListView({ collectionRequest }: CollectionViewProps) {
         </tr>
       </thead>
       <tbody>
-        {data.records.map(
+        {paintings.map(
           ({
             artist,
             colors,

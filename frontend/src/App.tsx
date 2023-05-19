@@ -1,5 +1,11 @@
 import { Outlet } from "@tanstack/react-router";
+import Header from "./pages/Header";
 
 export default function App() {
-  return <Outlet />;
+  return (
+    <>
+      <Header />
+      <Outlet />
+    </>
+  );
 }

@@ -1,5 +1,6 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import useLocalStorage from "../services/useLocalStorage";
 
 const API_PREFIX = "/api/";
 
@@ -11,7 +12,7 @@ async function processRequest(req: Promise<AxiosResponse>) {
     });
 }
 
-async function apiGet(path: string, params?: AxiosRequestConfig) {
+export async function apiGet(path: string, params?: AxiosRequestConfig) {
   return processRequest(axios.get(API_PREFIX + path, { params }));
 }
 
@@ -26,24 +27,41 @@ async function apiDelete(path: string) {
 interface UseGetCollectionProps {
   page: number;
   collectionId: string;
+  view: string;
 }
 
 export const useGetCollection = ({
   collectionId,
   page,
-}: UseGetCollectionProps) =>
-  useQuery<CollectionResponse, ServerError>({
+  view,
+}: UseGetCollectionProps) => {
+  const [collection, setStoredCollection] = useLocalStorage("collection", {
+    collectionId,
+    page,
+    view,
+  });
+
+  if (
+    collectionId !== collection.collectionId ||
+    page !== collection.page ||
+    view !== collection.view
+  ) {
+    setStoredCollection({ collectionId, page, view });
+  }
+
+  return useQuery<CollectionResponse, ServerError>({
     queryKey: ["collections", { collectionId, page }],
     keepPreviousData: true,
     queryFn: () =>
       apiGet(`collections/${collectionId}`, { page } as AxiosRequestConfig),
   });
+};
 
-export const useGetPainting = (collectionId: string, sequence: number) =>
+export const useGetPainting = (id: PaintingId) =>
   useQuery<PaintingResponse, ServerError>({
-    queryKey: ["collections", { collectionId, sequence }],
+    queryKey: ["paintings", id],
     keepPreviousData: true,
-    queryFn: () => apiGet(`collections/${collectionId}/sequence/${sequence}`),
+    queryFn: () => apiGet(`paintings/${id}`),
   });
 
 export const useUpdateFavorite = () => {

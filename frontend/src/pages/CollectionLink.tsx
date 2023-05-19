@@ -5,7 +5,7 @@ interface Props {
   className?: string;
   collectionId: string;
   content: string | JSX.Element;
-  onClick: () => void;
+  onClick?: () => void;
 }
 
 export default function CollectionLink({
@@ -14,15 +14,18 @@ export default function CollectionLink({
   content,
   onClick,
 }: Props) {
-  const [search] = useLocalStorage(`search`, { page: 1, view: "gallery" });
+  const [collection] = useLocalStorage("collection", {
+    page: 1,
+    view: "gallery",
+    collectionId,
+  });
 
   return (
     <Link
       className={`btn-ghost btn w-full font-semibold hover:text-blue-500 ${className}`}
       to="/collections/$collectionId"
-      search={search}
-      params={{ collectionId }}
-      activeProps={{ style: { display: "none" } }}
+      search={{ page: collection.page, view: collection.view }}
+      params={{ collectionId: collection.collectionId }}
       onClick={onClick}
     >
       {content}
