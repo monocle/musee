@@ -6,9 +6,10 @@ import { useUpdateFavorite } from "../services/useApi";
 
 interface Props {
   id: PaintingId;
+  className?: string;
 }
 
-export default function FavoriteToggle({ id }: Props) {
+export default function FavoriteToggle({ id, className = "" }: Props) {
   const updateFavorite = useUpdateFavorite();
   const [isFavorite, setIsFavorite] = useState(false);
   const icon = isFavorite ? faMinus : faPlus;
@@ -22,7 +23,10 @@ export default function FavoriteToggle({ id }: Props) {
   };
 
   return (
-    <Button className={`btn-sm ${color}`} onClick={handleFavoriteToggle}>
+    <Button
+      className={`btn-block btn-sm btn ${color} ${className}`}
+      onClick={handleFavoriteToggle}
+    >
       <FontAwesomeIcon icon={icon} />
     </Button>
   );

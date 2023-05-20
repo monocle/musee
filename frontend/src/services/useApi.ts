@@ -1,6 +1,7 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import useLocalStorage from "../services/useLocalStorage";
+import queryClient from "../queryClient";
 
 const API_PREFIX = "/api/";
 
@@ -57,12 +58,39 @@ export const useGetCollection = ({
   });
 };
 
-export const useGetPainting = (id: PaintingId) =>
-  useQuery<PaintingResponse, ServerError>({
-    queryKey: ["paintings", id],
+export const useGetPainting = ({
+  collectionId,
+  page,
+  sequence,
+}: {
+  collectionId: string;
+  page: number;
+  sequence: number;
+}) => {
+  const queryKey = ["collections", { collectionId, page }];
+
+  return useQuery<PaintingResponse, ServerError>({
+    queryKey: ["collections", collectionId, sequence],
     keepPreviousData: true,
-    queryFn: () => apiGet(`paintings/${id}`),
+    queryFn: () => apiGet(`collections/${collectionId}/paintings/${sequence}`),
+    initialData: () => {
+      const collectionResponse =
+        queryClient.getQueryData<CollectionResponse>(queryKey);
+
+      if (!collectionResponse) return undefined;
+
+      const painting = collectionResponse.records.find(
+        (painting) => painting.sequence === sequence
+      );
+
+      return painting
+        ? { painting, maxSequence: collectionResponse.maxRecords }
+        : undefined;
+    },
+    initialDataUpdatedAt: () =>
+      queryClient.getQueryState(queryKey)?.dataUpdatedAt,
   });
+};
 
 export const useUpdateFavorite = () => {
   const queryClient = useQueryClient();

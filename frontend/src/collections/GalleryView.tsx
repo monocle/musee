@@ -13,7 +13,10 @@ export default function GalleryView({
             {painting.sequence}
           </div>
 
-          <div className="relative mx-auto flex h-72 w-72 items-center justify-center">
+          <div
+            className="relative mx-auto flex h-72 w-72 items-center justify-center"
+            id={`painting-${painting.sequence}`}
+          >
             <div className="absolute inset-0 bg-base-300"></div>
             <img
               className="absolute h-full w-full cursor-pointer object-contain transition-opacity duration-500"
@@ -23,7 +26,7 @@ export default function GalleryView({
               onLoad={(e) =>
                 ((e.target as HTMLImageElement).style.opacity = "1")
               }
-              onClick={() => onClickPainting(painting.id)}
+              onClick={() => onClickPainting(painting)}
             />
           </div>
 

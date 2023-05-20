@@ -12,7 +12,7 @@ export default function Header() {
   const isViewing = router.state.currentLocation.pathname !== "/";
 
   return (
-    <header className="sticky top-0 z-50 flex items-center justify-between bg-base-200 px-4">
+    <header className="sticky top-0 z-30 flex items-center justify-between bg-base-200 px-4">
       <Logo showDemo={!isViewing} />
 
       <div className="flex items-center gap-1 md:gap-6">

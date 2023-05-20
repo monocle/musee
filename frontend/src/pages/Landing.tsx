@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CollectionLink from "./CollectionLink";
+import ExploreLink from "./ExploreLink";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 
 const heroPainting = {
@@ -48,8 +48,7 @@ export default function Landing() {
                 <p className="text-xl font-bold">Harvard Art Museums</p>
               </div>
 
-              <CollectionLink
-                collectionId="ham"
+              <ExploreLink
                 content={<button className="btn-accent btn">Let's Go</button>}
               />
             </div>

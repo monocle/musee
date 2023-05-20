@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider } from "@tanstack/react-router";
 import { QueryClientProvider } from "@tanstack/react-query";
 import queryClient from "./queryClient.ts";
-import router from "./router.ts";
+import router from "./router.tsx";
 import browserCache from "./mocks/browser_cache.ts";
 import "./index.css";
 

@@ -27,12 +27,18 @@ class BrowserCache {
     return Math.ceil(this.totalRecords / this.pageSize);
   }
 
-  async getPainting(id: string) {
-    const split = id.split("-");
-    const fileNum = Number(split[0]);
-    const idx = Number(split[1]);
+  async getPainting(collectionId: string, sequence: number) {
+    if (collectionId !== "ham") return [];
+
+    const [fileNum, idx] = this.#getHAMFileNumIdx(sequence);
     const records = await this.#getFileRecords(fileNum);
     return records[idx];
+  }
+
+  #getHAMFileNumIdx(sequence: number): [number, number] {
+    const pageNum = Math.floor(sequence / this.recordsPerFile) + 1;
+    const idx = (sequence % this.recordsPerFile) - 1;
+    return [pageNum, idx];
   }
 
   async getPage(collectionId: string, page: number) {

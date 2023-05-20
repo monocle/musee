@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useParams } from "@tanstack/react-router";
+import { useNavigate, useParams, useSearch } from "@tanstack/react-router";
 import { useGetPainting } from "../services/useApi";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
@@ -7,11 +7,18 @@ import FavoriteToggle from "./FavoriteToggle";
 import Spinner from "../common/Spinner";
 
 export default function Painting() {
-  const route = "/paintings/$id";
-  const { id } = useParams({ from: route });
+  const route = "/collections/$collectionId/paintings/$sequence";
+  const navigate = useNavigate();
+  const params = useParams({ from: route });
+  const search = useSearch({ from: route });
+  const { collectionId, sequence } = params;
+  const { page } = search;
   const [isImgLoaded, setIsImgLoaded] = useState(false);
-  const [maxSequence, setMaxSequence] = useState(Infinity);
-  const { isLoading, isError, data, error } = useGetPainting(id);
+  const { isLoading, isError, data, error } = useGetPainting({
+    collectionId,
+    page,
+    sequence,
+  });
 
   if (isLoading) {
     return <CenterScreenSpinner />;
@@ -21,27 +28,33 @@ export default function Painting() {
     return <ErrorMessage error={error} />;
   }
 
-  if (maxSequence === Infinity) {
-    setMaxSequence(data.maxSequence);
-  }
-
   const painting = data.painting;
   const {
     artist,
     colors,
     date,
     dimensions,
+    id,
     medium,
     primaryimageurl,
     title,
     url,
   } = painting;
 
+  const handlOnDismiss = () =>
+    navigate({
+      to: "/collections/$collectionId",
+      params,
+      search,
+    });
+
   return (
-    <div className="bg-base-200 lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
-      <div className=" px-2 pb-2 lg:order-2 lg:w-1/5 lg:px-2">
-        <div className="flex items-center justify-around pb-3 pt-2">
-          <FavoriteToggle id={id} />
+    <div className="absolute top-0 z-50 bg-base-200 lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
+      <div className="flex flex-wrap items-center justify-between gap-1 px-2 pb-2 pt-1 lg:order-2 lg:w-1/5 lg:px-2">
+        <h2 className="font-extrabold">{title}</h2>
+        <div className="flex">
+          <button className="btn-sm btn">Prev</button>
+          <button className="btn-sm btn">Next</button>
         </div>
       </div>
 
@@ -54,6 +67,12 @@ export default function Painting() {
               : "opacity-0"
           }`}
         >
+          <button
+            className="btn-active btn-xs btn absolute right-2 top-2"
+            onClick={handlOnDismiss}
+          >
+            X
+          </button>
           <img
             src={primaryimageurl}
             alt={title}
@@ -63,9 +82,9 @@ export default function Painting() {
         </figure>
       </section>
 
-      <section className="overflow-y-auto px-4 pb-4 pt-2 lg:order-3 lg:flex lg:w-1/5 lg:flex-1 lg:px-4">
+      <section className="overflow-y-auto px-4 pb-4 pt-2 lg:order-3 lg:flex lg:w-1/5 lg:flex-1 lg:flex-wrap lg:px-4">
+        <FavoriteToggle id={id} className="my-2" />
         <ul className="list">
-          <li className="mb-3 font-extrabold">{title}</li>
           <li className="mb-3 font-bold">{artist?.name ?? "Unknown"}</li>
           {artist?.culture && <li className="mb-3">{artist.culture}</li>}
           {date !== 0 && <li className="mb-3">{date}</li>}

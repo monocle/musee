@@ -1,16 +1,17 @@
 import type { AxiosRequestConfig } from "axios";
 import {
+  createHashHistory,
+  Outlet,
+  RootRoute,
   Route,
   Router,
-  RootRoute,
-  createHashHistory,
 } from "@tanstack/react-router";
 import { apiGet } from "./services/useApi.ts";
 import queryClient from "./queryClient.ts";
-import App from "./App";
-import Landing from "./pages/Landing";
-import Collection from "./collections/Collection";
-import Painting from "./explore/Painting";
+import App from "./App.tsx";
+import Landing from "./pages/Landing.tsx";
+import Collection from "./collections/Collection.tsx";
+import Painting from "./explore/Painting.tsx";
 
 declare module "@tanstack/router" {
   interface Register {
@@ -31,7 +32,7 @@ const landingRoute = new Route({
 const collectionRoute = new Route({
   getParentRoute: () => rootRoute,
   path: "collections/$collectionId",
-  component: Collection,
+  component: Outlet,
   onLoad: async ({ params: { collectionId }, search: { page } }) => {
     const key = [`collections/${collectionId}`, { page }] as const;
     queryClient.ensureQueryData(key, () =>
@@ -52,36 +53,22 @@ const collectionRoute = new Route({
   },
 });
 
-const paintingRoute = new Route({
-  getParentRoute: () => rootRoute,
-  path: "paintings/$id",
-  component: Painting,
+const collectionIndexRoute = new Route({
+  getParentRoute: () => collectionRoute,
+  path: "/",
+  component: Collection,
 });
 
-// const exploreRoute = new Route({
-//   getParentRoute: () => rootRoute,
-//   path: "/explore",
-//   component: Painting,
-//   validateSearch: (
-//     search: Record<string, unknown>
-//   ): {
-//     collection: string;
-//     painting: number;
-//   } => {
-//     const collection = String(search?.collection ?? "ham");
-//     const painting = Number(search?.painting ?? 1);
-
-//     return {
-//       collection,
-//       painting: painting < 1 ? 1 : painting,
-//     };
-//   },
-// });
+const paintingRoute = new Route({
+  getParentRoute: () => collectionRoute,
+  path: "paintings/$sequence",
+  component: Painting,
+  parseParams: (params) => ({ sequence: Number(params.sequence) }),
+});
 
 const routeTree = rootRoute.addChildren([
   landingRoute,
-  collectionRoute,
-  paintingRoute,
+  collectionRoute.addChildren([paintingRoute, collectionIndexRoute]),
 ]);
 
 const router = new Router({

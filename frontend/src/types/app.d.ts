@@ -1,4 +1,4 @@
 interface CollectionViewProps {
   paintings: Painting[];
-  onClickPainting: (id: PaintingId) => void;
+  onClickPainting: (painting: Painting) => void;
 }

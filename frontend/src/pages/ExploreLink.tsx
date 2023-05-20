@@ -7,15 +7,18 @@ interface Props {
 }
 
 export default function ExploreLink({ className = "", content }: Props) {
-  const collection = "ham";
-  const [painting] = useLocalStorage("paintingIdx", 1);
+  const [collection] = useLocalStorage("collection", {
+    page: 1,
+    view: "gallery",
+    collectionId: "ham",
+  });
 
   return (
     <Link
       className={className}
-      to="/explore"
-      search={{ collection, painting }}
-      activeProps={{ style: { display: "none" } }}
+      to="/collections/$collectionId"
+      search={{ page: collection.page, view: collection.view }}
+      params={{ collectionId: collection.collectionId }}
     >
       {content}
     </Link>
