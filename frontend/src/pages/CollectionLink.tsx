@@ -14,10 +14,9 @@ export default function CollectionLink({
   content,
   onClick,
 }: Props) {
-  const [collection] = useLocalStorage("collection", {
+  const [collection] = useLocalStorage(`collection-${collectionId}`, {
     page: 1,
     view: "gallery",
-    collectionId,
   });
 
   return (
@@ -25,7 +24,7 @@ export default function CollectionLink({
       className={className}
       to="/collections/$collectionId"
       search={{ page: collection.page, view: collection.view }}
-      params={{ collectionId: collection.collectionId }}
+      params={{ collectionId }}
       onClick={onClick}
     >
       {content}

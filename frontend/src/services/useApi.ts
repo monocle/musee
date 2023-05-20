@@ -36,17 +36,16 @@ export const useGetCollection = ({
   page,
   view,
 }: UseGetCollectionProps) => {
-  const [collection, setStoredCollection] = useLocalStorage("collection", {
-    collectionId,
-    page,
-    view,
-  });
+  const [collection, setStoredCollection] = useLocalStorage(
+    `collection-${collectionId}`,
+    {
+      collectionId,
+      page,
+      view,
+    }
+  );
 
-  if (
-    collectionId !== collection.collectionId ||
-    page !== collection.page ||
-    view !== collection.view
-  ) {
+  if (page !== collection.page || view !== collection.view) {
     setStoredCollection({ collectionId, page, view });
   }
 
