@@ -5,6 +5,7 @@ import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
 import FavoriteToggle from "./FavoriteToggle";
 import Spinner from "../common/Spinner";
+import PageControls from "../collections/PageControls";
 
 export default function Painting() {
   const route = "/collections/$collectionId/paintings/$sequence";
@@ -19,6 +20,22 @@ export default function Painting() {
     page,
     sequence,
   });
+
+  const handlePageChange = (newSequence: number) => {
+    setIsImgLoaded(false);
+    navigate({
+      from: route,
+      to: route,
+      params: { collectionId, sequence: newSequence },
+    });
+  };
+
+  const handlOnDismiss = () =>
+    navigate({
+      to: "/collections/$collectionId",
+      params,
+      search,
+    });
 
   if (isLoading) {
     return <CenterScreenSpinner />;
@@ -41,21 +58,17 @@ export default function Painting() {
     url,
   } = painting;
 
-  const handlOnDismiss = () =>
-    navigate({
-      to: "/collections/$collectionId",
-      params,
-      search,
-    });
-
   return (
     <div className="absolute top-0 z-50 bg-base-200 lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
-      <div className="flex flex-wrap items-center justify-between gap-1 px-2 pb-2 pt-1 lg:order-2 lg:w-1/5 lg:px-2">
-        <h2 className="font-extrabold">{title}</h2>
-        <div className="flex">
-          <button className="btn-sm btn">Prev</button>
-          <button className="btn-sm btn">Next</button>
-        </div>
+      <div className="flex flex-wrap items-center gap-1 px-2 pb-2 pt-1 sm:flex-row-reverse lg:order-2 lg:w-1/5 lg:flex-col lg:flex-nowrap lg:px-2">
+        <PageControls
+          className="mx-auto sm:mx-0"
+          page={sequence}
+          maxPages={data.maxSequence}
+          isLoading={isLoading}
+          navigate={handlePageChange}
+        />
+        <h2 className="mx-auto text-center font-extrabold">{title}</h2>
       </div>
 
       <section className="relative flex w-full items-center justify-center bg-base-100 lg:order-1 lg:w-4/5">

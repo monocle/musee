@@ -1,11 +1,10 @@
 import { Link } from "@tanstack/react-router";
 
 interface Props {
-  showDemo: boolean;
   className?: string;
 }
 
-export default function Logo({ showDemo, className = "" }: Props) {
+export default function Logo({ className = "" }: Props) {
   const isDemo = import.meta.env.VITE_IS_DEMO;
 
   return (
@@ -16,9 +15,7 @@ export default function Logo({ showDemo, className = "" }: Props) {
       >
         Musee
       </Link>
-      {isDemo && showDemo && (
-        <span className="badge ml-3 text-xs italic">Demo</span>
-      )}
+      {isDemo && <span className="badge ml-3 text-xs italic">Demo</span>}
     </div>
   );
 }

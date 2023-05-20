@@ -1,3 +1,4 @@
+import { useNavigate } from "@tanstack/react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,
@@ -10,7 +11,7 @@ interface Props {
   maxPages: number;
   isLoading?: boolean;
   className?: string;
-  onPageChange: (newPage: number) => void;
+  navigate: (newPage: number) => void;
 }
 
 export default function PageControls({
@@ -18,16 +19,15 @@ export default function PageControls({
   maxPages,
   isLoading = false,
   className = "",
-  onPageChange,
+  navigate,
 }: Props) {
-  const handleIncrement = () => {
-    if (page > maxPages) return;
-    onPageChange(page + 1);
-  };
+  // const navigate = useNavigate();
 
-  const handleDecrement = () => {
-    if (page < 1) return;
-    onPageChange(page - 1);
+  const handlePageChange = (newPage: number) => {
+    if (page > maxPages || page < 1) return;
+
+    window.scroll({ top: 0 });
+    navigate(newPage);
   };
 
   return (
@@ -35,7 +35,7 @@ export default function PageControls({
       <Button
         className="btn-sm"
         disabled={page === 1 || isLoading}
-        onClick={handleDecrement}
+        onClick={() => handlePageChange(page - 1)}
       >
         <FontAwesomeIcon icon={faChevronLeft} />
       </Button>
@@ -47,7 +47,7 @@ export default function PageControls({
       <Button
         className="btn-sm btn"
         disabled={page >= maxPages || isLoading}
-        onClick={handleIncrement}
+        onClick={() => handlePageChange(page + 1)}
       >
         <FontAwesomeIcon icon={faChevronRight} />
       </Button>

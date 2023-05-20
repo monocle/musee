@@ -44,7 +44,7 @@ class BrowserCache {
   async getPage(collectionId: string, page: number) {
     if (collectionId !== "ham") return [];
 
-    const startSeq = (page - 1) * this.pageSize;
+    const startSeq = (page - 1) * this.pageSize + 1;
     const stopSeq = page * this.pageSize;
     const startFileNum = this.#getFileNum(startSeq);
     const stopFileNum = this.#getFileNum(stopSeq);

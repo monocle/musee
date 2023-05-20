@@ -16,55 +16,51 @@ export default function Collection() {
   const { isSuccess, isLoading, isFetching, data, isError, error } =
     useGetCollection({ collectionId, page, view });
 
-  const handlePageChange = (newPage: number) => {
+  const handlePageChange = (newPage: number) =>
     navigate({
       search: (prev) => ({ ...prev, page: newPage }),
     });
-  };
 
-  const handleClickPainting = (painting: Painting) => {
+  const handleClickPainting = (painting: Painting) =>
     navigate({
       from: "/collections/$collectionId",
       to: "/collections/$collectionId/paintings/$sequence",
       params: { collectionId, sequence: painting.sequence },
     });
-  };
 
   return (
-    <div className="relative">
+    <>
       {isLoading && <CenterScreenSpinner />}
       {isError && <ErrorMessage error={error} />}
       {isSuccess && (
-        <>
-          <div className="container relative mx-auto">
-            <div className="sticky top-12 z-20 flex flex-wrap items-center justify-center gap-4 bg-base-100 px-2 py-2 md:justify-between lg:px-10">
-              <h2 className="text-center font-heading font-bold md:text-xl">
-                {collectionId === "ham" ? "Harvard Art Museums" : "Favorites"}
-              </h2>
-              <SelectView />
+        <div className="relative">
+          <div className="sticky top-12 z-20 flex flex-wrap items-center justify-center gap-4 bg-base-100 px-2 py-2 md:justify-between lg:px-10">
+            <h2 className="text-center font-heading font-bold md:text-xl">
+              {collectionId === "ham" ? "Harvard Art Museums" : "Favorites"}
+            </h2>
+            <SelectView />
 
-              <PageControls
-                page={page}
-                maxPages={data.maxPages}
-                isLoading={isFetching}
-                onPageChange={handlePageChange}
-              />
-            </div>
-
-            {view === "gallery" ? (
-              <GalleryView
-                paintings={data.records}
-                onClickPainting={handleClickPainting}
-              />
-            ) : (
-              <ListView
-                paintings={data.records}
-                onClickPainting={handleClickPainting}
-              />
-            )}
+            <PageControls
+              page={page}
+              maxPages={data.maxPages}
+              isLoading={isFetching}
+              navigate={handlePageChange}
+            />
           </div>
-        </>
+
+          {view === "gallery" ? (
+            <GalleryView
+              paintings={data.records}
+              onClickPainting={handleClickPainting}
+            />
+          ) : (
+            <ListView
+              paintings={data.records}
+              onClickPainting={handleClickPainting}
+            />
+          )}
+        </div>
       )}
-    </div>
+    </>
   );
 }
