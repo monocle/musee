@@ -9,11 +9,10 @@ import ThemeToggler from "./ThemeToggle";
 export default function Header() {
   const [showNav, setShowNav] = useState(false);
   const router = useRouter();
-  const isViewing = router.state.currentLocation.pathname !== "/";
 
   return (
     <header className="sticky top-0 z-30 flex items-center justify-between bg-base-200 px-4">
-      <Logo showDemo={!isViewing} />
+      <Logo />
 
       <div className="flex items-center gap-1 md:gap-6">
         <label
@@ -29,19 +28,21 @@ export default function Header() {
           }`}
         >
           <CollectionLink
+            className="btn-ghost btn w-full font-semibold hover:text-blue-500"
             collectionId="favorites"
             content="Favorites"
             onClick={() => setShowNav(false)}
           />
 
           <CollectionLink
+            className="btn-ghost btn w-full font-semibold hover:text-blue-500"
             collectionId="ham"
             content="All"
             onClick={() => setShowNav(false)}
           />
-
-          <ThemeToggler />
         </div>
+
+        <ThemeToggler />
       </div>
     </header>
   );

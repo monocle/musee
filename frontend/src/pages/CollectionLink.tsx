@@ -22,7 +22,7 @@ export default function CollectionLink({
 
   return (
     <Link
-      className={`btn-ghost btn w-full font-semibold hover:text-blue-500 ${className}`}
+      className={className}
       to="/collections/$collectionId"
       search={{ page: collection.page, view: collection.view }}
       params={{ collectionId: collection.collectionId }}
