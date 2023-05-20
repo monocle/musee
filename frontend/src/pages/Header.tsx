@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useRouter } from "@tanstack/react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import CollectionLink from "./CollectionLink";
@@ -8,7 +7,6 @@ import ThemeToggler from "./ThemeToggle";
 
 export default function Header() {
   const [showNav, setShowNav] = useState(false);
-  const router = useRouter();
 
   return (
     <header className="sticky top-0 z-30 flex items-center justify-between bg-base-200 px-4">
