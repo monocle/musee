@@ -68,7 +68,6 @@ export default function Painting() {
           isLoading={isLoading}
           navigate={handlePageChange}
         />
-        <h2 className="mx-auto text-center font-extrabold">{title}</h2>
       </div>
 
       <section className="relative flex w-full items-center justify-center bg-base-100 lg:order-1 lg:w-4/5">
@@ -98,6 +97,7 @@ export default function Painting() {
       <section className="overflow-y-auto px-4 pb-4 pt-2 lg:order-3 lg:flex lg:w-1/5 lg:flex-1 lg:flex-wrap lg:px-4">
         <FavoriteToggle id={id} className="my-2" />
         <ul className="list">
+          <li className="mb-3 font-extrabold">{title}</li>
           <li className="mb-3 font-bold">{artist?.name ?? "Unknown"}</li>
           {artist?.culture && <li className="mb-3">{artist.culture}</li>}
           {date !== 0 && <li className="mb-3">{date}</li>}
