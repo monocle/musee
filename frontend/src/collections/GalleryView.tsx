@@ -7,16 +7,14 @@ export default function GalleryView({
       {paintings.map((painting) => (
         <figure
           className="relative w-[22rem] border-4 border-base-200 bg-base-300 py-5"
+          id={`painting-${painting.sequence}`}
           key={painting.id}
         >
           <div className="badge-neutral badge absolute top-0 text-sm text-neutral-content">
             {painting.sequence}
           </div>
 
-          <div
-            className="relative mx-auto flex h-80 w-80 items-center justify-center"
-            id={`painting-${painting.sequence}`}
-          >
+          <div className="relative mx-auto flex h-80 w-80 items-center justify-center">
             <div className="absolute inset-0 bg-base-300"></div>
             <img
               className="absolute h-full w-full cursor-pointer object-contain transition-opacity duration-500"

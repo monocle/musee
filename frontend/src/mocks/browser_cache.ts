@@ -35,12 +35,6 @@ class BrowserCache {
     return records[idx];
   }
 
-  #getHAMFileNumIdx(sequence: number): [number, number] {
-    const pageNum = Math.floor(sequence / this.recordsPerFile) + 1;
-    const idx = (sequence % this.recordsPerFile) - 1;
-    return [pageNum, idx];
-  }
-
   async getPage(collectionId: string, page: number) {
     if (collectionId !== "ham") return [];
 
@@ -70,6 +64,12 @@ class BrowserCache {
 
   #getFileNum(sequence: number) {
     return 1 + Math.floor(sequence / this.recordsPerFile);
+  }
+
+  #getHAMFileNumIdx(sequence: number): [number, number] {
+    const pageNum = Math.floor(sequence / this.recordsPerFile) + 1;
+    const idx = (sequence % this.recordsPerFile) - 1;
+    return [pageNum, idx];
   }
 
   async #getFileRecords(fileNum: number) {

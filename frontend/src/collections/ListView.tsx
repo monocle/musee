@@ -28,7 +28,10 @@ export default function ListView({
       <tbody>
         {paintings.map((painting) => (
           <tr key={painting.id} className="border-t border-base-300">
-            <td className="mr-4 flex items-center gap-1">
+            <td
+              className="mr-4 flex items-center gap-1"
+              id={`painting-${painting.sequence}`}
+            >
               <span>{painting.sequence}</span>
               <img
                 className="h-20 w-20 cursor-pointer object-contain "

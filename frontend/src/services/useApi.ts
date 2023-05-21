@@ -26,8 +26,8 @@ async function apiDelete(path: string) {
 }
 
 interface UseGetCollectionProps {
-  page: number;
   collectionId: string;
+  page: number;
   view: string;
 }
 
@@ -38,11 +38,7 @@ export const useGetCollection = ({
 }: UseGetCollectionProps) => {
   const [collection, setStoredCollection] = useLocalStorage(
     `collection-${collectionId}`,
-    {
-      collectionId,
-      page,
-      view,
-    }
+    { collectionId, page, view }
   );
 
   if (page !== collection.page || view !== collection.view) {

@@ -6,6 +6,7 @@ import {
   Route,
   Router,
 } from "@tanstack/react-router";
+import cache from "./mocks/browser_cache.ts";
 import { apiGet } from "./services/useApi.ts";
 import queryClient from "./queryClient.ts";
 import App from "./App.tsx";
@@ -17,6 +18,10 @@ declare module "@tanstack/router" {
   interface Register {
     router: typeof router;
   }
+}
+
+function getPageFromSequence(sequence: number) {
+  return 1 + Math.floor((sequence - 1) / cache.pageSize);
 }
 
 const rootRoute = new RootRoute({
@@ -43,12 +48,18 @@ const collectionRoute = new Route({
     search: Record<string, unknown>
   ): {
     page: number;
+    sequence?: number;
     view: string;
   } => {
     const page = Number(search?.page ?? 1);
+    const sequence = Number(search?.sequence);
+    const view = String(search?.view ?? "gallery");
+    const updatedPage = sequence ? getPageFromSequence(sequence) : page;
+
     return {
-      page: page < 1 ? 1 : page,
-      view: String(search?.view ?? "gallery"),
+      page: updatedPage < 1 ? 1 : updatedPage,
+      sequence,
+      view,
     };
   },
 });

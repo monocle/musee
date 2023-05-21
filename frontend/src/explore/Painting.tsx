@@ -27,6 +27,7 @@ export default function Painting() {
       from: route,
       to: route,
       params: { collectionId, sequence: newSequence },
+      search,
     });
   };
 
@@ -34,8 +35,10 @@ export default function Painting() {
     navigate({
       to: "/collections/$collectionId",
       params,
-      search,
+      search: { ...search, sequence },
     });
+
+  window.scrollTo({ top: 0 });
 
   if (isLoading) {
     return <CenterScreenSpinner />;
@@ -72,6 +75,12 @@ export default function Painting() {
 
       <section className="relative flex w-full items-center justify-center bg-base-100 lg:order-1 lg:w-4/5">
         {!isImgLoaded && <Spinner className="absolute" />}
+        <button
+          className="btn-active btn-xs btn absolute right-2 top-2"
+          onClick={handlOnDismiss}
+        >
+          X
+        </button>
         <figure
           className={`flex max-w-full flex-col px-1 lg:h-screen lg:pb-1 ${
             isImgLoaded
@@ -79,12 +88,6 @@ export default function Painting() {
               : "opacity-0"
           }`}
         >
-          <button
-            className="btn-active btn-xs btn absolute right-2 top-2"
-            onClick={handlOnDismiss}
-          >
-            X
-          </button>
           <img
             src={primaryimageurl}
             alt={title}
