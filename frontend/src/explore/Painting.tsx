@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams, useSearch } from "@tanstack/react-router";
+import cache from "../mocks/browser_cache";
 import { useGetPainting } from "../services/useApi";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
@@ -35,7 +36,11 @@ export default function Painting() {
     navigate({
       to: "/collections/$collectionId",
       params,
-      search: { ...search, sequence },
+      search: {
+        ...search,
+        sequence,
+        page: cache.getPageFromSequence(sequence),
+      },
     });
 
   useEffect(() => {

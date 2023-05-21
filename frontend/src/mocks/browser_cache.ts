@@ -62,6 +62,10 @@ class BrowserCache {
     this.#favorites = this.#favorites.filter((id) => id !== removeId);
   }
 
+  getPageFromSequence(sequence: number) {
+    return 1 + Math.floor((sequence - 1) / cache.pageSize);
+  }
+
   #getFileNum(sequence: number) {
     return 1 + Math.floor(sequence / this.recordsPerFile);
   }
