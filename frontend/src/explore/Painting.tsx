@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate, useParams, useSearch } from "@tanstack/react-router";
 import { useGetPainting } from "../services/useApi";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
@@ -15,7 +15,7 @@ export default function Painting() {
   const { collectionId, sequence } = params;
   const { page } = search;
   const [isImgLoaded, setIsImgLoaded] = useState(false);
-  const { isLoading, isError, data, error } = useGetPainting({
+  const { isLoading, data, error } = useGetPainting({
     collectionId,
     page,
     sequence,
@@ -38,15 +38,12 @@ export default function Painting() {
       search: { ...search, sequence },
     });
 
-  window.scrollTo({ top: 0 });
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [sequence]);
 
-  if (isLoading) {
-    return <CenterScreenSpinner />;
-  }
-
-  if (isError) {
-    return <ErrorMessage error={error} />;
-  }
+  if (isLoading) return <CenterScreenSpinner />;
+  if (error) return <ErrorMessage error={error} />;
 
   const painting = data.painting;
   const {
@@ -63,7 +60,7 @@ export default function Painting() {
 
   return (
     <div className="absolute top-0 z-50 bg-base-200 lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
-      <div className="flex flex-wrap items-center gap-1 px-2 pb-2 pt-1 sm:flex-row-reverse lg:order-2 lg:w-1/5 lg:flex-col lg:flex-nowrap lg:px-2">
+      <nav className="flex flex-wrap items-center gap-1 px-2 pb-2 pt-1 sm:flex-row-reverse lg:order-2 lg:w-1/5 lg:flex-col lg:flex-nowrap lg:px-2">
         <PageControls
           className="mx-auto sm:mx-0"
           page={sequence}
@@ -71,7 +68,7 @@ export default function Painting() {
           isLoading={isLoading}
           navigate={handlePageChange}
         />
-      </div>
+      </nav>
 
       <section className="relative flex w-full items-center justify-center bg-base-100 lg:order-1 lg:w-4/5">
         {!isImgLoaded && <Spinner className="absolute" />}
