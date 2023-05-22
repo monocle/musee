@@ -36,6 +36,7 @@ interface Painting {
   source: string;
   title: string;
   url: string;
+  favoritesSequence?: number;
 }
 
 interface CollectionResponse {

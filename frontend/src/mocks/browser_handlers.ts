@@ -22,7 +22,7 @@ const handlers = [
     "/api/collections/:collectionId/paintings/:sequence",
     async (req, res, ctx) => {
       const { collectionId, sequence } = req.params;
-      const painting = await cache.getPainting(
+      const painting = await cache.getPaintingBySequence(
         String(collectionId),
         Number(sequence)
       );

@@ -27,19 +27,35 @@ class BrowserCache {
     return Math.ceil(this.totalRecords / this.pageSize);
   }
 
-  async getPainting(collectionId: string, sequence: number) {
-    if (collectionId !== "ham") return [];
+  async getPaintingBySequence(collectionId: string, sequence: number) {
+    if (collectionId === "favorites") {
+      return this.getPaintingById(this.#favorites[sequence]);
+    }
 
     const [fileNum, idx] = this.#getHAMFileNumIdx(sequence);
     const records = await this.#getFileRecords(fileNum);
     return records[idx];
   }
 
-  async getPage(collectionId: string, page: number) {
-    if (collectionId !== "ham") return [];
+  async getPaintingById(id: string) {
+    const split = id.split("-");
+    const fileNum = Number(split[0]);
+    const idx = Number(split[1]);
+    const records = await this.#getFileRecords(fileNum);
+    return records[idx];
+  }
 
+  async getPage(collectionId: string, page: number) {
     const startSeq = (page - 1) * this.pageSize + 1;
-    const stopSeq = page * this.pageSize;
+    const stopSeq = page * this.pageSize + 1;
+
+    if (collectionId === "favorites") {
+      const ids = this.#favorites.slice(startSeq - 1, stopSeq - 1);
+      return await Promise.all(
+        ids.map(async (id) => await this.getPaintingById(id))
+      );
+    }
+
     const startFileNum = this.#getFileNum(startSeq);
     const stopFileNum = this.#getFileNum(stopSeq);
     let records = await this.#getFileRecords(startFileNum);
@@ -49,17 +65,24 @@ class BrowserCache {
     }
 
     return records.filter(
-      (painting) =>
-        painting.sequence >= startSeq && painting.sequence <= stopSeq
+      (painting) => painting.sequence >= startSeq && painting.sequence < stopSeq
     );
   }
 
-  addFavorite(id: PaintingId) {
-    this.#favorites.push(id);
+  async addFavorite(newId: PaintingId) {
+    if (this.#favorites.some((id) => id === newId)) return;
+
+    const painting = await this.getPaintingById(newId);
+
+    painting.favoritesSequence = this.#favorites.length + 1;
+    this.#favorites.push(newId);
   }
 
-  removeFavorite(removeId: PaintingId) {
+  async removeFavorite(removeId: PaintingId) {
     this.#favorites = this.#favorites.filter((id) => id !== removeId);
+
+    const painting = await this.getPaintingById(removeId);
+    painting.favoritesSequence = undefined;
   }
 
   getPageFromSequence(sequence: number) {

@@ -46,7 +46,7 @@ export const useGetCollection = ({
   }
 
   return useQuery<CollectionResponse, ServerError>({
-    queryKey: ["collections", { collectionId, page }],
+    queryKey: ["collections", collectionId, page],
     keepPreviousData: true,
     queryFn: () =>
       apiGet(`collections/${collectionId}`, { page } as AxiosRequestConfig),
@@ -62,7 +62,7 @@ export const useGetPainting = ({
   page: number;
   sequence: number;
 }) => {
-  const queryKey = ["collections", { collectionId, page }];
+  const collectionQueryKey = ["collections", collectionId, page];
 
   return useQuery<PaintingResponse, ServerError>({
     queryKey: ["collections", collectionId, sequence],
@@ -70,7 +70,7 @@ export const useGetPainting = ({
     queryFn: () => apiGet(`collections/${collectionId}/paintings/${sequence}`),
     initialData: () => {
       const collectionResponse =
-        queryClient.getQueryData<CollectionResponse>(queryKey);
+        queryClient.getQueryData<CollectionResponse>(collectionQueryKey);
 
       if (!collectionResponse) return undefined;
 
@@ -83,7 +83,7 @@ export const useGetPainting = ({
         : undefined;
     },
     initialDataUpdatedAt: () =>
-      queryClient.getQueryState(queryKey)?.dataUpdatedAt,
+      queryClient.getQueryState(collectionQueryKey)?.dataUpdatedAt,
   });
 };
 
@@ -93,22 +93,36 @@ export const useUpdateFavorite = () => {
   const collectionId = "favorites";
 
   return useMutation({
-    mutationFn: ({ id, isAdd }: { id: PaintingId; isAdd: boolean }) => {
+    mutationFn: ({
+      painting,
+      isAdd,
+    }: {
+      painting: Painting;
+      isAdd: boolean;
+      page: number;
+    }) => {
       if (isAdd) {
         return apiPost(
           `users/${userId}/collections/${collectionId}/paintings`,
           {
-            id,
+            id: painting.id,
           } as AxiosRequestConfig
         );
       }
       return apiDelete(
-        `users/${userId}/collections/${collectionId}/paintings/${id}`
+        `users/${userId}/collections/${collectionId}/paintings/${painting.id}`
       );
     },
-    onSuccess: () =>
+    onSuccess: (_, { painting, page }) => {
       queryClient.invalidateQueries({
         queryKey: ["collections", collectionId],
-      }),
+      });
+      queryClient.invalidateQueries({
+        queryKey: ["collections", painting.source, page],
+      });
+      queryClient.invalidateQueries({
+        queryKey: ["collections", painting.source, painting.sequence],
+      });
+    },
   });
 };

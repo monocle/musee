@@ -1,25 +1,29 @@
-import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
+import { faStar as faStarSolid } from "@fortawesome/free-solid-svg-icons";
+import { faStar as faStarReg } from "@fortawesome/free-regular-svg-icons";
 import Button from "../common/Button";
 import { useUpdateFavorite } from "../services/useApi";
 
 interface Props {
-  id: PaintingId;
+  page: number;
+  painting: Painting;
   className?: string;
 }
 
-export default function FavoriteToggle({ id, className = "" }: Props) {
+export default function FavoriteToggle({
+  page,
+  painting,
+  className = "",
+}: Props) {
   const updateFavorite = useUpdateFavorite();
-  const [isFavorite, setIsFavorite] = useState(false);
-  const icon = isFavorite ? faMinus : faPlus;
+  const isFavorite = !!painting.favoritesSequence;
+  const icon = isFavorite ? faStarSolid : faStarReg;
   const color = isFavorite
-    ? "text-warning"
-    : "btn-accent btn-outline text-accent-content";
+    ? "btn-accent btn-outline text-accent-content"
+    : "text-accent";
 
   const handleFavoriteToggle = () => {
-    updateFavorite.mutate({ id, isAdd: !isFavorite });
-    setIsFavorite(!isFavorite);
+    updateFavorite.mutate({ painting, isAdd: !isFavorite, page });
   };
 
   return (
