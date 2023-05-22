@@ -1,7 +1,6 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import useLocalStorage from "../services/useLocalStorage";
-import queryClient from "../queryClient";
 
 const API_PREFIX = "/api/";
 
@@ -25,17 +24,15 @@ async function apiDelete(path: string) {
   return processRequest(axios.delete(API_PREFIX + path));
 }
 
-interface UseGetCollectionProps {
-  collectionId: string;
-  page: number;
-  view: string;
-}
-
 export const useGetCollection = ({
   collectionId,
   page,
   view,
-}: UseGetCollectionProps) => {
+}: {
+  collectionId: string;
+  page: number;
+  view: string;
+}) => {
   const [collection, setStoredCollection] = useLocalStorage(
     `collection-${collectionId}`,
     { collectionId, page, view }
@@ -46,7 +43,7 @@ export const useGetCollection = ({
   }
 
   return useQuery<CollectionResponse, ServerError>({
-    queryKey: ["collections", collectionId, page],
+    queryKey: ["collections", collectionId, { page }],
     keepPreviousData: true,
     queryFn: () =>
       apiGet(`collections/${collectionId}`, { page } as AxiosRequestConfig),
@@ -55,35 +52,16 @@ export const useGetCollection = ({
 
 export const useGetPainting = ({
   collectionId,
-  page,
   sequence,
 }: {
   collectionId: string;
   page: number;
   sequence: number;
 }) => {
-  const collectionQueryKey = ["collections", collectionId, page];
-
   return useQuery<PaintingResponse, ServerError>({
-    queryKey: ["collections", collectionId, sequence],
+    queryKey: ["collections", collectionId, { sequence }],
     keepPreviousData: true,
     queryFn: () => apiGet(`collections/${collectionId}/paintings/${sequence}`),
-    initialData: () => {
-      const collectionResponse =
-        queryClient.getQueryData<CollectionResponse>(collectionQueryKey);
-
-      if (!collectionResponse) return undefined;
-
-      const painting = collectionResponse.records.find(
-        (painting) => painting.sequence === sequence
-      );
-
-      return painting
-        ? { painting, maxSequence: collectionResponse.maxRecords }
-        : undefined;
-    },
-    initialDataUpdatedAt: () =>
-      queryClient.getQueryState(collectionQueryKey)?.dataUpdatedAt,
   });
 };
 
@@ -118,10 +96,14 @@ export const useUpdateFavorite = () => {
         queryKey: ["collections", collectionId],
       });
       queryClient.invalidateQueries({
-        queryKey: ["collections", painting.source, page],
+        queryKey: ["collections", painting.source, { page }],
       });
       queryClient.invalidateQueries({
-        queryKey: ["collections", painting.source, painting.sequence],
+        queryKey: [
+          "collections",
+          painting.source,
+          { sequence: painting.sequence },
+        ],
       });
     },
   });
