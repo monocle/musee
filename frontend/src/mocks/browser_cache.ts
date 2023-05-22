@@ -116,8 +116,8 @@ class BrowserCache {
   }
 
   #getHAMFileNumIdx(sequence: number): [number, number] {
-    const pageNum = Math.floor(sequence / this.recordsPerFile) + 1;
-    const idx = (sequence % this.recordsPerFile) - 1;
+    const pageNum = Math.floor((sequence - 1) / this.recordsPerFile) + 1;
+    const idx = (sequence - 1) % this.recordsPerFile;
     return [pageNum, idx];
   }
 
