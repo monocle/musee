@@ -1,5 +1,8 @@
+import FavoriteToggle from "../explore/FavoriteToggle";
+
 export default function GalleryView({
   paintings,
+  page,
   onClickPainting,
 }: CollectionViewProps) {
   return (
@@ -10,8 +13,16 @@ export default function GalleryView({
           id={`painting-${painting.sequence}`}
           key={painting.id}
         >
-          <div className="badge-neutral badge absolute top-0 text-sm text-neutral-content">
-            {painting.sequence}
+          <div className="absolute top-0 z-10 flex w-full justify-between">
+            <div className="badge-neutral badge text-sm text-neutral-content">
+              {painting.sequence}
+            </div>
+
+            <FavoriteToggle
+              className="btn-xs"
+              page={page}
+              painting={painting}
+            />
           </div>
 
           <div className="relative mx-auto flex h-80 w-80 items-center justify-center">

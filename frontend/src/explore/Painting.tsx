@@ -99,7 +99,12 @@ export default function Painting() {
       </section>
 
       <section className="overflow-y-auto px-4 pb-4 pt-2 lg:order-3 lg:flex lg:w-1/5 lg:flex-1 lg:flex-wrap lg:px-4">
-        <FavoriteToggle className="my-2" painting={painting} page={page} />
+        <FavoriteToggle
+          className="btn-block btn-sm my-2 "
+          painting={painting}
+          page={page}
+        />
+
         <ul className="list">
           <li className="mb-3 font-extrabold">{title}</li>
           <li className="mb-3 font-bold">{artist?.name ?? "Unknown"}</li>

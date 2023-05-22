@@ -74,11 +74,13 @@ export default function Collection() {
       {view === "gallery" ? (
         <GalleryView
           paintings={data.records}
+          page={page}
           onClickPainting={handleClickPainting}
         />
       ) : (
         <ListView
           paintings={data.records}
+          page={page}
           onClickPainting={handleClickPainting}
         />
       )}

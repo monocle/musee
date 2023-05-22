@@ -28,7 +28,7 @@ export default function FavoriteToggle({
 
   return (
     <Button
-      className={`btn-block btn-sm btn ${color} ${className}`}
+      className={`btn ${color} ${className}`}
       onClick={handleFavoriteToggle}
     >
       <FontAwesomeIcon icon={icon} />
