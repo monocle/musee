@@ -40,7 +40,7 @@ export default function PageControls({
       </Button>
 
       <button className="btn-disabled btn-sm btn">
-        {page} / {maxPages}
+        {maxPages === 0 ? 0 : page} / {maxPages}
       </button>
 
       <Button

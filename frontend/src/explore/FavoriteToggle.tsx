@@ -18,9 +18,7 @@ export default function FavoriteToggle({
   const updateFavorite = useUpdateFavorite();
   const isFavorite = !!painting.favoritesSequence;
   const icon = isFavorite ? faStarSolid : faStarReg;
-  const color = isFavorite
-    ? "btn-accent btn-outline text-accent-content"
-    : "text-accent";
+  const color = isFavorite ? "btn-ghost text-accent" : "text-accent";
 
   const handleFavoriteToggle = () => {
     updateFavorite.mutate({ painting, isAdd: !isFavorite, page });

@@ -25,13 +25,19 @@ export default function Collection() {
       search: (prev) => ({ ...prev, page: newPage }),
     });
 
-  const handleClickPainting = (painting: Painting) =>
+  const handleClickPainting = (painting: Painting) => {
+    const sequence =
+      collectionId === "favorites" && painting.favoritesSequence
+        ? painting.favoritesSequence
+        : painting.sequence;
+
     navigate({
       from: "/collections/$collectionId",
       to: "/collections/$collectionId/paintings/$sequence",
-      params: { collectionId, sequence: painting.sequence },
+      params: { collectionId, sequence },
       search: { page, view },
     });
+  };
 
   useEffect(() => {
     if (!sequence) return;

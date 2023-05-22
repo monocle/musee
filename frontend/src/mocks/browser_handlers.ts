@@ -11,9 +11,9 @@ const handlers = [
       ctx.status(200),
       ctx.json({
         records,
-        maxPages: cache.maxPages,
         pageSize: cache.pageSize,
-        maxRecords: cache.totalRecords,
+        maxPages: cache.maxPages(collectionId),
+        maxRecords: cache.maxRecords(collectionId),
       })
     );
   }),
@@ -21,16 +21,17 @@ const handlers = [
   rest.get(
     "/api/collections/:collectionId/paintings/:sequence",
     async (req, res, ctx) => {
-      const { collectionId, sequence } = req.params;
+      const { collectionId: _collectionId, sequence } = req.params;
+      const collectionId = String(_collectionId);
       const painting = await cache.getPaintingBySequence(
-        String(collectionId),
+        collectionId,
         Number(sequence)
       );
 
       if (painting) {
         return res(
           ctx.status(200),
-          ctx.json({ painting, maxSequence: cache.totalRecords })
+          ctx.json({ painting, maxSequence: cache.maxRecords(collectionId) })
         );
       }
 

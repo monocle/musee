@@ -62,6 +62,7 @@ export const useGetPainting = ({
     queryKey: ["collections", collectionId, { sequence }],
     keepPreviousData: true,
     queryFn: () => apiGet(`collections/${collectionId}/paintings/${sequence}`),
+    retry: (_, error) => error.type !== "missing",
   });
 };
 
@@ -91,19 +92,12 @@ export const useUpdateFavorite = () => {
         `users/${userId}/collections/${collectionId}/paintings/${painting.id}`
       );
     },
-    onSuccess: (_, { painting, page }) => {
+    onSuccess: (_, { painting }) => {
       queryClient.invalidateQueries({
         queryKey: ["collections", collectionId],
       });
       queryClient.invalidateQueries({
-        queryKey: ["collections", painting.source, { page }],
-      });
-      queryClient.invalidateQueries({
-        queryKey: [
-          "collections",
-          painting.source,
-          { sequence: painting.sequence },
-        ],
+        queryKey: ["collections", painting.source],
       });
     },
   });

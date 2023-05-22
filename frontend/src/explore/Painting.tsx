@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useNavigate, useParams, useSearch } from "@tanstack/react-router";
 import cache from "../mocks/browser_cache";
 import { useGetPainting } from "../services/useApi";
@@ -28,27 +28,44 @@ export default function Painting() {
       from: route,
       to: route,
       params: { collectionId, sequence: newSequence },
-      search,
+      search: { page: search.page, view: search.view },
     });
   };
 
-  const handlOnDismiss = () =>
-    navigate({
-      to: "/collections/$collectionId",
-      params,
-      search: {
-        ...search,
-        sequence,
-        page: cache.getPageFromSequence(sequence),
-      },
-    });
+  const navigateToCollection = useCallback(
+    () =>
+      navigate({
+        to: "/collections/$collectionId",
+        params,
+        search: {
+          ...search,
+          sequence,
+          page: cache.getPageFromSequence(sequence),
+        },
+      }),
+    [params, search, sequence, navigate]
+  );
 
   useEffect(() => {
     window.scrollTo({ top: 0 });
   }, [sequence]);
 
-  if (isLoading) return <CenterScreenSpinner />;
+  useEffect(() => {
+    if (error && error.type === "missing") {
+      if (sequence === 1) {
+        navigate({
+          to: "/collections/$collectionId",
+          params: { collectionId: "favorites" },
+          search: { page: 1, view: "gallery" },
+        });
+      } else {
+        navigateToCollection();
+      }
+    }
+  }, [error, navigate, sequence, navigateToCollection]);
+
   if (error) return <ErrorMessage error={error} />;
+  if (isLoading) return <CenterScreenSpinner />;
 
   const painting = data.painting;
   const {
@@ -78,7 +95,7 @@ export default function Painting() {
         {!isImgLoaded && <Spinner className="absolute" />}
         <button
           className="btn-active btn-xs btn absolute right-2 top-2"
-          onClick={handlOnDismiss}
+          onClick={navigateToCollection}
         >
           X
         </button>
