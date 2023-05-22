@@ -47,10 +47,6 @@ export default function Painting() {
   );
 
   useEffect(() => {
-    window.scrollTo({ top: 0 });
-  }, [sequence]);
-
-  useEffect(() => {
     if (error && error.type === "missing") {
       if (sequence === 1) {
         navigate({
@@ -63,6 +59,10 @@ export default function Painting() {
       }
     }
   }, [error, navigate, sequence, navigateToCollection]);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [sequence]);
 
   if (error) return <ErrorMessage error={error} />;
   if (isLoading) return <CenterScreenSpinner />;
@@ -100,7 +100,7 @@ export default function Painting() {
           X
         </button>
         <figure
-          className={`flex max-w-full flex-col px-1 lg:h-screen lg:pb-1 ${
+          className={`min-h-16 flex max-w-full flex-col px-1 lg:h-screen lg:pb-1 ${
             isImgLoaded
               ? "opacity-100 transition-opacity duration-1000"
               : "opacity-0"
