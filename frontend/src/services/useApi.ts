@@ -50,7 +50,7 @@ export const useGetCollection = ({
   });
 };
 
-export const useGetPainting = ({
+export const useGetRecord = ({
   collectionId,
   sequence,
 }: {
@@ -58,10 +58,10 @@ export const useGetPainting = ({
   page: number;
   sequence: number;
 }) => {
-  return useQuery<PaintingResponse, ServerError>({
+  return useQuery<ApiRecordResponse, ServerError>({
     queryKey: ["collections", collectionId, { sequence }],
     keepPreviousData: true,
-    queryFn: () => apiGet(`collections/${collectionId}/paintings/${sequence}`),
+    queryFn: () => apiGet(`collections/${collectionId}/records/${sequence}`),
     retry: (_, error) => error.type !== "missing",
   });
 };
@@ -73,31 +73,28 @@ export const useUpdateFavorite = () => {
 
   return useMutation({
     mutationFn: ({
-      painting,
+      record,
       isAdd,
     }: {
-      painting: Painting;
+      record: ApiRecord;
       isAdd: boolean;
       page: number;
     }) => {
       if (isAdd) {
-        return apiPost(
-          `users/${userId}/collections/${collectionId}/paintings`,
-          {
-            id: painting.id,
-          } as AxiosRequestConfig
-        );
+        return apiPost(`users/${userId}/collections/${collectionId}/records`, {
+          id: record.id,
+        } as AxiosRequestConfig);
       }
       return apiDelete(
-        `users/${userId}/collections/${collectionId}/paintings/${painting.id}`
+        `users/${userId}/collections/${collectionId}/records/${record.id}`
       );
     },
-    onSuccess: (_, { painting }) => {
+    onSuccess: (_, { record }) => {
       queryClient.invalidateQueries({
         queryKey: ["collections", collectionId],
       });
       queryClient.invalidateQueries({
-        queryKey: ["collections", painting.source],
+        queryKey: ["collections", record.source],
       });
     },
   });

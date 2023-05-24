@@ -34,7 +34,7 @@ export default function Header() {
 
           <CollectionLink
             className="btn-ghost btn w-full font-semibold hover:text-blue-500"
-            collectionId="ham"
+            collectionId="aic"
             content="All"
             onClick={() => setShowNav(false)}
           />

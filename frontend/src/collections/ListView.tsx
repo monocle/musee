@@ -1,15 +1,6 @@
-import React from "react";
-
-function toPercent(num: number, minimumFractionDigits = 0) {
-  return new Intl.NumberFormat("en-US", {
-    style: "percent",
-    minimumFractionDigits,
-  }).format(num);
-}
-
 export default function ListView({
-  paintings,
-  onClickPainting,
+  records,
+  onClickRecord,
 }: CollectionViewProps) {
   return (
     <table className="table-compact w-full text-left">
@@ -21,56 +12,48 @@ export default function ListView({
           <th>Date</th>
           <th>Medium</th>
           <th>Dimensions</th>
-          <th>Colors</th>
+          <th>Color (HSL)</th>
           <th>Museum Link</th>
         </tr>
       </thead>
       <tbody>
-        {paintings.map((painting) => (
-          <tr key={painting.id} className="border-t border-base-300">
+        {records.map((record) => (
+          <tr key={record.id} className="border-t border-base-300">
             <td
               className="mr-4 flex w-24 items-center gap-1"
-              id={`painting-${painting.sequence}`}
+              id={`record-${record.sequence}`}
             >
-              <span>{painting.sequence}</span>
+              <span>{record.sequence}</span>
               <img
                 className="h-20 w-20 cursor-pointer object-contain "
-                src={`${painting.primaryimageurl}?height=80&width=80`}
+                src={record.image_url.xl}
                 alt="..."
-                onClick={() => onClickPainting(painting)}
+                onClick={() => onClickRecord(record)}
               />
             </td>
-            <td className="whitespace-normal">{painting.title}</td>
-            <td>{painting.artist?.name ?? "Unknown"}</td>
-            <td>{painting.date}</td>
-            <td>{painting.medium}</td>
+            <td className="whitespace-normal">{record.title}</td>
+            <td>{record.artist_name}</td>
+            <td>{record.date}</td>
+            <td>{record.medium}</td>
             <td>
-              {painting.dimensions.map((dim) => (
+              {record.dimensions.map((dim) => (
                 <div key={dim}>{dim}</div>
               ))}
             </td>
             <td>
-              {painting.colors.slice(0, 1).map(({ hue, percent, css3 }) => (
-                <React.Fragment key={css3}>
-                  <div>{hue}</div>
-                  <div>{toPercent(percent)}</div>
-                  <div>{css3}</div>
-                </React.Fragment>
-              ))}
+              <div>
+                {record.color.h}, {record.color.s}%, {record.color.l}%
+              </div>
             </td>
             <td>
-              {painting.url ? (
-                <a
-                  className="link-info link"
-                  href={painting.url}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  link
-                </a>
-              ) : (
-                "None"
-              )}
+              <a
+                className="link-info link"
+                href={record.source_url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                link
+              </a>
             </td>
           </tr>
         ))}

@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { useNavigate, useParams, useSearch } from "@tanstack/react-router";
 import cache from "../mocks/browser_cache";
-import { useGetPainting } from "../services/useApi";
+import { useGetRecord } from "../services/useApi";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
 import FavoriteToggle from "./FavoriteToggle";
@@ -9,14 +9,14 @@ import Spinner from "../common/Spinner";
 import PageControls from "../collections/PageControls";
 
 export default function Painting() {
-  const route = "/collections/$collectionId/paintings/$sequence";
+  const route = "/collections/$collectionId/records/$sequence";
   const navigate = useNavigate();
   const params = useParams({ from: route });
   const search = useSearch({ from: route });
   const { collectionId, sequence } = params;
   const { page } = search;
   const [isImgLoaded, setIsImgLoaded] = useState(false);
-  const { isLoading, data, error } = useGetPainting({
+  const { isLoading, data, error } = useGetRecord({
     collectionId,
     page,
     sequence,
@@ -67,17 +67,21 @@ export default function Painting() {
   if (error) return <ErrorMessage error={error} />;
   if (isLoading) return <CenterScreenSpinner />;
 
-  const painting = data.painting;
+  const record = data.record;
   const {
-    artist,
-    colors,
+    artist_name,
+    color,
     date,
     dimensions,
     medium,
-    primaryimageurl,
+    image_url,
+    origin,
     title,
-    url,
-  } = painting;
+    source_url,
+    source,
+  } = record;
+
+  const hslStr = `hsl(${color.h}, ${color.s}%, ${color.l}%)`;
 
   return (
     <div className="absolute top-0 z-50 bg-base-200 lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
@@ -107,7 +111,7 @@ export default function Painting() {
           }`}
         >
           <img
-            src={primaryimageurl}
+            src={image_url.xl}
             alt={title}
             className={`h-full w-full object-contain`}
             onLoad={() => setIsImgLoaded(true)}
@@ -118,15 +122,15 @@ export default function Painting() {
       <section className="overflow-y-auto px-4 pb-4 pt-2 lg:order-3 lg:flex lg:w-1/5 lg:flex-1 lg:flex-wrap lg:px-4">
         <FavoriteToggle
           className="btn-block btn-sm my-2 "
-          painting={painting}
+          record={record}
           page={page}
         />
 
         <ul className="list">
           <li className="mb-3 font-extrabold">{title}</li>
-          <li className="mb-3 font-bold">{artist?.name ?? "Unknown"}</li>
-          {artist?.culture && <li className="mb-3">{artist.culture}</li>}
-          {date !== 0 && <li className="mb-3">{date}</li>}
+          <li className="mb-3 font-bold">{artist_name}</li>
+          {origin && <li className="mb-3">{origin}</li>}
+          <li className="mb-3">{date}</li>
           <li className="mb-3">{medium}</li>
           <li className="mb-3 lg:text-sm">
             {dimensions.slice(0, 1).map((dim) => (
@@ -134,32 +138,21 @@ export default function Painting() {
             ))}
           </li>
           <li className="mb-3">
-            {url ? (
-              <a
-                className="link-info link"
-                href={url}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Harvard Art Museum
-              </a>
-            ) : (
-              "None"
-            )}
+            <a
+              className="link-info link"
+              href={source_url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {source === "aic" ? "Art Institute of Chicago" : "Museum"}
+            </a>
           </li>
-          {colors.map((color) => (
-            <li className="mb-3 lg:text-xs" key={color.color}>
-              <div className="flex">
-                <div className="w-2/3">
-                  {color.hue} ({color.color})
-                </div>
-                <div
-                  style={{ backgroundColor: color.color }}
-                  className="w-1/3"
-                ></div>
-              </div>
-            </li>
-          ))}
+          <li className="mb-3 lg:text-xs">
+            <div className="flex">
+              <div className="w-2/3">{hslStr}</div>
+              <div style={{ backgroundColor: hslStr }} className="w-1/3"></div>
+            </div>
+          </li>
         </ul>
       </section>
     </div>

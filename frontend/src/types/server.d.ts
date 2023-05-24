@@ -1,63 +1,57 @@
-interface Color {
-  color: string;
-  css3: string;
-  hue: string;
-  percent: number;
-  spectrum: string;
+type ApiRecordId = string;
+
+interface ApiColor {
+  h: number;
+  s: number;
+  l: number;
+  percentage: number;
 }
 
-interface Person {
-  alphasort: string | null;
-  birthplace: string | null;
-  culture: string | null;
-  deathplace: string | null;
-  displaydate: string | null;
-  displayname: string | null;
-  displayorder: number;
-  gender: string | null;
-  name: string | null;
-  personid: number | null;
-  prefix: string | null;
-  role: "Artist" | "Previous attribution" | "Sitter" | string;
+interface ApiImageUrl {
+  sm: string;
+  md: string;
+  lg: string;
+  xl: string;
 }
 
-type PaintingId = string;
-
-interface Painting {
-  artist: Person;
-  colors: Color[];
-  date: string | number;
+interface ApiRecord {
+  artist_name: string;
+  color: ApiColor;
+  date: string;
   dimensions: string[];
-  sequence: number;
-  id: PaintingId;
-  medium: string;
-  page: number;
-  primaryimageurl: string;
-  source: string;
-  title: string;
-  url: string;
   favoritesSequence?: number;
+  id: string;
+  image_alt?: string;
+  image_url: ApiImageUrl;
+  medium: string;
+  origin?: string;
+  sequence: int;
+  source_id: int;
+  source_url: string;
+  source: "aic";
+  style?: string;
+  title: string;
 }
 
 interface CollectionResponse {
   maxRecords: number;
   maxPages: number;
   pageSize: number;
-  records: Painting[];
+  records: Record[];
 }
 
-interface PaintingResponse {
-  painting: Painting;
+interface FileSummary {
+  totalFiles: number;
+  totalRecords: number;
+  recordsPerFile: number;
+}
+
+interface ApiRecordResponse {
+  record: ApiRecord;
   maxSequence: number;
 }
 
 interface ServerError {
   message: string;
   type: "missing";
-}
-
-interface HAMSummary {
-  totalFiles: number;
-  totalRecords: number;
-  recordsPerFile: number;
 }

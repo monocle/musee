@@ -10,12 +10,12 @@ class BrowserCache {
   totalFiles = 0;
   recordsPerFile = 0;
   #totalRecords = 0;
-  #favorites: PaintingId[] = [];
-  #fileCache: Record<number, Painting[]> = {};
+  #favorites: ApiRecordId[] = [];
+  #fileCache: Record<number, ApiRecord[]> = {};
 
   async init() {
     await axios
-      .get<HAMSummary>(`${this.basepath}/ham_summary.json`)
+      .get<FileSummary>(`${this.basepath}/aic_summary.json`)
       .then(async (res) => {
         this.totalFiles = res.data.totalFiles;
         this.#totalRecords = res.data.totalRecords;
@@ -33,17 +33,17 @@ class BrowserCache {
       : this.#totalRecords;
   }
 
-  async getPaintingBySequence(collectionId: string, sequence: number) {
+  async getRecordBySequence(collectionId: string, sequence: number) {
     if (collectionId === "favorites") {
-      return this.getPaintingById(this.#favorites[sequence - 1]);
+      return this.getRecordById(this.#favorites[sequence - 1]);
     }
 
-    const [fileNum, idx] = this.#getHAMFileNumIdx(sequence);
+    const [fileNum, idx] = this.#getFileNumIdx(sequence);
     const records = await this.#getFileRecords(fileNum);
     return records[idx];
   }
 
-  async getPaintingById(id: string) {
+  async getRecordById(id: string) {
     if (!id) return undefined;
 
     const split = id.split("-");
@@ -61,7 +61,7 @@ class BrowserCache {
       const ids = this.#favorites.slice(startSeq - 1, stopSeq - 1);
 
       return await Promise.all(
-        ids.map(async (id) => await this.getPaintingById(id))
+        ids.map(async (id) => await this.getRecordById(id))
       );
     }
 
@@ -74,32 +74,32 @@ class BrowserCache {
     }
 
     return records.filter(
-      (painting) => painting.sequence >= startSeq && painting.sequence < stopSeq
+      (record) => record.sequence >= startSeq && record.sequence < stopSeq
     );
   }
 
-  async addFavorite(newId: PaintingId) {
+  async addFavorite(newId: ApiRecordId) {
     if (this.#favorites.some((id) => id === newId)) return;
 
-    const painting = await this.getPaintingById(newId);
+    const record = await this.getRecordById(newId);
 
-    if (!painting) return;
+    if (!record) return;
 
-    painting.favoritesSequence = this.#favorites.length + 1;
+    record.favoritesSequence = this.#favorites.length + 1;
     this.#favorites.push(newId);
   }
 
-  async removeFavorite(removeId: PaintingId) {
-    const painting = await this.getPaintingById(removeId);
+  async removeFavorite(removeId: ApiRecordId) {
+    const record = await this.getRecordById(removeId);
 
-    if (!painting) return;
+    if (!record) return;
 
-    painting.favoritesSequence = undefined;
+    record.favoritesSequence = undefined;
 
     this.#favorites = this.#favorites.filter((id) => id !== removeId);
     this.#favorites.forEach(async (id, i) => {
-      const painting = await this.getPaintingById(id);
-      if (painting) painting.favoritesSequence = i + 1;
+      const record = await this.getRecordById(id);
+      if (record) record.favoritesSequence = i + 1;
     });
   }
 
@@ -115,7 +115,7 @@ class BrowserCache {
     return 1 + Math.floor(sequence / this.recordsPerFile);
   }
 
-  #getHAMFileNumIdx(sequence: number): [number, number] {
+  #getFileNumIdx(sequence: number): [number, number] {
     const pageNum = Math.floor((sequence - 1) / this.recordsPerFile) + 1;
     const idx = (sequence - 1) % this.recordsPerFile;
     return [pageNum, idx];
@@ -125,9 +125,9 @@ class BrowserCache {
     return this.#fileCache[fileNum] ?? (await this.#fetchFile(fileNum));
   }
 
-  async #fetchFile(fileNum: number): Promise<Painting[]> {
+  async #fetchFile(fileNum: number): Promise<ApiRecord[]> {
     try {
-      const fetchRes = await fetch(`${this.basepath}/ham_${fileNum}.json`);
+      const fetchRes = await fetch(`${this.basepath}/aic_${fileNum}.json`);
       const data = await fetchRes.json();
 
       this.#fileCache[fileNum] = data.records;

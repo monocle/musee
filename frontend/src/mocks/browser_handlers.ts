@@ -4,7 +4,7 @@ import cache from "./browser_cache";
 const handlers = [
   rest.get("/api/collections/:collectionId", async (req, res, ctx) => {
     const page = Number(req.url.searchParams.get("page")) ?? 1;
-    const collectionId = String(req.params.collectionId ?? "ham");
+    const collectionId = String(req.params.collectionId ?? "aic");
     const records = await cache.getPage(collectionId, page < 1 ? 1 : page);
 
     return res(
@@ -19,19 +19,19 @@ const handlers = [
   }),
 
   rest.get(
-    "/api/collections/:collectionId/paintings/:sequence",
+    "/api/collections/:collectionId/records/:sequence",
     async (req, res, ctx) => {
       const { collectionId: _collectionId, sequence } = req.params;
       const collectionId = String(_collectionId);
-      const painting = await cache.getPaintingBySequence(
+      const record = await cache.getRecordBySequence(
         collectionId,
         Number(sequence)
       );
 
-      if (painting) {
+      if (record) {
         return res(
           ctx.status(200),
-          ctx.json({ painting, maxSequence: cache.maxRecords(collectionId) })
+          ctx.json({ record, maxSequence: cache.maxRecords(collectionId) })
         );
       }
 
@@ -43,7 +43,7 @@ const handlers = [
   ),
 
   rest.post(
-    "/api/users/:userId/collections/:collectionId/paintings",
+    "/api/users/:userId/collections/:collectionId/records",
     async (req, res, ctx) => {
       const { id } = await req.json();
 
@@ -53,7 +53,7 @@ const handlers = [
   ),
 
   rest.delete(
-    "/api/users/:userId/collections/:collectionId/paintings/:id",
+    "/api/users/:userId/collections/:collectionId/records/:id",
     async (req, res, ctx) => {
       cache.removeFavorite(String(req.params.id));
       return res(ctx.status(200));

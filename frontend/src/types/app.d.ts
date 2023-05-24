@@ -1,5 +1,5 @@
 interface CollectionViewProps {
-  paintings: Painting[];
+  records: ApiRecord[];
   page: number;
-  onClickPainting: (painting: Painting) => void;
+  onClickRecord: (record: ApiRecord) => void;
 }
