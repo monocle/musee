@@ -37,6 +37,8 @@ platformdirs==3.5.0
     # via black
 pluggy==1.0.0
     # via pytest
+pydantic==1.10.8
+    # via -r requirements.in
 pyproject-hooks==1.0.0
     # via build
 pytest==7.3.1
@@ -48,7 +50,9 @@ pytest-cov==4.0.0
 python-dotenv==1.0.0
     # via -r requirements.in
 typing-extensions==4.5.0
-    # via mypy
+    # via
+    #   mypy
+    #   pydantic
 watchdog==3.0.0
     # via -r requirements.in
 wheel==0.40.0
