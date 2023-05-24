@@ -1,0 +1,2916 @@
+{
+  "records": [
+    {
+      "artist_name": "Guido Reni",
+      "color": {
+        "h": 39,
+        "s": 73,
+        "l": 30,
+        "percentage": 0.0030644523527085807
+      },
+      "date": "c. 1639–42",
+      "dimensions": [
+        "248.5 × 174 cm (97 3/4 × 68 1/2 in.)"
+      ],
+      "id": "1-0",
+      "image_alt": "Large painting of woman, in gold and pink dress, placing severed head on platter.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/1f5b595f-dbbd-3c9d-ca49-9263c3d93841/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/1f5b595f-dbbd-3c9d-ca49-9263c3d93841/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/1f5b595f-dbbd-3c9d-ca49-9263c3d93841/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/1f5b595f-dbbd-3c9d-ca49-9263c3d93841/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Italy",
+      "sequence": 1,
+      "source_id": 11434,
+      "source_url": "http://www.artic.edu/artworks/11434",
+      "source": "aic",
+      "style": null,
+      "title": "Salome with the Head of Saint John the Baptist"
+    },
+    {
+      "artist_name": "Hilaire Germain Edgar Degas",
+      "color": {
+        "h": 38,
+        "s": 54,
+        "l": 46,
+        "percentage": 0.003876600066677521
+      },
+      "date": "c. 1879-86",
+      "dimensions": [
+        "100 × 110.7 cm (39 3/8 × 43 9/16 in.)"
+      ],
+      "id": "1-1",
+      "image_alt": "Impressionist painting of woman wearing green dress trying on hats.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 2,
+      "source_id": 14572,
+      "source_url": "http://www.artic.edu/artworks/14572",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "The Millinery Shop"
+    },
+    {
+      "artist_name": "Berthe Morisot",
+      "color": {
+        "h": 207,
+        "s": 51,
+        "l": 57,
+        "percentage": 0.0011279616041869934
+      },
+      "date": "1875/80",
+      "dimensions": [
+        "60.3 × 80.4 cm (23 3/4 × 31 5/8 in.)"
+      ],
+      "id": "1-2",
+      "image_alt": "Painted portrait dominated by loose, large brushstrokes of a woman, seen from the back, wearing a gauzy white off-the-shoulder dress and black choker, blond hair swept up, examining herself in a mirror at left. The background is a feathered swirl suggesting floral pattern in cool pale tones of gray, purple, pink, and blue.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 3,
+      "source_id": 11723,
+      "source_url": "http://www.artic.edu/artworks/11723",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Woman at Her Toilette"
+    },
+    {
+      "artist_name": "Paul Cezanne",
+      "color": {
+        "h": 185,
+        "s": 8,
+        "l": 45,
+        "percentage": 0.0015165237842343223
+      },
+      "date": "1888-90",
+      "dimensions": [
+        "80.9 × 64.9 cm (31 13/16 × 25 9/16 in.)"
+      ],
+      "id": "1-3",
+      "image_alt": "Painting of a placid-looking, light-skinned woman in a maroon dress, seated in a chair with yellow upholstery, hands folded.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/4822cd01-44ac-041a-36b8-c0542377b750/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/4822cd01-44ac-041a-36b8-c0542377b750/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/4822cd01-44ac-041a-36b8-c0542377b750/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/4822cd01-44ac-041a-36b8-c0542377b750/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 4,
+      "source_id": 62371,
+      "source_url": "http://www.artic.edu/artworks/62371",
+      "source": "aic",
+      "style": "Post-Impressionism",
+      "title": "Madame Cezanne in a Yellow Chair"
+    },
+    {
+      "artist_name": "Antonio da Correggio",
+      "color": {
+        "h": 9,
+        "s": 77,
+        "l": 37,
+        "percentage": 0.034283748955331456
+      },
+      "date": "c. 1515",
+      "dimensions": [
+        "64.2 × 50.2 cm (25 1/4 × 19 3/4 in.)"
+      ],
+      "id": "1-4",
+      "image_alt": "Vividly colored painting of Virgin Mary with baby Jesus and baby John the Baptist.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/d63b9402-c42b-cce3-aa63-6d213ad621cd/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/d63b9402-c42b-cce3-aa63-6d213ad621cd/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/d63b9402-c42b-cce3-aa63-6d213ad621cd/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/d63b9402-c42b-cce3-aa63-6d213ad621cd/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on panel",
+      "origin": "Italy",
+      "sequence": 5,
+      "source_id": 23972,
+      "source_url": "http://www.artic.edu/artworks/23972",
+      "source": "aic",
+      "style": null,
+      "title": "Virgin and Child with the Young Saint John the Baptist"
+    },
+    {
+      "artist_name": "Fra Bartolommeo",
+      "color": {
+        "h": 37,
+        "s": 22,
+        "l": 59,
+        "percentage": 0.08318820827339038
+      },
+      "date": "1504/07",
+      "dimensions": [
+        "34 × 24.5 cm (13 3/8 × 9 5/8 in.)"
+      ],
+      "id": "1-5",
+      "image_alt": "A light-skinned man in red and woman in blue sit with an infant between them, angels beside and above them, a small town in the background.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/40fdb1d6-93fe-2916-78fb-f56a1ac261f1/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/40fdb1d6-93fe-2916-78fb-f56a1ac261f1/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/40fdb1d6-93fe-2916-78fb-f56a1ac261f1/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/40fdb1d6-93fe-2916-78fb-f56a1ac261f1/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on panel",
+      "origin": "Italy",
+      "sequence": 6,
+      "source_id": 184371,
+      "source_url": "http://www.artic.edu/artworks/184371",
+      "source": "aic",
+      "style": "Renaissance",
+      "title": "The Nativity"
+    },
+    {
+      "artist_name": "Édouard Manet",
+      "color": {
+        "h": 37,
+        "s": 12,
+        "l": 50,
+        "percentage": 0.10883350068191702
+      },
+      "date": "1880/81",
+      "dimensions": [
+        "61.2 × 50.7 cm (24 1/16 × 19 7/8 in.)"
+      ],
+      "id": "1-6",
+      "image_alt": "A young woman in a dark hat and coat with light ruffled collar sits reading a large periodical held up in her gloved hands. Flowers and foliage are suggested behind her.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 7,
+      "source_id": 14591,
+      "source_url": "http://www.artic.edu/artworks/14591",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Woman Reading"
+    },
+    {
+      "artist_name": "Pierre-Auguste Renoir",
+      "color": {
+        "h": 2,
+        "s": 55,
+        "l": 52,
+        "percentage": 0.004196067490910411
+      },
+      "date": "1881",
+      "dimensions": [
+        "100.4 × 80.9 cm (39 1/2 × 31 7/8 in.)"
+      ],
+      "id": "1-7",
+      "image_alt": "Impressionist painting of two girls on balcony, bright flower hat, knitting basket.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 8,
+      "source_id": 14655,
+      "source_url": "http://www.artic.edu/artworks/14655",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Two Sisters (On the Terrace)"
+    },
+    {
+      "artist_name": "Rogier van der Weyden",
+      "color": {
+        "h": 42,
+        "s": 61,
+        "l": 94,
+        "percentage": 0.0017474933749442349
+      },
+      "date": "1460/64",
+      "dimensions": [
+        "38.5 × 28.8 cm (15 3/16 × 11 3/8 in.)",
+        " Painted surface: 36.5 × 27 cm (14 3/8 × 10 5/8 in.)",
+        " Reverse: 39 × 28.8 cm (15 3/8 × 11 3/8 in.)",
+        " Reverse painted surface: 36.8 × 26.7 cm (14 1/2 × 10 1/2 in.)"
+      ],
+      "id": "1-8",
+      "image_alt": "Painted dark colored portrait of man, hands in prayer.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/108f44fc-d93b-abf0-c33c-2920d57844c3/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/108f44fc-d93b-abf0-c33c-2920d57844c3/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/108f44fc-d93b-abf0-c33c-2920d57844c3/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/108f44fc-d93b-abf0-c33c-2920d57844c3/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on panel",
+      "origin": "Flanders",
+      "sequence": 9,
+      "source_id": 16298,
+      "source_url": "http://www.artic.edu/artworks/16298",
+      "source": "aic",
+      "style": "Renaissance",
+      "title": "Portrait of Jean Gross (recto); Coat of Arms of Jean Gros (verso)"
+    },
+    {
+      "artist_name": "Jean Hey, (the Master of Moulins)",
+      "color": {
+        "h": 41,
+        "s": 50,
+        "l": 42,
+        "percentage": 0.03309086053653637
+      },
+      "date": "1490/95",
+      "dimensions": [
+        "72.5 × 50.1 cm (28 1/2 × 19 11/16 in.)",
+        " Painted surface: 71.7 × 49.2 cm (28 1/4 × 19 3/8 in.)"
+      ],
+      "id": "1-9",
+      "image_alt": "Painting of the Annunciation, dove flying above Mary with angel.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/77951d0c-d781-eac6-f4ff-f13cc5cfc0cf/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/77951d0c-d781-eac6-f4ff-f13cc5cfc0cf/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/77951d0c-d781-eac6-f4ff-f13cc5cfc0cf/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/77951d0c-d781-eac6-f4ff-f13cc5cfc0cf/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on panel",
+      "origin": "France",
+      "sequence": 10,
+      "source_id": 16327,
+      "source_url": "http://www.artic.edu/artworks/16327",
+      "source": "aic",
+      "style": "Renaissance",
+      "title": "The Annunciation"
+    },
+    {
+      "artist_name": "Claude Monet",
+      "color": {
+        "h": 6,
+        "s": 53,
+        "l": 34,
+        "percentage": 0.00018769614246888
+      },
+      "date": "1877",
+      "dimensions": [
+        "60.3 × 80.2 cm (23 3/4 × 31 1/2 in.)"
+      ],
+      "id": "1-10",
+      "image_alt": "Loosely painted image of an open-air train station. On the right, a parked train gives off an enormous plumb of white smoke, making the scene look as though it were full of clouds. A huddled mass of barely discernible people crowd around the train on both sides of the tracks. Blue, green, and gray tones dominate.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 11,
+      "source_id": 16571,
+      "source_url": "http://www.artic.edu/artworks/16571",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Arrival of the Normandy Train, Gare Saint-Lazare"
+    },
+    {
+      "artist_name": "Gustave Caillebotte",
+      "color": {
+        "h": 205,
+        "s": 14,
+        "l": 51,
+        "percentage": 0.04690626895945958
+      },
+      "date": "1877",
+      "dimensions": [
+        "212.2 × 276.2 cm (83 1/2 × 108 3/4 in.)"
+      ],
+      "id": "1-11",
+      "image_alt": "Life-size painting of an urban scene in Paris. A man in a top hat holding an umbrella and a woman in a long fashionable dark dress walk arm in arm toward the viewer as other city dwellers with umbrellas walk in various directions across cobblestone roads and sidewalks.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Paris",
+      "sequence": 12,
+      "source_id": 20684,
+      "source_url": "http://www.artic.edu/artworks/20684",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Paris Street; Rainy Day"
+    },
+    {
+      "artist_name": "Pierre-Auguste Renoir",
+      "color": {
+        "h": 42,
+        "s": 50,
+        "l": 50,
+        "percentage": 0.028888797178421657
+      },
+      "date": "1879",
+      "dimensions": [
+        "131.2 × 99.2 cm (51 1/2 × 39 1/16 in.)"
+      ],
+      "id": "1-12",
+      "image_alt": "Two girls in acrobatic uniforms stand in an arena, one holds oranges.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/321c45f5-22a3-84a2-44cc-cf66642d4cf2/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/321c45f5-22a3-84a2-44cc-cf66642d4cf2/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/321c45f5-22a3-84a2-44cc-cf66642d4cf2/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/321c45f5-22a3-84a2-44cc-cf66642d4cf2/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 13,
+      "source_id": 81558,
+      "source_url": "http://www.artic.edu/artworks/81558",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Acrobats at the Cirque Fernando (Francisca and Angelina Wartenberg)"
+    },
+    {
+      "artist_name": "Tosa Mitsuoki",
+      "color": {
+        "h": 38,
+        "s": 32,
+        "l": 47,
+        "percentage": 0.16634941653562857
+      },
+      "date": "c. 1675",
+      "dimensions": [
+        "144 × 286 cm (56 3/4 × 112 5/8 in.)"
+      ],
+      "id": "1-13",
+      "image_alt": "Papers with Japanese text hang from a tree bearing red and gold leaves.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/a8646837-9f22-0141-5716-fee38e53cc91/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/a8646837-9f22-0141-5716-fee38e53cc91/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/a8646837-9f22-0141-5716-fee38e53cc91/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/a8646837-9f22-0141-5716-fee38e53cc91/full/843,/0/default.jpg"
+      },
+      "medium": "Six-panel screen (one of pair); Ink, colors, gold leaf, and gold powder on silk",
+      "origin": "Japan",
+      "sequence": 14,
+      "source_id": 127644,
+      "source_url": "http://www.artic.edu/artworks/127644",
+      "source": "aic",
+      "style": "Japanese (culture or style)",
+      "title": "Autumn Maples with Poem Slips"
+    },
+    {
+      "artist_name": "John Constable",
+      "color": {
+        "h": 39,
+        "s": 34,
+        "l": 49,
+        "percentage": 0.004974553246852639
+      },
+      "date": "1836",
+      "dimensions": [
+        "126 × 169 cm (49 5/8 × 66 1/2 in.)"
+      ],
+      "id": "1-14",
+      "image_alt": "Large English country landscape painting, farmers with horses, green trees.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "England",
+      "sequence": 15,
+      "source_id": 4758,
+      "source_url": "http://www.artic.edu/artworks/4758",
+      "source": "aic",
+      "style": "19th century",
+      "title": "Stoke-by-Nayland"
+    },
+    {
+      "artist_name": "Édouard Manet",
+      "color": {
+        "h": 56,
+        "s": 6,
+        "l": 42,
+        "percentage": 0.014896453220207911
+      },
+      "date": "1865",
+      "dimensions": [
+        "190.8 × 148.3 cm (74 7/8 × 58 3/8 in.)"
+      ],
+      "id": "1-15",
+      "image_alt": "Large, dark painting of Jesus sitting with three standing soldiers.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 16,
+      "source_id": 16499,
+      "source_url": "http://www.artic.edu/artworks/16499",
+      "source": "aic",
+      "style": "Realism",
+      "title": "Jesus Mocked by the Soldiers"
+    },
+    {
+      "artist_name": "Eugène Delacroix",
+      "color": {
+        "h": 37,
+        "s": 16,
+        "l": 49,
+        "percentage": 0.1659343985138957
+      },
+      "date": "1826",
+      "dimensions": [
+        "59.6 × 73.4 cm (23 1/2 × 28 7/8 in.)"
+      ],
+      "id": "1-16",
+      "image_alt": "Two men on horseback clash in battle, another man crouches with knife.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/d4574667-943d-6e28-ec30-fe9c91eeeca1/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/d4574667-943d-6e28-ec30-fe9c91eeeca1/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/d4574667-943d-6e28-ec30-fe9c91eeeca1/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/d4574667-943d-6e28-ec30-fe9c91eeeca1/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 17,
+      "source_id": 110663,
+      "source_url": "http://www.artic.edu/artworks/110663",
+      "source": "aic",
+      "style": "19th century",
+      "title": "The Combat of the Giaour and Hassan"
+    },
+    {
+      "artist_name": "Horace Pippin",
+      "color": {
+        "h": 48,
+        "s": 12,
+        "l": 52,
+        "percentage": 5.426308685209237e-05
+      },
+      "date": "c. 1931–37",
+      "dimensions": [
+        "51 × 85 cm (20 × 33 1/2 in.)"
+      ],
+      "id": "1-17",
+      "image_alt": "Painting of a cabin set below a dark blue sky and fluffy white clouds. Behind it is a field of many small white dots. In front, a dark-skinned woman sits and a dark-skinned child plays among roaming chickens and dogs in a fenced-in yard.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/d812e25d-5d00-cb04-f973-c5eaf671d540/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/d812e25d-5d00-cb04-f973-c5eaf671d540/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/d812e25d-5d00-cb04-f973-c5eaf671d540/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/d812e25d-5d00-cb04-f973-c5eaf671d540/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on cotton mounted on Masonite",
+      "origin": "United States",
+      "sequence": 18,
+      "source_id": 111617,
+      "source_url": "http://www.artic.edu/artworks/111617",
+      "source": "aic",
+      "style": "Modernism",
+      "title": "Cabin in the Cotton"
+    },
+    {
+      "artist_name": "Giovanni Battista Piazzetta",
+      "color": {
+        "h": 41,
+        "s": 73,
+        "l": 90,
+        "percentage": 0.005116702588007284
+      },
+      "date": "1740",
+      "dimensions": [
+        "191.8 × 143 cm (75 1/2 × 56 1/4 in.)"
+      ],
+      "id": "1-18",
+      "image_alt": "A light-skinned woman, the bodice of her mauve dress pulled down, lounges against a rock, her arm extended on it. A child, mostly nude, stands in front of her looking downward while two men in her party, largely in shadow, lean toward each other as if in conversation.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/cd2ebc0d-eea7-d476-1a57-daf8a3976675/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/cd2ebc0d-eea7-d476-1a57-daf8a3976675/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/cd2ebc0d-eea7-d476-1a57-daf8a3976675/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/cd2ebc0d-eea7-d476-1a57-daf8a3976675/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Italy",
+      "sequence": 19,
+      "source_id": 23333,
+      "source_url": "http://www.artic.edu/artworks/23333",
+      "source": "aic",
+      "style": "Realism",
+      "title": "Pastoral Scene"
+    },
+    {
+      "artist_name": "Francisco José de Goya y Lucientes",
+      "color": {
+        "h": 39,
+        "s": 24,
+        "l": 49,
+        "percentage": 0.09589810825997376
+      },
+      "date": "1786/87",
+      "dimensions": [
+        "127.2 × 112.1 cm (50 1/16 × 44 1/8 in.)"
+      ],
+      "id": "1-19",
+      "image_alt": "A young, smiling boy in a ruffled collar, hat, and cumberbun rides outdoors on a brown ram, a small whip held aloft in his hand.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/e54a695c-16df-cf45-9dd4-b517e8c32cc3/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/e54a695c-16df-cf45-9dd4-b517e8c32cc3/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/e54a695c-16df-cf45-9dd4-b517e8c32cc3/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/e54a695c-16df-cf45-9dd4-b517e8c32cc3/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Spain",
+      "sequence": 20,
+      "source_id": 111559,
+      "source_url": "http://www.artic.edu/artworks/111559",
+      "source": "aic",
+      "style": null,
+      "title": "Boy on a Ram"
+    },
+    {
+      "artist_name": "Jean Honoré Fragonard",
+      "color": {
+        "h": 47,
+        "s": 21,
+        "l": 46,
+        "percentage": 0.37986833645739954
+      },
+      "date": "1768/70",
+      "dimensions": [
+        "80.3 × 64.7 cm (31 5/8 × 25 1/2 in.)"
+      ],
+      "id": "1-20",
+      "image_alt": "Painting of bearded, ruddy-faced man in eighteenth century style clothing.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/9b1c3d61-5f9b-c7a2-a5ea-f48248836160/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/9b1c3d61-5f9b-c7a2-a5ea-f48248836160/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/9b1c3d61-5f9b-c7a2-a5ea-f48248836160/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/9b1c3d61-5f9b-c7a2-a5ea-f48248836160/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 21,
+      "source_id": 93900,
+      "source_url": "http://www.artic.edu/artworks/93900",
+      "source": "aic",
+      "style": "Flemish",
+      "title": "Portrait of a Man in Costume"
+    },
+    {
+      "artist_name": "Francesco Guardi",
+      "color": {
+        "h": 42,
+        "s": 23,
+        "l": 52,
+        "percentage": 0.06413970040552842
+      },
+      "date": "late 1770s",
+      "dimensions": [
+        "48 × 78 cm (19 × 30 5/8 in.)"
+      ],
+      "id": "1-21",
+      "image_alt": "A work made of oil on canvas.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/b553d1fe-da1f-dd9e-ff0f-c36fc22aac0e/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/b553d1fe-da1f-dd9e-ff0f-c36fc22aac0e/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/b553d1fe-da1f-dd9e-ff0f-c36fc22aac0e/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/b553d1fe-da1f-dd9e-ff0f-c36fc22aac0e/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Italy",
+      "sequence": 22,
+      "source_id": 111610,
+      "source_url": "http://www.artic.edu/artworks/111610",
+      "source": "aic",
+      "style": null,
+      "title": "The Garden of Palazzo Contarini dal Zaffo"
+    },
+    {
+      "artist_name": "Sir Joshua Reynolds",
+      "color": {
+        "h": 37,
+        "s": 41,
+        "l": 31,
+        "percentage": 0.21519221254552717
+      },
+      "date": "1763–65",
+      "dimensions": [
+        "242.6 × 151.5 cm (95 1/2 × 59 3/4 in.)"
+      ],
+      "id": "1-22",
+      "image_alt": "Large painting, woman in pink dress in front of classical sculpture, shrine.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/5a047a1c-d36e-e88d-05e7-845d3936159b/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/5a047a1c-d36e-e88d-05e7-845d3936159b/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/5a047a1c-d36e-e88d-05e7-845d3936159b/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/5a047a1c-d36e-e88d-05e7-845d3936159b/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "England",
+      "sequence": 23,
+      "source_id": 4788,
+      "source_url": "http://www.artic.edu/artworks/4788",
+      "source": "aic",
+      "style": null,
+      "title": "Lady Sarah Bunbury Sacrificing to the Graces"
+    },
+    {
+      "artist_name": "Jacques Louis David",
+      "color": {
+        "h": 51,
+        "s": 23,
+        "l": 81,
+        "percentage": 0.13005387504942664
+      },
+      "date": "1791/92",
+      "dimensions": [
+        "129.8 × 96.6 cm (51 1/8 × 38 in.)"
+      ],
+      "id": "1-23",
+      "image_alt": "Large painting of young woman in white dress sitting next to crib.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/72227c9e-413c-8930-477d-5a90e0a2123c/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/72227c9e-413c-8930-477d-5a90e0a2123c/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/72227c9e-413c-8930-477d-5a90e0a2123c/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/72227c9e-413c-8930-477d-5a90e0a2123c/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 24,
+      "source_id": 27307,
+      "source_url": "http://www.artic.edu/artworks/27307",
+      "source": "aic",
+      "style": null,
+      "title": "Madame de Pastoret and Her Son"
+    },
+    {
+      "artist_name": "Hubert Robert",
+      "color": {
+        "h": 44,
+        "s": 48,
+        "l": 59,
+        "percentage": 0.00012241894947402697
+      },
+      "date": "1787/88",
+      "dimensions": [
+        "255.3 × 221.2 cm (100 1/2 × 88 1/8 in.)"
+      ],
+      "id": "1-24",
+      "image_alt": "Large painting of ancient arch ruins, statues, humans are small in comparison.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/62fd0e14-d7fe-0d01-ab00-1eed84b4f294/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/62fd0e14-d7fe-0d01-ab00-1eed84b4f294/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/62fd0e14-d7fe-0d01-ab00-1eed84b4f294/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/62fd0e14-d7fe-0d01-ab00-1eed84b4f294/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 25,
+      "source_id": 57051,
+      "source_url": "http://www.artic.edu/artworks/57051",
+      "source": "aic",
+      "style": "Neoclassicism",
+      "title": "The Fountains"
+    },
+    {
+      "artist_name": "Frederic Remington",
+      "color": {
+        "h": 207,
+        "s": 89,
+        "l": 35,
+        "percentage": 0.005810971113462217
+      },
+      "date": "1890",
+      "dimensions": [
+        "87.3 × 123.1 cm (34 3/8 × 48 1/2 in.)"
+      ],
+      "id": "1-25",
+      "image_alt": "Three cavalry scouts—light-skinned men mounted on gleaming brown horses—among light-beige, arid mountains. The figure in the foreground has begun to to slump and seems poised to fall, his rifle on the ground, his horse agitated and alarmed. The others ride off in pursuit.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/375c77df-2819-fe65-f129-c3bc6ea2ce37/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/375c77df-2819-fe65-f129-c3bc6ea2ce37/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/375c77df-2819-fe65-f129-c3bc6ea2ce37/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/375c77df-2819-fe65-f129-c3bc6ea2ce37/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "New York",
+      "sequence": 26,
+      "source_id": 97910,
+      "source_url": "http://www.artic.edu/artworks/97910",
+      "source": "aic",
+      "style": null,
+      "title": "The Advance-Guard, or The Military Sacrifice (The Ambush)"
+    },
+    {
+      "artist_name": "Vasily Kandinsky",
+      "color": {
+        "h": 37,
+        "s": 59,
+        "l": 63,
+        "percentage": 0.09157431748956756
+      },
+      "date": "1913",
+      "dimensions": [
+        "111 × 111.3 cm (43 11/16 × 43 13/16 in.)"
+      ],
+      "id": "1-26",
+      "image_alt": "Abstract painting in various bright colors—yellow, blue, red, green, orange, pink—with lines indicating building-like structures as well as canons in the lower right corner.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/9e00e226-9264-cda0-2893-685e0ca5b285/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/9e00e226-9264-cda0-2893-685e0ca5b285/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/9e00e226-9264-cda0-2893-685e0ca5b285/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/9e00e226-9264-cda0-2893-685e0ca5b285/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Germany",
+      "sequence": 27,
+      "source_id": 8991,
+      "source_url": "http://www.artic.edu/artworks/8991",
+      "source": "aic",
+      "style": "Modernism",
+      "title": "Improvisation No. 30 (Cannons)"
+    },
+    {
+      "artist_name": "Vincent van Gogh",
+      "color": {
+        "h": 150,
+        "s": 35,
+        "l": 51,
+        "percentage": 0.0004438688944446479
+      },
+      "date": "1887",
+      "dimensions": [
+        "41 × 32.5 cm (16 1/8 × 12 13/16 in.)"
+      ],
+      "id": "1-27",
+      "image_alt": "Painting of a red-haired, bearded man with light skin, painted in short brushstrokes and multicolored dots. The background is likewise a mass of small, closely spaced colored dots, these in green, blue, and red-orange.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/26d3cea8-44c0-bfbd-a91a-19a007517152/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/26d3cea8-44c0-bfbd-a91a-19a007517152/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/26d3cea8-44c0-bfbd-a91a-19a007517152/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/26d3cea8-44c0-bfbd-a91a-19a007517152/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on artist's board, mounted on cradled panel",
+      "origin": "Paris",
+      "sequence": 28,
+      "source_id": 80607,
+      "source_url": "http://www.artic.edu/artworks/80607",
+      "source": "aic",
+      "style": "Post-Impressionism",
+      "title": "Self-Portrait"
+    },
+    {
+      "artist_name": "Frederic Edwin Church",
+      "color": {
+        "h": 45,
+        "s": 52,
+        "l": 31,
+        "percentage": 0.004024741569225555
+      },
+      "date": "1857",
+      "dimensions": [
+        "62.2 × 92.7 cm (24 1/2 × 36 1/2 in.)"
+      ],
+      "id": "1-28",
+      "image_alt": "Ecuadorian landscape with people, palm trees, waterfall, and volcano in background.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "United States",
+      "sequence": 29,
+      "source_id": 76571,
+      "source_url": "http://www.artic.edu/artworks/76571",
+      "source": "aic",
+      "style": "19th century",
+      "title": "View of Cotopaxi"
+    },
+    {
+      "artist_name": "Hilaire Germain Edgar Degas",
+      "color": {
+        "h": 42,
+        "s": 56,
+        "l": 63,
+        "percentage": 0.08901003676501519
+      },
+      "date": "1875/76",
+      "dimensions": [
+        "99.8 × 119.9 cm (39 1/4 × 47 3/16 in.)"
+      ],
+      "id": "1-29",
+      "image_alt": "Impressionist painting of seated man, girl with brown, black hues.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/ba4d7ead-bd10-e02d-6f5f-613050d7062e/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/ba4d7ead-bd10-e02d-6f5f-613050d7062e/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/ba4d7ead-bd10-e02d-6f5f-613050d7062e/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/ba4d7ead-bd10-e02d-6f5f-613050d7062e/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 30,
+      "source_id": 14574,
+      "source_url": "http://www.artic.edu/artworks/14574",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Henri Degas and His Niece Lucie Degas (The Artist's Uncle and Cousin)"
+    },
+    {
+      "artist_name": "Claude Monet",
+      "color": {
+        "h": 52,
+        "s": 47,
+        "l": 38,
+        "percentage": 0.004525813812783756
+      },
+      "date": "1890/91",
+      "dimensions": [
+        "60 × 100.5 cm (23 5/8 × 39 9/16 in.)"
+      ],
+      "id": "1-30",
+      "image_alt": "Painting composed of short, dense brushstrokes depicts two domed stacks of wheat that cast long shadows on a field. The angled light indicates either a rising or setting sun.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 31,
+      "source_id": 64818,
+      "source_url": "http://www.artic.edu/artworks/64818",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Stacks of Wheat (End of Summer)"
+    },
+    {
+      "artist_name": "Juan Sánchez Cotán",
+      "color": {
+        "h": 42,
+        "s": 24,
+        "l": 47,
+        "percentage": 0.00016794231450204558
+      },
+      "date": "1600/03",
+      "dimensions": [
+        "67.8 × 88.7 cm (26 11/16 × 34 15/16 in.)"
+      ],
+      "id": "1-31",
+      "image_alt": "Still life painting of dead waterfowl and vegetables in windowsill.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/f2021182-1302-f76f-97f1-4e7850030e3b/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/f2021182-1302-f76f-97f1-4e7850030e3b/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/f2021182-1302-f76f-97f1-4e7850030e3b/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/f2021182-1302-f76f-97f1-4e7850030e3b/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Spain",
+      "sequence": 32,
+      "source_id": 84709,
+      "source_url": "http://www.artic.edu/artworks/84709",
+      "source": "aic",
+      "style": "Renaissance",
+      "title": "Still Life with Game Fowl"
+    },
+    {
+      "artist_name": "Domenico Theotokópoulos, called El Greco",
+      "color": {
+        "h": 207,
+        "s": 46,
+        "l": 31,
+        "percentage": 0.018429079816980172
+      },
+      "date": "1577–79",
+      "dimensions": [
+        "403.2 × 211.8 cm (158 3/4 × 83 3/4 in.)\nWeight with frame: 331 lbs/ 150.139 kg"
+      ],
+      "id": "1-32",
+      "image_alt": "Painting of the Virgin Mary ascending to heaven amongst multitude of angels.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/47fd1564-93f5-f30b-7786-013421133b4a/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/47fd1564-93f5-f30b-7786-013421133b4a/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/47fd1564-93f5-f30b-7786-013421133b4a/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/47fd1564-93f5-f30b-7786-013421133b4a/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Spain",
+      "sequence": 33,
+      "source_id": 87479,
+      "source_url": "http://www.artic.edu/artworks/87479",
+      "source": "aic",
+      "style": "Renaissance",
+      "title": "The Assumption of the Virgin"
+    },
+    {
+      "artist_name": "Meindert Hobbema",
+      "color": {
+        "h": 39,
+        "s": 36,
+        "l": 59,
+        "percentage": 0.006102840490820946
+      },
+      "date": "1662/65",
+      "dimensions": [
+        "81.3 × 110 cm (32 × 43 1/4 in.)"
+      ],
+      "id": "1-33",
+      "image_alt": "Landscape painting featuring a wavy tree tree in the foreground and a watermill with a red roof adjacent to a river at right. Colors are subdued earth tones, the foliage a dark green and the river a muddy brown. Water flows through the mill wheel under a cloudy sky of gray and blue. Three individuals can be seen in the distance at left.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/237c25a2-6051-a8e7-1610-a01938d4deab/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/237c25a2-6051-a8e7-1610-a01938d4deab/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/237c25a2-6051-a8e7-1610-a01938d4deab/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/237c25a2-6051-a8e7-1610-a01938d4deab/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Holland",
+      "sequence": 34,
+      "source_id": 869,
+      "source_url": "http://www.artic.edu/artworks/869",
+      "source": "aic",
+      "style": "Realism",
+      "title": "The Watermill with the Great Red Roof"
+    },
+    {
+      "artist_name": "Giovanni Battista Moroni",
+      "color": {
+        "h": 45,
+        "s": 9,
+        "l": 39,
+        "percentage": 0.1697982582925437
+      },
+      "date": "1551/52",
+      "dimensions": [
+        "199.8 × 116 cm (78 5/8 × 45 5/8 in.)"
+      ],
+      "id": "1-34",
+      "image_alt": "A man with sparse brown facial hair stands in a full-length black robe on a multicolored tiled floor, a white and brown dog behind him.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/bc24fe7f-4171-c785-bff2-b2ed3777a47d/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/bc24fe7f-4171-c785-bff2-b2ed3777a47d/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/bc24fe7f-4171-c785-bff2-b2ed3777a47d/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/bc24fe7f-4171-c785-bff2-b2ed3777a47d/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Italy",
+      "sequence": 35,
+      "source_id": 4081,
+      "source_url": "http://www.artic.edu/artworks/4081",
+      "source": "aic",
+      "style": null,
+      "title": "Gian Lodovico Madruzzo"
+    },
+    {
+      "artist_name": "Nicolas Poussin",
+      "color": {
+        "h": 204,
+        "s": 35,
+        "l": 59,
+        "percentage": 0.1383946223803875
+      },
+      "date": "1640",
+      "dimensions": [
+        "100.3 × 136.4 cm (39 1/2 × 53 5/8 in.)"
+      ],
+      "id": "1-35",
+      "image_alt": "Painting of Greek landscape, classical architecture, yellow, red robed man reading.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 36,
+      "source_id": 5848,
+      "source_url": "http://www.artic.edu/artworks/5848",
+      "source": "aic",
+      "style": "Renaissance",
+      "title": "Landscape with Saint John on Patmos"
+    },
+    {
+      "artist_name": "Giambattista Tiepolo",
+      "color": {
+        "h": 200,
+        "s": 19,
+        "l": 52,
+        "percentage": 0.0055861699575779685
+      },
+      "date": "1742/45",
+      "dimensions": [
+        "187.5 × 216.8 cm (73 13/16 × 85 3/8 in.)"
+      ],
+      "id": "1-36",
+      "image_alt": "Large painting of soldier asleep outdoors surrounded by two women and a cupid.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/633f464c-203f-f7b9-a251-7a2073f4b05d/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/633f464c-203f-f7b9-a251-7a2073f4b05d/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/633f464c-203f-f7b9-a251-7a2073f4b05d/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/633f464c-203f-f7b9-a251-7a2073f4b05d/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Italy",
+      "sequence": 37,
+      "source_id": 16488,
+      "source_url": "http://www.artic.edu/artworks/16488",
+      "source": "aic",
+      "style": null,
+      "title": "Armida Encounters the Sleeping Rinaldo"
+    },
+    {
+      "artist_name": "Dante Gabriel Rossetti",
+      "color": {
+        "h": 39,
+        "s": 44,
+        "l": 54,
+        "percentage": 0.06459911060867359
+      },
+      "date": "1871/72",
+      "dimensions": [
+        "87.5 × 69.3 cm (34 7/16 × 27 1/4 in.)",
+        " Predella: 26.5 × 69.2 cm (10 7/16 × 27 1/4 in.)"
+      ],
+      "id": "1-37",
+      "image_alt": "Serene red-haired woman, framed with allegorical symbols of red bird, sundial.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/194674a2-f451-65f7-ba46-6aac4d894f0b/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/194674a2-f451-65f7-ba46-6aac4d894f0b/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/194674a2-f451-65f7-ba46-6aac4d894f0b/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/194674a2-f451-65f7-ba46-6aac4d894f0b/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "England",
+      "sequence": 38,
+      "source_id": 16551,
+      "source_url": "http://www.artic.edu/artworks/16551",
+      "source": "aic",
+      "style": null,
+      "title": "Beata Beatrix"
+    },
+    {
+      "artist_name": "Gustave Moreau",
+      "color": {
+        "h": 39,
+        "s": 38,
+        "l": 67,
+        "percentage": 0.0034171511698861115
+      },
+      "date": "1875/76",
+      "dimensions": [
+        "179.3 × 154 cm (70 9/16 × 60 5/8 in.)"
+      ],
+      "id": "1-38",
+      "image_alt": "Painting depicting the god Hercules confronting the Hydra, a mythical creature. Amidst towering, rocky cliffs, Hercules stands on the left of the painting, dressed in clothing that exposes his figure. He looks to the right, where the seven-headed hydra rears up, bearing its teeth. A nude figure of a woman is on the ground in front of the Hydra, and an orange sun peeks from behind red clouds in the background.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 39,
+      "source_id": 20579,
+      "source_url": "http://www.artic.edu/artworks/20579",
+      "source": "aic",
+      "style": null,
+      "title": "Hercules and the Lernaean Hydra"
+    },
+    {
+      "artist_name": "Peter Paul Rubens",
+      "color": {
+        "h": 5,
+        "s": 74,
+        "l": 40,
+        "percentage": 0.12877897666466914
+      },
+      "date": "c. 1615",
+      "dimensions": [
+        "114.5 × 91.5 cm (45 1/8 × 36 in.)"
+      ],
+      "id": "1-39",
+      "image_alt": "Large painting of Holy Family: Mary in red, holding baby Jesus.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/7c752046-744f-2f68-482b-a7fd42550f2b/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/7c752046-744f-2f68-482b-a7fd42550f2b/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/7c752046-744f-2f68-482b-a7fd42550f2b/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/7c752046-744f-2f68-482b-a7fd42550f2b/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on panel",
+      "origin": "Flanders",
+      "sequence": 40,
+      "source_id": 27310,
+      "source_url": "http://www.artic.edu/artworks/27310",
+      "source": "aic",
+      "style": null,
+      "title": "The Holy Family with Saints Elizabeth and John the Baptist"
+    },
+    {
+      "artist_name": "Claude Lorrain",
+      "color": {
+        "h": 215,
+        "s": 51,
+        "l": 62,
+        "percentage": 0.07836370825694669
+      },
+      "date": "1673",
+      "dimensions": [
+        "101.6 × 127 cm (40 × 50 in.)"
+      ],
+      "id": "1-40",
+      "image_alt": "A work made of oil on canvas.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/2e7e28aa-a77b-c7f8-852b-708c1171f928/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/2e7e28aa-a77b-c7f8-852b-708c1171f928/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/2e7e28aa-a77b-c7f8-852b-708c1171f928/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/2e7e28aa-a77b-c7f8-852b-708c1171f928/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 41,
+      "source_id": 43145,
+      "source_url": "http://www.artic.edu/artworks/43145",
+      "source": "aic",
+      "style": "Realism",
+      "title": "View of Delphi with a Procession"
+    },
+    {
+      "artist_name": "Ghasi",
+      "color": {
+        "h": 44,
+        "s": 78,
+        "l": 48,
+        "percentage": 0.006088663538353332
+      },
+      "date": "c. 1820",
+      "dimensions": [
+        "Image: 57.1 × 41.6 cm (22 1/2 × 16 3/8 in.)",
+        " Paper: 60.7 × 45.6 cm (23 7/8 × 18 in.)"
+      ],
+      "id": "1-41",
+      "image_alt": "Watercolor of man with golden halo on horse, green background.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/9f08b895-4960-4bc6-5871-dc9bfab4c655/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/9f08b895-4960-4bc6-5871-dc9bfab4c655/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/9f08b895-4960-4bc6-5871-dc9bfab4c655/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/9f08b895-4960-4bc6-5871-dc9bfab4c655/full/843,/0/default.jpg"
+      },
+      "medium": "Opaque watercolor and gold on paper",
+      "origin": "India",
+      "sequence": 42,
+      "source_id": 49195,
+      "source_url": "http://www.artic.edu/artworks/49195",
+      "source": "aic",
+      "style": "South Asian",
+      "title": "Maharana Bhim Singh in Procession"
+    },
+    {
+      "artist_name": "Jacob van Ruisdael",
+      "color": {
+        "h": 128,
+        "s": 1,
+        "l": 42,
+        "percentage": 0.304203700370966
+      },
+      "date": "1650/55",
+      "dimensions": [
+        "98 × 130 cm (38 7/8 × 51 3/8 in.)"
+      ],
+      "id": "1-42",
+      "image_alt": "Dark moody painting of crumbling castle tower and walls amidst river and forest.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/50ac2e3e-1d1a-553f-6aeb-5c22cf323a8e/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/50ac2e3e-1d1a-553f-6aeb-5c22cf323a8e/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/50ac2e3e-1d1a-553f-6aeb-5c22cf323a8e/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/50ac2e3e-1d1a-553f-6aeb-5c22cf323a8e/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Holland",
+      "sequence": 43,
+      "source_id": 60755,
+      "source_url": "http://www.artic.edu/artworks/60755",
+      "source": "aic",
+      "style": null,
+      "title": "Landscape with the Ruins of the Castle of Egmond"
+    },
+    {
+      "artist_name": "Unknown",
+      "color": {
+        "h": 211,
+        "s": 12,
+        "l": 83,
+        "percentage": 0.06040629801315806
+      },
+      "date": "Yuan dynasty (1279–1368) 元朝",
+      "dimensions": [
+        "52.7 × 231.1 cm (20 3/4 × 91 in.)"
+      ],
+      "id": "1-43",
+      "image_alt": "Long scroll ink painting depicting people with their animals and belongings crossing a river.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/f78addab-4d3a-f87c-4c83-7eae824c7504/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/f78addab-4d3a-f87c-4c83-7eae824c7504/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/f78addab-4d3a-f87c-4c83-7eae824c7504/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/f78addab-4d3a-f87c-4c83-7eae824c7504/full/843,/0/default.jpg"
+      },
+      "medium": "Handscroll; ink and light color on paper",
+      "origin": "China",
+      "sequence": 44,
+      "source_id": 76279,
+      "source_url": "http://www.artic.edu/artworks/76279",
+      "source": "aic",
+      "style": "Chinese (culture or style)",
+      "title": "Yang Pu Moving His Family"
+    },
+    {
+      "artist_name": "Basawan",
+      "color": {
+        "h": 41,
+        "s": 90,
+        "l": 52,
+        "percentage": 0.033571247684167034
+      },
+      "date": "c. 1590/95",
+      "dimensions": [
+        "Image: 32 × 19.3 cm (12 5/8 × 7 9/16 in.)",
+        " Outermost border: 33 × 19.6 cm (13 × 7 11/16 in.)",
+        " Page: 34.4 × 20 cm (13 1/2 × 7 7/8 in.)"
+      ],
+      "id": "1-44",
+      "image_alt": "A work made of opaque watercolor and gold on paper.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/c3c4fa77-ae12-1e5e-cc8a-0bde4f1be2ca/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/c3c4fa77-ae12-1e5e-cc8a-0bde4f1be2ca/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/c3c4fa77-ae12-1e5e-cc8a-0bde4f1be2ca/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/c3c4fa77-ae12-1e5e-cc8a-0bde4f1be2ca/full/843,/0/default.jpg"
+      },
+      "medium": "Opaque watercolor and gold on paper",
+      "origin": "India",
+      "sequence": 45,
+      "source_id": 76816,
+      "source_url": "http://www.artic.edu/artworks/76816",
+      "source": "aic",
+      "style": null,
+      "title": "The Young Emperor Akbar Arrests the Insolent Shah Abu’l-Maali, page from a manuscript of the Akbarnama"
+    },
+    {
+      "artist_name": "Francisco de Zurbarán",
+      "color": {
+        "h": 37,
+        "s": 10,
+        "l": 42,
+        "percentage": 0.004117787734377351
+      },
+      "date": "1627",
+      "dimensions": [
+        "290.3 × 165.5 cm (114 5/16 × 65 3/16 in.)"
+      ],
+      "id": "1-45",
+      "image_alt": "A work made of oil on canvas.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/9920a4f9-09f9-86f4-b06d-b0af0590baac/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/9920a4f9-09f9-86f4-b06d-b0af0590baac/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/9920a4f9-09f9-86f4-b06d-b0af0590baac/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/9920a4f9-09f9-86f4-b06d-b0af0590baac/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Spain",
+      "sequence": 46,
+      "source_id": 80084,
+      "source_url": "http://www.artic.edu/artworks/80084",
+      "source": "aic",
+      "style": "Renaissance",
+      "title": "The Crucifixion"
+    },
+    {
+      "artist_name": "Jean Baptiste Camille Corot",
+      "color": {
+        "h": 44,
+        "s": 31,
+        "l": 86,
+        "percentage": 0.003564659961145207
+      },
+      "date": "c. 1870",
+      "dimensions": [
+        "92.5 × 65.1 cm (36 5/16 × 25 5/8 in.)"
+      ],
+      "id": "1-46",
+      "image_alt": "A  pensive faced woman sits, slightly hunched, holding a book.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/1c2d32a7-790c-501a-e124-00f28cf5052d/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/1c2d32a7-790c-501a-e124-00f28cf5052d/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/1c2d32a7-790c-501a-e124-00f28cf5052d/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/1c2d32a7-790c-501a-e124-00f28cf5052d/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas mounted on board",
+      "origin": "France",
+      "sequence": 47,
+      "source_id": 81512,
+      "source_url": "http://www.artic.edu/artworks/81512",
+      "source": "aic",
+      "style": null,
+      "title": "Interrupted Reading"
+    },
+    {
+      "artist_name": "Unknown",
+      "color": {
+        "h": 3,
+        "s": 54,
+        "l": 61,
+        "percentage": 0.013207616392119457
+      },
+      "date": "1396",
+      "dimensions": [
+        "Retable Image: 232.1 × 649 cm (91 3/8 × 255 1/2 in.)",
+        " Frontal Image: 86 × 266.9 cm (33 7/8 × 105 1/16 in.)"
+      ],
+      "id": "1-47",
+      "image_alt": "A work made of tempera and gold on panel.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/97908967-4d35-cde9-6d90-7e90d3fa1dd6/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/97908967-4d35-cde9-6d90-7e90d3fa1dd6/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/97908967-4d35-cde9-6d90-7e90d3fa1dd6/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/97908967-4d35-cde9-6d90-7e90d3fa1dd6/full/843,/0/default.jpg"
+      },
+      "medium": "Tempera and gold on panel",
+      "origin": "Spain",
+      "sequence": 48,
+      "source_id": 88793,
+      "source_url": "http://www.artic.edu/artworks/88793",
+      "source": "aic",
+      "style": null,
+      "title": "Retable and Frontal of the Life of Christ and the Virgin Made for Pedro López de Ayala"
+    },
+    {
+      "artist_name": "Rembrandt van Rijn",
+      "color": {
+        "h": 37,
+        "s": 43,
+        "l": 56,
+        "percentage": 0.0030678610872499693
+      },
+      "date": "1631",
+      "dimensions": [
+        "83.1 × 75.7 cm (32 3/4 × 29 3/4 in.)"
+      ],
+      "id": "1-48",
+      "image_alt": "Portrait of man wearing voluminous black cloak, feathered hat, and gold medallion.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/83375479-f7a9-bac3-44a8-e705ab6e423c/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/83375479-f7a9-bac3-44a8-e705ab6e423c/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/83375479-f7a9-bac3-44a8-e705ab6e423c/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/83375479-f7a9-bac3-44a8-e705ab6e423c/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on panel",
+      "origin": "Holland",
+      "sequence": 49,
+      "source_id": 95998,
+      "source_url": "http://www.artic.edu/artworks/95998",
+      "source": "aic",
+      "style": "Renaissance",
+      "title": "Old Man with a Gold Chain"
+    },
+    {
+      "artist_name": "Piet Mondrian",
+      "color": {
+        "h": 56,
+        "s": 93,
+        "l": 60,
+        "percentage": 0.0008442986622087696
+      },
+      "date": "1921",
+      "dimensions": [
+        "60 × 60 cm (23 5/8 × 23 5/8 in.)"
+      ],
+      "id": "1-49",
+      "image_alt": "A square white tile, rotated 90 degrees, crossed by black lines intersecting at 90-degree angles. A few of the shapes thus formed—some partial squares, some rectangles—are colored in a single shade of yellow, blue, black, or red.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Netherlands",
+      "sequence": 50,
+      "source_id": 109819,
+      "source_url": "http://www.artic.edu/artworks/109819",
+      "source": "aic",
+      "style": "Modernism",
+      "title": "Lozenge Composition with Yellow, Black, Blue, Red, and Gray"
+    },
+    {
+      "artist_name": "Paulus Potter",
+      "color": {
+        "h": 38,
+        "s": 49,
+        "l": 54,
+        "percentage": 0.006037112353838333
+      },
+      "date": "1647",
+      "dimensions": [
+        "49.5 × 37.2 cm (19 1/2 × 14 3/4 in.)"
+      ],
+      "id": "1-50",
+      "image_alt": "A tired-looking brown and white cow lies down on a patch of dry earth, a dark-brown bull and cow standing behind her against an overcast sky.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/5de78980-17d7-8fb5-83de-7b2ae4e997f2/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/5de78980-17d7-8fb5-83de-7b2ae4e997f2/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/5de78980-17d7-8fb5-83de-7b2ae4e997f2/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/5de78980-17d7-8fb5-83de-7b2ae4e997f2/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on panel",
+      "origin": "Netherlands",
+      "sequence": 51,
+      "source_id": 146953,
+      "source_url": "http://www.artic.edu/artworks/146953",
+      "source": "aic",
+      "style": "Realism",
+      "title": "Two Cows and a Young Bull beside a Fence in a Meadow"
+    },
+    {
+      "artist_name": "Unknown",
+      "color": {
+        "h": 1,
+        "s": 59,
+        "l": 52,
+        "percentage": 0.012031859006947976
+      },
+      "date": "c. 1705–1710",
+      "dimensions": [
+        "Outermost border: 48.5 × 58.7 cm (19 × 23 in.)",
+        " Image: 45 × 56 cm (17 3/4 × 22 in.)"
+      ],
+      "id": "1-51",
+      "image_alt": "A work made of opaque watercolor and gold on paper.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/67c7274f-612f-3180-0a12-e2c7ed5a7dd4/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/67c7274f-612f-3180-0a12-e2c7ed5a7dd4/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/67c7274f-612f-3180-0a12-e2c7ed5a7dd4/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/67c7274f-612f-3180-0a12-e2c7ed5a7dd4/full/843,/0/default.jpg"
+      },
+      "medium": "Opaque watercolor and gold on paper",
+      "origin": "India",
+      "sequence": 52,
+      "source_id": 210511,
+      "source_url": "http://www.artic.edu/artworks/210511",
+      "source": "aic",
+      "style": "South Asian",
+      "title": "A Monumental Portrait of a Monkey"
+    },
+    {
+      "artist_name": "Paul Gauguin",
+      "color": {
+        "h": 41,
+        "s": 63,
+        "l": 40,
+        "percentage": 0.07647421840681083
+      },
+      "date": "1888",
+      "dimensions": [
+        "73 × 92 cm (28 3/4 × 36 3/16 in.)"
+      ],
+      "id": "1-52",
+      "image_alt": "Painting of four women with blue shawls walking near red fence.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/ae6ac285-6887-dd76-4570-d379c786dfae/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/ae6ac285-6887-dd76-4570-d379c786dfae/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/ae6ac285-6887-dd76-4570-d379c786dfae/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/ae6ac285-6887-dd76-4570-d379c786dfae/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on jute canvas",
+      "origin": "France",
+      "sequence": 53,
+      "source_id": 19339,
+      "source_url": "http://www.artic.edu/artworks/19339",
+      "source": "aic",
+      "style": "Post-Impressionism",
+      "title": "Arlésiennes (Mistral)"
+    },
+    {
+      "artist_name": "Édouard Jean Vuillard",
+      "color": {
+        "h": 47,
+        "s": 77,
+        "l": 46,
+        "percentage": 0.011928666573888148
+      },
+      "date": "1899",
+      "dimensions": [
+        "249.2 × 378.5 cm (96 1/8 × 149 in.)"
+      ],
+      "id": "1-53",
+      "image_alt": "Dense and varied landscape with open fields, groves of bushy trees, and a row of thin conifers. A light-blue river tranverses the canvas, and a church steeple emerges from the trees at left of center. At far left is a side view of a white house with open shutters, a woman working inside.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/a1dc6109-6e0c-7801-ebe8-8c95fec2c4e4/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/a1dc6109-6e0c-7801-ebe8-8c95fec2c4e4/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/a1dc6109-6e0c-7801-ebe8-8c95fec2c4e4/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/a1dc6109-6e0c-7801-ebe8-8c95fec2c4e4/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 54,
+      "source_id": 109926,
+      "source_url": "http://www.artic.edu/artworks/109926",
+      "source": "aic",
+      "style": "Post-Impressionism",
+      "title": "Landscape: Window Overlooking the Woods"
+    },
+    {
+      "artist_name": "Bartolomeo Manfredi",
+      "color": {
+        "h": 212,
+        "s": 36,
+        "l": 53,
+        "percentage": 0.0031084892842352463
+      },
+      "date": "1613",
+      "dimensions": [
+        "175.3 × 130.6 cm (69 × 51 3/8 in.)"
+      ],
+      "id": "1-54",
+      "image_alt": "Large painting of cupid being whipped, a woman tries to hold back the a man in red dress.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/0f951635-312c-0829-451b-553f461c5518/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/0f951635-312c-0829-451b-553f461c5518/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/0f951635-312c-0829-451b-553f461c5518/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/0f951635-312c-0829-451b-553f461c5518/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Italy",
+      "sequence": 55,
+      "source_id": 59847,
+      "source_url": "http://www.artic.edu/artworks/59847",
+      "source": "aic",
+      "style": "Renaissance",
+      "title": "Cupid Chastised"
+    },
+    {
+      "artist_name": "Henri de Toulouse-Lautrec",
+      "color": {
+        "h": 38,
+        "s": 58,
+        "l": 35,
+        "percentage": 0.01400309999661994
+      },
+      "date": "1892/95",
+      "dimensions": [
+        "123 × 141 cm (48 7/16 × 55 1/2 in.)"
+      ],
+      "id": "1-55",
+      "image_alt": "Painting, heavy in tones of blue-green and burnt orange, depicting a bar scene at night. The men wear top hats and many are bearded; the women are dressed in voluminous gowns and decorative hats. Five people converse in the center of the composition and a woman with a green face dominates the right foreground.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 56,
+      "source_id": 61128,
+      "source_url": "http://www.artic.edu/artworks/61128",
+      "source": "aic",
+      "style": "Post-Impressionism",
+      "title": "At the Moulin Rouge"
+    },
+    {
+      "artist_name": "Henri de Toulouse-Lautrec",
+      "color": {
+        "h": 38,
+        "s": 45,
+        "l": 43,
+        "percentage": 0.005371651111260324
+      },
+      "date": "1887/88",
+      "dimensions": [
+        "100.3 × 161.3 cm (39 1/2 × 63 1/2 in.)"
+      ],
+      "id": "1-56",
+      "image_alt": "Painting of a performance inside a circus ring. A man wearing a suit holds a whip in his hand and looks towards a woman with red hair riding a gray horse and wearing a green dress. Audience members wearing suits and top hats watch from red and white benches on the side.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/65db9e21-83c3-1cc6-7240-1e1996d87f52/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/65db9e21-83c3-1cc6-7240-1e1996d87f52/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/65db9e21-83c3-1cc6-7240-1e1996d87f52/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/65db9e21-83c3-1cc6-7240-1e1996d87f52/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 57,
+      "source_id": 16146,
+      "source_url": "http://www.artic.edu/artworks/16146",
+      "source": "aic",
+      "style": "Post-Impressionism",
+      "title": "Equestrienne (At the Cirque Fernando)"
+    },
+    {
+      "artist_name": "Joseph Mallord William Turner",
+      "color": {
+        "h": 203,
+        "s": 16,
+        "l": 59,
+        "percentage": 0.07102904924620194
+      },
+      "date": "1837/38",
+      "dimensions": [
+        "174.5 × 224.9 cm (68 3/4 × 88 1/2 in.)"
+      ],
+      "id": "1-57",
+      "image_alt": "Large marine landscape of boats on rough waves, storm clouds.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/8641479e-c93e-f1a8-9925-19be061706da/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/8641479e-c93e-f1a8-9925-19be061706da/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/8641479e-c93e-f1a8-9925-19be061706da/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/8641479e-c93e-f1a8-9925-19be061706da/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "England",
+      "sequence": 58,
+      "source_id": 4796,
+      "source_url": "http://www.artic.edu/artworks/4796",
+      "source": "aic",
+      "style": "19th century",
+      "title": "Fishing Boats with Hucksters Bargaining for Fish"
+    },
+    {
+      "artist_name": "Jean Auguste Dominique Ingres",
+      "color": {
+        "h": 42,
+        "s": 61,
+        "l": 54,
+        "percentage": 0.00022724896942592364
+      },
+      "date": "1823–26",
+      "dimensions": [
+        "103 × 83.5 cm (40 1/2 × 32 3/4 in.)"
+      ],
+      "id": "1-58",
+      "image_alt": "Portrait of white man dressed in all black with medallion and sword.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/8d119fd0-2f57-f20e-a3f5-a573904001e9/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/8d119fd0-2f57-f20e-a3f5-a573904001e9/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/8d119fd0-2f57-f20e-a3f5-a573904001e9/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/8d119fd0-2f57-f20e-a3f5-a573904001e9/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 59,
+      "source_id": 111317,
+      "source_url": "http://www.artic.edu/artworks/111317",
+      "source": "aic",
+      "style": "19th century",
+      "title": "Amédée-David, the Comte de Pastoret"
+    },
+    {
+      "artist_name": "John Philip Simpson",
+      "color": {
+        "h": 40,
+        "s": 38,
+        "l": 70,
+        "percentage": 0.00011233329738667816
+      },
+      "date": "1827",
+      "dimensions": [
+        "127 × 101.5 cm (50 × 40 in.)"
+      ],
+      "id": "1-59",
+      "image_alt": "Painting of a dark-skinned man seated and wearing a red open-necked tunic. He looks up to the right. His wrists are shackled and a large chain rests at his right, running down the bench he sits upon.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/5c3cbb0f-03e6-7d46-60b6-f612ed71b5d3/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/5c3cbb0f-03e6-7d46-60b6-f612ed71b5d3/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/5c3cbb0f-03e6-7d46-60b6-f612ed71b5d3/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/5c3cbb0f-03e6-7d46-60b6-f612ed71b5d3/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": null,
+      "sequence": 60,
+      "source_id": 193664,
+      "source_url": "http://www.artic.edu/artworks/193664",
+      "source": "aic",
+      "style": null,
+      "title": "The Captive Slave (Ira Aldridge)"
+    },
+    {
+      "artist_name": "Carl Blechen",
+      "color": {
+        "h": 37,
+        "s": 47,
+        "l": 62,
+        "percentage": 0.01743313475288859
+      },
+      "date": "1834",
+      "dimensions": [
+        "135 × 126 cm (52 1/2 × 50 in.)"
+      ],
+      "id": "1-60",
+      "image_alt": "Four women with musical instruments lounge in a massive garden courtyard.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/38bb6be4-223e-af7a-7e18-f9ad0c388d3c/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/38bb6be4-223e-af7a-7e18-f9ad0c388d3c/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/38bb6be4-223e-af7a-7e18-f9ad0c388d3c/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/38bb6be4-223e-af7a-7e18-f9ad0c388d3c/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Germany",
+      "sequence": 61,
+      "source_id": 144969,
+      "source_url": "http://www.artic.edu/artworks/144969",
+      "source": "aic",
+      "style": "19th century",
+      "title": "The Interior of the Palm House on the Pfaueninsel Near Potsdam"
+    },
+    {
+      "artist_name": "Jan Sanders van Hemessen",
+      "color": {
+        "h": 39,
+        "s": 20,
+        "l": 37,
+        "percentage": 0.001836618720114432
+      },
+      "date": "about 1540",
+      "dimensions": [
+        "99.1 × 77.2 cm (39 × 30 3/8 in.)"
+      ],
+      "id": "1-61",
+      "image_alt": "Painting of Judith, naked, holding sword, with head of Holophernes.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on panel",
+      "origin": "Netherlands",
+      "sequence": 62,
+      "source_id": 4575,
+      "source_url": "http://www.artic.edu/artworks/4575",
+      "source": "aic",
+      "style": null,
+      "title": "Judith"
+    },
+    {
+      "artist_name": "Édouard Manet",
+      "color": {
+        "h": 52,
+        "s": 62,
+        "l": 47,
+        "percentage": 0.006925650478402625
+      },
+      "date": "1864",
+      "dimensions": [
+        "73.5 × 92.4 cm (28 15/16 × 36 3/8 in.)"
+      ],
+      "id": "1-62",
+      "image_alt": "Still-life painting, fish, open oysters, eel, lemon on tablecloth.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 63,
+      "source_id": 44892,
+      "source_url": "http://www.artic.edu/artworks/44892",
+      "source": "aic",
+      "style": "19th century",
+      "title": "Fish (Still Life)"
+    },
+    {
+      "artist_name": "Bernat Martorell",
+      "color": {
+        "h": 42,
+        "s": 70,
+        "l": 48,
+        "percentage": 0.0035121824438292273
+      },
+      "date": "1434/35",
+      "dimensions": [
+        "155.6 × 98.1 cm (61 1/4 × 38 5/8 in.)"
+      ],
+      "id": "1-63",
+      "image_alt": "St. George on white horse, piercing green, gold dragon",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/843,/0/default.jpg"
+      },
+      "medium": "Tempera on panel",
+      "origin": "Spain",
+      "sequence": 64,
+      "source_id": 15468,
+      "source_url": "http://www.artic.edu/artworks/15468",
+      "source": "aic",
+      "style": "Renaissance",
+      "title": "Saint George and the Dragon"
+    },
+    {
+      "artist_name": "Francisco José de Goya y Lucientes",
+      "color": {
+        "h": 37,
+        "s": 43,
+        "l": 47,
+        "percentage": 0.0009311143017294518
+      },
+      "date": "c. 1806",
+      "dimensions": [
+        "29.2 × 38.5 cm (11 1/2 × 15 5/8 in.)"
+      ],
+      "id": "1-64",
+      "image_alt": "Small painting, friar shoots man with yellow pants as horse runs off.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/622998f1-73f9-4c96-08cf-60bda7c9ce4b/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/622998f1-73f9-4c96-08cf-60bda7c9ce4b/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/622998f1-73f9-4c96-08cf-60bda7c9ce4b/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/622998f1-73f9-4c96-08cf-60bda7c9ce4b/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on panel",
+      "origin": "Spain",
+      "sequence": 65,
+      "source_id": 16362,
+      "source_url": "http://www.artic.edu/artworks/16362",
+      "source": "aic",
+      "style": null,
+      "title": "Friar Pedro Shoots El Maragato as His Horse Runs Off"
+    },
+    {
+      "artist_name": "Joachim Antonisz. Wtewael",
+      "color": {
+        "h": 6,
+        "s": 76,
+        "l": 33,
+        "percentage": 0.01983186981479237
+      },
+      "date": "c. 1608",
+      "dimensions": [
+        "15.6 × 20.3 cm (6 1/8 × 8 in.)"
+      ],
+      "id": "1-65",
+      "image_alt": "Animated scene of many mostly nude figures in close combat, on earth and aloft in low-hanging clouds, reaching toward one another with long spears.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/9bc9134c-6b57-80be-c118-566667a615ae/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/9bc9134c-6b57-80be-c118-566667a615ae/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/9bc9134c-6b57-80be-c118-566667a615ae/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/9bc9134c-6b57-80be-c118-566667a615ae/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on copper",
+      "origin": "Netherlands",
+      "sequence": 66,
+      "source_id": 105466,
+      "source_url": "http://www.artic.edu/artworks/105466",
+      "source": "aic",
+      "style": null,
+      "title": "The Battle between the Gods and the Giants"
+    },
+    {
+      "artist_name": "Giovanni di Paolo",
+      "color": {
+        "h": 13,
+        "s": 83,
+        "l": 35,
+        "percentage": 0.0116768046076207
+      },
+      "date": "1455/60",
+      "dimensions": [
+        "68.6 × 39.1 cm (27 × 15 3/8 in.)",
+        " Painted surface: 66.3 × 36.6 cm (26 1/16 × 14 7/16 in.)"
+      ],
+      "id": "1-66",
+      "image_alt": "A headless figure leans out of the first-floor window of a light-colored stone building from which two iron bars have been detatched, his blood spurting to the ground. A figure bends to collect the head while another looks away to sheath a long sword. From right, a robed man beholds the guesome scene.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/7b642fae-1cc9-ee08-0f4c-f8b2974c71c9/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/7b642fae-1cc9-ee08-0f4c-f8b2974c71c9/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/7b642fae-1cc9-ee08-0f4c-f8b2974c71c9/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/7b642fae-1cc9-ee08-0f4c-f8b2974c71c9/full/843,/0/default.jpg"
+      },
+      "medium": "Tempera on panel",
+      "origin": "Italy",
+      "sequence": 67,
+      "source_id": 16169,
+      "source_url": "http://www.artic.edu/artworks/16169",
+      "source": "aic",
+      "style": "Renaissance",
+      "title": "The Beheading of Saint John the Baptist"
+    },
+    {
+      "artist_name": "Unknown",
+      "color": {
+        "h": 40,
+        "s": 42,
+        "l": 61,
+        "percentage": 0.362478790335901
+      },
+      "date": "14th century",
+      "dimensions": [
+        "30.5 × 1176.9 cm (12 × 460 in.)"
+      ],
+      "id": "1-67",
+      "image_alt": "Long painted scroll, green, brown mountains, wooden house, Amida Buddha on cloud.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/f3ffa7dd-dcff-47a7-2ca9-7b15f87f0106/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/f3ffa7dd-dcff-47a7-2ca9-7b15f87f0106/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/f3ffa7dd-dcff-47a7-2ca9-7b15f87f0106/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/f3ffa7dd-dcff-47a7-2ca9-7b15f87f0106/full/843,/0/default.jpg"
+      },
+      "medium": "Handscroll; ink, colors, and gold on paper",
+      "origin": "Japan",
+      "sequence": 68,
+      "source_id": 56731,
+      "source_url": "http://www.artic.edu/artworks/56731",
+      "source": "aic",
+      "style": "Japanese (culture or style)",
+      "title": "Legends of the Yūzū Nembutsu Sect"
+    },
+    {
+      "artist_name": "Claude Monet",
+      "color": {
+        "h": 197,
+        "s": 41,
+        "l": 37,
+        "percentage": 0.08651191298367858
+      },
+      "date": "1906",
+      "dimensions": [
+        "89.9 × 94.1 cm (35 3/8 × 37 1/16 in.)"
+      ],
+      "id": "1-68",
+      "image_alt": "Painting of a pond seen up close spotted with thickly painted pink and white water lilies and a shadow across the top third of the picture.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 69,
+      "source_id": 16568,
+      "source_url": "http://www.artic.edu/artworks/16568",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Water Lilies"
+    },
+    {
+      "artist_name": "Claude Monet",
+      "color": {
+        "h": 210,
+        "s": 40,
+        "l": 31,
+        "percentage": 0.01066282804856918
+      },
+      "date": "1867",
+      "dimensions": [
+        "75.8 × 102.5 cm (29 13/16 × 40 5/16 in.)"
+      ],
+      "id": "1-69",
+      "image_alt": "Painting of a beach on a cloudy day with several sailboats on the water, a few rowboats on the shore, and two groupings of people on the sand.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 70,
+      "source_id": 14598,
+      "source_url": "http://www.artic.edu/artworks/14598",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "The Beach at Sainte-Adresse"
+    },
+    {
+      "artist_name": "Georges Seurat",
+      "color": {
+        "h": 59,
+        "s": 12,
+        "l": 52,
+        "percentage": 0.002095873918287094
+      },
+      "date": "1884/86",
+      "dimensions": [
+        "207.5 × 308.1 cm (81 3/4 × 121 1/4 in.)"
+      ],
+      "id": "1-70",
+      "image_alt": "Large painting of people in a crowded park, brushstrokes are dots.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 71,
+      "source_id": 27992,
+      "source_url": "http://www.artic.edu/artworks/27992",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "A Sunday on La Grande Jatte — 1884"
+    },
+    {
+      "artist_name": "George Inness",
+      "color": {
+        "h": 43,
+        "s": 23,
+        "l": 32,
+        "percentage": 0.1823254579013409
+      },
+      "date": "1892",
+      "dimensions": [
+        "107.2 × 82.2 cm (42 3/16 × 32 3/8 in.)"
+      ],
+      "id": "1-71",
+      "image_alt": "A work made of oil on canvas.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "United States",
+      "sequence": 72,
+      "source_id": 64729,
+      "source_url": "http://www.artic.edu/artworks/64729",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Early Morning, Tarpon Springs"
+    },
+    {
+      "artist_name": "William Sidney Mount",
+      "color": {
+        "h": 47,
+        "s": 70,
+        "l": 92,
+        "percentage": 0.0006906780904822832
+      },
+      "date": "1835",
+      "dimensions": [
+        "57.4 × 69.7 cm (22 5/8 × 27 7/16 in.)"
+      ],
+      "id": "1-72",
+      "image_alt": "In a beige room, a group of light-skinned men of various ages and a young boy clap as a figure in tattered clothing at center, his back to the viewer, dances and holds a tin cup in the air. At dark figure in shadows looks on from the far-right corner.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/82a87cf0-6082-a7f7-c2cf-0fc9283ed966/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/82a87cf0-6082-a7f7-c2cf-0fc9283ed966/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/82a87cf0-6082-a7f7-c2cf-0fc9283ed966/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/82a87cf0-6082-a7f7-c2cf-0fc9283ed966/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Long Island",
+      "sequence": 73,
+      "source_id": 30709,
+      "source_url": "http://www.artic.edu/artworks/30709",
+      "source": "aic",
+      "style": null,
+      "title": "Bar-room Scene"
+    },
+    {
+      "artist_name": "James McNeill Whistler",
+      "color": {
+        "h": 37,
+        "s": 21,
+        "l": 44,
+        "percentage": 0.001277816467220813
+      },
+      "date": "1872",
+      "dimensions": [
+        "51 × 76.7 cm (20 1/16 × 30 3/16 in.)"
+      ],
+      "id": "1-73",
+      "image_alt": "A sparsely painted waterside scene in dark tones with minimal ghostly shapes suggesting ships, yellow glitches of paint for light reflections, and the orb of an orange moon overhead.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/50034c7f-ce51-00f1-430e-a6f7efc233fc/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/50034c7f-ce51-00f1-430e-a6f7efc233fc/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/50034c7f-ce51-00f1-430e-a6f7efc233fc/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/50034c7f-ce51-00f1-430e-a6f7efc233fc/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "London",
+      "sequence": 74,
+      "source_id": 56905,
+      "source_url": "http://www.artic.edu/artworks/56905",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Nocturne: Blue and Gold—Southampton Water"
+    },
+    {
+      "artist_name": "George Inness",
+      "color": {
+        "h": 40,
+        "s": 66,
+        "l": 43,
+        "percentage": 0.005567189554239415
+      },
+      "date": "1893",
+      "dimensions": [
+        "76.2 × 115.2 cm (30 × 45 in.)"
+      ],
+      "id": "1-74",
+      "image_alt": "A heronǳ silhouette sits amongst the brush in a golden hued forest.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/0f2d999d-0173-2935-a6d0-0175bb97b2a9/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/0f2d999d-0173-2935-a6d0-0175bb97b2a9/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/0f2d999d-0173-2935-a6d0-0175bb97b2a9/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/0f2d999d-0173-2935-a6d0-0175bb97b2a9/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Florida",
+      "sequence": 75,
+      "source_id": 64724,
+      "source_url": "http://www.artic.edu/artworks/64724",
+      "source": "aic",
+      "style": "Post-Impressionism",
+      "title": "The Home of the Heron"
+    },
+    {
+      "artist_name": "John Henry Twachtman",
+      "color": {
+        "h": 173,
+        "s": 52,
+        "l": 36,
+        "percentage": 0.0025203391368342526
+      },
+      "date": "c. 1889",
+      "dimensions": [
+        "642 × 76.6 cm (25 1/4 × 30 1/8 in.)"
+      ],
+      "id": "1-75",
+      "image_alt": "Winter landscape painting with rocky stream lined by orange leafed trees.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Connecticut",
+      "sequence": 76,
+      "source_id": 72801,
+      "source_url": "http://www.artic.edu/artworks/72801",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Icebound"
+    },
+    {
+      "artist_name": "Thomas Cole",
+      "color": {
+        "h": 16,
+        "s": 89,
+        "l": 30,
+        "percentage": 0.016167737552204534
+      },
+      "date": "1830",
+      "dimensions": [
+        "47.9 × 60.6 cm (18 7/8 × 23 7/8 in.)"
+      ],
+      "id": "1-76",
+      "image_alt": "Painting of a vast autumn scene with two very small figures in Indigenous clothing standing on a cliff overlooking a massive waterfall in the distance.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/18092196-50ae-3ff1-9205-1b3110e966c3/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/18092196-50ae-3ff1-9205-1b3110e966c3/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/18092196-50ae-3ff1-9205-1b3110e966c3/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/18092196-50ae-3ff1-9205-1b3110e966c3/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on panel",
+      "origin": "Niagara Falls",
+      "sequence": 77,
+      "source_id": 90048,
+      "source_url": "http://www.artic.edu/artworks/90048",
+      "source": "aic",
+      "style": null,
+      "title": "Distant View of Niagara Falls"
+    },
+    {
+      "artist_name": "George Wesley Bellows",
+      "color": {
+        "h": 42,
+        "s": 70,
+        "l": 49,
+        "percentage": 0.001933131233249857
+      },
+      "date": "1914",
+      "dimensions": [
+        "81.6 × 101.6 cm (32 1/2 × 40 1/2 in.)"
+      ],
+      "id": "1-77",
+      "image_alt": "A work made of oil on canvas.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "New York",
+      "sequence": 78,
+      "source_id": 109780,
+      "source_url": "http://www.artic.edu/artworks/109780",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Love of Winter"
+    },
+    {
+      "artist_name": "Henry Ossawa Tanner",
+      "color": {
+        "h": 41,
+        "s": 86,
+        "l": 49,
+        "percentage": 0.0015816528272044285
+      },
+      "date": "c. 1906",
+      "dimensions": [
+        "129.5 × 105.7 cm (51 × 41 7/8 in.)"
+      ],
+      "id": "1-78",
+      "image_alt": "A work made of oil on canvas.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/46ff0699-8905-a7d7-92f3-5210c2cc5e51/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/46ff0699-8905-a7d7-92f3-5210c2cc5e51/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/46ff0699-8905-a7d7-92f3-5210c2cc5e51/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/46ff0699-8905-a7d7-92f3-5210c2cc5e51/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Paris",
+      "sequence": 79,
+      "source_id": 87643,
+      "source_url": "http://www.artic.edu/artworks/87643",
+      "source": "aic",
+      "style": "Post-Impressionism",
+      "title": "The Two Disciples at the Tomb"
+    },
+    {
+      "artist_name": "John Singer Sargent",
+      "color": {
+        "h": 37,
+        "s": 15,
+        "l": 53,
+        "percentage": 0.03304837318835822
+      },
+      "date": "1907",
+      "dimensions": [
+        "71.4 × 56.5 cm (28 1/8 × 22 1/4 in.)"
+      ],
+      "id": "1-79",
+      "image_alt": "Portrait of a woman in white with a bonnet perched on an architectural feature painting something to her right, a spouting water fountain, greenery, and a an ornate, low white fence behind her. Beside her, a man leans back, eying the canvas.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Frascati",
+      "sequence": 80,
+      "source_id": 69780,
+      "source_url": "http://www.artic.edu/artworks/69780",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "The Fountain, Villa Torlonia, Frascati, Italy"
+    },
+    {
+      "artist_name": "James McNeill Whistler",
+      "color": {
+        "h": 60,
+        "s": 3,
+        "l": 47,
+        "percentage": 6.191229751583098e-05
+      },
+      "date": "1894",
+      "dimensions": [
+        "210.7 × 93.3 cm (82 15/16 × 36 3/4 in.)"
+      ],
+      "id": "1-80",
+      "image_alt": "Very dark painting of a light-skinned, mostly clean-shaven young man in dark suit and dark full-length coat, holding a rolled-up paper and gloves.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/43165650-0212-8897-0605-dc3fdda88c13/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/43165650-0212-8897-0605-dc3fdda88c13/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/43165650-0212-8897-0605-dc3fdda88c13/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/43165650-0212-8897-0605-dc3fdda88c13/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Paris",
+      "sequence": 81,
+      "source_id": 8958,
+      "source_url": "http://www.artic.edu/artworks/8958",
+      "source": "aic",
+      "style": "Modernism",
+      "title": "Arrangement in Flesh Color and Brown: Portrait of Arthur Jerome Eddy"
+    },
+    {
+      "artist_name": "John Smibert",
+      "color": {
+        "h": 42,
+        "s": 12,
+        "l": 40,
+        "percentage": 0.11749742868762245
+      },
+      "date": "1733",
+      "dimensions": [
+        "127.6 × 102.2 cm (50 1/4 × 40 1/4 in.)"
+      ],
+      "id": "1-81",
+      "image_alt": "Portrait of a light-skinned man in a long white wig and red-orange coat, holding a folded piece of paper and standing next to a desk, a large sailing ship off his left shoulder.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/10bdba64-db41-0811-f681-c904afded43c/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/10bdba64-db41-0811-f681-c904afded43c/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/10bdba64-db41-0811-f681-c904afded43c/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/10bdba64-db41-0811-f681-c904afded43c/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "United States",
+      "sequence": 82,
+      "source_id": 49702,
+      "source_url": "http://www.artic.edu/artworks/49702",
+      "source": "aic",
+      "style": null,
+      "title": "Richard Bill"
+    },
+    {
+      "artist_name": "Raphaelle Peale",
+      "color": {
+        "h": 44,
+        "s": 95,
+        "l": 47,
+        "percentage": 0.013551412882090923
+      },
+      "date": "1822",
+      "dimensions": [
+        "41.1 × 57.8 cm (16 3/16 × 22 3/4 in.)"
+      ],
+      "id": "1-82",
+      "image_alt": "Still life painting of strawberries, nuts, lemon, and porcelain vessels.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/1cddae1c-99d5-462f-4aa6-128c0732ac11/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/1cddae1c-99d5-462f-4aa6-128c0732ac11/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/1cddae1c-99d5-462f-4aa6-128c0732ac11/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/1cddae1c-99d5-462f-4aa6-128c0732ac11/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on wood panel",
+      "origin": "Philadelphia",
+      "sequence": 83,
+      "source_id": 120154,
+      "source_url": "http://www.artic.edu/artworks/120154",
+      "source": "aic",
+      "style": "Realism",
+      "title": "Still Life - Strawberries, Nuts, &c."
+    },
+    {
+      "artist_name": "Winslow Homer",
+      "color": {
+        "h": 44,
+        "s": 14,
+        "l": 50,
+        "percentage": 0.35541476102642866
+      },
+      "date": "1885",
+      "dimensions": [
+        "76.5 × 122.9 cm (30 1/8 × 48 3/8 in.)"
+      ],
+      "id": "1-83",
+      "image_alt": "Painting of two fishermen in small wooden boat on rocky seas.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "New England",
+      "sequence": 84,
+      "source_id": 25865,
+      "source_url": "http://www.artic.edu/artworks/25865",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "The Herring Net"
+    },
+    {
+      "artist_name": "William Merritt Chase",
+      "color": {
+        "h": 39,
+        "s": 47,
+        "l": 62,
+        "percentage": 0.017265473927103137
+      },
+      "date": "c. 1887",
+      "dimensions": [
+        "34.6 × 49.9 cm (13 5/8 × 19 5/8 in.)"
+      ],
+      "id": "1-84",
+      "image_alt": "Small painting of woman in pink and black sitting on park bench.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/72a76270-d6f4-e744-d47b-307873a8e8ff/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/72a76270-d6f4-e744-d47b-307873a8e8ff/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/72a76270-d6f4-e744-d47b-307873a8e8ff/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/72a76270-d6f4-e744-d47b-307873a8e8ff/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "New York City",
+      "sequence": 85,
+      "source_id": 28849,
+      "source_url": "http://www.artic.edu/artworks/28849",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "A City Park"
+    },
+    {
+      "artist_name": "William James Glackens",
+      "color": {
+        "h": 193,
+        "s": 43,
+        "l": 39,
+        "percentage": 0.0031859613797761547
+      },
+      "date": "1905",
+      "dimensions": [
+        "122.4 × 92.1 cm (48 1/8 × 36 1/4 in.)"
+      ],
+      "id": "1-85",
+      "image_alt": "Opulently dressed light-skinned man and woman drink at a small table. A mirror behind them reflects a crowd. Her blue dress and dark hat dominate.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "United States",
+      "sequence": 86,
+      "source_id": 15401,
+      "source_url": "http://www.artic.edu/artworks/15401",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "At Mouquin's"
+    },
+    {
+      "artist_name": "Winslow Homer",
+      "color": {
+        "h": 7,
+        "s": 76,
+        "l": 33,
+        "percentage": 0.05942759891689154
+      },
+      "date": "1866",
+      "dimensions": [
+        "40.3 × 66.2 cm (15 7/8 × 26 1/16 in.)"
+      ],
+      "id": "1-86",
+      "image_alt": "Painting of four figures in blue, red, brown dresses playing croquet.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/f7b2db45-f393-653c-07ef-84319b0cdb92/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/f7b2db45-f393-653c-07ef-84319b0cdb92/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/f7b2db45-f393-653c-07ef-84319b0cdb92/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/f7b2db45-f393-653c-07ef-84319b0cdb92/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "United States",
+      "sequence": 87,
+      "source_id": 44018,
+      "source_url": "http://www.artic.edu/artworks/44018",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "Croquet Scene"
+    },
+    {
+      "artist_name": "John Singleton Copley",
+      "color": {
+        "h": 40,
+        "s": 44,
+        "l": 38,
+        "percentage": 0.006584020470723985
+      },
+      "date": "c. 1764",
+      "dimensions": [
+        "127.6 × 100.9 cm (50 1/4 × 39 3/4 in.)"
+      ],
+      "id": "1-87",
+      "image_alt": "Painted portrait of woman in green dress and cloud backdrop.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/92777387-4f55-e3fa-10ba-a549810aca95/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/92777387-4f55-e3fa-10ba-a549810aca95/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/92777387-4f55-e3fa-10ba-a549810aca95/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/92777387-4f55-e3fa-10ba-a549810aca95/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "England",
+      "sequence": 88,
+      "source_id": 59787,
+      "source_url": "http://www.artic.edu/artworks/59787",
+      "source": "aic",
+      "style": "american colonial",
+      "title": "Mrs. Daniel Hubbard (Mary Greene)"
+    },
+    {
+      "artist_name": "Martin Johnson Heade",
+      "color": {
+        "h": 59,
+        "s": 55,
+        "l": 40,
+        "percentage": 0.0016030265140585425
+      },
+      "date": "1885/95",
+      "dimensions": [
+        "38.6 × 61.8 cm (15 1/4 × 24 3/8 in.)"
+      ],
+      "id": "1-88",
+      "image_alt": "Still life of sensuously detailed painting of four white magnolias lying on blue velvet cloth.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/0729fbba-51e3-a2d7-6d4d-61c2be62af3f/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/0729fbba-51e3-a2d7-6d4d-61c2be62af3f/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/0729fbba-51e3-a2d7-6d4d-61c2be62af3f/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/0729fbba-51e3-a2d7-6d4d-61c2be62af3f/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Florida",
+      "sequence": 89,
+      "source_id": 100829,
+      "source_url": "http://www.artic.edu/artworks/100829",
+      "source": "aic",
+      "style": null,
+      "title": "Magnolias on Light Blue Velvet Cloth"
+    },
+    {
+      "artist_name": "Albert Bierstadt",
+      "color": {
+        "h": 37,
+        "s": 32,
+        "l": 48,
+        "percentage": 0.0058452387092337585
+      },
+      "date": "1863",
+      "dimensions": [
+        "111.8 × 91.4 cm (44 × 36 in.)"
+      ],
+      "id": "1-89",
+      "image_alt": "Painting of a small stream in the middle of the woods. In the center of the painting, there is a small waterfall over a large boulder. Radiant beams of sunlight penetrate the thick forest of birch and other trees, and a small bird sings from a broken branch over the waterfall.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/d55b0cfc-0716-d6cd-3b38-5742903ce046/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/d55b0cfc-0716-d6cd-3b38-5742903ce046/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/d55b0cfc-0716-d6cd-3b38-5742903ce046/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/d55b0cfc-0716-d6cd-3b38-5742903ce046/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "United States",
+      "sequence": 90,
+      "source_id": 146701,
+      "source_url": "http://www.artic.edu/artworks/146701",
+      "source": "aic",
+      "style": null,
+      "title": "Mountain Brook"
+    },
+    {
+      "artist_name": "Mary Cassatt",
+      "color": {
+        "h": 208,
+        "s": 45,
+        "l": 32,
+        "percentage": 0.004150916245579274
+      },
+      "date": "1893",
+      "dimensions": [
+        "100.3 × 66.1 cm (39 1/2 × 26 in.)"
+      ],
+      "id": "1-90",
+      "image_alt": "Painting of mother in blue, purple, and green-stripped dress washing child's feet.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/5de963b1-55e2-b349-6cd5-85f9bd2687ec/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/5de963b1-55e2-b349-6cd5-85f9bd2687ec/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/5de963b1-55e2-b349-6cd5-85f9bd2687ec/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/5de963b1-55e2-b349-6cd5-85f9bd2687ec/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 91,
+      "source_id": 111442,
+      "source_url": "http://www.artic.edu/artworks/111442",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "The Child's Bath"
+    },
+    {
+      "artist_name": "Vincent van Gogh",
+      "color": {
+        "h": 40,
+        "s": 84,
+        "l": 33,
+        "percentage": 0.30623617995004176
+      },
+      "date": "1889",
+      "dimensions": [
+        "73.6 × 92.3 cm (29 × 36 5/8 in.)"
+      ],
+      "id": "1-91",
+      "image_alt": "Painting of bedroom, blue walls, green window, tan bed, red bedding.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/25c31d8d-21a4-9ea1-1d73-6a2eca4dda7e/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/25c31d8d-21a4-9ea1-1d73-6a2eca4dda7e/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/25c31d8d-21a4-9ea1-1d73-6a2eca4dda7e/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/25c31d8d-21a4-9ea1-1d73-6a2eca4dda7e/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Saint-Rémy-de-Provence",
+      "sequence": 92,
+      "source_id": 28560,
+      "source_url": "http://www.artic.edu/artworks/28560",
+      "source": "aic",
+      "style": "Post-Impressionism",
+      "title": "The Bedroom"
+    },
+    {
+      "artist_name": "William Michael Harnett",
+      "color": {
+        "h": 37,
+        "s": 65,
+        "l": 50,
+        "percentage": 0.001190206976993299
+      },
+      "date": "1888",
+      "dimensions": [
+        "94.3 × 53.6 cm (37 1/8 × 21 1/8 in.)"
+      ],
+      "id": "1-92",
+      "image_alt": "A plucked chicken, a few stray feathers remaining, hangs upside-down by one foot, illuminated. Behind it the metal hinges and wood panels of a door are visible.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "United States",
+      "sequence": 93,
+      "source_id": 111377,
+      "source_url": "http://www.artic.edu/artworks/111377",
+      "source": "aic",
+      "style": "Realism",
+      "title": "For Sunday's Dinner"
+    },
+    {
+      "artist_name": "Amedeo Modigliani",
+      "color": {
+        "h": 66,
+        "s": 4,
+        "l": 45,
+        "percentage": 0.00034545178717975094
+      },
+      "date": "1916",
+      "dimensions": [
+        "81.3 × 54.3 cm (32 × 21 3/8 in.)"
+      ],
+      "id": "1-93",
+      "image_alt": "Large painting, standing man blue turtleneck, sitting woman with white collar.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/7e649536-b186-c3f5-3e6d-0d22d5d798ef/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/7e649536-b186-c3f5-3e6d-0d22d5d798ef/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/7e649536-b186-c3f5-3e6d-0d22d5d798ef/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/7e649536-b186-c3f5-3e6d-0d22d5d798ef/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Italy",
+      "sequence": 94,
+      "source_id": 27987,
+      "source_url": "http://www.artic.edu/artworks/27987",
+      "source": "aic",
+      "style": "Modernism",
+      "title": "Jacques and Berthe Lipchitz"
+    },
+    {
+      "artist_name": "Paul Gauguin",
+      "color": {
+        "h": 41,
+        "s": 82,
+        "l": 43,
+        "percentage": 0.00544146614863909
+      },
+      "date": "1893",
+      "dimensions": [
+        "75 × 53 cm (29 1/2 × 20 7/8 in.)"
+      ],
+      "id": "1-94",
+      "image_alt": "A young girl with medium skin wears a striking dress of black and white stripes with a short lace collar. Behind her is backdrop featuring symbols and native figures. Mangos sit beside her.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/48268fc7-2eb4-ded6-1293-e91f27b66478/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/48268fc7-2eb4-ded6-1293-e91f27b66478/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/48268fc7-2eb4-ded6-1293-e91f27b66478/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/48268fc7-2eb4-ded6-1293-e91f27b66478/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on jute canvas",
+      "origin": "France",
+      "sequence": 95,
+      "source_id": 60812,
+      "source_url": "http://www.artic.edu/artworks/60812",
+      "source": "aic",
+      "style": "Post-Impressionism",
+      "title": "Merahi metua no Tehamana (Tehamana Has Many Parents or The Ancestors of Tehamana)"
+    },
+    {
+      "artist_name": "Arnold Böcklin",
+      "color": {
+        "h": 174,
+        "s": 19,
+        "l": 51,
+        "percentage": 0.00895275185210054
+      },
+      "date": "1883",
+      "dimensions": [
+        "86.5 × 115 cm (34 3/8 × 45 3/4 in.)"
+      ],
+      "id": "1-95",
+      "image_alt": "Painting of centaur with harp, in water, surrounded by mermaids and mermen.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/fa81bfb9-5a07-5e3c-33b4-4efde68981c8/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/fa81bfb9-5a07-5e3c-33b4-4efde68981c8/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/fa81bfb9-5a07-5e3c-33b4-4efde68981c8/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/fa81bfb9-5a07-5e3c-33b4-4efde68981c8/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on panel",
+      "origin": "Switzerland",
+      "sequence": 96,
+      "source_id": 110507,
+      "source_url": "http://www.artic.edu/artworks/110507",
+      "source": "aic",
+      "style": null,
+      "title": "In the Sea"
+    },
+    {
+      "artist_name": "Edvard Munch",
+      "color": {
+        "h": 209,
+        "s": 49,
+        "l": 41,
+        "percentage": 0.001904076437244497
+      },
+      "date": "1893",
+      "dimensions": [
+        "96.5 × 65.4 cm (38 × 25 3/4 in.)"
+      ],
+      "id": "1-96",
+      "image_alt": "Loosely painted scene of a brown-haired girl in her nightgown standing in a dark room, gazing out a window into a brighter night, her face unseen and her hand drawing back the pale curtain. Light blues and pink whites dominate the girl and the window, while deep browns, blues, and greens color the darkened portions of her room.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/d7df2633-3b40-f570-c906-211503a37cde/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/d7df2633-3b40-f570-c906-211503a37cde/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/d7df2633-3b40-f570-c906-211503a37cde/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/d7df2633-3b40-f570-c906-211503a37cde/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Norway",
+      "sequence": 97,
+      "source_id": 154235,
+      "source_url": "http://www.artic.edu/artworks/154235",
+      "source": "aic",
+      "style": "Post-Impressionism",
+      "title": "The Girl by the Window"
+    },
+    {
+      "artist_name": "Paul Cezanne",
+      "color": {
+        "h": 194,
+        "s": 10,
+        "l": 58,
+        "percentage": 0.0017550281994393705
+      },
+      "date": "c. 1885",
+      "dimensions": [
+        "80.2 × 100.6 cm (31 5/8 × 39 5/8 in.)"
+      ],
+      "id": "1-97",
+      "image_alt": "Impressionist sea landscape, tan houses, blue ocean, distant mountains.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/d4ca6321-8656-3d3f-a362-2ee297b2b813/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/d4ca6321-8656-3d3f-a362-2ee297b2b813/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/d4ca6321-8656-3d3f-a362-2ee297b2b813/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/d4ca6321-8656-3d3f-a362-2ee297b2b813/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 98,
+      "source_id": 16487,
+      "source_url": "http://www.artic.edu/artworks/16487",
+      "source": "aic",
+      "style": "Post-Impressionism",
+      "title": "The Bay of Marseille, Seen from L'Estaque"
+    },
+    {
+      "artist_name": "Paul Cezanne",
+      "color": {
+        "h": 94,
+        "s": 4,
+        "l": 55,
+        "percentage": 0.0016020295300128164
+      },
+      "date": "c. 1893",
+      "dimensions": [
+        "65 × 80 cm (25 7/16 × 31 1/2 in.)"
+      ],
+      "id": "1-98",
+      "image_alt": "Painting of a basket of green and red-yellow apples spilling over into a white cloth placed on a wooden table, with a dark green bottle and a plate of pale biscuits behind.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 99,
+      "source_id": 111436,
+      "source_url": "http://www.artic.edu/artworks/111436",
+      "source": "aic",
+      "style": "Post-Impressionism",
+      "title": "The Basket of Apples"
+    },
+    {
+      "artist_name": "Frans Snyders",
+      "color": {
+        "h": 211,
+        "s": 14,
+        "l": 26,
+        "percentage": 0.0027245786334351907
+      },
+      "date": "1614",
+      "dimensions": [
+        "212 × 308 cm (83 1/2 × 121 1/4 in.)"
+      ],
+      "id": "1-99",
+      "image_alt": "An older man at left in red raises his hat toward a central table chaotically overflowing with dead game, fruits, and vegetables. The wings of dead birds and limbs of animals are splayed out at dramatic angles; a deer at center is suspended by his back legs. Live birds and a cat animate the scene.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/d9bde524-38b2-4262-3338-e4d06a50746d/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/d9bde524-38b2-4262-3338-e4d06a50746d/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/d9bde524-38b2-4262-3338-e4d06a50746d/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/d9bde524-38b2-4262-3338-e4d06a50746d/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Flanders",
+      "sequence": 100,
+      "source_id": 62042,
+      "source_url": "http://www.artic.edu/artworks/62042",
+      "source": "aic",
+      "style": "Baroque",
+      "title": "Still Life with Dead Game, Fruits, and Vegetables in a Market"
+    }
+  ],
+  "count": 100
+}
