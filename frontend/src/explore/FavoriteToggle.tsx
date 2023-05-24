@@ -6,22 +6,22 @@ import { useUpdateFavorite } from "../services/useApi";
 
 interface Props {
   page: number;
-  painting: Painting;
+  record: ApiRecord;
   className?: string;
 }
 
 export default function FavoriteToggle({
   page,
-  painting,
+  record,
   className = "",
 }: Props) {
   const updateFavorite = useUpdateFavorite();
-  const isFavorite = !!painting.favoritesSequence;
+  const isFavorite = !!record.favoritesSequence;
   const icon = isFavorite ? faStarSolid : faStarReg;
   const color = isFavorite ? "btn-ghost text-accent" : "text-accent";
 
   const handleFavoriteToggle = () => {
-    updateFavorite.mutate({ painting, isAdd: !isFavorite, page });
+    updateFavorite.mutate({ record, isAdd: !isFavorite, page });
   };
 
   return (

@@ -1,0 +1,1524 @@
+{
+  "preference": null,
+  "pagination": {
+    "total": 1723,
+    "limit": 100,
+    "offset": 0,
+    "total_pages": 18,
+    "current_page": 1
+  },
+  "data": [
+    {
+      "_score": 11872.106,
+      "thumbnail": {
+        "alt_text": "Painting of bedroom, blue walls, green window, tan bed, red bedding.",
+        "width": null,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAHhwV3N+bnh/aXR8dJtsG6VsAJx4IIp8PIx0QYZ2SoZ/bIx+b3CGboiAQoKAVoWAVpiLYZqNYIiAcoeIc5SNdJeJfJiKfXyCgneAkXmLp3eFqomMgIWJmZOerAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYoMYEXJdhgwBF1wM4RIE01HYYiVJZk7SEADs=",
+        "height": null
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/28560",
+      "id": 28560,
+      "title": "The Bedroom",
+      "timestamp": "2023-03-22T23:15:55-05:00"
+    },
+    {
+      "_score": 1774.4215,
+      "thumbnail": {
+        "alt_text": "Life-size painting of an urban scene in Paris. A man in a top hat holding an umbrella and a woman in a long fashionable dark dress walk arm in arm toward the viewer as other city dwellers with umbrellas walk in various directions across cobblestone roads and sidewalks.",
+        "width": 9987,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAACYtLiQwNDs9Pjw/QEFFSUVJTlFGRlhPT11iYmdgZ2xjaGpra2xqcWlvdmtzeHp6dH5+e4GDfXh+hJKLhZWTi4aMlZKVk5OWk5eXkpSanJ6emqSglbOrn6Glpq+spbe0q8G7sMTAtMjFuQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQA7oIwpNFBrLpVNhJBoZiaNwMEA8GARhEHhQNpGFABAEADs=",
+        "height": 7755
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/20684",
+      "id": 20684,
+      "title": "Paris Street; Rainy Day",
+      "timestamp": "2023-05-22T09:53:09-05:00"
+    },
+    {
+      "_score": 1619.0038,
+      "thumbnail": {
+        "alt_text": "Large painting of people in a crowded park, brushstrokes are dots.",
+        "width": 9310,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAE1WUFVTU1NWUFZYVllbVlpaW1tcWF1cXVxiWl1jWl9mX2NmVWVnXF9eZlxdaGZkYmpmZWRtYGZuY2htZGpsanBsZXVwZXB5Znp+ZXJwaYSAaYiBaYqIbIeAdI2DcYqFcI+FcoiCd5iRcouJgIyKhoyNi4mMjo2RkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwBLmMmEkCAHTaRTqfB4QEmgj8mgaGY6lsohIHAXKwQBQIAaCIAA7",
+        "height": 6237
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/27992",
+      "id": 27992,
+      "title": "A Sunday on La Grande Jatte — 1884",
+      "timestamp": "2023-03-22T23:16:18-05:00"
+    },
+    {
+      "_score": 251.62671,
+      "thumbnail": {
+        "alt_text": "Painting of the Virgin Mary ascending to heaven amongst multitude of angels.",
+        "width": null,
+        "lqip": "data:image/gif;base64,R0lGODlhAgAFAPMAAEQ8Mk5DOGBLRmRQR2FYT29jUGxpX3dqWGReZmBmZwAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAACAAUAAAQIsJyEDBlAhAgAOw==",
+        "height": null
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/87479",
+      "id": 87479,
+      "title": "The Assumption of the Virgin",
+      "timestamp": "2023-03-22T23:15:34-05:00"
+    },
+    {
+      "_score": 222.37003,
+      "thumbnail": {
+        "alt_text": "Painting composed of short, dense brushstrokes depicts two domed stacks of wheat that cast long shadows on a field. The angled light indicates either a rising or setting sun.",
+        "width": 6884,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAF5eVW1bVm9eVmpjW3RoXXxyV39yXmdsZmhmaXZtbG11eH57eYl5bYR7dHuAf4mDfo6HfpePdpCFeZSOfJ+VdnZ+g4ODgoCHg4iHgo+GgY2MgpmThJeTipaSjaCcmbWnh6qrpKmopqqtrKusrbGxobq4pLu5qq2zsQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwJNoFAKRSiZPh7OZRCgfBWJwAAQEBU2D8VgkCAYI5uKoWDKSIAA7",
+        "height": 4068
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/64818",
+      "id": 64818,
+      "title": "Stacks of Wheat (End of Summer)",
+      "timestamp": "2023-04-18T15:22:28-05:00"
+    },
+    {
+      "_score": 60.993526,
+      "thumbnail": {
+        "alt_text": "Painting of a red-haired, bearded man with light skin, painted in short brushstrokes and multicolored dots. The background is likewise a mass of small, closely spaced colored dots, these in green, blue, and red-orange.",
+        "width": 7546,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADs1NzI4PTo5PT48PEU6PFJFPytAQy5JTDRJTD5PUEtCQEtMTVRHQUdSTmFQSW5aS2BbUZNmUYN5Z7WZeQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURINJAgSFNw/FEQsI4wEIoRQgAOw==",
+        "height": 9573
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/80607",
+      "id": 80607,
+      "title": "Self-Portrait",
+      "timestamp": "2023-05-09T11:02:30-05:00"
+    },
+    {
+      "_score": 59.04394,
+      "thumbnail": {
+        "alt_text": "Painting of a pond seen up close spotted with thickly painted pink and white water lilies and a shadow across the top third of the picture.",
+        "width": 8808,
+        "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAAEZcaFFfdVtqbk9ldFBlcVFocllrcFlrd11rdl9sdFZtf15wcWV0d2R2eGByfmd6eGl6e2t9elZxiGF4kWB4kmJ9kGJ8lWeCkWSAnQAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVoJBADXI4TLRMWHU9hmRRCjAURBACADs=",
+        "height": 8460
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/16568",
+      "id": 16568,
+      "title": "Water Lilies",
+      "timestamp": "2023-03-22T23:15:27-05:00"
+    },
+    {
+      "_score": 57.847786,
+      "thumbnail": {
+        "alt_text": "Painted portrait dominated by loose, large brushstrokes of a woman, seen from the back, wearing a gauzy white off-the-shoulder dress and black choker, blond hair swept up, examining herself in a mirror at left. The background is a feathered swirl suggesting floral pattern in cool pale tones of gray, purple, pink, and blue.",
+        "width": 4946,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAE9MQV1XRl5YRmNdT2JgVGplV3RtW3JsX35wXW9rYHl3cX17eYJ4a4+Hd4GBfoaDf4iEfY6JgYmKhZuXjZWSkJaSkJydlpqZmZqamp+dmpqbnamelqCemqShk6Cgm6ujnK6nn7m0rbSzsgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwABDYnBYOgTFAvHAcA6JyIZyyQwAFZHGMykIPiEQpBEEADs=",
+        "height": 3703
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/11723",
+      "id": 11723,
+      "title": "Woman at Her Toilette",
+      "timestamp": "2023-05-24T00:33:16-05:00"
+    },
+    {
+      "_score": 56.878654,
+      "thumbnail": {
+        "alt_text": "Impressionist painting of two girls on balcony, bright flower hat, knitting basket.",
+        "width": 19848,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAENVWmNjWVFWZmRcYWJfZmZdZXtqZ3JxZXZ5aXl4b4J2cot2cHuCf4CDbYGIeH6EgX+Og5qbjY+Sl5yhlQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4AQxSbQoD1IQjSMMwWFIQAgAOw==",
+        "height": 24629
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/14655",
+      "id": 14655,
+      "title": "Two Sisters (On the Terrace)",
+      "timestamp": "2023-05-22T09:53:20-05:00"
+    },
+    {
+      "_score": 55.952686,
+      "thumbnail": {
+        "alt_text": "Painting, heavy in tones of blue-green and burnt orange, depicting a bar scene at night. The men wear top hats and many are bearded; the women are dressed in voluminous gowns and decorative hats. Five people converse in the center of the composition and a woman with a green face dominates the right foreground.",
+        "width": 7778,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAC4qHjInHDwpGjYwIDcwIzgzKVg5Cks3HF4/EVg6FkE2Jkk3IUs2JkI7K0Q6KEs7Kko5LFtBFmNDFV5EIVBLLU9NM0hINFhFNk1SOlRQMVdTO1ZTP1hVO2ZOKQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIIVZnFYdj1M0WXIxQrAhHbQQQGRIkzKEADs=",
+        "height": 6801
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/61128",
+      "id": 61128,
+      "title": "At the Moulin Rouge",
+      "timestamp": "2023-03-22T23:09:09-05:00"
+    },
+    {
+      "_score": 55.615913,
+      "thumbnail": {
+        "alt_text": "Painting of two fishermen in small wooden boat on rocky seas.",
+        "width": 6000,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAACkcEzYsGz00JkJCM0BHPVJFM1hGMllJNkVOQFVVQ1JVRVVaTWxeSGBfUGlhT2lkUmhmVmJoVmZnWW9qWWttXXppUYBqUIVuU4VwVot1Vox1VIdxWIp1WI52XI14XI15X5B5XJB6XZV+XouDaJiCZIOIcI+VfpuQdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQMsF4yGFQJlN51M5cESah8NQADBOowZEEBhQTKWJhIBIRBaKIAA7",
+        "height": 6124
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/25865",
+      "id": 25865,
+      "title": "The Herring Net",
+      "timestamp": "2023-03-22T23:15:24-05:00"
+    },
+    {
+      "_score": 55.407272,
+      "thumbnail": {
+        "alt_text": "Painting of a basket of green and red-yellow apples spilling over into a white cloth placed on a wooden table, with a dark green bottle and a plate of pale biscuits behind.",
+        "width": 12640,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAGdYO1hSRFVUSWFYRGtdRGFcSl9jW2xgS25iTnNlR3FlS2loXGxqY3V0Z3R0anl5aHN6cINuTIJzUHWAc3uGfYeFeYWOfYSOhIuLgIyMhJWVh52ci5majZ6ekQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIONA1GUJQGA800AsB1IoVYZpSdRw3SaFADs=",
+        "height": 10094
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/111436",
+      "id": 111436,
+      "title": "The Basket of Apples",
+      "timestamp": "2023-03-31T00:17:37-05:00"
+    },
+    {
+      "_score": 55.348763,
+      "thumbnail": {
+        "alt_text": "Abstract painting in various bright colors—yellow, blue, red, green, orange, pink—with lines indicating building-like structures as well as canons in the lower right corner.",
+        "width": 5631,
+        "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAADxDRmJhfHR0eHR5e4Vza4l2cZuAYpqEY5eHcJWMd5SHeqmYfrCbe3t+jHx4lJSSirifhqqfkJSknb2ynJ6lobe0q8CkgMKok822mgAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVoAAcBVQRyXMpgWNhzNAsxhRREhICADs=",
+        "height": 5627
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/8991",
+      "id": 8991,
+      "title": "Improvisation No. 30 (Cannons)",
+      "timestamp": "2023-05-09T16:07:34-05:00"
+    },
+    {
+      "_score": 55.274242,
+      "thumbnail": {
+        "alt_text": "Painting of a vast autumn scene with two very small figures in Indigenous clothing standing on a cliff overlooking a massive waterfall in the distance.",
+        "width": 10490,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAACMQBS0dEC8cETMeFTkiDSkiGDYlFz8uGzsuHTw1KT03KU0kEEU5JUQ8MUA+NVhHLXJIJFJNQ1VUTWJcUnJgTIltV4R9ZpOAYZmKbY6Bd5ONccG3msOyo8K6tQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYoCNNGddFidJQ1XFt2kMsEGYxwhAABlKEADs=",
+        "height": 8127
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/90048",
+      "id": 90048,
+      "title": "Distant View of Niagara Falls",
+      "timestamp": "2023-03-22T23:15:22-05:00"
+    },
+    {
+      "_score": 54.11745,
+      "thumbnail": {
+        "alt_text": "Landscape painting featuring a wavy tree tree in the foreground and a watermill with a red roof adjacent to a river at right. Colors are subdued earth tones, the foliage a dark green and the river a muddy brown. Water flows through the mill wheel under a cloudy sky of gray and blue. Three individuals can be seen in the distance at left.",
+        "width": 9443,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAACIbEyIbFCIfFSkiGC8lGSwmGjUrHz0yIzozJz44Jzg1KDs4KUI8K0Y9LUBAL0VCMUpEMU1IM1JRRFZVSWZfR21rW25sY21xanx5Z398cX+CfImDc46LfZqUf4KGgYOIgouNhYyPiZeVigAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwM9FE/JwLJ2FZAISZSgKgQOzqUQgiUfjwCgEAAOEgRAEADs=",
+        "height": 6967
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/869",
+      "id": 869,
+      "title": "The Watermill with the Great Red Roof",
+      "timestamp": "2023-03-01T03:07:47-06:00"
+    },
+    {
+      "_score": 53.89017,
+      "thumbnail": {
+        "alt_text": "Loosely painted image of an open-air train station. On the right, a parked train gives off an enormous plumb of white smoke, making the scene look as though it were full of clouds. A huddled mass of barely discernible people crowd around the train on both sides of the tracks. Blue, green, and gray tones dominate.",
+        "width": 6786,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAADU8QkROS0ZPU0hSVk1YXVFWUlBXXlFaWVNcWFFkV1plVVtjWmBnWmFqXmRrX05ZYFFaYlljbF5qbGNsY2ZydmlzdWRxeGdze2l1fWx3fG16enJ4fH+KioWOkZeam5yjqZ2lqrG1ubS6vwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQIKmYslQDoONp8ORBECi0OfyKEAMmAhAgFhMHA2GIhEEADs=",
+        "height": 5092
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/16571",
+      "id": 16571,
+      "title": "Arrival of the Normandy Train, Gare Saint-Lazare",
+      "timestamp": "2023-05-22T09:53:12-05:00"
+    },
+    {
+      "_score": 53.121693,
+      "thumbnail": {
+        "alt_text": "Painting of mother in blue, purple, and green-stripped dress washing child's feet.",
+        "width": 3209,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAENDPFhJPV9WTVtbSF9dWGNVV2tiXmhnbmNpc2dqdIJ4d296iYyHjoiJj6aengAAACH5BAAAAAAALAAAAAADAAUAAAQLkICBlEjuFLaCaREAOw==",
+        "height": 4894
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/111442",
+      "id": 111442,
+      "title": "The Child's Bath",
+      "timestamp": "2023-03-22T23:15:24-05:00"
+    },
+    {
+      "_score": 52.508987,
+      "thumbnail": {
+        "alt_text": "Impressionist sea landscape, tan houses, blue ocean, distant mountains.",
+        "width": 12821,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAHx2X15rbk1le1dsfV1wdm9xaWpybnd1YX58ZmRscWJwdIJ1XoJ5Yox/ZZSJb5mIa1NqgVpxiXWDiXeDiHqGjX+Mk4OSmoWTmIqeoo2fpIyeppekoJSlqJmnqAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYINdlGrZdVkVJk6EMAhQ1QJEEhPMcC4OEADs=",
+        "height": 10275
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/16487",
+      "id": 16487,
+      "title": "The Bay of Marseille, Seen from L'Estaque",
+      "timestamp": "2023-03-31T00:17:39-05:00"
+    },
+    {
+      "_score": 52.28382,
+      "thumbnail": {
+        "alt_text": "Loosely painted scene of a brown-haired girl in her nightgown standing in a dark room, gazing out a window into a brighter night, her face unseen and her hand drawing back the pale curtain. Light blues and pink whites dominate the girl and the window, while deep browns, blues, and greens color the darkened portions of her room.",
+        "width": 4801,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAEg8Pko/Pz8/Q0tHRUZFUEpHUUxPVVdUX2NfaGJqfG1zh3Z/k3F9lX+FmYSJmQAAACH5BAAAAAAALAAAAAADAAUAAAQLsCnDFkmuHCQCGBEAOw==",
+        "height": 7097
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/154235",
+      "id": 154235,
+      "title": "The Girl by the Window",
+      "timestamp": "2023-03-24T17:22:40-05:00"
+    },
+    {
+      "_score": 52.26157,
+      "thumbnail": {
+        "alt_text": "A work made of oil on canvas.",
+        "width": 5766,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAB1CTzpHSyRIUyFHWCNJWi1NWCNTaDpfbUJTXEtpbkBkdk1vdUNsf1RvcVVzd2B4cWd8fW56eHOBbpeZfjx1jzlzkVl9hUN7mHiCg2qMkIqej46imo2jnKywoAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4DIY1FUBQkEwipNZRwJFmNQ8wdZNGoeEADs=",
+        "height": 4619
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/109780",
+      "id": 109780,
+      "title": "Love of Winter",
+      "timestamp": "2023-03-01T03:07:54-06:00"
+    },
+    {
+      "_score": 52.205658,
+      "thumbnail": {
+        "alt_text": "A sparsely painted waterside scene in dark tones with minimal ghostly shapes suggesting ships, yellow glitches of paint for light reflections, and the orb of an orange moon overhead.",
+        "width": 6442,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAEpORE9SRVFTR1FSSVJTSlJVS1VWSVJUTFJWTFVXTVRXT1VXT1VYTFdZT1dbUVdaUlhaUVhbUVlcU11fUltdVFteVV1gV19iWV5iWmJlXGhsXmRnYGdqYGdqYWhrY2hsYGxuYnBzZnN1a3V4bQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwNBI5OFwPhrMBtTJUBoTh+VSgSwGBoSk8lgsEgxAIaI4EASBIAA7",
+        "height": 4256
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/56905",
+      "id": 56905,
+      "title": "Nocturne: Blue and Gold—Southampton Water",
+      "timestamp": "2023-03-22T23:12:40-05:00"
+    },
+    {
+      "_score": 51.95338,
+      "thumbnail": {
+        "alt_text": "Large painting of cupid being whipped, a woman tries to hold back the a man in red dress.",
+        "width": 7445,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABobGCUcEy4fFSYfGCkhGjMiGiclJDQtIzYtIz4vJTcxK0ExIUM6L0c9LFkyIlM6KVNJO3xpTXtyYYZoUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIDAQxqEUQfM4whJNCcJIUAgAOw==",
+        "height": 10426
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/59847",
+      "id": 59847,
+      "title": "Cupid Chastised",
+      "timestamp": "2023-03-01T03:07:53-06:00"
+    },
+    {
+      "_score": 51.586563,
+      "thumbnail": {
+        "alt_text": "A square white tile, rotated 90 degrees, crossed by black lines intersecting at 90-degree angles. A few of the shapes thus formed—some partial squares, some rectangles—are colored in a single shade of yellow, blue, black, or red.",
+        "width": 6578,
+        "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAAFlUMJeYn4WQrKeuveDWks3Lt8bJy8nKys3OzsXJ0s3Q2NXW0Nna1+ro3uLk5eTl5unp5+Xm6enq6urq6u3s6e3t7e/u7PLx7+zs8AAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVIPYw0tQQi0MVwDEIUWAkSmUh0BUCADs=",
+        "height": 6578
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/109819",
+      "id": 109819,
+      "title": "Lozenge Composition with Yellow, Black, Blue, Red, and Gray",
+      "timestamp": "2023-03-22T23:15:19-05:00"
+    },
+    {
+      "_score": 51.215595,
+      "thumbnail": {
+        "alt_text": "Painting of four women with blue shawls walking near red fence.",
+        "width": 21953,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAACAqMzhKLUxbKmtfLn1TImBJNGZYMnhZOVRsN1lsNltwNyxIRzdFTDxVSV5nSVdxVnJ0S3x4T390YHl+YXp6a5hSP5B6KrFXRpV2R2iEPo6Na5uUirKjiMWxlQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIPc00SR11AJp2MYAQ2Y5QlAYhJIgx1WFADs=",
+        "height": 17361
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/19339",
+      "id": 19339,
+      "title": "Arlésiennes (Mistral)",
+      "timestamp": "2023-03-22T23:13:59-05:00"
+    },
+    {
+      "_score": 51.128197,
+      "thumbnail": {
+        "alt_text": "Large, dark painting of Jesus sitting with three standing soldiers.",
+        "width": 1751,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAAACBgYGBgUIChUSDiMdFTEqIT0xIjw4NkM3KlA+L0A7ME9IQVpZVm1ZQXNgTnRoW3ZtZ4t5W6aYib2ojQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoAAEA2EkTeFMSPRIh7JATAgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/16499",
+      "id": 16499,
+      "title": "Jesus Mocked by the Soldiers",
+      "timestamp": "2023-05-17T11:02:45-05:00"
+    },
+    {
+      "_score": 50.73166,
+      "thumbnail": {
+        "alt_text": "A work made of oil on canvas.",
+        "width": 1266,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAAcEAAwJARAMARAMAxMPAxQPCBoUBxwXDyEZCyAaESkdEDEoGj0yIFJEMF9TQwAAACH5BAAAAAAALAAAAAADAAUAAAQLEDFVWgLuhDWEIREAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/80084",
+      "id": 80084,
+      "title": "The Crucifixion",
+      "timestamp": "2023-03-01T03:07:53-06:00"
+    },
+    {
+      "_score": 50.683598,
+      "thumbnail": {
+        "alt_text": "A  pensive faced woman sits, slightly hunched, holding a book.",
+        "width": 5197,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAE1BNk5DNlxGO1tPPl5SQmlcSnVeUGthVXZkVH1qVn1pWH5tW35xYIV1XYJ1Y4t7YpKBaZqHb5mIdKmbiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIAEEg7NIjIFMh5BAhRI9TQgAOw==",
+        "height": 7384
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/81512",
+      "id": 81512,
+      "title": "Interrupted Reading",
+      "timestamp": "2023-03-01T03:07:47-06:00"
+    },
+    {
+      "_score": 50.47798,
+      "thumbnail": {
+        "alt_text": "Small painting of woman in pink and black sitting on park bench.",
+        "width": 3000,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAEdhPFZmP0ZbQkplQm14U3R8X2eAWXaGVXGTXYyrQJGvVpi0XoieZ4+OdpKReKSVeLGnZretd6CqjKCmlMC3j8+3kc65l866lse6mdS9kdq9k9S8mtG+otO/pc3AoNXCptnY1NrY1d/d2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQIBBIgqBJoIBwdEoBBiIw8ODoSgWkQ2n80lANJmK5RIEADs=",
+        "height": 2080
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/28849",
+      "id": 28849,
+      "title": "A City Park",
+      "timestamp": "2023-03-01T03:07:52-06:00"
+    },
+    {
+      "_score": 50.41213,
+      "thumbnail": {
+        "alt_text": "St. George on white horse, piercing green, gold dragon",
+        "width": 6524,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAF5LJm1ZN25aN21bO3dgQ3VlS35tUHtqWIJuUIl0VZB/ZZaAXJ2IaKyNaqWUfAAAACH5BAAAAAAALAAAAAADAAUAAAQLsJxhSGNqORSSABEAOw==",
+        "height": 10455
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/15468",
+      "id": 15468,
+      "title": "Saint George and the Dragon",
+      "timestamp": "2023-03-22T23:15:57-05:00"
+    },
+    {
+      "_score": 50.26538,
+      "thumbnail": {
+        "alt_text": "Ecuadorian landscape with people, palm trees, waterfall, and volcano in background.",
+        "width": 8511,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAC0rIjIvIjMwJD85I0I4KUQ+K0A9MUE+ME1DKk1ELUhCM01INFFGMFxON1NKOF1QPmFRPFNNQVVPQFVQR11SQHBjTXJrW3ZwXHhzYn54ZoKAdYaAdYWFd4iFfImHfI6LgoiNhI+TiIySio2WjY6Vjo+XkJCYkJKakwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwFHpZCKJQCGOZtP5eDAZhQPyiEwkiwCDYjEACAVBo3I5DBCJIAA7",
+        "height": 5650
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/76571",
+      "id": 76571,
+      "title": "View of Cotopaxi",
+      "timestamp": "2023-05-08T11:37:28-05:00"
+    },
+    {
+      "_score": 49.871548,
+      "thumbnail": {
+        "alt_text": "An older man at left in red raises his hat toward a central table chaotically overflowing with dead game, fruits, and vegetables. The wings of dead birds and limbs of animals are splayed out at dramatic angles; a deer at center is suspended by his back legs. Live birds and a cat animate the scene.",
+        "width": 9235,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAABwYHB0aHyUeHSQeHycjJCoiISgjJCwnKTImITUqJzUtKTAyMDYwMTw3ND43OUYtJkkuKEc4LlM6K0U6NWY8MUpBO09BOlBEPVNGPVhLPkRBQk1ISVVKRF5SRVtdWGlVQ2FUSWRUSGlbTnlVTYZ9aoF7eZaEcq6rqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQM9ioAAEDAwIRRJJFBCZx8j06VgwJM2pxAFdRI2N4xCaECqCIAA7",
+        "height": 6043
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/62042",
+      "id": 62042,
+      "title": "Still Life with Dead Game, Fruits, and Vegetables in a Market",
+      "timestamp": "2023-04-03T17:07:26-05:00"
+    },
+    {
+      "_score": 49.85151,
+      "thumbnail": {
+        "alt_text": "Three cavalry scouts—light-skinned men mounted on gleaming brown horses—among light-beige, arid mountains. The figure in the foreground has begun to to slump and seems poised to fall, his rifle on the ground, his horse agitated and alarmed. The others ride off in pursuit.",
+        "width": 8190,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAGRRRJuGdquFbaSJdraejp+qsayrrL2uo7+0rru1s9+6jMuvntu5msCyqsq4rtm+rsK5tuDDltfBrdfBr9zRvenPqejMubfCzLvHy8rGxdvPxcPN0sTS3dfb3+bayc/d7NLe7c/f89Hi+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwA3nExKBOhhD4ZLwUDQDQOBQiVgWAkJGong4IIjGhBEEADs=",
+        "height": 5760
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/97910",
+      "id": 97910,
+      "title": "The Advance-Guard, or The Military Sacrifice (The Ambush)",
+      "timestamp": "2023-05-12T11:22:39-05:00"
+    },
+    {
+      "_score": 49.386944,
+      "thumbnail": {
+        "alt_text": "Animated scene of many mostly nude figures in close combat, on earth and aloft in low-hanging clouds, reaching toward one another with long spears.",
+        "width": 2939,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAGI1Hk02IkY4KEZAOH9MJnVHKHpNLHtNL2dGOmdOPmpNPXtVMnhcO2VPQWxXQm1bSHNjUXhhW4xVNYZbN4xZModiOoFeQ4xjRZZpSYZqUIlvWJtzUIZ2ZZB6ZAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYYMBsGDQIT+coSaNxEXJZ2SQdREEZ1QKEADs=",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/105466",
+      "id": 105466,
+      "title": "The Battle between the Gods and the Giants",
+      "timestamp": "2023-03-01T03:07:56-06:00"
+    },
+    {
+      "_score": 49.340378,
+      "thumbnail": {
+        "alt_text": "Painting of a beach on a cloudy day with several sailboats on the water, a few rowboats on the shore, and two groupings of people on the sand.",
+        "width": 6793,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAF5iZnRzb3d0c3x5cXR5fH1/eneGh36QkYaEgoGIjoaLjYmMjIuPj4mPkIuQkoyRlI6UmI6UmZKWk5SWkJKWlpKXm5KYnZaanJacn5idn5menpycnZyenKCko6enpaeqqK+tqKuurLGzsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQIXj0vmERBZMpJKBaAoLBqWReAwCEwLAcBAgQJ4NRxIEADs=",
+        "height": 5021
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/14598",
+      "id": 14598,
+      "title": "The Beach at Sainte-Adresse",
+      "timestamp": "2023-03-22T23:13:55-05:00"
+    },
+    {
+      "_score": 49.289948,
+      "thumbnail": {
+        "alt_text": "A young woman in a dark hat and coat with light ruffled collar sits reading a large periodical held up in her gloved hands. Flowers and foliage are suggested behind her.",
+        "width": 12091,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAB8bHCAdHjQwLTgyLEQ+N0dORUVJSFtRSlRbTE5UWmFbTWVvWXBrX21saH15a35/c4qGe4WIfoqKfYiOfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4LQUiPQcRhNBCeMQgTIIQAgAOw==",
+        "height": 14939
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/14591",
+      "id": 14591,
+      "title": "Woman Reading",
+      "timestamp": "2023-05-22T09:53:22-05:00"
+    },
+    {
+      "_score": 48.85911,
+      "thumbnail": {
+        "alt_text": "Impressionist painting of woman wearing green dress trying on hats.",
+        "width": 5003,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAEMtIk40KE83KlhHLVxELlNPN1hLMVJOP19UN1dYM1lUOVpUP2dAIWlKKHZKKXZLKWRNPGpbMGpaNGtaOkxUTF9dRlJaS15YSV5kUnZpRH12W4ZkM49uRI52VQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4AUtFWZxHZIdExFEybAJQGE00sNQmqOEADs=",
+        "height": 4543
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/14572",
+      "id": 14572,
+      "title": "The Millinery Shop",
+      "timestamp": "2023-05-24T00:33:16-05:00"
+    },
+    {
+      "_score": 48.831425,
+      "thumbnail": {
+        "alt_text": "Painting of Judith, naked, holding sword, with head of Holophernes.",
+        "width": 3775,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAA4MDBENChQPDCAWDjQcDjQeDyweFEEwJFQ3JVQ4JV09Jlc8KlE9Ll9BK2VDKm5KMYthRIVjS5xzWLuEXQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIJM0wvEgARA5QyFBCzEpRggAOw==",
+        "height": 4880
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/4575",
+      "id": 4575,
+      "title": "Judith",
+      "timestamp": "2023-03-22T23:03:29-05:00"
+    },
+    {
+      "_score": 48.81893,
+      "thumbnail": {
+        "alt_text": "Painting of a dark-skinned man seated and wearing a red open-necked tunic. He looks up to the right. His wrists are shackled and a large chain rests at his right, running down the bench he sits upon.",
+        "width": 3626,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABcQDB4ZFCcdEjUtHjwxHzw0IkwnF0UoG2IsH0E2I0M3JUQ5JUY4J0k2KV4wIl0yJ2c1I28zKH9DNII6KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIJEsStEwwyM5QTQhwAEZQggAOw==",
+        "height": 4545
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/193664",
+      "id": 193664,
+      "title": "The Captive Slave (Ira Aldridge)",
+      "timestamp": "2023-03-01T03:07:49-06:00"
+    },
+    {
+      "_score": 48.361267,
+      "thumbnail": {
+        "alt_text": "Portrait of a woman in white with a bonnet perched on an architectural feature painting something to her right, a spouting water fountain, greenery, and a an ornate, low white fence behind her. Beside her, a man leans back, eying the canvas.",
+        "width": 4415,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAC0wJi81KkA0KUJGNFNBNlRIOllJOVlOQmRXRWJcT2ptX3JjUnFtZGtzbYJ8c5CCdZGMfpicmKGckKKgnQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYBMNATMpwCNByeEshUAYSAgAOw==",
+        "height": 5675
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/69780",
+      "id": 69780,
+      "title": "The Fountain, Villa Torlonia, Frascati, Italy",
+      "timestamp": "2023-03-22T23:08:24-05:00"
+    },
+    {
+      "_score": 48.16719,
+      "thumbnail": {
+        "alt_text": "Painting of four figures in blue, red, brown dresses playing croquet.",
+        "width": 3000,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAACskDzQpDjkqDz8wBT40CT4yDi8oEzcrFD4wEz02G0AsEEksEEM3FkI3F0o+EkQ0GEY+GkU9H0c+IUc7JUk6IktCFU5AGEtEG1JMHGVNGkxHJE1HKUxMK0JINVpUMXFQNnJTPzZLQidhbkJlXmllT3p7XXl9Z5E/MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwI1AEQAkGI3HhHQwfBaIjGcUoZxAGEtI1JGYShWIhnNxEAaFIAA7",
+        "height": 1826
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/44018",
+      "id": 44018,
+      "title": "Croquet Scene",
+      "timestamp": "2023-03-22T23:04:42-05:00"
+    },
+    {
+      "_score": 47.948715,
+      "thumbnail": {
+        "alt_text": "Still life painting of dead waterfowl and vegetables in windowsill.",
+        "width": 11148,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAABcUEx0bFx4cGB8fGCUhGyciGyUiHigkHysmIDIrIDAsIjMuJDQvJDUwJTUxJjg0Iz03Jzw3KTw2LEY6KUY9LUc+Lkg+LkdGL0tEM0hCNEtCNFFHNVNKNFFJOFVLOFRMOFpQO2BWPnRqUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwEVDYDgEOgxIATEheByXAcCioSgeEZEkk8BwQJ9NqBIEADs=",
+        "height": 8546
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/84709",
+      "id": 84709,
+      "title": "Still Life with Game Fowl",
+      "timestamp": "2023-04-18T11:17:30-05:00"
+    },
+    {
+      "_score": 47.909077,
+      "thumbnail": {
+        "alt_text": "Painting of Greek landscape, classical architecture, yellow, red robed man reading.",
+        "width": 3000,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAB4eDyYhCzctHzk7LEkxH0kyHkE0IUE0JUc6IkI4JEc8JEw9K1Q9LVU/LVY/LldCLFlBKVlBLUVGPEtLO15FNFJINFNMPHhVOEBKRFlVRndYRWliVl9qaIOAemuKmnWRnYqLhpCMhY230wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQM7gI/JgJKBMJzQJADaWigKxOAgYhgQk4qBoGo9LgRAEADs=",
+        "height": 2220
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/5848",
+      "id": 5848,
+      "title": "Landscape with Saint John on Patmos",
+      "timestamp": "2023-03-22T23:15:37-05:00"
+    },
+    {
+      "_score": 47.85795,
+      "thumbnail": {
+        "alt_text": "Two girls in acrobatic uniforms stand in an arena, one holds oranges.",
+        "width": 1692,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAH57b6aXXKyWWq2bX4+Fda+UYcOrfcCxf5GOh52Vh7KggLqvi7ivkse5j8i2lsa9lMi5nszBodDFo9HGqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIEAkiDI5zBNJzWJARyAUQwgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/81558",
+      "id": 81558,
+      "title": "Acrobats at the Cirque Fernando (Francisca and Angelina Wartenberg)",
+      "timestamp": "2023-05-22T09:52:52-05:00"
+    },
+    {
+      "_score": 47.817062,
+      "thumbnail": {
+        "alt_text": "Winter landscape painting with rocky stream lined by orange leafed trees.",
+        "width": 2689,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAHyNh3yVk36bl5Gjn5Smo5qrqJquq6WyrqS3tb3FubnFvMXEvbbGwLrHwsDJw8jLwMjMxc3Px8POzMnSyszSydHWy9XVytfYzc/b2NbZ09Xa0tfd1Obl2+Xk3QAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4KYwGJRMlSMtj0YYSGEBQnA010BFXJeFADs=",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/72801",
+      "id": 72801,
+      "title": "Icebound",
+      "timestamp": "2023-03-22T23:16:03-05:00"
+    },
+    {
+      "_score": 47.80944,
+      "thumbnail": {
+        "alt_text": "Vividly colored painting of Virgin Mary with baby Jesus and baby John the Baptist.",
+        "width": 1752,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACYPCko7HG8pEUMtIkU4IzxEGiBQNkZGGXBCM25hOGNfTn5ZU0RmWnNlU3t7XYdLP4hiS4J6YImtqq/HzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4BE4U9EkkrFATIQ8hDIIQAgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/23972",
+      "id": 23972,
+      "title": "Virgin and Child with the Young Saint John the Baptist",
+      "timestamp": "2023-05-22T16:47:49-05:00"
+    },
+    {
+      "_score": 47.759964,
+      "thumbnail": {
+        "alt_text": "Painting of a performance inside a circus ring. A man wearing a suit holds a whip in his hand and looks towards a woman with red hair riding a gray horse and wearing a green dress. Audience members wearing suits and top hats watch from red and white benches on the side.",
+        "width": 4984,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAG1pXG5oaXxza350bn53b3RxcYpzaIJ4c4p+coJ+e5p+co2EaYyCeJWCc5iKeoSEgoyIg42Lg4qKiJGMhZCMiZ6QgJiXiZiTjp+XkaKdkaSckaOel6WfmKGfnKujk6uhm7Gqn6uopLmupsW/s8bAuMfBuc7JwdTQyQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQAeiQgAsGAIPR/Q5WBqGSKFzkjwwik2AYgolIBrQYEQqXSaZIAA7",
+        "height": 3139
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/16146",
+      "id": 16146,
+      "title": "Equestrienne (At the Cirque Fernando)",
+      "timestamp": "2023-03-22T23:15:37-05:00"
+    },
+    {
+      "_score": 47.64946,
+      "thumbnail": {
+        "alt_text": "Large painting, standing man blue turtleneck, sitting woman with white collar.",
+        "width": 9289,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAADAmJDEpJjYsKjcyMUg1KE5FPVxDNlNGPllDOFJORldNRVNRSkxTU2hPQWpkWQAAACH5BAAAAAAALAAAAAADAAUAAAQLsDlWVhqBAIPEUREAOw==",
+        "height": 13930
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/27987",
+      "id": 27987,
+      "title": "Jacques and Berthe Lipchitz",
+      "timestamp": "2023-03-14T10:52:34-05:00"
+    },
+    {
+      "_score": 47.138805,
+      "thumbnail": {
+        "alt_text": "Still life painting of strawberries, nuts, lemon, and porcelain vessels.",
+        "width": 5617,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAABQTEhETFR8aEhkYFxoYFhsZGBwaGR0bGh4cGx8dHDcdFSskGz4kETYrGjYsHDksGVUqF0w+KUo9LUw/L2ZQBE5ALExCLVREOFBKPlpOPV1QOV1SPXRZJFZQRFtUQ1tURGpfRmxkU3NqVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwAMiQRgYFgEFpAAQODoXBgUjeoQ+E44k09BsQB5LpBIEADs=",
+        "height": 4024
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/120154",
+      "id": 120154,
+      "title": "Still Life - Strawberries, Nuts, &c.",
+      "timestamp": "2023-03-01T03:07:28-06:00"
+    },
+    {
+      "_score": 47.129593,
+      "thumbnail": {
+        "alt_text": "A work made of oil on canvas.",
+        "width": 1712,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADUuJDsvIlc/JVY7KGI/I05CMUxNO1tOPGNBJmJaUGNkTnBgT2hsVXNjVXZlW25xZJOBb6CGb4iKho2MiQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoMJAkfFIk9MkC4EMQgAURwgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/64729",
+      "id": 64729,
+      "title": "Early Morning, Tarpon Springs",
+      "timestamp": "2023-03-01T03:07:54-06:00"
+    },
+    {
+      "_score": 46.794765,
+      "thumbnail": {
+        "alt_text": "A headless figure leans out of the first-floor window of a light-colored stone building from which two iron bars have been detatched, his blood spurting to the ground. A figure bends to collect the head while another looks away to sheath a long sword. From right, a robed man beholds the guesome scene.",
+        "width": 2874,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAGVZQIlwWYR4W5mPc7iVb6qXd6Wbgq2ggr+xi72xk7awn8Cmh8mxk9fEn9HDoQAAACH5BAAAAAAALAAAAAADAAUAAAQLUKXj0DBAtBIIWxEAOw==",
+        "height": 5231
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/16169",
+      "id": 16169,
+      "title": "The Beheading of Saint John the Baptist",
+      "timestamp": "2023-03-01T03:07:44-06:00"
+    },
+    {
+      "_score": 46.654667,
+      "thumbnail": {
+        "alt_text": "A light-skinned man in red and woman in blue sit with an infant between them, angels beside and above them, a small town in the background.",
+        "width": 3669,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAEwlHE0oIUI4KVFBKyw0Qz9ASFFMRGZXWn9gSHxvWn11b6ydg7ilhbaji5yaoLOooLispMzGs9vWydrZzwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoAI9TiNNEcIsCTAYRyAURAgAOw==",
+        "height": 5112
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/184371",
+      "id": 184371,
+      "title": "The Nativity",
+      "timestamp": "2023-05-22T16:47:39-05:00"
+    },
+    {
+      "_score": 46.464176,
+      "thumbnail": {
+        "alt_text": "Large painting of woman, in gold and pink dress, placing severed head on platter.",
+        "width": 1581,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABwXDCsjEiwjFyslFy4nGy0mHSspGS8pHDMjFDIoFzQsGkM5J006I0c1LEc5K1ZHL0xDMGBOMWdIOHpcQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYDAcBRNBQjM9CiI5BpAsRAgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/11434",
+      "id": 11434,
+      "title": "Salome with the Head of Saint John the Baptist",
+      "timestamp": "2023-05-24T00:33:17-05:00"
+    },
+    {
+      "_score": 46.442493,
+      "thumbnail": {
+        "alt_text": "Dark moody painting of crumbling castle tower and walls amidst river and forest.",
+        "width": 8520,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAACskGSwpHC0oHi4pHjMpHTArHTMuIjQsIDouITQwIjwxIjkyJEA0JUI3KEk/Lks+Lk0/LFdJNUhKS1dQR1NUVVhWUF9dUlteV1xeXF1hXl9iYmJmZHFzanR3b2pwcnZ6eXh/fYOMjpOakQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQBFog5FoPJxMZUL5hAALx+PSsSAYEUggUSAcGoqBQRAEADs=",
+        "height": 6192
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/60755",
+      "id": 60755,
+      "title": "Landscape with the Ruins of the Castle of Egmond",
+      "timestamp": "2023-03-22T23:03:51-05:00"
+    },
+    {
+      "_score": 46.33234,
+      "thumbnail": {
+        "alt_text": "Portrait of man wearing voluminous black cloak, feathered hat, and gold medallion.",
+        "width": 3772,
+        "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAABEPEBIQERgWFRkXFxsZFxsZGh4eGjcxKDQwKjgzKD03Kz42KkM8MEM8MUQ/M0tDNEpDNlRGMlBIOlVMO1dMOmVYQmVbRmlfSmhfTAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVYKIYx/JMESNVFgVhFzIEjVMIABECADs=",
+        "height": 4153
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/95998",
+      "id": 95998,
+      "title": "Old Man with a Gold Chain",
+      "timestamp": "2023-03-22T23:15:27-05:00"
+    },
+    {
+      "_score": 46.221275,
+      "thumbnail": {
+        "alt_text": "Large painting of ancient arch ruins, statues, humans are small in comparison.",
+        "width": 1957,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADEkGkIvHkc3J0o2JUY5LEc6Lk45KE46KlI9KlJBLFpAKUtANFFDMVFIPGFRPHNYO15ZTGJaSmxpXnR5cgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4CQ10BBEyyEwhIE4hfIkQAgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/57051",
+      "id": 57051,
+      "title": "The Fountains",
+      "timestamp": "2023-05-15T01:19:20-05:00"
+    },
+    {
+      "_score": 46.00436,
+      "thumbnail": {
+        "alt_text": "Four women with musical instruments lounge in a massive garden courtyard.",
+        "width": 2095,
+        "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAACUnCzAwCyouEzg5EDEwGDU4HD5AGU5IJElLLFFJLlJQKU5QOF5eNl9TOVlXOGNVOmdjPFtgQm1sTHluTIp7TpN+UpR9V4SCZIqNcAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVYHUMAXBJjCJgS4QQTvMkBTRZlBECADs=",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/144969",
+      "id": 144969,
+      "title": "The Interior of the Palm House on the Pfaueninsel Near Potsdam",
+      "timestamp": "2023-03-01T03:07:46-06:00"
+    },
+    {
+      "_score": 45.89349,
+      "thumbnail": {
+        "alt_text": "Painting of centaur with harp, in water, surrounded by mermaids and mermen.",
+        "width": 2980,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAACknHgU0MiEtKzo7MTc/Pzk8OiNIRV9bTFlVUFVZUmFjXFBoYltsY3FsYXRtYm53cXF7eWGCfoSBboGBdIWEdImHdpiTfZuTfICdi5iYioydlqKdh5mgla2nka2rl6+znqy3qcrHrMLJuQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwFDHIblYPJvGBHCgZCqFxEDBgTwICMFCBPowMAFDRBMEADs=",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/110507",
+      "id": 110507,
+      "title": "In the Sea",
+      "timestamp": "2023-03-24T17:23:02-05:00"
+    },
+    {
+      "_score": 45.865562,
+      "thumbnail": {
+        "alt_text": "Large painting of young woman in white dress sitting next to crib.",
+        "width": 1646,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAHRPKodoTZl9ZpSAb5qCbpCAcJSDcJiFcZqIdZqJd5uLe6OOeq+UcbGfi7KhjrikibWmkcrCrNDMvN/ezQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoIEMRbIQytE4AiQ9QTQxQAgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/27307",
+      "id": 27307,
+      "title": "Madame de Pastoret and Her Son",
+      "timestamp": "2023-05-15T01:19:23-05:00"
+    },
+    {
+      "_score": 45.859627,
+      "thumbnail": {
+        "alt_text": "A work made of oil on canvas.",
+        "width": 1806,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAB8aDzEbDCMbEDQjDzghDSUgGScgGzciEjQoGEgiBkApDEYqDVEzCls4DEA7J049IWhACWhDC2VSIYdcEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4IA8DkNAU5QoUhMIwHIYRQgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/87643",
+      "id": 87643,
+      "title": "The Two Disciples at the Tomb",
+      "timestamp": "2023-03-01T03:07:28-06:00"
+    },
+    {
+      "_score": 45.737797,
+      "thumbnail": {
+        "alt_text": "Still-life painting, fish, open oysters, eel, lemon on tablecloth.",
+        "width": 16704,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAB4ZGC8oHi0pJC0qJDMqIzUsIzQtJDsrITcxKUlCNkhBO1RCMlhPP1ZQQmphUHltWHt3aYFoV4Z0YY2IZpeOfpqNfJuWfKGdiKqghq2ljKmllbankrCqlQAAAAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYYFAgwmAkTQMchBNt1cI8EqVZE5ZxF6SEADs=",
+        "height": 13234
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/44892",
+      "id": 44892,
+      "title": "Fish (Still Life)",
+      "timestamp": "2023-03-22T23:13:57-05:00"
+    },
+    {
+      "_score": 45.721092,
+      "thumbnail": {
+        "alt_text": "A plucked chicken, a few stray feathers remaining, hangs upside-down by one foot, illuminated. Behind it the metal hinges and wood panels of a door are visible.",
+        "width": 1269,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAABoYGR0bGywnIiglJCwoJS4oJC8qKDEsKDMuKDoxKTsyKTw1L01CNFRJPHBgSAAAACH5BAAAAAAALAAAAAADAAUAAAQLkIij0mgOLBZMQREAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/111377",
+      "id": 111377,
+      "title": "For Sunday's Dinner",
+      "timestamp": "2023-03-22T23:16:06-05:00"
+    },
+    {
+      "_score": 45.703293,
+      "thumbnail": {
+        "alt_text": "Dense and varied landscape with open fields, groves of bushy trees, and a row of thin conifers. A light-blue river tranverses the canvas, and a church steeple emerges from the trees at left of center. At far left is a side view of a white house with open shutters, a woman working inside.",
+        "width": 3000,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAFpKLGhNKWNXKmdZL2xcKHNfImdXN2dbMWZaM2hZMG5eOndjIHRhJXZmLW5iNG5jPW5kPHBjMXpgMXFkOXNjP3hnP3xqOnVoRnhqQHJnSndrS31yTIpyH4BtPoJsP4BrQYJxSIV4ToJ5U4h+VJ2LTaCKVbqsYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQIVotLloMgYL5IEYOBKCEugQIXAWBU+HZMJMGoyA5BOqUBSAIAA7",
+        "height": 1910
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/109926",
+      "id": 109926,
+      "title": "Landscape: Window Overlooking the Woods",
+      "timestamp": "2023-03-01T03:07:29-06:00"
+    },
+    {
+      "_score": 45.673874,
+      "thumbnail": {
+        "alt_text": "Painting depicting the god Hercules confronting the Hydra, a mythical creature. Amidst towering, rocky cliffs, Hercules stands on the left of the painting, dressed in clothing that exposes his figure. He looks to the right, where the seven-headed hydra rears up, bearing its teeth. A nude figure of a woman is on the ground in front of the Hydra, and an orange sun peeks from behind red clouds in the background.",
+        "width": 1952,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACcdDCoeDikfECogECshEy8iFC8lFDEnFjEnFzorFDQrGkQ2IUU4JEY5KFJGNVlPO25aRGleSIF0WpmLbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4CM5BTJFQgA1RLIcA6AwRggAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/20579",
+      "id": 20579,
+      "title": "Hercules and the Lernaean Hydra",
+      "timestamp": "2023-03-01T03:07:47-06:00"
+    },
+    {
+      "_score": 45.665363,
+      "thumbnail": {
+        "alt_text": "Papers with Japanese text hang from a tree bearing red and gold leaves.",
+        "width": 3000,
+        "lqip": "data:image/gif;base64,R0lGODlhCgAFAPUAAHJeO3FdPnhlQ3BlTHNlTnxqSYhqQ45tR4NuSYJtSodvSZRuR5NxS5RzT5Z2TI54VI54Vo97XpR3VJF6VZV5VpV5WJV6XJR+XJ1+WZ5+WZV9YZWAXpmCX6KFZaaLY6eJZKWLZaCLaaOMaqWMa6WOa6iJaKmLaKiOaq+Maa2PbKuRa6aQcaSQcq+ScLGYdbGcfbmhfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAKAAUAAAYuQMOC0chgDhSHQmLRVFCpTmk0Ia0iptZHxApBBAjC5QXzuFSXQGEASGw4J9AjCAA7",
+        "height": 1531
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/127644",
+      "id": 127644,
+      "title": "Autumn Maples with Poem Slips",
+      "timestamp": "2023-05-18T12:22:36-05:00"
+    },
+    {
+      "_score": 45.659424,
+      "thumbnail": {
+        "alt_text": "A heronǳ silhouette sits amongst the brush in a golden hued forest.",
+        "width": 7000,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAD0rDUQsCkIwDkMwDkszC0kzD1I4Dlk6DF87DFw9D0k1EUs2EUg1E0k1E004EFA5EVI6EVA4E18+EWE/EV1AE1tAFV1BFl9FGWBBD2FBEGJBE2dCEGZGEWVHE2ZHE2hEEW1NEm9NEmxJF21OF2lLGHFOEnBJFndSGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwIqFpBA8HKMI49JYQAaAAuUkMmkkAQMBMflgEodOZuMBlUKcIAA7",
+        "height": 4601
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/64724",
+      "id": 64724,
+      "title": "The Home of the Heron",
+      "timestamp": "2023-03-01T03:07:54-06:00"
+    },
+    {
+      "_score": 45.558098,
+      "thumbnail": {
+        "alt_text": "Large marine landscape of boats on rough waves, storm clouds.",
+        "width": 2907,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAADguGk4/KkxMR1pPQWFURW9hTmlkWnpvW39yX4RwUINyWY57WYp4ZJN8YZmAYZuBZaiRbamPc7Kac7ygfKGWgaybgqKekbSghZOip6Koo8u0lcGymuHEndLDqQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4EFlmHUZFddtmtBMzBMhjlIQwwJJSQCEADs=",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/4796",
+      "id": 4796,
+      "title": "Fishing Boats with Hucksters Bargaining for Fish",
+      "timestamp": "2023-03-01T03:07:52-06:00"
+    },
+    {
+      "_score": 45.21149,
+      "thumbnail": {
+        "alt_text": "Small painting, friar shoots man with yellow pants as horse runs off.",
+        "width": 2977,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAADYlEjcrHEw4IE05IU8+Iko5JVI8I1A+JlxDHllFKlhILFtJLl5KMlpKNl9RO2dMLWpTO3RWMnJYN3BZPHdfPGVYQ3NfSHRnTnNmUYBlSIl4X5aEZ5+NbZ2McaKRcqiZea6ce7ajgL2ohQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQAcnBPp4NpVJRtTBaBiAgAVCuTQEg4UCQZBEHolDwRAEADs=",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/16362",
+      "id": 16362,
+      "title": "Friar Pedro Shoots El Maragato as His Horse Runs Off",
+      "timestamp": "2023-03-01T03:07:40-06:00"
+    },
+    {
+      "_score": 45.19866,
+      "thumbnail": {
+        "alt_text": "In a beige room, a group of light-skinned men of various ages and a young boy clap as a figure in tattered clothing at center, his back to the viewer, dances and holds a tin cup in the air. At dark figure in shadows looks on from the far-right corner.",
+        "width": 2762,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAFY9K1ZALVtCLmRGLWRIL2lLLmlLMWpPMm1NMWlNN3JNNHJSMXRTN3FUNnRXNHVYNnVZNnhXOHpXPnZYOXlbOnpePn9gOHleQHleR4llPopnRI1pQZh1Rpt1RgAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYYHI4FvRgE9dRjaRdVSQoDBAQxlBs2YKEADs=",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/30709",
+      "id": 30709,
+      "title": "Bar-room Scene",
+      "timestamp": "2023-03-01T03:07:41-06:00"
+    },
+    {
+      "_score": 45.19361,
+      "thumbnail": {
+        "alt_text": "A young girl with medium skin wears a striking dress of black and white stripes with a short lace collar. Behind her is backdrop featuring symbols and native figures. Mangos sit beside her.",
+        "width": 4678,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAFZEMVNMPVZUP2hcPmxjP01MQFxaRVxgUGFgTnFoQHhvRHhzT2diUnRoVldhYntyYnV5cnB4eaeQd3V/ggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYKIQi3EMSOBMkfBIENAwRQgAOw==",
+        "height": 6655
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/60812",
+      "id": 60812,
+      "title": "Merahi metua no Tehamana (Tehamana Has Many Parents or The Ancestors of Tehamana)",
+      "timestamp": "2023-03-24T17:23:13-05:00"
+    },
+    {
+      "_score": 45.13535,
+      "thumbnail": {
+        "alt_text": "Portrait of white man dressed in all black with medallion and sword.",
+        "width": 1817,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAAwICBUYDhEXEBcdEiEZFCQdFw8nFRQlExMmFhQsGRopGiEjEzAlHDUnHD0vHzUwJDo4Ijg3KD45KD86KgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIDJFiiE9RyIAA8QQgVM0SwgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/111317",
+      "id": 111317,
+      "title": "Amédée-David, the Comte de Pastoret",
+      "timestamp": "2023-03-01T03:07:38-06:00"
+    },
+    {
+      "_score": 45.102146,
+      "thumbnail": {
+        "alt_text": "Painting of a placid-looking, light-skinned woman in a maroon dress, seated in a chair with yellow upholstery, hands folded.",
+        "width": 9801,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAEk4OVFBQlxAQFtEQltUUlpeU1JZWmhORGtcRmVlX3NhXnFlXXtyXF9lZFNlaFlxc2tzb314YmV8f3F/fQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4ANNUrEkDiIABjMETXQoRAgAOw==",
+        "height": 12413
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/62371",
+      "id": 62371,
+      "title": "Madame Cezanne in a Yellow Chair",
+      "timestamp": "2023-05-23T17:22:29-05:00"
+    },
+    {
+      "_score": 45.08551,
+      "thumbnail": {
+        "alt_text": "Painting of a small stream in the middle of the woods. In the center of the painting, there is a small waterfall over a large boulder. Radiant beams of sunlight penetrate the thick forest of birch and other trees, and a small bird sings from a broken branch over the waterfall.",
+        "width": 1832,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACwmHCwmHTQrHzMsHTQsHjUsHzUtHy0oIDYxIDkyITk0Iz80I0E3JkE2J0I6JUg5J0E2KEY6KUI6LEo+LQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIIAMBOMYwjNFSwBJSVMcSggAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/146701",
+      "id": 146701,
+      "title": "Mountain Brook",
+      "timestamp": "2023-03-22T23:14:01-05:00"
+    },
+    {
+      "_score": 44.584324,
+      "thumbnail": {
+        "alt_text": "Opulently dressed light-skinned man and woman drink at a small table. A mirror behind them reflects a crowd. Her blue dress and dark hat dominate.",
+        "width": 4400,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADs6Nzk7OT49OV1eWWNeV3NnWF5wc29wZnVwYn94Z316aH58bGl3dnd7coCGfG+DhXSGhYCOjIuRiJiekwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4AIUiXIgRBBNjvE0EsQIQwgAOw==",
+        "height": 5835
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/15401",
+      "id": 15401,
+      "title": "At Mouquin's",
+      "timestamp": "2023-03-22T23:13:15-05:00"
+    },
+    {
+      "_score": 44.359474,
+      "thumbnail": {
+        "alt_text": "Large painting, woman in pink dress in front of classical sculpture, shrine.",
+        "width": 5401,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAADwxIU09IWBOKmJSNGFSOltOQG5gSXtpQm5iWXViXHRqZYNyUo9/Zo19c5+OcAAAACH5BAAAAAAALAAAAAADAAUAAAQL0A2xzCGNhaRAQREAOw==",
+        "height": 8921
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/4788",
+      "id": 4788,
+      "title": "Lady Sarah Bunbury Sacrificing to the Graces",
+      "timestamp": "2023-05-15T01:19:26-05:00"
+    },
+    {
+      "_score": 44.30032,
+      "thumbnail": {
+        "alt_text": "A young, smiling boy in a ruffled collar, hat, and cumberbun rides outdoors on a brown ram, a small whip held aloft in his hand.",
+        "width": 1995,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACkiEDY0HzRNMUZZPW9ZPnJgPVpiTm9oQm5jSnhoU1d8bY54UYR/bJ+FXHOamnmfn5yikaCqirO3oPjkwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoKA8zsBAkpEQUwAgUbE0RwgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/111559",
+      "id": 111559,
+      "title": "Boy on a Ram",
+      "timestamp": "2023-05-17T09:12:42-05:00"
+    },
+    {
+      "_score": 44.218548,
+      "thumbnail": {
+        "alt_text": "Serene red-haired woman, framed with allegorical symbols of red bird, sundial.",
+        "width": 1537,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAD4tF188G1o8HX5iPXJhQIBoP4RqQ4prQo5uRY1sR4VtTodwT5Z2SZyGWaGGWgAAACH5BAAAAAAALAAAAAADAAUAAAQL0LF2RCEgmYDUWBEAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/16551",
+      "id": 16551,
+      "title": "Beata Beatrix",
+      "timestamp": "2023-03-01T03:07:51-06:00"
+    },
+    {
+      "_score": 43.89487,
+      "thumbnail": {
+        "alt_text": "A work made of opaque watercolor and gold on paper.",
+        "width": 1332,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAJiFW6WJVJ+Nbp2LcaeHc7aQcbWfirCflr2ii76li7+mlMKohsGnkc6vkdC1nQAAACH5BAAAAAAALAAAAAADAAUAAAQLUIwDwiKFJYWaMxEAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/76816",
+      "id": 76816,
+      "title": "The Young Emperor Akbar Arrests the Insolent Shah Abu’l-Maali, page from a manuscript of the Akbarnama",
+      "timestamp": "2023-03-22T23:09:02-05:00"
+    },
+    {
+      "_score": 43.87417,
+      "thumbnail": {
+        "alt_text": "Large English country landscape painting, farmers with horses, green trees.",
+        "width": 3000,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAADYpHTcwHzIrID8tIDgyIT0yJjs0JDw1Jj40J0I3JkE4KUY8Lkk8LUk/L0xDL1JJMlpJNFhLNVhJNmVYO1pfXW1hQ2dlVX93XGtsZHFvYXp7bGpxcG16gHSBh3eJk4mXnZqjoaKyu7zJygAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwI4nBLJoKpyPKEO4PCgbTMAxMSgiC8EhAUA0JBBGYRAEADs=",
+        "height": 2208
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/4758",
+      "id": 4758,
+      "title": "Stoke-by-Nayland",
+      "timestamp": "2023-05-17T11:02:46-05:00"
+    },
+    {
+      "_score": 43.521168,
+      "thumbnail": {
+        "alt_text": "Impressionist painting of seated man, girl with brown, black hues.",
+        "width": 2690,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAA0OCxIPCR4bFR8eGjEhDyckGy4nHDcsHTUyKk89J048KUxDLktCMV5IM1JKOmFQO1NPQGNWQG5fRnheQ3t1YYxwR5Z/UpV+VoB7YJKCUquQVqOccaudd9vGfgAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYICdp1tVtS/UgGQYJxhAxlEMAhdJMSXCEADs=",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/14574",
+      "id": 14574,
+      "title": "Henri Degas and His Niece Lucie Degas (The Artist's Uncle and Cousin)",
+      "timestamp": "2023-05-02T14:22:36-05:00"
+    },
+    {
+      "_score": 43.51993,
+      "thumbnail": {
+        "alt_text": "Painting of a cabin set below a dark blue sky and fluffy white clouds. Behind it is a field of many small white dots. In front, a dark-skinned woman sits and a dark-skinned child plays among roaming chickens and dogs in a fenced-in yard.",
+        "width": 10292,
+        "lqip": "data:image/gif;base64,R0lGODlhCQAFAPUAABUSFBsYGh4eHCQhISkqIyorJSwuJiwtKywwIy4wJy8xKTAxLTQ1LDU2LzU4Kjg4MTg6MTg4Mjk4Mjg5Mh4/WyNEYSNFYylLZydIaTFQaDRTcTVVcDVVc0pHQUVKTlFTR0dNUEtQUFNYWmNgW2pmX1NneGRjYI+LfnF/h3KAiIeNj5ego8C7qwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAJAAUAAAYqQAxHY6lkNhfKKgQqoTwiVco06LBGAQDpJDhMPg3JIsIgKAwIxwOSKAQBADs=",
+        "height": 6088
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/111617",
+      "id": 111617,
+      "title": "Cabin in the Cotton",
+      "timestamp": "2023-05-17T10:07:42-05:00"
+    },
+    {
+      "_score": 43.487976,
+      "thumbnail": {
+        "alt_text": "Large painting of soldier asleep outdoors surrounded by two women and a cupid.",
+        "width": 2629,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAADEsKDMvKEM1KFg9L1FFNHlIM3NhUpVPOYNkT4VnV4x1ZI56ZZB7a6F+ZJ6QfaaMcr6gftShfJegmpejna6jjrKikKW7vaa6vbK3tbO8u7bAv9nBq62/xLXAxAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIHd12GRpVfRI2dZAi0IZA+MkCBAIRHGEADs=",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/16488",
+      "id": 16488,
+      "title": "Armida Encounters the Sleeping Rinaldo",
+      "timestamp": "2023-03-22T23:03:58-05:00"
+    },
+    {
+      "_score": 43.459713,
+      "thumbnail": {
+        "alt_text": "A work made of tempera and gold on panel.",
+        "width": 3000,
+        "lqip": "data:image/gif;base64,R0lGODlhCQAFAPUoAJh2YZx7ZZx8aZeAa56BaJ6CbZ+Ecp+IeqGAbKSGb6KFcaGHcqOHcqSGcKSHcaWHcqSHc6GGdKWIcaOJdKmJcqmNd6KLeqqQeLCVf7SWfKWUhqyWg7CRgbGdjrmfjL2ij7umm8e5sNfKwdrQy9nRzd3W0tzX1Orj3v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAJAAUAAAYpwM/DUcEcLJEOh5JJXAoShGdDmCwaEMZAUxqFAgIAiGRCoU4Sg0JkDgIAOw==",
+        "height": 1727
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/88793",
+      "id": 88793,
+      "title": "Retable and Frontal of the Life of Christ and the Virgin Made for Pedro López de Ayala",
+      "timestamp": "2023-03-22T23:15:53-05:00"
+    },
+    {
+      "_score": 43.26056,
+      "thumbnail": {
+        "alt_text": "Still life of sensuously detailed painting of four white magnolias lying on blue velvet cloth.",
+        "width": 10004,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAACAbFSUdFiAcGCQgGTIrHDkxHiEmICQrJyQuJDkvIC4xICwxJCYwKikwKjg8LS86M0E3JEY8JElNJ0pFLUhJKFBDK1dMLlxPMUxTPFdSMVtTNmZYNUBKQkNQQF1XQ2RhQHl/X4F/W4CAU4mKYJSScaCfd7KuitTQpwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwM2lAkkEBICJJZKheAgDhsRUGp00hUcHJAqRPpgGB+FQGBaHIAA7",
+        "height": 6148
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/100829",
+      "id": 100829,
+      "title": "Magnolias on Light Blue Velvet Cloth",
+      "timestamp": "2023-03-01T03:07:54-06:00"
+    },
+    {
+      "_score": 43.069134,
+      "thumbnail": {
+        "alt_text": "Two men on horseback clash in battle, another man crouches with knife.",
+        "width": 4602,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAC0rJjgyKD01KkM9MUc+M0lCNkpCN01HO0pGPVFHNVFGOlxSP0xNS1JLQFJQR19UQl5RRV5WS1xcU2JVRGldR2tdSXRqV3psU2VnY29uZHFxaXNyaXVzaIF0XgAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIMZtmcZIT2c5CCAoRHQMS9FARpBQVzWFADs=",
+        "height": 3720
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/110663",
+      "id": 110663,
+      "title": "The Combat of the Giaour and Hassan",
+      "timestamp": "2023-05-17T11:02:43-05:00"
+    },
+    {
+      "_score": 42.98672,
+      "thumbnail": {
+        "alt_text": "A work made of oil on canvas.",
+        "width": 2877,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAACkpHzYxHikpIzAvIi8wJjQwITc0IzEwJj84Ijc0KDU2LUA+MUlCKURFNkVGOkZHP0NJRE1MRFdWTmRqamp2f3mAiHyHmJumuIyewYae0pqpyKy94b/E0brD2AAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYYIZpF0RZT7VNTTI4HbcIBxFJClAwSGCEADs=",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/43145",
+      "id": 43145,
+      "title": "View of Delphi with a Procession",
+      "timestamp": "2023-03-22T23:08:25-05:00"
+    },
+    {
+      "_score": 42.926712,
+      "thumbnail": {
+        "alt_text": "Painting of the Annunciation, dove flying above Mary with angel.",
+        "width": 5847,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAACsiGDowJjk3L0EyIk41KEE5MEs/OkZCH0FENUpGNEdNOU1IPlJROFpZPVtgSQAAACH5BAAAAAAALAAAAAADAAUAAAQLMAnQVDjIsFUcGREAOw==",
+        "height": 8501
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/16327",
+      "id": 16327,
+      "title": "The Annunciation",
+      "timestamp": "2023-05-22T09:53:14-05:00"
+    },
+    {
+      "_score": 42.419346,
+      "thumbnail": {
+        "alt_text": "Watercolor of man with golden halo on horse, green background.",
+        "width": 4275,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAFZWT3pzTHlmWnByU3d+XF1naF1qbIN4W4F/WpuNe5+Pe5yXf6KXd6yaeaucfqCXgK6khruql7yul9LFsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoFAYQIAQwzJBTOQ0UnI8SggAOw==",
+        "height": 5730
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/49195",
+      "id": 49195,
+      "title": "Maharana Bhim Singh in Procession",
+      "timestamp": "2023-03-01T03:07:25-06:00"
+    },
+    {
+      "_score": 42.343933,
+      "thumbnail": {
+        "alt_text": "A tired-looking brown and white cow lies down on a patch of dry earth, a dark-brown bull and cow standing behind her against an overcast sky.",
+        "width": 3784,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAEs6J1dGJFtKMF9POm9cOntmRH5oQXNlSHFjTYl5XpeLc56QcJuSgJyYlameib6vj76wlKWjobWvpdfNtwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYBMxiiNNj4BAywAkB1EYQQgAOw==",
+        "height": 5028
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/146953",
+      "id": 146953,
+      "title": "Two Cows and a Young Bull beside a Fence in a Meadow",
+      "timestamp": "2023-03-01T03:07:20-06:00"
+    },
+    {
+      "_score": 41.745342,
+      "thumbnail": {
+        "alt_text": "Very dark painting of a light-skinned, mostly clean-shaven young man in dark suit and dark full-length coat, holding a rolled-up paper and gloves.",
+        "width": 6473,
+        "lqip": "data:image/gif;base64,R0lGODlhAgAFAPMAACclICooIiooIyopIy0qIzIuJTEuJzs1KkI7LgAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAACAAUAAAQI8CBRRhDAkAgAOw==",
+        "height": 14715
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/8958",
+      "id": 8958,
+      "title": "Arrangement in Flesh Color and Brown: Portrait of Arthur Jerome Eddy",
+      "timestamp": "2023-03-22T23:13:16-05:00"
+    },
+    {
+      "_score": 41.55184,
+      "thumbnail": {
+        "alt_text": "A light-skinned woman, the bodice of her mauve dress pulled down, lounges against a rock, her arm extended on it. A child, mostly nude, stands in front of her looking downward while two men in her party, largely in shadow, lean toward each other as if in conversation.",
+        "width": 5956,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACQeFyceFjAnHTQoHS0pITouIzgxJzsxJz4zKE0zI0U5Lks9L1A/Lk5GO1ZAMGNUQWdURGldSXFfT5V6ZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIAEEgiE9DDRFi5MMiFIcTQgAOw==",
+        "height": 8031
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/23333",
+      "id": 23333,
+      "title": "Pastoral Scene",
+      "timestamp": "2023-05-17T09:12:43-05:00"
+    },
+    {
+      "_score": 41.243187,
+      "thumbnail": {
+        "alt_text": "Long scroll ink painting depicting people with their animals and belongings crossing a river.",
+        "width": 3000,
+        "lqip": "data:image/gif;base64,R0lGODlhEAAFAPYAAHJgTXRgTnVkU3ZlVHlnVHpoWn5rWnxrXIJuW4VvW4FvXYtvWYVxXoVzX4lzXop0Xo14Yo54Yo54ZI55ZId4aot8bZB7ZpB6Z5J8ZZJ8Z5R9ZZN/aZV+aJR/apR/a5eBapaAa5aBa5SAbpiAapmBapqDapqDa5yDa5yEa5uGb5yEbJ2FbZyGb5+GbpCCcpuGcZ2HcZ+JcZ+KcpqIeJqJeqCIcKSLcKSLcqWLcqWOc6OLdKOMdaOMdqSMdKWMdKaMdKWPd6aOdqaOeKePeKiQdqqRdqiReKuTeauUe6yUebSdggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAQAAUAAAdSgCIvQT84Nz0sMCATFgYKCDNIRkdFNjlJSUpEDw8EAgAVOhkkLScqDClAGxEcAwkLLjshJSYaKB8xMg0QGBAOARRCQz41KycjEjw8Fx0eBwU0gQA7",
+        "height": 964
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/76279",
+      "id": 76279,
+      "title": "Yang Pu Moving His Family",
+      "timestamp": "2023-03-01T03:07:41-06:00"
+    },
+    {
+      "_score": 41.208862,
+      "thumbnail": {
+        "alt_text": "Painted dark colored portrait of man, hands in prayer.",
+        "width": 1644,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAAQAAA0LCh4WDwELEAAPGAgSFwYWGgoYGxAUEyEXDi4fFy8gGAMYIEMvJWNCM2JFOFFHQnBYT4VYRKB0XQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4IEEBhM5AwFJRbMowvQASQgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/16298",
+      "id": 16298,
+      "title": "Portrait of Jean Gross (recto); Coat of Arms of Jean Gros (verso)",
+      "timestamp": "2023-05-22T09:53:17-05:00"
+    },
+    {
+      "_score": 40.987076,
+      "thumbnail": {
+        "alt_text": "Large painting of Holy Family: Mary in red, holding baby Jesus.",
+        "width": 1784,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAC4eFTQaEjg2NjI9Pkg0J0M0K10+KmwkI3c9IH49KGBBJW5TNnxQNXdgTK0cEZUpF41qTJBlUaVgRcZyWgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4FAQhtBEADQdgeQkC/IwSggAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/27310",
+      "id": 27310,
+      "title": "The Holy Family with Saints Elizabeth and John the Baptist",
+      "timestamp": "2023-03-22T23:04:49-05:00"
+    },
+    {
+      "_score": 40.802628,
+      "thumbnail": {
+        "alt_text": "A work made of opaque watercolor and gold on paper.",
+        "width": 5778,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAGhkT2hvUHFoU3ZzVXZ6VXp7V356V3Z3WH9+WXl6XH19XoJ6WXyKWX+QW46HXoiIXYuPXoKRW4eXXomRX4edX4eGYYWFY4iDZ5mCZI2UY5GUaZqZc6KTfqyofgAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4FIgD+QcDSNRUyVgQJdZgcZt0UUkymCEADs=",
+        "height": 4800
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/210511",
+      "id": 210511,
+      "title": "A Monumental Portrait of a Monkey",
+      "timestamp": "2023-03-01T03:07:07-06:00"
+    },
+    {
+      "_score": 40.54924,
+      "thumbnail": {
+        "alt_text": "Painting of bearded, ruddy-faced man in eighteenth century style clothing.",
+        "width": 1810,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACABAC8MAS0LBC0KBS8LBTARBTcRBkYdDVowGGBELGlPM3BpTJpuQoF7T5BzTYd9Wot8W3+CW5aKYJuVZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4PJIDcQ4kXIkUwAYyEAIRQgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/93900",
+      "id": 93900,
+      "title": "Portrait of a Man in Costume",
+      "timestamp": "2023-05-15T15:52:34-05:00"
+    },
+    {
+      "_score": 40.425026,
+      "thumbnail": {
+        "alt_text": "Painted portrait of woman in green dress and cloud backdrop.",
+        "width": 1783,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAB0WCRMYEhUZEBkdEi4jDyUqJiwuKDAwITk5LC4zMTY4NU1BI1lLJlJOPWBWOGZaPWZaQWNbSWhiUX5wUwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4GAoiRBJRfBMyOFAzcIQQAgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/59787",
+      "id": 59787,
+      "title": "Mrs. Daniel Hubbard (Mary Greene)",
+      "timestamp": "2023-03-01T03:07:32-06:00"
+    },
+    {
+      "_score": 40.38469,
+      "thumbnail": {
+        "alt_text": "A man with sparse brown facial hair stands in a full-length black robe on a multicolored tiled floor, a white and brown dog behind him.",
+        "width": 6748,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAABUVFiEeHCMjIjMvKTAwKjo4Mzo5Mz87NUNBPFNIOE9LQV5cUGRVQmBaTm9sXgAAACH5BAAAAAAALAAAAAADAAUAAAQLkDRnxEJBHVDYSBEAOw==",
+        "height": 11727
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/4081",
+      "id": 4081,
+      "title": "Gian Lodovico Madruzzo",
+      "timestamp": "2023-03-01T03:07:19-06:00"
+    },
+    {
+      "_score": 40.089935,
+      "thumbnail": {
+        "alt_text": "A work made of oil on canvas.",
+        "width": 8807,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAD0uGz43JEVAKkVBK1NKLk9FMVpONllQOFtTOltUOl9XPF5WPWxcRnBmR390Unp0WIh8WJWMdJyhk6yrkaOnmqSqm7atkbeymbq1nLq2nKauoauwoq24qbG2prm6p7O5qLe5qLi8qrXBtMHBqdTNrMbIs8bMucjPvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQI4o9OlsKJKR6VTygDQVkmWSuWAijAeC0HBADIDCQZFYDASBIAA7",
+        "height": 5387
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/111610",
+      "id": 111610,
+      "title": "The Garden of Palazzo Contarini dal Zaffo",
+      "timestamp": "2023-05-15T15:47:35-05:00"
+    },
+    {
+      "_score": 40.011185,
+      "thumbnail": {
+        "alt_text": "Portrait of a light-skinned man in a long white wig and red-orange coat, holding a folded piece of paper and standing next to a desk, a large sailing ship off his left shoulder.",
+        "width": 1802,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADIoFzYpFjcvHjgqHx4qJEMbCkkuHVYrF3YtEEY5J1E8LmY+KHI8JlpPOHlTO1VRRWRWQGtfRHhmUXN0YwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURINBAj+BIk4EskcIcCTEUQQgAOw==",
+        "height": 2250
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/49702",
+      "id": 49702,
+      "title": "Richard Bill",
+      "timestamp": "2023-03-01T03:06:43-06:00"
+    },
+    {
+      "_score": 39.945892,
+      "thumbnail": {
+        "alt_text": "Long painted scroll, green, brown mountains, wooden house, Amida Buddha on cloud.",
+        "width": 3000,
+        "lqip": "data:image/gif;base64,R0lGODlhCwAFAPUAAJqRX6eYZqOVaayaaaSadqqeeaqee6yffKKia62garOhb7Cjbragb7WkcLuqdbSlebqleL6peb6veLuofLypfr2pfr6xe8CrfMCrfca0f7SpgL2sg76xjsKugsWvg8CuhsCviMOzgcezhMi1g8Wzicm0jM24jce5lMi5kMu6lcm8lMy/ldC9lc/AltTBltnEldXFnN/No9vMpOPOpOLQrenUruDQsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAALAAUAAAYyQM0DEKB0PBhIZaJqIUKuWW0jGFxWMEljkSEZDhybLGZxjF6mDytFQ4kSigijBCoQTkEAOw==",
+        "height": 1404
+      },
+      "api_model": "artworks",
+      "is_boosted": true,
+      "api_link": "https://api.artic.edu/api/v1/artworks/56731",
+      "id": 56731,
+      "title": "Legends of the Yūzū Nembutsu Sect",
+      "timestamp": "2023-03-01T03:06:52-06:00"
+    }
+  ],
+  "info": {
+    "license_text": "The data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+    "license_links": [
+      "https://creativecommons.org/publicdomain/zero/1.0/",
+      "https://www.artic.edu/terms"
+    ],
+    "version": "1.8"
+  },
+  "config": {
+    "iiif_url": "https://www.artic.edu/iiif/2",
+    "website_url": "http://www.artic.edu"
+  }
+}

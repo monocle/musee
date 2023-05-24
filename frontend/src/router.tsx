@@ -11,7 +11,7 @@ import queryClient from "./queryClient.ts";
 import App from "./App.tsx";
 import Landing from "./pages/Landing.tsx";
 import Collection from "./collections/Collection.tsx";
-import Painting from "./explore/Painting.tsx";
+import Record from "./explore/Record.tsx";
 
 declare module "@tanstack/router" {
   interface Register {
@@ -64,16 +64,16 @@ const collectionIndexRoute = new Route({
   component: Collection,
 });
 
-const paintingRoute = new Route({
+const recordRoute = new Route({
   getParentRoute: () => collectionRoute,
-  path: "paintings/$sequence",
-  component: Painting,
+  path: "records/$sequence",
+  component: Record,
   parseParams: (params) => ({ sequence: Number(params.sequence) }),
 });
 
 const routeTree = rootRoute.addChildren([
   landingRoute,
-  collectionRoute.addChildren([paintingRoute, collectionIndexRoute]),
+  collectionRoute.addChildren([recordRoute, collectionIndexRoute]),
 ]);
 
 const router = new Router({

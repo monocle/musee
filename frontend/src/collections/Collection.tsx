@@ -25,15 +25,15 @@ export default function Collection() {
       search: (prev) => ({ ...prev, page: newPage }),
     });
 
-  const handleClickPainting = (painting: Painting) => {
+  const handleClickRecord = (record: ApiRecord) => {
     const sequence =
-      collectionId === "favorites" && painting.favoritesSequence
-        ? painting.favoritesSequence
-        : painting.sequence;
+      collectionId === "favorites" && record.favoritesSequence
+        ? record.favoritesSequence
+        : record.sequence;
 
     navigate({
       from: "/collections/$collectionId",
-      to: "/collections/$collectionId/paintings/$sequence",
+      to: "/collections/$collectionId/records/$sequence",
       params: { collectionId, sequence },
       search: { page, view },
     });
@@ -42,7 +42,7 @@ export default function Collection() {
   useEffect(() => {
     if (!sequence) return;
 
-    const elem = document.getElementById(`painting-${sequence}`);
+    const elem = document.getElementById(`record-${sequence}`);
 
     if (elem && navRef.current) {
       const top =
@@ -65,7 +65,7 @@ export default function Collection() {
         className="sticky top-12 z-20 flex flex-wrap items-center justify-center gap-4 bg-base-100 px-2 py-2 md:justify-between lg:px-10"
       >
         <h2 className="text-center font-heading font-bold md:text-xl">
-          {collectionId === "ham" ? "Harvard Art Museums" : "Favorites"}
+          {collectionId === "aic" ? "Art Institute of Chicago" : "Favorites"}
         </h2>
         <SelectView />
 
@@ -79,15 +79,15 @@ export default function Collection() {
 
       {view === "gallery" ? (
         <GalleryView
-          paintings={data.records}
+          records={data.records}
           page={page}
-          onClickPainting={handleClickPainting}
+          onClickRecord={handleClickRecord}
         />
       ) : (
         <ListView
-          paintings={data.records}
+          records={data.records}
           page={page}
-          onClickPainting={handleClickPainting}
+          onClickRecord={handleClickRecord}
         />
       )}
     </div>

@@ -1,0 +1,3692 @@
+{
+  "data": [
+    {
+      "artist_display": "Guido Reni\nItalian, 1575-1642",
+      "artist_title": "Guido Reni",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 39,
+        "s": 73,
+        "l": 30,
+        "percentage": 0.0030644523527085807
+      },
+      "colorfulness": 25.7281,
+      "date_display": "c. 1639–42",
+      "date_end": 1645,
+      "date_start": 1635,
+      "dimensions": "248.5 × 174 cm (97 3/4 × 68 1/2 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 11434,
+      "image_id": "1f5b595f-dbbd-3c9d-ca49-9263c3d93841",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Italy",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Large painting of woman, in gold and pink dress, placing severed head on platter.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABwXDCsjEiwjFyslFy4nGy0mHSspGS8pHDMjFDIoFzQsGkM5J006I0c1LEc5K1ZHL0xDMGBOMWdIOHpcQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYDAcBRNBQjM9CiI5BpAsRAgAOw==",
+        "width": 1581
+      },
+      "title": "Salome with the Head of Saint John the Baptist"
+    },
+    {
+      "artist_display": "Edgar Degas\nFrench, 1834-1917",
+      "artist_title": "Hilaire Germain Edgar Degas",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 38,
+        "s": 54,
+        "l": 46,
+        "percentage": 0.003876600066677521
+      },
+      "colorfulness": 38.9301,
+      "date_display": "c. 1879-86",
+      "date_end": 1886,
+      "date_start": 1874,
+      "dimensions": "100 × 110.7 cm (39 3/8 × 43 9/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 14572,
+      "image_id": "6f513908-03cc-b974-633b-adfce56b7936",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Impressionist painting of woman wearing green dress trying on hats.",
+        "height": 4543,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAEMtIk40KE83KlhHLVxELlNPN1hLMVJOP19UN1dYM1lUOVpUP2dAIWlKKHZKKXZLKWRNPGpbMGpaNGtaOkxUTF9dRlJaS15YSV5kUnZpRH12W4ZkM49uRI52VQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4AUtFWZxHZIdExFEybAJQGE00sNQmqOEADs=",
+        "width": 5003
+      },
+      "title": "The Millinery Shop"
+    },
+    {
+      "artist_display": "Berthe Morisot\nFrench, 1841-1895",
+      "artist_title": "Berthe Morisot",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials",
+        "Women artists"
+      ],
+      "color": {
+        "h": 207,
+        "s": 51,
+        "l": 57,
+        "percentage": 0.0011279616041869934
+      },
+      "colorfulness": 16.6011,
+      "date_display": "1875/80",
+      "date_end": 1880,
+      "date_start": 1870,
+      "dimensions": "60.3 × 80.4 cm (23 3/4 × 31 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 11723,
+      "image_id": "78c80988-6524-cec7-c661-a4c0a706d06f",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Painted portrait dominated by loose, large brushstrokes of a woman, seen from the back, wearing a gauzy white off-the-shoulder dress and black choker, blond hair swept up, examining herself in a mirror at left. The background is a feathered swirl suggesting floral pattern in cool pale tones of gray, purple, pink, and blue.",
+        "height": 3703,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAE9MQV1XRl5YRmNdT2JgVGplV3RtW3JsX35wXW9rYHl3cX17eYJ4a4+Hd4GBfoaDf4iEfY6JgYmKhZuXjZWSkJaSkJydlpqZmZqamp+dmpqbnamelqCemqShk6Cgm6ujnK6nn7m0rbSzsgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwABDYnBYOgTFAvHAcA6JyIZyyQwAFZHGMykIPiEQpBEEADs=",
+        "width": 4946
+      },
+      "title": "Woman at Her Toilette"
+    },
+    {
+      "artist_display": "Paul Cezanne\nFrench, 1839-1906",
+      "artist_title": "Paul Cezanne",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 185,
+        "s": 8,
+        "l": 45,
+        "percentage": 0.0015165237842343223
+      },
+      "colorfulness": 0.0,
+      "date_display": "1888-90",
+      "date_end": 1893,
+      "date_start": 1893,
+      "dimensions": "80.9 × 64.9 cm (31 13/16 × 25 9/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 62371,
+      "image_id": "4822cd01-44ac-041a-36b8-c0542377b750",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Post-Impressionism",
+      "thumbnail": {
+        "alt_text": "Painting of a placid-looking, light-skinned woman in a maroon dress, seated in a chair with yellow upholstery, hands folded.",
+        "height": 12413,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAEk4OVFBQlxAQFtEQltUUlpeU1JZWmhORGtcRmVlX3NhXnFlXXtyXF9lZFNlaFlxc2tzb314YmV8f3F/fQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4ANNUrEkDiIABjMETXQoRAgAOw==",
+        "width": 9801
+      },
+      "title": "Madame Cezanne in a Yellow Chair"
+    },
+    {
+      "artist_display": "Correggio (Antonio Allegri)\nItalian, 1489–1534",
+      "artist_title": "Antonio da Correggio",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 9,
+        "s": 77,
+        "l": 37,
+        "percentage": 0.034283748955331456
+      },
+      "colorfulness": 51.7589,
+      "date_display": "c. 1515",
+      "date_end": 1520,
+      "date_start": 1510,
+      "dimensions": "64.2 × 50.2 cm (25 1/4 × 19 3/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 23972,
+      "image_id": "d63b9402-c42b-cce3-aa63-6d213ad621cd",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on panel",
+      "place_of_origin": "Italy",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Vividly colored painting of Virgin Mary with baby Jesus and baby John the Baptist.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACYPCko7HG8pEUMtIkU4IzxEGiBQNkZGGXBCM25hOGNfTn5ZU0RmWnNlU3t7XYdLP4hiS4J6YImtqq/HzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4BE4U9EkkrFATIQ8hDIIQAgAOw==",
+        "width": 1752
+      },
+      "title": "Virgin and Child with the Young Saint John the Baptist"
+    },
+    {
+      "artist_display": "Fra Bartolommeo (Baccio della Porta)\nItalian, 1472-1517",
+      "artist_title": "Fra Bartolommeo",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 37,
+        "s": 22,
+        "l": 59,
+        "percentage": 0.08318820827339038
+      },
+      "colorfulness": 34.618,
+      "date_display": "1504/07",
+      "date_end": 1507,
+      "date_start": 1504,
+      "dimensions": "34 × 24.5 cm (13 3/8 × 9 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 184371,
+      "image_id": "40fdb1d6-93fe-2916-78fb-f56a1ac261f1",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on panel",
+      "place_of_origin": "Italy",
+      "style_title": "Renaissance",
+      "thumbnail": {
+        "alt_text": "A light-skinned man in red and woman in blue sit with an infant between them, angels beside and above them, a small town in the background.",
+        "height": 5112,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAEwlHE0oIUI4KVFBKyw0Qz9ASFFMRGZXWn9gSHxvWn11b6ydg7ilhbaji5yaoLOooLispMzGs9vWydrZzwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoAI9TiNNEcIsCTAYRyAURAgAOw==",
+        "width": 3669
+      },
+      "title": "The Nativity"
+    },
+    {
+      "artist_display": "Édouard Manet\nFrench, 1832-1883",
+      "artist_title": "Édouard Manet",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 37,
+        "s": 12,
+        "l": 50,
+        "percentage": 0.10883350068191702
+      },
+      "colorfulness": 0.0,
+      "date_display": "1880/81",
+      "date_end": 1881,
+      "date_start": 1880,
+      "dimensions": "61.2 × 50.7 cm (24 1/16 × 19 7/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 14591,
+      "image_id": "fd991fea-0c13-8444-7879-aba467f1d9db",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "A young woman in a dark hat and coat with light ruffled collar sits reading a large periodical held up in her gloved hands. Flowers and foliage are suggested behind her.",
+        "height": 14939,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAB8bHCAdHjQwLTgyLEQ+N0dORUVJSFtRSlRbTE5UWmFbTWVvWXBrX21saH15a35/c4qGe4WIfoqKfYiOfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4LQUiPQcRhNBCeMQgTIIQAgAOw==",
+        "width": 12091
+      },
+      "title": "Woman Reading"
+    },
+    {
+      "artist_display": "Pierre-Auguste Renoir\nFrench, 1841-1919",
+      "artist_title": "Pierre-Auguste Renoir",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 2,
+        "s": 55,
+        "l": 52,
+        "percentage": 0.004196067490910411
+      },
+      "colorfulness": 0.0,
+      "date_display": "1881",
+      "date_end": 1881,
+      "date_start": 1881,
+      "dimensions": "100.4 × 80.9 cm (39 1/2 × 31 7/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 14655,
+      "image_id": "3a608f55-d76e-fa96-d0b1-0789fbc48f1e",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Impressionist painting of two girls on balcony, bright flower hat, knitting basket.",
+        "height": 24629,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAENVWmNjWVFWZmRcYWJfZmZdZXtqZ3JxZXZ5aXl4b4J2cot2cHuCf4CDbYGIeH6EgX+Og5qbjY+Sl5yhlQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4AQxSbQoD1IQjSMMwWFIQAgAOw==",
+        "width": 19848
+      },
+      "title": "Two Sisters (On the Terrace)"
+    },
+    {
+      "artist_display": "Rogier van der Weyden and Workshop\nNetherlandish, c. 1399–1464",
+      "artist_title": "Rogier van der Weyden",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 42,
+        "s": 61,
+        "l": 94,
+        "percentage": 0.0017474933749442349
+      },
+      "colorfulness": 29.5555,
+      "date_display": "1460/64",
+      "date_end": 1464,
+      "date_start": 1460,
+      "dimensions": "38.5 × 28.8 cm (15 3/16 × 11 3/8 in.); Painted surface: 36.5 × 27 cm (14 3/8 × 10 5/8 in.); Reverse: 39 × 28.8 cm (15 3/8 × 11 3/8 in.); Reverse painted surface: 36.8 × 26.7 cm (14 1/2 × 10 1/2 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 16298,
+      "image_id": "108f44fc-d93b-abf0-c33c-2920d57844c3",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on panel",
+      "place_of_origin": "Flanders",
+      "style_title": "Renaissance",
+      "thumbnail": {
+        "alt_text": "Painted dark colored portrait of man, hands in prayer.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAAQAAA0LCh4WDwELEAAPGAgSFwYWGgoYGxAUEyEXDi4fFy8gGAMYIEMvJWNCM2JFOFFHQnBYT4VYRKB0XQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4IEEBhM5AwFJRbMowvQASQgAOw==",
+        "width": 1644
+      },
+      "title": "Portrait of Jean Gross (recto); Coat of Arms of Jean Gros (verso)"
+    },
+    {
+      "artist_display": "Jean Hey, known as The Master of Moulins\nFrench, active c. 1475- c. 1505",
+      "artist_title": "Jean Hey, (the Master of Moulins)",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 41,
+        "s": 50,
+        "l": 42,
+        "percentage": 0.03309086053653637
+      },
+      "colorfulness": 27.4712,
+      "date_display": "1490/95",
+      "date_end": 1495,
+      "date_start": 1490,
+      "dimensions": "72.5 × 50.1 cm (28 1/2 × 19 11/16 in.); Painted surface: 71.7 × 49.2 cm (28 1/4 × 19 3/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 16327,
+      "image_id": "77951d0c-d781-eac6-f4ff-f13cc5cfc0cf",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on panel",
+      "place_of_origin": "France",
+      "style_title": "Renaissance",
+      "thumbnail": {
+        "alt_text": "Painting of the Annunciation, dove flying above Mary with angel.",
+        "height": 8501,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAACsiGDowJjk3L0EyIk41KEE5MEs/OkZCH0FENUpGNEdNOU1IPlJROFpZPVtgSQAAACH5BAAAAAAALAAAAAADAAUAAAQLMAnQVDjIsFUcGREAOw==",
+        "width": 5847
+      },
+      "title": "The Annunciation"
+    },
+    {
+      "artist_display": "Claude Monet\nFrench, 1840-1926",
+      "artist_title": "Claude Monet",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 6,
+        "s": 53,
+        "l": 34,
+        "percentage": 0.00018769614246888
+      },
+      "colorfulness": 13.9542,
+      "date_display": "1877",
+      "date_end": 1877,
+      "date_start": 1877,
+      "dimensions": "60.3 × 80.2 cm (23 3/4 × 31 1/2 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 16571,
+      "image_id": "0f1cc0e0-e42e-be16-3f71-2022da38cb93",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Loosely painted image of an open-air train station. On the right, a parked train gives off an enormous plumb of white smoke, making the scene look as though it were full of clouds. A huddled mass of barely discernible people crowd around the train on both sides of the tracks. Blue, green, and gray tones dominate.",
+        "height": 5092,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAADU8QkROS0ZPU0hSVk1YXVFWUlBXXlFaWVNcWFFkV1plVVtjWmBnWmFqXmRrX05ZYFFaYlljbF5qbGNsY2ZydmlzdWRxeGdze2l1fWx3fG16enJ4fH+KioWOkZeam5yjqZ2lqrG1ubS6vwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQIKmYslQDoONp8ORBECi0OfyKEAMmAhAgFhMHA2GIhEEADs=",
+        "width": 6786
+      },
+      "title": "Arrival of the Normandy Train, Gare Saint-Lazare"
+    },
+    {
+      "artist_display": "Gustave Caillebotte \n(French, 1848-1894)",
+      "artist_title": "Gustave Caillebotte",
+      "artwork_type_title": "Painting",
+      "boost_rank": 12,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 205,
+        "s": 14,
+        "l": 51,
+        "percentage": 0.04690626895945958
+      },
+      "colorfulness": 13.6209,
+      "date_display": "1877",
+      "date_end": 1877,
+      "date_start": 1877,
+      "dimensions": "212.2 × 276.2 cm (83 1/2 × 108 3/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 20684,
+      "image_id": "f8fd76e9-c396-5678-36ed-6a348c904d27",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Paris",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Life-size painting of an urban scene in Paris. A man in a top hat holding an umbrella and a woman in a long fashionable dark dress walk arm in arm toward the viewer as other city dwellers with umbrellas walk in various directions across cobblestone roads and sidewalks.",
+        "height": 7755,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAACYtLiQwNDs9Pjw/QEFFSUVJTlFGRlhPT11iYmdgZ2xjaGpra2xqcWlvdmtzeHp6dH5+e4GDfXh+hJKLhZWTi4aMlZKVk5OWk5eXkpSanJ6emqSglbOrn6Glpq+spbe0q8G7sMTAtMjFuQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQA7oIwpNFBrLpVNhJBoZiaNwMEA8GARhEHhQNpGFABAEADs=",
+        "width": 9987
+      },
+      "title": "Paris Street; Rainy Day"
+    },
+    {
+      "artist_display": "Pierre-Auguste Renoir\nFrench, 1841-1919",
+      "artist_title": "Pierre-Auguste Renoir",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 42,
+        "s": 50,
+        "l": 50,
+        "percentage": 0.028888797178421657
+      },
+      "colorfulness": 46.4267,
+      "date_display": "1879",
+      "date_end": 1879,
+      "date_start": 1879,
+      "dimensions": "131.2 × 99.2 cm (51 1/2 × 39 1/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 81558,
+      "image_id": "321c45f5-22a3-84a2-44cc-cf66642d4cf2",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Two girls in acrobatic uniforms stand in an arena, one holds oranges.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAH57b6aXXKyWWq2bX4+Fda+UYcOrfcCxf5GOh52Vh7KggLqvi7ivkse5j8i2lsa9lMi5nszBodDFo9HGqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIEAkiDI5zBNJzWJARyAUQwgAOw==",
+        "width": 1692
+      },
+      "title": "Acrobats at the Cirque Fernando (Francisca and Angelina Wartenberg)"
+    },
+    {
+      "artist_display": "Tosa Mitsuoki\nJapanese, 1617-1691",
+      "artist_title": "Tosa Mitsuoki",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of Asia",
+        "Essentials",
+        "Arts of Asia 100"
+      ],
+      "color": {
+        "h": 38,
+        "s": 32,
+        "l": 47,
+        "percentage": 0.16634941653562857
+      },
+      "colorfulness": 39.2046,
+      "date_display": "c. 1675",
+      "date_end": 1680,
+      "date_start": 1670,
+      "dimensions": "144 × 286 cm (56 3/4 × 112 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 127644,
+      "image_id": "a8646837-9f22-0141-5716-fee38e53cc91",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Six-panel screen (one of pair); Ink, colors, gold leaf, and gold powder on silk",
+      "place_of_origin": "Japan",
+      "style_title": "Japanese (culture or style)",
+      "thumbnail": {
+        "alt_text": "Papers with Japanese text hang from a tree bearing red and gold leaves.",
+        "height": 1531,
+        "lqip": "data:image/gif;base64,R0lGODlhCgAFAPUAAHJeO3FdPnhlQ3BlTHNlTnxqSYhqQ45tR4NuSYJtSodvSZRuR5NxS5RzT5Z2TI54VI54Vo97XpR3VJF6VZV5VpV5WJV6XJR+XJ1+WZ5+WZV9YZWAXpmCX6KFZaaLY6eJZKWLZaCLaaOMaqWMa6WOa6iJaKmLaKiOaq+Maa2PbKuRa6aQcaSQcq+ScLGYdbGcfbmhfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAKAAUAAAYuQMOC0chgDhSHQmLRVFCpTmk0Ia0iptZHxApBBAjC5QXzuFSXQGEASGw4J9AjCAA7",
+        "width": 3000
+      },
+      "title": "Autumn Maples with Poem Slips"
+    },
+    {
+      "artist_display": "John Constable\nEnglish, 1776-1837",
+      "artist_title": "John Constable",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 39,
+        "s": 34,
+        "l": 49,
+        "percentage": 0.004974553246852639
+      },
+      "colorfulness": 22.2475,
+      "date_display": "1836",
+      "date_end": 1836,
+      "date_start": 1836,
+      "dimensions": "126 × 169 cm (49 5/8 × 66 1/2 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 4758,
+      "image_id": "400ce9e8-2f67-44e2-dd68-e6c98880d27f",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "England",
+      "style_title": "19th century",
+      "thumbnail": {
+        "alt_text": "Large English country landscape painting, farmers with horses, green trees.",
+        "height": 2208,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAADYpHTcwHzIrID8tIDgyIT0yJjs0JDw1Jj40J0I3JkE4KUY8Lkk8LUk/L0xDL1JJMlpJNFhLNVhJNmVYO1pfXW1hQ2dlVX93XGtsZHFvYXp7bGpxcG16gHSBh3eJk4mXnZqjoaKyu7zJygAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwI4nBLJoKpyPKEO4PCgbTMAxMSgiC8EhAUA0JBBGYRAEADs=",
+        "width": 3000
+      },
+      "title": "Stoke-by-Nayland"
+    },
+    {
+      "artist_display": "Édouard Manet\nFrench, 1832–1883",
+      "artist_title": "Édouard Manet",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 56,
+        "s": 6,
+        "l": 42,
+        "percentage": 0.014896453220207911
+      },
+      "colorfulness": 31.1172,
+      "date_display": "1865",
+      "date_end": 1865,
+      "date_start": 1865,
+      "dimensions": "190.8 × 148.3 cm (74 7/8 × 58 3/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 16499,
+      "image_id": "4d03ba14-a01a-d003-404a-cf3f9fb40ede",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Realism",
+      "thumbnail": {
+        "alt_text": "Large, dark painting of Jesus sitting with three standing soldiers.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAAACBgYGBgUIChUSDiMdFTEqIT0xIjw4NkM3KlA+L0A7ME9IQVpZVm1ZQXNgTnRoW3ZtZ4t5W6aYib2ojQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoAAEA2EkTeFMSPRIh7JATAgAOw==",
+        "width": 1751
+      },
+      "title": "Jesus Mocked by the Soldiers"
+    },
+    {
+      "artist_display": "Eugène Delacroix\nFrench, 1798-1863",
+      "artist_title": "Eugène Delacroix",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 37,
+        "s": 16,
+        "l": 49,
+        "percentage": 0.1659343985138957
+      },
+      "colorfulness": 20.6646,
+      "date_display": "1826",
+      "date_end": 1826,
+      "date_start": 1826,
+      "dimensions": "59.6 × 73.4 cm (23 1/2 × 28 7/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 110663,
+      "image_id": "d4574667-943d-6e28-ec30-fe9c91eeeca1",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "19th century",
+      "thumbnail": {
+        "alt_text": "Two men on horseback clash in battle, another man crouches with knife.",
+        "height": 3720,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAC0rJjgyKD01KkM9MUc+M0lCNkpCN01HO0pGPVFHNVFGOlxSP0xNS1JLQFJQR19UQl5RRV5WS1xcU2JVRGldR2tdSXRqV3psU2VnY29uZHFxaXNyaXVzaIF0XgAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIMZtmcZIT2c5CCAoRHQMS9FARpBQVzWFADs=",
+        "width": 4602
+      },
+      "title": "The Combat of the Giaour and Hassan"
+    },
+    {
+      "artist_display": "Horace Pippin\nAmerican, 1888–1946",
+      "artist_title": "Horace Pippin",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "African American artists",
+        "African Diaspora",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 48,
+        "s": 12,
+        "l": 52,
+        "percentage": 5.426308685209237e-05
+      },
+      "colorfulness": 0.0,
+      "date_display": "c. 1931–37",
+      "date_end": 1937,
+      "date_start": 1931,
+      "dimensions": "51 × 85 cm (20 × 33 1/2 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 111617,
+      "image_id": "d812e25d-5d00-cb04-f973-c5eaf671d540",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on cotton mounted on Masonite",
+      "place_of_origin": "United States",
+      "style_title": "Modernism",
+      "thumbnail": {
+        "alt_text": "Painting of a cabin set below a dark blue sky and fluffy white clouds. Behind it is a field of many small white dots. In front, a dark-skinned woman sits and a dark-skinned child plays among roaming chickens and dogs in a fenced-in yard.",
+        "height": 6088,
+        "lqip": "data:image/gif;base64,R0lGODlhCQAFAPUAABUSFBsYGh4eHCQhISkqIyorJSwuJiwtKywwIy4wJy8xKTAxLTQ1LDU2LzU4Kjg4MTg6MTg4Mjk4Mjg5Mh4/WyNEYSNFYylLZydIaTFQaDRTcTVVcDVVc0pHQUVKTlFTR0dNUEtQUFNYWmNgW2pmX1NneGRjYI+LfnF/h3KAiIeNj5ego8C7qwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAJAAUAAAYqQAxHY6lkNhfKKgQqoTwiVco06LBGAQDpJDhMPg3JIsIgKAwIxwOSKAQBADs=",
+        "width": 10292
+      },
+      "title": "Cabin in the Cotton"
+    },
+    {
+      "artist_display": "Giovanni Battista Piazzetta\nItalian, 1682-1754",
+      "artist_title": "Giovanni Battista Piazzetta",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 41,
+        "s": 73,
+        "l": 90,
+        "percentage": 0.005116702588007284
+      },
+      "colorfulness": 21.3321,
+      "date_display": "1740",
+      "date_end": 1745,
+      "date_start": 1735,
+      "dimensions": "191.8 × 143 cm (75 1/2 × 56 1/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 23333,
+      "image_id": "cd2ebc0d-eea7-d476-1a57-daf8a3976675",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Italy",
+      "style_title": "Realism",
+      "thumbnail": {
+        "alt_text": "A light-skinned woman, the bodice of her mauve dress pulled down, lounges against a rock, her arm extended on it. A child, mostly nude, stands in front of her looking downward while two men in her party, largely in shadow, lean toward each other as if in conversation.",
+        "height": 8031,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACQeFyceFjAnHTQoHS0pITouIzgxJzsxJz4zKE0zI0U5Lks9L1A/Lk5GO1ZAMGNUQWdURGldSXFfT5V6ZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIAEEgiE9DDRFi5MMiFIcTQgAOw==",
+        "width": 5956
+      },
+      "title": "Pastoral Scene"
+    },
+    {
+      "artist_display": "Francisco José de Goya y Lucientes\nSpanish, 1746–1828",
+      "artist_title": "Francisco José de Goya y Lucientes",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 39,
+        "s": 24,
+        "l": 49,
+        "percentage": 0.09589810825997376
+      },
+      "colorfulness": 33.0669,
+      "date_display": "1786/87",
+      "date_end": 1787,
+      "date_start": 1786,
+      "dimensions": "127.2 × 112.1 cm (50 1/16 × 44 1/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 111559,
+      "image_id": "e54a695c-16df-cf45-9dd4-b517e8c32cc3",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Spain",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "A young, smiling boy in a ruffled collar, hat, and cumberbun rides outdoors on a brown ram, a small whip held aloft in his hand.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACkiEDY0HzRNMUZZPW9ZPnJgPVpiTm9oQm5jSnhoU1d8bY54UYR/bJ+FXHOamnmfn5yikaCqirO3oPjkwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoKA8zsBAkpEQUwAgUbE0RwgAOw==",
+        "width": 1995
+      },
+      "title": "Boy on a Ram"
+    },
+    {
+      "artist_display": "Jean-Honoré Fragonard\nFrench, 1732–1806",
+      "artist_title": "Jean Honoré Fragonard",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 47,
+        "s": 21,
+        "l": 46,
+        "percentage": 0.37986833645739954
+      },
+      "colorfulness": 37.2136,
+      "date_display": "1768/70",
+      "date_end": 1770,
+      "date_start": 1768,
+      "dimensions": "80.3 × 64.7 cm (31 5/8 × 25 1/2 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 93900,
+      "image_id": "9b1c3d61-5f9b-c7a2-a5ea-f48248836160",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Flemish",
+      "thumbnail": {
+        "alt_text": "Painting of bearded, ruddy-faced man in eighteenth century style clothing.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACABAC8MAS0LBC0KBS8LBTARBTcRBkYdDVowGGBELGlPM3BpTJpuQoF7T5BzTYd9Wot8W3+CW5aKYJuVZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4PJIDcQ4kXIkUwAYyEAIRQgAOw==",
+        "width": 1810
+      },
+      "title": "Portrait of a Man in Costume"
+    },
+    {
+      "artist_display": "Francesco Guardi\nItalian, 1712–1793",
+      "artist_title": "Francesco Guardi",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 42,
+        "s": 23,
+        "l": 52,
+        "percentage": 0.06413970040552842
+      },
+      "colorfulness": 22.2662,
+      "date_display": "late 1770s",
+      "date_end": 1785,
+      "date_start": 1775,
+      "dimensions": "48 × 78 cm (19 × 30 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 111610,
+      "image_id": "b553d1fe-da1f-dd9e-ff0f-c36fc22aac0e",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Italy",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "A work made of oil on canvas.",
+        "height": 5387,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAD0uGz43JEVAKkVBK1NKLk9FMVpONllQOFtTOltUOl9XPF5WPWxcRnBmR390Unp0WIh8WJWMdJyhk6yrkaOnmqSqm7atkbeymbq1nLq2nKauoauwoq24qbG2prm6p7O5qLe5qLi8qrXBtMHBqdTNrMbIs8bMucjPvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQI4o9OlsKJKR6VTygDQVkmWSuWAijAeC0HBADIDCQZFYDASBIAA7",
+        "width": 8807
+      },
+      "title": "The Garden of Palazzo Contarini dal Zaffo"
+    },
+    {
+      "artist_display": "Sir Joshua Reynolds\nEnglish, 1723–1792",
+      "artist_title": "Sir Joshua Reynolds",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 37,
+        "s": 41,
+        "l": 31,
+        "percentage": 0.21519221254552717
+      },
+      "colorfulness": 28.7958,
+      "date_display": "1763–65",
+      "date_end": 1765,
+      "date_start": 1763,
+      "dimensions": "242.6 × 151.5 cm (95 1/2 × 59 3/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 4788,
+      "image_id": "5a047a1c-d36e-e88d-05e7-845d3936159b",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "England",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Large painting, woman in pink dress in front of classical sculpture, shrine.",
+        "height": 8921,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAADwxIU09IWBOKmJSNGFSOltOQG5gSXtpQm5iWXViXHRqZYNyUo9/Zo19c5+OcAAAACH5BAAAAAAALAAAAAADAAUAAAQL0A2xzCGNhaRAQREAOw==",
+        "width": 5401
+      },
+      "title": "Lady Sarah Bunbury Sacrificing to the Graces"
+    },
+    {
+      "artist_display": "Jacques-Louis David\nFrench, 1748–1825",
+      "artist_title": "Jacques Louis David",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 51,
+        "s": 23,
+        "l": 81,
+        "percentage": 0.13005387504942664
+      },
+      "colorfulness": 31.5416,
+      "date_display": "1791/92",
+      "date_end": 1792,
+      "date_start": 1791,
+      "dimensions": "129.8 × 96.6 cm (51 1/8 × 38 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 27307,
+      "image_id": "72227c9e-413c-8930-477d-5a90e0a2123c",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Large painting of young woman in white dress sitting next to crib.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAHRPKodoTZl9ZpSAb5qCbpCAcJSDcJiFcZqIdZqJd5uLe6OOeq+UcbGfi7KhjrikibWmkcrCrNDMvN/ezQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoIEMRbIQytE4AiQ9QTQxQAgAOw==",
+        "width": 1646
+      },
+      "title": "Madame de Pastoret and Her Son"
+    },
+    {
+      "artist_display": "Hubert Robert\nFrench, 1733-1808",
+      "artist_title": "Hubert Robert",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 44,
+        "s": 48,
+        "l": 59,
+        "percentage": 0.00012241894947402697
+      },
+      "colorfulness": 22.5155,
+      "date_display": "1787/88",
+      "date_end": 1788,
+      "date_start": 1787,
+      "dimensions": "255.3 × 221.2 cm (100 1/2 × 88 1/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 57051,
+      "image_id": "62fd0e14-d7fe-0d01-ab00-1eed84b4f294",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Neoclassicism",
+      "thumbnail": {
+        "alt_text": "Large painting of ancient arch ruins, statues, humans are small in comparison.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADEkGkIvHkc3J0o2JUY5LEc6Lk45KE46KlI9KlJBLFpAKUtANFFDMVFIPGFRPHNYO15ZTGJaSmxpXnR5cgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4CQ10BBEyyEwhIE4hfIkQAgAOw==",
+        "width": 1957
+      },
+      "title": "The Fountains"
+    },
+    {
+      "artist_display": "Frederic Remington (American, 1861–1909)",
+      "artist_title": "Frederic Remington",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 207,
+        "s": 89,
+        "l": 35,
+        "percentage": 0.005810971113462217
+      },
+      "colorfulness": 32.8978,
+      "date_display": "1890",
+      "date_end": 1890,
+      "date_start": 1890,
+      "dimensions": "87.3 × 123.1 cm (34 3/8 × 48 1/2 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 97910,
+      "image_id": "375c77df-2819-fe65-f129-c3bc6ea2ce37",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "New York",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Three cavalry scouts—light-skinned men mounted on gleaming brown horses—among light-beige, arid mountains. The figure in the foreground has begun to to slump and seems poised to fall, his rifle on the ground, his horse agitated and alarmed. The others ride off in pursuit.",
+        "height": 5760,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAGRRRJuGdquFbaSJdraejp+qsayrrL2uo7+0rru1s9+6jMuvntu5msCyqsq4rtm+rsK5tuDDltfBrdfBr9zRvenPqejMubfCzLvHy8rGxdvPxcPN0sTS3dfb3+bayc/d7NLe7c/f89Hi+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwA3nExKBOhhD4ZLwUDQDQOBQiVgWAkJGong4IIjGhBEEADs=",
+        "width": 8190
+      },
+      "title": "The Advance-Guard, or The Military Sacrifice (The Ambush)"
+    },
+    {
+      "artist_display": "Vasily Kandinsky\nBorn Moscow (formerly Russian Empire, now Russia), 1866; died Neuilly-sur-Seine, France, 1944",
+      "artist_title": "Vasily Kandinsky",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Modern Art",
+        "Essentials"
+      ],
+      "color": {
+        "h": 37,
+        "s": 59,
+        "l": 63,
+        "percentage": 0.09157431748956756
+      },
+      "colorfulness": 41.6478,
+      "date_display": "1913",
+      "date_end": 1913,
+      "date_start": 1913,
+      "dimensions": "111 × 111.3 cm (43 11/16 × 43 13/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 8991,
+      "image_id": "9e00e226-9264-cda0-2893-685e0ca5b285",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Germany",
+      "style_title": "Modernism",
+      "thumbnail": {
+        "alt_text": "Abstract painting in various bright colors—yellow, blue, red, green, orange, pink—with lines indicating building-like structures as well as canons in the lower right corner.",
+        "height": 5627,
+        "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAADxDRmJhfHR0eHR5e4Vza4l2cZuAYpqEY5eHcJWMd5SHeqmYfrCbe3t+jHx4lJSSirifhqqfkJSknb2ynJ6lobe0q8CkgMKok822mgAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVoAAcBVQRyXMpgWNhzNAsxhRREhICADs=",
+        "width": 5631
+      },
+      "title": "Improvisation No. 30 (Cannons)"
+    },
+    {
+      "artist_display": "Vincent van Gogh\nDutch, 1853-1890",
+      "artist_title": "Vincent van Gogh",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 150,
+        "s": 35,
+        "l": 51,
+        "percentage": 0.0004438688944446479
+      },
+      "colorfulness": 31.0618,
+      "date_display": "1887",
+      "date_end": 1887,
+      "date_start": 1887,
+      "dimensions": "41 × 32.5 cm (16 1/8 × 12 13/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 80607,
+      "image_id": "26d3cea8-44c0-bfbd-a91a-19a007517152",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on artist's board, mounted on cradled panel",
+      "place_of_origin": "Paris",
+      "style_title": "Post-Impressionism",
+      "thumbnail": {
+        "alt_text": "Painting of a red-haired, bearded man with light skin, painted in short brushstrokes and multicolored dots. The background is likewise a mass of small, closely spaced colored dots, these in green, blue, and red-orange.",
+        "height": 9573,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADs1NzI4PTo5PT48PEU6PFJFPytAQy5JTDRJTD5PUEtCQEtMTVRHQUdSTmFQSW5aS2BbUZNmUYN5Z7WZeQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURINJAgSFNw/FEQsI4wEIoRQgAOw==",
+        "width": 7546
+      },
+      "title": "Self-Portrait"
+    },
+    {
+      "artist_display": "Frederic Edwin Church (American, 1826–1900)",
+      "artist_title": "Frederic Edwin Church",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Essentials",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 45,
+        "s": 52,
+        "l": 31,
+        "percentage": 0.004024741569225555
+      },
+      "colorfulness": 18.4824,
+      "date_display": "1857",
+      "date_end": 1857,
+      "date_start": 1857,
+      "dimensions": "62.2 × 92.7 cm (24 1/2 × 36 1/2 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 76571,
+      "image_id": "33fc29fc-097b-576b-c9e6-c3352d9d3f15",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "United States",
+      "style_title": "19th century",
+      "thumbnail": {
+        "alt_text": "Ecuadorian landscape with people, palm trees, waterfall, and volcano in background.",
+        "height": 5650,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAC0rIjIvIjMwJD85I0I4KUQ+K0A9MUE+ME1DKk1ELUhCM01INFFGMFxON1NKOF1QPmFRPFNNQVVPQFVQR11SQHBjTXJrW3ZwXHhzYn54ZoKAdYaAdYWFd4iFfImHfI6LgoiNhI+TiIySio2WjY6Vjo+XkJCYkJKakwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwFHpZCKJQCGOZtP5eDAZhQPyiEwkiwCDYjEACAVBo3I5DBCJIAA7",
+        "width": 8511
+      },
+      "title": "View of Cotopaxi"
+    },
+    {
+      "artist_display": "Edgar Degas\nFrench, 1834-1917",
+      "artist_title": "Hilaire Germain Edgar Degas",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 42,
+        "s": 56,
+        "l": 63,
+        "percentage": 0.08901003676501519
+      },
+      "colorfulness": 41.9432,
+      "date_display": "1875/76",
+      "date_end": 1876,
+      "date_start": 1875,
+      "dimensions": "99.8 × 119.9 cm (39 1/4 × 47 3/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 14574,
+      "image_id": "ba4d7ead-bd10-e02d-6f5f-613050d7062e",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Impressionist painting of seated man, girl with brown, black hues.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAA0OCxIPCR4bFR8eGjEhDyckGy4nHDcsHTUyKk89J048KUxDLktCMV5IM1JKOmFQO1NPQGNWQG5fRnheQ3t1YYxwR5Z/UpV+VoB7YJKCUquQVqOccaudd9vGfgAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYICdp1tVtS/UgGQYJxhAxlEMAhdJMSXCEADs=",
+        "width": 2690
+      },
+      "title": "Henri Degas and His Niece Lucie Degas (The Artist's Uncle and Cousin)"
+    },
+    {
+      "artist_display": "Claude Monet\nFrench, 1840-1926",
+      "artist_title": "Claude Monet",
+      "artwork_type_title": "Painting",
+      "boost_rank": 100,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 52,
+        "s": 47,
+        "l": 38,
+        "percentage": 0.004525813812783756
+      },
+      "colorfulness": 21.8816,
+      "date_display": "1890/91",
+      "date_end": 1891,
+      "date_start": 1891,
+      "dimensions": "60 × 100.5 cm (23 5/8 × 39 9/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 64818,
+      "image_id": "a38e2828-ec6f-ece1-a30f-70243449197b",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Painting composed of short, dense brushstrokes depicts two domed stacks of wheat that cast long shadows on a field. The angled light indicates either a rising or setting sun.",
+        "height": 4068,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAF5eVW1bVm9eVmpjW3RoXXxyV39yXmdsZmhmaXZtbG11eH57eYl5bYR7dHuAf4mDfo6HfpePdpCFeZSOfJ+VdnZ+g4ODgoCHg4iHgo+GgY2MgpmThJeTipaSjaCcmbWnh6qrpKmopqqtrKusrbGxobq4pLu5qq2zsQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwJNoFAKRSiZPh7OZRCgfBWJwAAQEBU2D8VgkCAYI5uKoWDKSIAA7",
+        "width": 6884
+      },
+      "title": "Stacks of Wheat (End of Summer)"
+    },
+    {
+      "artist_display": "Juan Sánchez Cotán\nSpanish, 1560–1627",
+      "artist_title": "Juan Sánchez Cotán",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 42,
+        "s": 24,
+        "l": 47,
+        "percentage": 0.00016794231450204558
+      },
+      "colorfulness": 0.0,
+      "date_display": "1600/03",
+      "date_end": 1603,
+      "date_start": 1600,
+      "dimensions": "67.8 × 88.7 cm (26 11/16 × 34 15/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 84709,
+      "image_id": "f2021182-1302-f76f-97f1-4e7850030e3b",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Spain",
+      "style_title": "Renaissance",
+      "thumbnail": {
+        "alt_text": "Still life painting of dead waterfowl and vegetables in windowsill.",
+        "height": 8546,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAABcUEx0bFx4cGB8fGCUhGyciGyUiHigkHysmIDIrIDAsIjMuJDQvJDUwJTUxJjg0Iz03Jzw3KTw2LEY6KUY9LUc+Lkg+LkdGL0tEM0hCNEtCNFFHNVNKNFFJOFVLOFRMOFpQO2BWPnRqUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwEVDYDgEOgxIATEheByXAcCioSgeEZEkk8BwQJ9NqBIEADs=",
+        "width": 11148
+      },
+      "title": "Still Life with Game Fowl"
+    },
+    {
+      "artist_display": "El Greco (Doménikos Theotokópoulos)\nGreek, active in Spain, 1541–1614",
+      "artist_title": "Domenico Theotokópoulos, called El Greco",
+      "artwork_type_title": "Painting",
+      "boost_rank": 95,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Art Institute Icons",
+        "Essentials"
+      ],
+      "color": {
+        "h": 207,
+        "s": 46,
+        "l": 31,
+        "percentage": 0.018429079816980172
+      },
+      "colorfulness": 25.0336,
+      "date_display": "1577–79",
+      "date_end": 1579,
+      "date_start": 1577,
+      "dimensions": "403.2 × 211.8 cm (158 3/4 × 83 3/4 in.)\nWeight with frame: 331 lbs/ 150.139 kg",
+      "has_not_been_viewed_much": false,
+      "id": 87479,
+      "image_id": "47fd1564-93f5-f30b-7786-013421133b4a",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Spain",
+      "style_title": "Renaissance",
+      "thumbnail": {
+        "alt_text": "Painting of the Virgin Mary ascending to heaven amongst multitude of angels.",
+        "height": null,
+        "lqip": "data:image/gif;base64,R0lGODlhAgAFAPMAAEQ8Mk5DOGBLRmRQR2FYT29jUGxpX3dqWGReZmBmZwAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAACAAUAAAQIsJyEDBlAhAgAOw==",
+        "width": null
+      },
+      "title": "The Assumption of the Virgin"
+    },
+    {
+      "artist_display": "Meindert Hobbema\nDutch, 1638–1709",
+      "artist_title": "Meindert Hobbema",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 39,
+        "s": 36,
+        "l": 59,
+        "percentage": 0.006102840490820946
+      },
+      "colorfulness": 16.008,
+      "date_display": "1662/65",
+      "date_end": 1675,
+      "date_start": 1665,
+      "dimensions": "81.3 × 110 cm (32 × 43 1/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 869,
+      "image_id": "237c25a2-6051-a8e7-1610-a01938d4deab",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Holland",
+      "style_title": "Realism",
+      "thumbnail": {
+        "alt_text": "Landscape painting featuring a wavy tree tree in the foreground and a watermill with a red roof adjacent to a river at right. Colors are subdued earth tones, the foliage a dark green and the river a muddy brown. Water flows through the mill wheel under a cloudy sky of gray and blue. Three individuals can be seen in the distance at left.",
+        "height": 6967,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAACIbEyIbFCIfFSkiGC8lGSwmGjUrHz0yIzozJz44Jzg1KDs4KUI8K0Y9LUBAL0VCMUpEMU1IM1JRRFZVSWZfR21rW25sY21xanx5Z398cX+CfImDc46LfZqUf4KGgYOIgouNhYyPiZeVigAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwM9FE/JwLJ2FZAISZSgKgQOzqUQgiUfjwCgEAAOEgRAEADs=",
+        "width": 9443
+      },
+      "title": "The Watermill with the Great Red Roof"
+    },
+    {
+      "artist_display": "Giovanni Battista Moroni\nItalian, 1520/24-1578",
+      "artist_title": "Giovanni Battista Moroni",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 45,
+        "s": 9,
+        "l": 39,
+        "percentage": 0.1697982582925437
+      },
+      "colorfulness": 18.8773,
+      "date_display": "1551/52",
+      "date_end": 1552,
+      "date_start": 1551,
+      "dimensions": "199.8 × 116 cm (78 5/8 × 45 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 4081,
+      "image_id": "bc24fe7f-4171-c785-bff2-b2ed3777a47d",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Italy",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "A man with sparse brown facial hair stands in a full-length black robe on a multicolored tiled floor, a white and brown dog behind him.",
+        "height": 11727,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAABUVFiEeHCMjIjMvKTAwKjo4Mzo5Mz87NUNBPFNIOE9LQV5cUGRVQmBaTm9sXgAAACH5BAAAAAAALAAAAAADAAUAAAQLkDRnxEJBHVDYSBEAOw==",
+        "width": 6748
+      },
+      "title": "Gian Lodovico Madruzzo"
+    },
+    {
+      "artist_display": "Nicolas Poussin\nFrench, 1594–1665",
+      "artist_title": "Nicolas Poussin",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 204,
+        "s": 35,
+        "l": 59,
+        "percentage": 0.1383946223803875
+      },
+      "colorfulness": 29.5583,
+      "date_display": "1640",
+      "date_end": 1640,
+      "date_start": 1640,
+      "dimensions": "100.3 × 136.4 cm (39 1/2 × 53 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 5848,
+      "image_id": "aa870b0d-5a1b-660a-6dc6-56c12109cf6e",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Renaissance",
+      "thumbnail": {
+        "alt_text": "Painting of Greek landscape, classical architecture, yellow, red robed man reading.",
+        "height": 2220,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAB4eDyYhCzctHzk7LEkxH0kyHkE0IUE0JUc6IkI4JEc8JEw9K1Q9LVU/LVY/LldCLFlBKVlBLUVGPEtLO15FNFJINFNMPHhVOEBKRFlVRndYRWliVl9qaIOAemuKmnWRnYqLhpCMhY230wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQM7gI/JgJKBMJzQJADaWigKxOAgYhgQk4qBoGo9LgRAEADs=",
+        "width": 3000
+      },
+      "title": "Landscape with Saint John on Patmos"
+    },
+    {
+      "artist_display": "Giovanni Battista Tiepolo\nItalian, 1696–1770",
+      "artist_title": "Giambattista Tiepolo",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 200,
+        "s": 19,
+        "l": 52,
+        "percentage": 0.0055861699575779685
+      },
+      "colorfulness": 38.65,
+      "date_display": "1742/45",
+      "date_end": 1745,
+      "date_start": 1742,
+      "dimensions": "187.5 × 216.8 cm (73 13/16 × 85 3/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 16488,
+      "image_id": "633f464c-203f-f7b9-a251-7a2073f4b05d",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Italy",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Large painting of soldier asleep outdoors surrounded by two women and a cupid.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAADEsKDMvKEM1KFg9L1FFNHlIM3NhUpVPOYNkT4VnV4x1ZI56ZZB7a6F+ZJ6QfaaMcr6gftShfJegmpejna6jjrKikKW7vaa6vbK3tbO8u7bAv9nBq62/xLXAxAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIHd12GRpVfRI2dZAi0IZA+MkCBAIRHGEADs=",
+        "width": 2629
+      },
+      "title": "Armida Encounters the Sleeping Rinaldo"
+    },
+    {
+      "artist_display": "Dante Gabriel Rossetti\nEnglish, 1828-1882",
+      "artist_title": "Dante Gabriel Rossetti",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 39,
+        "s": 44,
+        "l": 54,
+        "percentage": 0.06459911060867359
+      },
+      "colorfulness": 50.9517,
+      "date_display": "1871/72",
+      "date_end": 1872,
+      "date_start": 1871,
+      "dimensions": "87.5 × 69.3 cm (34 7/16 × 27 1/4 in.); Predella: 26.5 × 69.2 cm (10 7/16 × 27 1/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 16551,
+      "image_id": "194674a2-f451-65f7-ba46-6aac4d894f0b",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "England",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Serene red-haired woman, framed with allegorical symbols of red bird, sundial.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAD4tF188G1o8HX5iPXJhQIBoP4RqQ4prQo5uRY1sR4VtTodwT5Z2SZyGWaGGWgAAACH5BAAAAAAALAAAAAADAAUAAAQL0LF2RCEgmYDUWBEAOw==",
+        "width": 1537
+      },
+      "title": "Beata Beatrix"
+    },
+    {
+      "artist_display": "Gustave Moreau\nFrench, 1826-1898",
+      "artist_title": "Gustave Moreau",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Halloween"
+      ],
+      "color": {
+        "h": 39,
+        "s": 38,
+        "l": 67,
+        "percentage": 0.0034171511698861115
+      },
+      "colorfulness": 21.1904,
+      "date_display": "1875/76",
+      "date_end": 1876,
+      "date_start": 1875,
+      "dimensions": "179.3 × 154 cm (70 9/16 × 60 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 20579,
+      "image_id": "2ae64c8a-266d-470a-a25a-c83127564636",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Painting depicting the god Hercules confronting the Hydra, a mythical creature. Amidst towering, rocky cliffs, Hercules stands on the left of the painting, dressed in clothing that exposes his figure. He looks to the right, where the seven-headed hydra rears up, bearing its teeth. A nude figure of a woman is on the ground in front of the Hydra, and an orange sun peeks from behind red clouds in the background.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACcdDCoeDikfECogECshEy8iFC8lFDEnFjEnFzorFDQrGkQ2IUU4JEY5KFJGNVlPO25aRGleSIF0WpmLbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4CM5BTJFQgA1RLIcA6AwRggAOw==",
+        "width": 1952
+      },
+      "title": "Hercules and the Lernaean Hydra"
+    },
+    {
+      "artist_display": "Peter Paul Rubens\nFlemish, 1577–1640",
+      "artist_title": "Peter Paul Rubens",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 5,
+        "s": 74,
+        "l": 40,
+        "percentage": 0.12877897666466914
+      },
+      "colorfulness": 64.7915,
+      "date_display": "c. 1615",
+      "date_end": 1620,
+      "date_start": 1610,
+      "dimensions": "114.5 × 91.5 cm (45 1/8 × 36 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 27310,
+      "image_id": "7c752046-744f-2f68-482b-a7fd42550f2b",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on panel",
+      "place_of_origin": "Flanders",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Large painting of Holy Family: Mary in red, holding baby Jesus.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAC4eFTQaEjg2NjI9Pkg0J0M0K10+KmwkI3c9IH49KGBBJW5TNnxQNXdgTK0cEZUpF41qTJBlUaVgRcZyWgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4FAQhtBEADQdgeQkC/IwSggAOw==",
+        "width": 1784
+      },
+      "title": "The Holy Family with Saints Elizabeth and John the Baptist"
+    },
+    {
+      "artist_display": "Claude Gellée, called Claude Lorrain\nFrench, 1600-1682",
+      "artist_title": "Claude Lorrain",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 215,
+        "s": 51,
+        "l": 62,
+        "percentage": 0.07836370825694669
+      },
+      "colorfulness": 27.4222,
+      "date_display": "1673",
+      "date_end": 1673,
+      "date_start": 1673,
+      "dimensions": "101.6 × 127 cm (40 × 50 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 43145,
+      "image_id": "2e7e28aa-a77b-c7f8-852b-708c1171f928",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Realism",
+      "thumbnail": {
+        "alt_text": "A work made of oil on canvas.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAACkpHzYxHikpIzAvIi8wJjQwITc0IzEwJj84Ijc0KDU2LUA+MUlCKURFNkVGOkZHP0NJRE1MRFdWTmRqamp2f3mAiHyHmJumuIyewYae0pqpyKy94b/E0brD2AAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYYIZpF0RZT7VNTTI4HbcIBxFJClAwSGCEADs=",
+        "width": 2877
+      },
+      "title": "View of Delphi with a Procession"
+    },
+    {
+      "artist_display": "India\nRajasthan, Mewar, Udaipur, attributed to Ghasi (active c. 1820-36)",
+      "artist_title": "Ghasi",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of Asia",
+        "Art Institute Icons",
+        "Essentials",
+        "Arts of Asia 100"
+      ],
+      "color": {
+        "h": 44,
+        "s": 78,
+        "l": 48,
+        "percentage": 0.006088663538353332
+      },
+      "colorfulness": 46.6979,
+      "date_display": "c. 1820",
+      "date_end": 1825,
+      "date_start": 1815,
+      "dimensions": "Image: 57.1 × 41.6 cm (22 1/2 × 16 3/8 in.); Paper: 60.7 × 45.6 cm (23 7/8 × 18 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 49195,
+      "image_id": "9f08b895-4960-4bc6-5871-dc9bfab4c655",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Opaque watercolor and gold on paper",
+      "place_of_origin": "India",
+      "style_title": "South Asian",
+      "thumbnail": {
+        "alt_text": "Watercolor of man with golden halo on horse, green background.",
+        "height": 5730,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAFZWT3pzTHlmWnByU3d+XF1naF1qbIN4W4F/WpuNe5+Pe5yXf6KXd6yaeaucfqCXgK6khruql7yul9LFsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoFAYQIAQwzJBTOQ0UnI8SggAOw==",
+        "width": 4275
+      },
+      "title": "Maharana Bhim Singh in Procession"
+    },
+    {
+      "artist_display": "Jacob van Ruisdael\nDutch, 1628/29-1682",
+      "artist_title": "Jacob van Ruisdael",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 128,
+        "s": 1,
+        "l": 42,
+        "percentage": 0.304203700370966
+      },
+      "colorfulness": 15.6415,
+      "date_display": "1650/55",
+      "date_end": 1655,
+      "date_start": 1650,
+      "dimensions": "98 × 130 cm (38 7/8 × 51 3/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 60755,
+      "image_id": "50ac2e3e-1d1a-553f-6aeb-5c22cf323a8e",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Holland",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Dark moody painting of crumbling castle tower and walls amidst river and forest.",
+        "height": 6192,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAACskGSwpHC0oHi4pHjMpHTArHTMuIjQsIDouITQwIjwxIjkyJEA0JUI3KEk/Lks+Lk0/LFdJNUhKS1dQR1NUVVhWUF9dUlteV1xeXF1hXl9iYmJmZHFzanR3b2pwcnZ6eXh/fYOMjpOakQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQBFog5FoPJxMZUL5hAALx+PSsSAYEUggUSAcGoqBQRAEADs=",
+        "width": 8520
+      },
+      "title": "Landscape with the Ruins of the Castle of Egmond"
+    },
+    {
+      "artist_display": "Artist Unknown\nChinese",
+      "artist_title": null,
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Essentials",
+        "Arts of Asia",
+        "Arts of Asia 100"
+      ],
+      "color": {
+        "h": 211,
+        "s": 12,
+        "l": 83,
+        "percentage": 0.06040629801315806
+      },
+      "colorfulness": 22.406,
+      "date_display": "Yuan dynasty (1279–1368) 元朝",
+      "date_end": 1368,
+      "date_start": 1279,
+      "dimensions": "52.7 × 231.1 cm (20 3/4 × 91 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 76279,
+      "image_id": "f78addab-4d3a-f87c-4c83-7eae824c7504",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Handscroll; ink and light color on paper",
+      "place_of_origin": "China",
+      "style_title": "Chinese (culture or style)",
+      "thumbnail": {
+        "alt_text": "Long scroll ink painting depicting people with their animals and belongings crossing a river.",
+        "height": 964,
+        "lqip": "data:image/gif;base64,R0lGODlhEAAFAPYAAHJgTXRgTnVkU3ZlVHlnVHpoWn5rWnxrXIJuW4VvW4FvXYtvWYVxXoVzX4lzXop0Xo14Yo54Yo54ZI55ZId4aot8bZB7ZpB6Z5J8ZZJ8Z5R9ZZN/aZV+aJR/apR/a5eBapaAa5aBa5SAbpiAapmBapqDapqDa5yDa5yEa5uGb5yEbJ2FbZyGb5+GbpCCcpuGcZ2HcZ+JcZ+KcpqIeJqJeqCIcKSLcKSLcqWLcqWOc6OLdKOMdaOMdqSMdKWMdKaMdKWPd6aOdqaOeKePeKiQdqqRdqiReKuTeauUe6yUebSdggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAQAAUAAAdSgCIvQT84Nz0sMCATFgYKCDNIRkdFNjlJSUpEDw8EAgAVOhkkLScqDClAGxEcAwkLLjshJSYaKB8xMg0QGBAOARRCQz41KycjEjw8Fx0eBwU0gQA7",
+        "width": 3000
+      },
+      "title": "Yang Pu Moving His Family"
+    },
+    {
+      "artist_display": "India\nDesigned by Basawan, painted by Shankar",
+      "artist_title": "Basawan",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of Asia",
+        "Arts of Asia 100"
+      ],
+      "color": {
+        "h": 41,
+        "s": 90,
+        "l": 52,
+        "percentage": 0.033571247684167034
+      },
+      "colorfulness": 64.0371,
+      "date_display": "c. 1590/95",
+      "date_end": 1595,
+      "date_start": 1585,
+      "dimensions": "Image: 32 × 19.3 cm (12 5/8 × 7 9/16 in.); Outermost border: 33 × 19.6 cm (13 × 7 11/16 in.); Page: 34.4 × 20 cm (13 1/2 × 7 7/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 76816,
+      "image_id": "c3c4fa77-ae12-1e5e-cc8a-0bde4f1be2ca",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Opaque watercolor and gold on paper",
+      "place_of_origin": "India",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "A work made of opaque watercolor and gold on paper.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAJiFW6WJVJ+Nbp2LcaeHc7aQcbWfirCflr2ii76li7+mlMKohsGnkc6vkdC1nQAAACH5BAAAAAAALAAAAAADAAUAAAQLUIwDwiKFJYWaMxEAOw==",
+        "width": 1332
+      },
+      "title": "The Young Emperor Akbar Arrests the Insolent Shah Abu’l-Maali, page from a manuscript of the Akbarnama"
+    },
+    {
+      "artist_display": "Francisco de Zurbarán\nSpanish, 1598–1664",
+      "artist_title": "Francisco de Zurbarán",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 37,
+        "s": 10,
+        "l": 42,
+        "percentage": 0.004117787734377351
+      },
+      "colorfulness": 18.5672,
+      "date_display": "1627",
+      "date_end": 1627,
+      "date_start": 1627,
+      "dimensions": "290.3 × 165.5 cm (114 5/16 × 65 3/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 80084,
+      "image_id": "9920a4f9-09f9-86f4-b06d-b0af0590baac",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Spain",
+      "style_title": "Renaissance",
+      "thumbnail": {
+        "alt_text": "A work made of oil on canvas.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAAcEAAwJARAMARAMAxMPAxQPCBoUBxwXDyEZCyAaESkdEDEoGj0yIFJEMF9TQwAAACH5BAAAAAAALAAAAAADAAUAAAQLEDFVWgLuhDWEIREAOw==",
+        "width": 1266
+      },
+      "title": "The Crucifixion"
+    },
+    {
+      "artist_display": "Jean-Baptiste-Camille Corot\nFrench, 1796-1875",
+      "artist_title": "Jean Baptiste Camille Corot",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 44,
+        "s": 31,
+        "l": 86,
+        "percentage": 0.003564659961145207
+      },
+      "colorfulness": 20.3095,
+      "date_display": "c. 1870",
+      "date_end": 1875,
+      "date_start": 1865,
+      "dimensions": "92.5 × 65.1 cm (36 5/16 × 25 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 81512,
+      "image_id": "1c2d32a7-790c-501a-e124-00f28cf5052d",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas mounted on board",
+      "place_of_origin": "France",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "A  pensive faced woman sits, slightly hunched, holding a book.",
+        "height": 7384,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAE1BNk5DNlxGO1tPPl5SQmlcSnVeUGthVXZkVH1qVn1pWH5tW35xYIV1XYJ1Y4t7YpKBaZqHb5mIdKmbiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIAEEg7NIjIFMh5BAhRI9TQgAOw==",
+        "width": 5197
+      },
+      "title": "Interrupted Reading"
+    },
+    {
+      "artist_display": "Spanish",
+      "artist_title": null,
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 3,
+        "s": 54,
+        "l": 61,
+        "percentage": 0.013207616392119457
+      },
+      "colorfulness": 42.3173,
+      "date_display": "1396",
+      "date_end": 1396,
+      "date_start": 1396,
+      "dimensions": "Retable Image: 232.1 × 649 cm (91 3/8 × 255 1/2 in.); Frontal Image: 86 × 266.9 cm (33 7/8 × 105 1/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 88793,
+      "image_id": "97908967-4d35-cde9-6d90-7e90d3fa1dd6",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Tempera and gold on panel",
+      "place_of_origin": "Spain",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "A work made of tempera and gold on panel.",
+        "height": 1727,
+        "lqip": "data:image/gif;base64,R0lGODlhCQAFAPUoAJh2YZx7ZZx8aZeAa56BaJ6CbZ+Ecp+IeqGAbKSGb6KFcaGHcqOHcqSGcKSHcaWHcqSHc6GGdKWIcaOJdKmJcqmNd6KLeqqQeLCVf7SWfKWUhqyWg7CRgbGdjrmfjL2ij7umm8e5sNfKwdrQy9nRzd3W0tzX1Orj3v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAJAAUAAAYpwM/DUcEcLJEOh5JJXAoShGdDmCwaEMZAUxqFAgIAiGRCoU4Sg0JkDgIAOw==",
+        "width": 3000
+      },
+      "title": "Retable and Frontal of the Life of Christ and the Virgin Made for Pedro López de Ayala"
+    },
+    {
+      "artist_display": "Rembrandt Harmensz. van Rijn\nDutch, 1606–1669",
+      "artist_title": "Rembrandt van Rijn",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 37,
+        "s": 43,
+        "l": 56,
+        "percentage": 0.0030678610872499693
+      },
+      "colorfulness": 19.3921,
+      "date_display": "1631",
+      "date_end": 1636,
+      "date_start": 1626,
+      "dimensions": "83.1 × 75.7 cm (32 3/4 × 29 3/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 95998,
+      "image_id": "83375479-f7a9-bac3-44a8-e705ab6e423c",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on panel",
+      "place_of_origin": "Holland",
+      "style_title": "Renaissance",
+      "thumbnail": {
+        "alt_text": "Portrait of man wearing voluminous black cloak, feathered hat, and gold medallion.",
+        "height": 4153,
+        "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAABEPEBIQERgWFRkXFxsZFxsZGh4eGjcxKDQwKjgzKD03Kz42KkM8MEM8MUQ/M0tDNEpDNlRGMlBIOlVMO1dMOmVYQmVbRmlfSmhfTAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVYKIYx/JMESNVFgVhFzIEjVMIABECADs=",
+        "width": 3772
+      },
+      "title": "Old Man with a Gold Chain"
+    },
+    {
+      "artist_display": "Piet Mondrian\nDutch, 1872–1944",
+      "artist_title": "Piet Mondrian",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Modern Art",
+        "Essentials"
+      ],
+      "color": {
+        "h": 56,
+        "s": 93,
+        "l": 60,
+        "percentage": 0.0008442986622087696
+      },
+      "colorfulness": 32.8709,
+      "date_display": "1921",
+      "date_end": 1921,
+      "date_start": 1921,
+      "dimensions": "60 × 60 cm (23 5/8 × 23 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 109819,
+      "image_id": "25f660ee-f1db-d13b-42a5-56df97c98ba7",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Netherlands",
+      "style_title": "Modernism",
+      "thumbnail": {
+        "alt_text": "A square white tile, rotated 90 degrees, crossed by black lines intersecting at 90-degree angles. A few of the shapes thus formed—some partial squares, some rectangles—are colored in a single shade of yellow, blue, black, or red.",
+        "height": 6578,
+        "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAAFlUMJeYn4WQrKeuveDWks3Lt8bJy8nKys3OzsXJ0s3Q2NXW0Nna1+ro3uLk5eTl5unp5+Xm6enq6urq6u3s6e3t7e/u7PLx7+zs8AAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVIPYw0tQQi0MVwDEIUWAkSmUh0BUCADs=",
+        "width": 6578
+      },
+      "title": "Lozenge Composition with Yellow, Black, Blue, Red, and Gray"
+    },
+    {
+      "artist_display": "Paulus Potter\nDutch, 1625-1654",
+      "artist_title": "Paulus Potter",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 38,
+        "s": 49,
+        "l": 54,
+        "percentage": 0.006037112353838333
+      },
+      "colorfulness": 28.9071,
+      "date_display": "1647",
+      "date_end": 1647,
+      "date_start": 1647,
+      "dimensions": "49.5 × 37.2 cm (19 1/2 × 14 3/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 146953,
+      "image_id": "5de78980-17d7-8fb5-83de-7b2ae4e997f2",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on panel",
+      "place_of_origin": "Netherlands",
+      "style_title": "Realism",
+      "thumbnail": {
+        "alt_text": "A tired-looking brown and white cow lies down on a patch of dry earth, a dark-brown bull and cow standing behind her against an overcast sky.",
+        "height": 5028,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAEs6J1dGJFtKMF9POm9cOntmRH5oQXNlSHFjTYl5XpeLc56QcJuSgJyYlameib6vj76wlKWjobWvpdfNtwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYBMxiiNNj4BAywAkB1EYQQgAOw==",
+        "width": 3784
+      },
+      "title": "Two Cows and a Young Bull beside a Fence in a Meadow"
+    },
+    {
+      "artist_display": "India\nRajasthan, Mewar, Udaipur, attributed to the “Stipple Master” (active c. 1692-c. 1715)",
+      "artist_title": null,
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of Asia",
+        "Arts of Asia 100"
+      ],
+      "color": {
+        "h": 1,
+        "s": 59,
+        "l": 52,
+        "percentage": 0.012031859006947976
+      },
+      "colorfulness": 44.1119,
+      "date_display": "c. 1705–1710",
+      "date_end": 1715,
+      "date_start": 1700,
+      "dimensions": "Outermost border: 48.5 × 58.7 cm (19 × 23 in.); Image: 45 × 56 cm (17 3/4 × 22 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 210511,
+      "image_id": "67c7274f-612f-3180-0a12-e2c7ed5a7dd4",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Opaque watercolor and gold on paper",
+      "place_of_origin": "India",
+      "style_title": "South Asian",
+      "thumbnail": {
+        "alt_text": "A work made of opaque watercolor and gold on paper.",
+        "height": 4800,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAGhkT2hvUHFoU3ZzVXZ6VXp7V356V3Z3WH9+WXl6XH19XoJ6WXyKWX+QW46HXoiIXYuPXoKRW4eXXomRX4edX4eGYYWFY4iDZ5mCZI2UY5GUaZqZc6KTfqyofgAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4FIgD+QcDSNRUyVgQJdZgcZt0UUkymCEADs=",
+        "width": 5778
+      },
+      "title": "A Monumental Portrait of a Monkey"
+    },
+    {
+      "artist_display": "Paul Gauguin\nFrench, 1848-1903",
+      "artist_title": "Paul Gauguin",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 41,
+        "s": 63,
+        "l": 40,
+        "percentage": 0.07647421840681083
+      },
+      "colorfulness": 57.8633,
+      "date_display": "1888",
+      "date_end": 1888,
+      "date_start": 1888,
+      "dimensions": "73 × 92 cm (28 3/4 × 36 3/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 19339,
+      "image_id": "ae6ac285-6887-dd76-4570-d379c786dfae",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on jute canvas",
+      "place_of_origin": "France",
+      "style_title": "Post-Impressionism",
+      "thumbnail": {
+        "alt_text": "Painting of four women with blue shawls walking near red fence.",
+        "height": 17361,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAACAqMzhKLUxbKmtfLn1TImBJNGZYMnhZOVRsN1lsNltwNyxIRzdFTDxVSV5nSVdxVnJ0S3x4T390YHl+YXp6a5hSP5B6KrFXRpV2R2iEPo6Na5uUirKjiMWxlQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIPc00SR11AJp2MYAQ2Y5QlAYhJIgx1WFADs=",
+        "width": 21953
+      },
+      "title": "Arlésiennes (Mistral)"
+    },
+    {
+      "artist_display": "Édouard Vuillard\nFrench, 1868-1940",
+      "artist_title": "Édouard Jean Vuillard",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 47,
+        "s": 77,
+        "l": 46,
+        "percentage": 0.011928666573888148
+      },
+      "colorfulness": 48.5064,
+      "date_display": "1899",
+      "date_end": 1899,
+      "date_start": 1899,
+      "dimensions": "249.2 × 378.5 cm (96 1/8 × 149 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 109926,
+      "image_id": "a1dc6109-6e0c-7801-ebe8-8c95fec2c4e4",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Post-Impressionism",
+      "thumbnail": {
+        "alt_text": "Dense and varied landscape with open fields, groves of bushy trees, and a row of thin conifers. A light-blue river tranverses the canvas, and a church steeple emerges from the trees at left of center. At far left is a side view of a white house with open shutters, a woman working inside.",
+        "height": 1910,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAFpKLGhNKWNXKmdZL2xcKHNfImdXN2dbMWZaM2hZMG5eOndjIHRhJXZmLW5iNG5jPW5kPHBjMXpgMXFkOXNjP3hnP3xqOnVoRnhqQHJnSndrS31yTIpyH4BtPoJsP4BrQYJxSIV4ToJ5U4h+VJ2LTaCKVbqsYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQIVotLloMgYL5IEYOBKCEugQIXAWBU+HZMJMGoyA5BOqUBSAIAA7",
+        "width": 3000
+      },
+      "title": "Landscape: Window Overlooking the Woods"
+    },
+    {
+      "artist_display": "Bartolomeo Manfredi\nItalian, 1582-1622",
+      "artist_title": "Bartolomeo Manfredi",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 212,
+        "s": 36,
+        "l": 53,
+        "percentage": 0.0031084892842352463
+      },
+      "colorfulness": 31.1488,
+      "date_display": "1613",
+      "date_end": 1613,
+      "date_start": 1613,
+      "dimensions": "175.3 × 130.6 cm (69 × 51 3/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 59847,
+      "image_id": "0f951635-312c-0829-451b-553f461c5518",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Italy",
+      "style_title": "Renaissance",
+      "thumbnail": {
+        "alt_text": "Large painting of cupid being whipped, a woman tries to hold back the a man in red dress.",
+        "height": 10426,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABobGCUcEy4fFSYfGCkhGjMiGiclJDQtIzYtIz4vJTcxK0ExIUM6L0c9LFkyIlM6KVNJO3xpTXtyYYZoUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIDAQxqEUQfM4whJNCcJIUAgAOw==",
+        "width": 7445
+      },
+      "title": "Cupid Chastised"
+    },
+    {
+      "artist_display": "Henri de Toulouse-Lautrec\nFrench, 1864-1901",
+      "artist_title": "Henri de Toulouse-Lautrec",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 38,
+        "s": 58,
+        "l": 35,
+        "percentage": 0.01400309999661994
+      },
+      "colorfulness": 33.589,
+      "date_display": "1892/95",
+      "date_end": 1895,
+      "date_start": 1892,
+      "dimensions": "123 × 141 cm (48 7/16 × 55 1/2 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 61128,
+      "image_id": "defb4004-b500-218d-3d9b-9a02423f097d",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Post-Impressionism",
+      "thumbnail": {
+        "alt_text": "Painting, heavy in tones of blue-green and burnt orange, depicting a bar scene at night. The men wear top hats and many are bearded; the women are dressed in voluminous gowns and decorative hats. Five people converse in the center of the composition and a woman with a green face dominates the right foreground.",
+        "height": 6801,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAC4qHjInHDwpGjYwIDcwIzgzKVg5Cks3HF4/EVg6FkE2Jkk3IUs2JkI7K0Q6KEs7Kko5LFtBFmNDFV5EIVBLLU9NM0hINFhFNk1SOlRQMVdTO1ZTP1hVO2ZOKQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIIVZnFYdj1M0WXIxQrAhHbQQQGRIkzKEADs=",
+        "width": 7778
+      },
+      "title": "At the Moulin Rouge"
+    },
+    {
+      "artist_display": "Henri de Toulouse-Lautrec\nFrench, 1864-1901",
+      "artist_title": "Henri de Toulouse-Lautrec",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 38,
+        "s": 45,
+        "l": 43,
+        "percentage": 0.005371651111260324
+      },
+      "colorfulness": 18.9352,
+      "date_display": "1887/88",
+      "date_end": 1892,
+      "date_start": 1882,
+      "dimensions": "100.3 × 161.3 cm (39 1/2 × 63 1/2 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 16146,
+      "image_id": "65db9e21-83c3-1cc6-7240-1e1996d87f52",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Post-Impressionism",
+      "thumbnail": {
+        "alt_text": "Painting of a performance inside a circus ring. A man wearing a suit holds a whip in his hand and looks towards a woman with red hair riding a gray horse and wearing a green dress. Audience members wearing suits and top hats watch from red and white benches on the side.",
+        "height": 3139,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAG1pXG5oaXxza350bn53b3RxcYpzaIJ4c4p+coJ+e5p+co2EaYyCeJWCc5iKeoSEgoyIg42Lg4qKiJGMhZCMiZ6QgJiXiZiTjp+XkaKdkaSckaOel6WfmKGfnKujk6uhm7Gqn6uopLmupsW/s8bAuMfBuc7JwdTQyQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQAeiQgAsGAIPR/Q5WBqGSKFzkjwwik2AYgolIBrQYEQqXSaZIAA7",
+        "width": 4984
+      },
+      "title": "Equestrienne (At the Cirque Fernando)"
+    },
+    {
+      "artist_display": "Joseph Mallord William Turner\nEnglish, 1775-1851",
+      "artist_title": "Joseph Mallord William Turner",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 203,
+        "s": 16,
+        "l": 59,
+        "percentage": 0.07102904924620194
+      },
+      "colorfulness": 32.808,
+      "date_display": "1837/38",
+      "date_end": 1842,
+      "date_start": 1832,
+      "dimensions": "174.5 × 224.9 cm (68 3/4 × 88 1/2 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 4796,
+      "image_id": "8641479e-c93e-f1a8-9925-19be061706da",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "England",
+      "style_title": "19th century",
+      "thumbnail": {
+        "alt_text": "Large marine landscape of boats on rough waves, storm clouds.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAADguGk4/KkxMR1pPQWFURW9hTmlkWnpvW39yX4RwUINyWY57WYp4ZJN8YZmAYZuBZaiRbamPc7Kac7ygfKGWgaybgqKekbSghZOip6Koo8u0lcGymuHEndLDqQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4EFlmHUZFddtmtBMzBMhjlIQwwJJSQCEADs=",
+        "width": 2907
+      },
+      "title": "Fishing Boats with Hucksters Bargaining for Fish"
+    },
+    {
+      "artist_display": "Jean-Auguste-Dominique Ingres\nFrench, 1780-1867",
+      "artist_title": "Jean Auguste Dominique Ingres",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 42,
+        "s": 61,
+        "l": 54,
+        "percentage": 0.00022724896942592364
+      },
+      "colorfulness": 20.9551,
+      "date_display": "1823–26",
+      "date_end": 1826,
+      "date_start": 1823,
+      "dimensions": "103 × 83.5 cm (40 1/2 × 32 3/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 111317,
+      "image_id": "8d119fd0-2f57-f20e-a3f5-a573904001e9",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "19th century",
+      "thumbnail": {
+        "alt_text": "Portrait of white man dressed in all black with medallion and sword.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAAwICBUYDhEXEBcdEiEZFCQdFw8nFRQlExMmFhQsGRopGiEjEzAlHDUnHD0vHzUwJDo4Ijg3KD45KD86KgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIDJFiiE9RyIAA8QQgVM0SwgAOw==",
+        "width": 1817
+      },
+      "title": "Amédée-David, the Comte de Pastoret"
+    },
+    {
+      "artist_display": "John Philip Simpson\nEnglish, 1782–1847",
+      "artist_title": "John Philip Simpson",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 40,
+        "s": 38,
+        "l": 70,
+        "percentage": 0.00011233329738667816
+      },
+      "colorfulness": 40.9302,
+      "date_display": "1827",
+      "date_end": 1827,
+      "date_start": 1827,
+      "dimensions": "127 × 101.5 cm (50 × 40 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 193664,
+      "image_id": "5c3cbb0f-03e6-7d46-60b6-f612ed71b5d3",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": null,
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Painting of a dark-skinned man seated and wearing a red open-necked tunic. He looks up to the right. His wrists are shackled and a large chain rests at his right, running down the bench he sits upon.",
+        "height": 4545,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAABcQDB4ZFCcdEjUtHjwxHzw0IkwnF0UoG2IsH0E2I0M3JUQ5JUY4J0k2KV4wIl0yJ2c1I28zKH9DNII6KQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIJEsStEwwyM5QTQhwAEZQggAOw==",
+        "width": 3626
+      },
+      "title": "The Captive Slave (Ira Aldridge)"
+    },
+    {
+      "artist_display": "Carl Blechen\nGerman, 1798-1840",
+      "artist_title": "Carl Blechen",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 37,
+        "s": 47,
+        "l": 62,
+        "percentage": 0.01743313475288859
+      },
+      "colorfulness": 33.3181,
+      "date_display": "1834",
+      "date_end": 1834,
+      "date_start": 1834,
+      "dimensions": "135 × 126 cm (52 1/2 × 50 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 144969,
+      "image_id": "38bb6be4-223e-af7a-7e18-f9ad0c388d3c",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Germany",
+      "style_title": "19th century",
+      "thumbnail": {
+        "alt_text": "Four women with musical instruments lounge in a massive garden courtyard.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAACUnCzAwCyouEzg5EDEwGDU4HD5AGU5IJElLLFFJLlJQKU5QOF5eNl9TOVlXOGNVOmdjPFtgQm1sTHluTIp7TpN+UpR9V4SCZIqNcAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVYHUMAXBJjCJgS4QQTvMkBTRZlBECADs=",
+        "width": 2095
+      },
+      "title": "The Interior of the Palm House on the Pfaueninsel Near Potsdam"
+    },
+    {
+      "artist_display": "Jan Sanders van Hemessen\nNetherlandish, active c. 1519–1556",
+      "artist_title": "Jan Sanders van Hemessen",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 39,
+        "s": 20,
+        "l": 37,
+        "percentage": 0.001836618720114432
+      },
+      "colorfulness": 42.935,
+      "date_display": "about 1540",
+      "date_end": 1580,
+      "date_start": 1495,
+      "dimensions": "99.1 × 77.2 cm (39 × 30 3/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 4575,
+      "image_id": "5b9758c9-24ef-8661-fac0-c9a4229eefd4",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on panel",
+      "place_of_origin": "Netherlands",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Painting of Judith, naked, holding sword, with head of Holophernes.",
+        "height": 4880,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAA4MDBENChQPDCAWDjQcDjQeDyweFEEwJFQ3JVQ4JV09Jlc8KlE9Ll9BK2VDKm5KMYthRIVjS5xzWLuEXQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIJM0wvEgARA5QyFBCzEpRggAOw==",
+        "width": 3775
+      },
+      "title": "Judith"
+    },
+    {
+      "artist_display": "Édouard Manet\nFrench, 1832-1883",
+      "artist_title": "Édouard Manet",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 52,
+        "s": 62,
+        "l": 47,
+        "percentage": 0.006925650478402625
+      },
+      "colorfulness": 0.0,
+      "date_display": "1864",
+      "date_end": 1864,
+      "date_start": 1864,
+      "dimensions": "73.5 × 92.4 cm (28 15/16 × 36 3/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 44892,
+      "image_id": "0cbe27e8-2fec-3445-bc48-ce40a8f2dc25",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "19th century",
+      "thumbnail": {
+        "alt_text": "Still-life painting, fish, open oysters, eel, lemon on tablecloth.",
+        "height": 13234,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAB4ZGC8oHi0pJC0qJDMqIzUsIzQtJDsrITcxKUlCNkhBO1RCMlhPP1ZQQmphUHltWHt3aYFoV4Z0YY2IZpeOfpqNfJuWfKGdiKqghq2ljKmllbankrCqlQAAAAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYYFAgwmAkTQMchBNt1cI8EqVZE5ZxF6SEADs=",
+        "width": 16704
+      },
+      "title": "Fish (Still Life)"
+    },
+    {
+      "artist_display": "Bernat Martorell\nSpanish, about 1400–1452",
+      "artist_title": "Bernat Martorell",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Art Institute Icons",
+        "Essentials"
+      ],
+      "color": {
+        "h": 42,
+        "s": 70,
+        "l": 48,
+        "percentage": 0.0035121824438292273
+      },
+      "colorfulness": 38.8631,
+      "date_display": "1434/35",
+      "date_end": 1435,
+      "date_start": 1434,
+      "dimensions": "155.6 × 98.1 cm (61 1/4 × 38 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 15468,
+      "image_id": "8a0e4ac9-43ea-bc3e-884b-ee27f8a10501",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Tempera on panel",
+      "place_of_origin": "Spain",
+      "style_title": "Renaissance",
+      "thumbnail": {
+        "alt_text": "St. George on white horse, piercing green, gold dragon",
+        "height": 10455,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAF5LJm1ZN25aN21bO3dgQ3VlS35tUHtqWIJuUIl0VZB/ZZaAXJ2IaKyNaqWUfAAAACH5BAAAAAAALAAAAAADAAUAAAQLsJxhSGNqORSSABEAOw==",
+        "width": 6524
+      },
+      "title": "Saint George and the Dragon"
+    },
+    {
+      "artist_display": "Francisco José de Goya y Lucientes\nSpanish, 1746-1828",
+      "artist_title": "Francisco José de Goya y Lucientes",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 37,
+        "s": 43,
+        "l": 47,
+        "percentage": 0.0009311143017294518
+      },
+      "colorfulness": 29.708,
+      "date_display": "c. 1806",
+      "date_end": 1811,
+      "date_start": 1801,
+      "dimensions": "29.2 × 38.5 cm (11 1/2 × 15 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 16362,
+      "image_id": "622998f1-73f9-4c96-08cf-60bda7c9ce4b",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on panel",
+      "place_of_origin": "Spain",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Small painting, friar shoots man with yellow pants as horse runs off.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAADYlEjcrHEw4IE05IU8+Iko5JVI8I1A+JlxDHllFKlhILFtJLl5KMlpKNl9RO2dMLWpTO3RWMnJYN3BZPHdfPGVYQ3NfSHRnTnNmUYBlSIl4X5aEZ5+NbZ2McaKRcqiZea6ce7ajgL2ohQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQAcnBPp4NpVJRtTBaBiAgAVCuTQEg4UCQZBEHolDwRAEADs=",
+        "width": 2977
+      },
+      "title": "Friar Pedro Shoots El Maragato as His Horse Runs Off"
+    },
+    {
+      "artist_display": "Joachim Antonisz. Wtewael\nDutch, c. 1566-1638",
+      "artist_title": "Joachim Antonisz. Wtewael",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 6,
+        "s": 76,
+        "l": 33,
+        "percentage": 0.01983186981479237
+      },
+      "colorfulness": 45.9902,
+      "date_display": "c. 1608",
+      "date_end": 1613,
+      "date_start": 1603,
+      "dimensions": "15.6 × 20.3 cm (6 1/8 × 8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 105466,
+      "image_id": "9bc9134c-6b57-80be-c118-566667a615ae",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on copper",
+      "place_of_origin": "Netherlands",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Animated scene of many mostly nude figures in close combat, on earth and aloft in low-hanging clouds, reaching toward one another with long spears.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAGI1Hk02IkY4KEZAOH9MJnVHKHpNLHtNL2dGOmdOPmpNPXtVMnhcO2VPQWxXQm1bSHNjUXhhW4xVNYZbN4xZModiOoFeQ4xjRZZpSYZqUIlvWJtzUIZ2ZZB6ZAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYYMBsGDQIT+coSaNxEXJZ2SQdREEZ1QKEADs=",
+        "width": 2939
+      },
+      "title": "The Battle between the Gods and the Giants"
+    },
+    {
+      "artist_display": "Giovanni di Paolo\nItalian, 1398–1482",
+      "artist_title": "Giovanni di Paolo",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 13,
+        "s": 83,
+        "l": 35,
+        "percentage": 0.0116768046076207
+      },
+      "colorfulness": 37.7769,
+      "date_display": "1455/60",
+      "date_end": 1460,
+      "date_start": 1455,
+      "dimensions": "68.6 × 39.1 cm (27 × 15 3/8 in.); Painted surface: 66.3 × 36.6 cm (26 1/16 × 14 7/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 16169,
+      "image_id": "7b642fae-1cc9-ee08-0f4c-f8b2974c71c9",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Tempera on panel",
+      "place_of_origin": "Italy",
+      "style_title": "Renaissance",
+      "thumbnail": {
+        "alt_text": "A headless figure leans out of the first-floor window of a light-colored stone building from which two iron bars have been detatched, his blood spurting to the ground. A figure bends to collect the head while another looks away to sheath a long sword. From right, a robed man beholds the guesome scene.",
+        "height": 5231,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAGVZQIlwWYR4W5mPc7iVb6qXd6Wbgq2ggr+xi72xk7awn8Cmh8mxk9fEn9HDoQAAACH5BAAAAAAALAAAAAADAAUAAAQLUKXj0DBAtBIIWxEAOw==",
+        "width": 2874
+      },
+      "title": "The Beheading of Saint John the Baptist"
+    },
+    {
+      "artist_display": "Artist unknown\nJapanese, active 14th century",
+      "artist_title": null,
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of Asia",
+        "Essentials",
+        "Arts of Asia 100"
+      ],
+      "color": {
+        "h": 40,
+        "s": 42,
+        "l": 61,
+        "percentage": 0.362478790335901
+      },
+      "colorfulness": 35.5317,
+      "date_display": "14th century",
+      "date_end": 1400,
+      "date_start": 1301,
+      "dimensions": "30.5 × 1176.9 cm (12 × 460 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 56731,
+      "image_id": "f3ffa7dd-dcff-47a7-2ca9-7b15f87f0106",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Handscroll; ink, colors, and gold on paper",
+      "place_of_origin": "Japan",
+      "style_title": "Japanese (culture or style)",
+      "thumbnail": {
+        "alt_text": "Long painted scroll, green, brown mountains, wooden house, Amida Buddha on cloud.",
+        "height": 1404,
+        "lqip": "data:image/gif;base64,R0lGODlhCwAFAPUAAJqRX6eYZqOVaayaaaSadqqeeaqee6yffKKia62garOhb7Cjbragb7WkcLuqdbSlebqleL6peb6veLuofLypfr2pfr6xe8CrfMCrfca0f7SpgL2sg76xjsKugsWvg8CuhsCviMOzgcezhMi1g8Wzicm0jM24jce5lMi5kMu6lcm8lMy/ldC9lc/AltTBltnEldXFnN/No9vMpOPOpOLQrenUruDQsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAALAAUAAAYyQM0DEKB0PBhIZaJqIUKuWW0jGFxWMEljkSEZDhybLGZxjF6mDytFQ4kSigijBCoQTkEAOw==",
+        "width": 3000
+      },
+      "title": "Legends of the Yūzū Nembutsu Sect"
+    },
+    {
+      "artist_display": "Claude Monet\nFrench, 1840-1926",
+      "artist_title": "Claude Monet",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 197,
+        "s": 41,
+        "l": 37,
+        "percentage": 0.08651191298367858
+      },
+      "colorfulness": 27.0599,
+      "date_display": "1906",
+      "date_end": 1906,
+      "date_start": 1906,
+      "dimensions": "89.9 × 94.1 cm (35 3/8 × 37 1/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 16568,
+      "image_id": "3c27b499-af56-f0d5-93b5-a7f2f1ad5813",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Painting of a pond seen up close spotted with thickly painted pink and white water lilies and a shadow across the top third of the picture.",
+        "height": 8460,
+        "lqip": "data:image/gif;base64,R0lGODlhBQAFAPQAAEZcaFFfdVtqbk9ldFBlcVFocllrcFlrd11rdl9sdFZtf15wcWV0d2R2eGByfmd6eGl6e2t9elZxiGF4kWB4kmJ9kGJ8lWeCkWSAnQAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAFAAUAAAUVoJBADXI4TLRMWHU9hmRRCjAURBACADs=",
+        "width": 8808
+      },
+      "title": "Water Lilies"
+    },
+    {
+      "artist_display": "Claude Monet\nFrench, 1840-1926",
+      "artist_title": "Claude Monet",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 210,
+        "s": 40,
+        "l": 31,
+        "percentage": 0.01066282804856918
+      },
+      "colorfulness": 11.3485,
+      "date_display": "1867",
+      "date_end": 1867,
+      "date_start": 1867,
+      "dimensions": "75.8 × 102.5 cm (29 13/16 × 40 5/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 14598,
+      "image_id": "95be2572-b53d-8e7b-abc9-10eb48d4fa5d",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Painting of a beach on a cloudy day with several sailboats on the water, a few rowboats on the shore, and two groupings of people on the sand.",
+        "height": 5021,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAF5iZnRzb3d0c3x5cXR5fH1/eneGh36QkYaEgoGIjoaLjYmMjIuPj4mPkIuQkoyRlI6UmI6UmZKWk5SWkJKWlpKXm5KYnZaanJacn5idn5menpycnZyenKCko6enpaeqqK+tqKuurLGzsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQIXj0vmERBZMpJKBaAoLBqWReAwCEwLAcBAgQJ4NRxIEADs=",
+        "width": 6793
+      },
+      "title": "The Beach at Sainte-Adresse"
+    },
+    {
+      "artist_display": "Georges Seurat\nFrench, 1859-1891",
+      "artist_title": "Georges Seurat",
+      "artwork_type_title": "Painting",
+      "boost_rank": 14,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Art Institute Icons",
+        "Essentials"
+      ],
+      "color": {
+        "h": 59,
+        "s": 12,
+        "l": 52,
+        "percentage": 0.002095873918287094
+      },
+      "colorfulness": 0.0,
+      "date_display": "1884/86",
+      "date_end": 1886,
+      "date_start": 1884,
+      "dimensions": "207.5 × 308.1 cm (81 3/4 × 121 1/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 27992,
+      "image_id": "2d484387-2509-5e8e-2c43-22f9981972eb",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Large painting of people in a crowded park, brushstrokes are dots.",
+        "height": 6237,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAE1WUFVTU1NWUFZYVllbVlpaW1tcWF1cXVxiWl1jWl9mX2NmVWVnXF9eZlxdaGZkYmpmZWRtYGZuY2htZGpsanBsZXVwZXB5Znp+ZXJwaYSAaYiBaYqIbIeAdI2DcYqFcI+FcoiCd5iRcouJgIyKhoyNi4mMjo2RkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwBLmMmEkCAHTaRTqfB4QEmgj8mgaGY6lsohIHAXKwQBQIAaCIAA7",
+        "width": 9310
+      },
+      "title": "A Sunday on La Grande Jatte — 1884"
+    },
+    {
+      "artist_display": "George Inness\nAmerican, 1825–1894",
+      "artist_title": "George Inness",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 43,
+        "s": 23,
+        "l": 32,
+        "percentage": 0.1823254579013409
+      },
+      "colorfulness": 32.9311,
+      "date_display": "1892",
+      "date_end": 1892,
+      "date_start": 1892,
+      "dimensions": "107.2 × 82.2 cm (42 3/16 × 32 3/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 64729,
+      "image_id": "ef96e79b-f481-8114-0804-4bd39c101983",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "United States",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "A work made of oil on canvas.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADUuJDsvIlc/JVY7KGI/I05CMUxNO1tOPGNBJmJaUGNkTnBgT2hsVXNjVXZlW25xZJOBb6CGb4iKho2MiQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURoMJAkfFIk9MkC4EMQgAURwgAOw==",
+        "width": 1712
+      },
+      "title": "Early Morning, Tarpon Springs"
+    },
+    {
+      "artist_display": "William Sidney Mount\nAmerican, 1807–1868",
+      "artist_title": "William Sidney Mount",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Drinking and Dining",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 47,
+        "s": 70,
+        "l": 92,
+        "percentage": 0.0006906780904822832
+      },
+      "colorfulness": 32.928,
+      "date_display": "1835",
+      "date_end": 1835,
+      "date_start": 1835,
+      "dimensions": "57.4 × 69.7 cm (22 5/8 × 27 7/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 30709,
+      "image_id": "82a87cf0-6082-a7f7-c2cf-0fc9283ed966",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Long Island",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "In a beige room, a group of light-skinned men of various ages and a young boy clap as a figure in tattered clothing at center, his back to the viewer, dances and holds a tin cup in the air. At dark figure in shadows looks on from the far-right corner.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAFY9K1ZALVtCLmRGLWRIL2lLLmlLMWpPMm1NMWlNN3JNNHJSMXRTN3FUNnRXNHVYNnVZNnhXOHpXPnZYOXlbOnpePn9gOHleQHleR4llPopnRI1pQZh1Rpt1RgAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYYHI4FvRgE9dRjaRdVSQoDBAQxlBs2YKEADs=",
+        "width": 2762
+      },
+      "title": "Bar-room Scene"
+    },
+    {
+      "artist_display": "James McNeill Whistler\nAmerican, 1834–1903",
+      "artist_title": "James McNeill Whistler",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Art Institute Icons",
+        "Essentials",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 37,
+        "s": 21,
+        "l": 44,
+        "percentage": 0.001277816467220813
+      },
+      "colorfulness": 6.4541,
+      "date_display": "1872",
+      "date_end": 1872,
+      "date_start": 1872,
+      "dimensions": "51 × 76.7 cm (20 1/16 × 30 3/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 56905,
+      "image_id": "50034c7f-ce51-00f1-430e-a6f7efc233fc",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "London",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "A sparsely painted waterside scene in dark tones with minimal ghostly shapes suggesting ships, yellow glitches of paint for light reflections, and the orb of an orange moon overhead.",
+        "height": 4256,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAEpORE9SRVFTR1FSSVJTSlJVS1VWSVJUTFJWTFVXTVRXT1VXT1VYTFdZT1dbUVdaUlhaUVhbUVlcU11fUltdVFteVV1gV19iWV5iWmJlXGhsXmRnYGdqYGdqYWhrY2hsYGxuYnBzZnN1a3V4bQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwNBI5OFwPhrMBtTJUBoTh+VSgSwGBoSk8lgsEgxAIaI4EASBIAA7",
+        "width": 6442
+      },
+      "title": "Nocturne: Blue and Gold—Southampton Water"
+    },
+    {
+      "artist_display": "George Inness\nAmerican, 1825–1894",
+      "artist_title": "George Inness",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Essentials",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 40,
+        "s": 66,
+        "l": 43,
+        "percentage": 0.005567189554239415
+      },
+      "colorfulness": 40.2645,
+      "date_display": "1893",
+      "date_end": 1893,
+      "date_start": 1893,
+      "dimensions": "76.2 × 115.2 cm (30 × 45 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 64724,
+      "image_id": "0f2d999d-0173-2935-a6d0-0175bb97b2a9",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Florida",
+      "style_title": "Post-Impressionism",
+      "thumbnail": {
+        "alt_text": "A heronǳ silhouette sits amongst the brush in a golden hued forest.",
+        "height": 4601,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAAD0rDUQsCkIwDkMwDkszC0kzD1I4Dlk6DF87DFw9D0k1EUs2EUg1E0k1E004EFA5EVI6EVA4E18+EWE/EV1AE1tAFV1BFl9FGWBBD2FBEGJBE2dCEGZGEWVHE2ZHE2hEEW1NEm9NEmxJF21OF2lLGHFOEnBJFndSGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwIqFpBA8HKMI49JYQAaAAuUkMmkkAQMBMflgEodOZuMBlUKcIAA7",
+        "width": 7000
+      },
+      "title": "The Home of the Heron"
+    },
+    {
+      "artist_display": "John Henry Twachtman\nAmerican, 1853–1902",
+      "artist_title": "John Henry Twachtman",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Essentials",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 173,
+        "s": 52,
+        "l": 36,
+        "percentage": 0.0025203391368342526
+      },
+      "colorfulness": 21.4028,
+      "date_display": "c. 1889",
+      "date_end": 1889,
+      "date_start": 1889,
+      "dimensions": "642 × 76.6 cm (25 1/4 × 30 1/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 72801,
+      "image_id": "3ae75415-0551-ae17-c478-3b8687a6f246",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Connecticut",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Winter landscape painting with rocky stream lined by orange leafed trees.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAHyNh3yVk36bl5Gjn5Smo5qrqJquq6WyrqS3tb3FubnFvMXEvbbGwLrHwsDJw8jLwMjMxc3Px8POzMnSyszSydHWy9XVytfYzc/b2NbZ09Xa0tfd1Obl2+Xk3QAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4KYwGJRMlSMtj0YYSGEBQnA010BFXJeFADs=",
+        "width": 2689
+      },
+      "title": "Icebound"
+    },
+    {
+      "artist_display": "Thomas Cole\nAmerican, born England, 1801–1848",
+      "artist_title": "Thomas Cole",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 16,
+        "s": 89,
+        "l": 30,
+        "percentage": 0.016167737552204534
+      },
+      "colorfulness": 29.8417,
+      "date_display": "1830",
+      "date_end": 1830,
+      "date_start": 1830,
+      "dimensions": "47.9 × 60.6 cm (18 7/8 × 23 7/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 90048,
+      "image_id": "18092196-50ae-3ff1-9205-1b3110e966c3",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on panel",
+      "place_of_origin": "Niagara Falls",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Painting of a vast autumn scene with two very small figures in Indigenous clothing standing on a cliff overlooking a massive waterfall in the distance.",
+        "height": 8127,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAACMQBS0dEC8cETMeFTkiDSkiGDYlFz8uGzsuHTw1KT03KU0kEEU5JUQ8MUA+NVhHLXJIJFJNQ1VUTWJcUnJgTIltV4R9ZpOAYZmKbY6Bd5ONccG3msOyo8K6tQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYoCNNGddFidJQ1XFt2kMsEGYxwhAABlKEADs=",
+        "width": 10490
+      },
+      "title": "Distant View of Niagara Falls"
+    },
+    {
+      "artist_display": "George Wesley Bellows\nAmerican, 1882–1925",
+      "artist_title": "George Wesley Bellows",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 42,
+        "s": 70,
+        "l": 49,
+        "percentage": 0.001933131233249857
+      },
+      "colorfulness": 38.5587,
+      "date_display": "1914",
+      "date_end": 1914,
+      "date_start": 1914,
+      "dimensions": "81.6 × 101.6 cm (32 1/2 × 40 1/2 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 109780,
+      "image_id": "18ab0c35-e35c-0216-9afd-f93357920db1",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "New York",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "A work made of oil on canvas.",
+        "height": 4619,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAB1CTzpHSyRIUyFHWCNJWi1NWCNTaDpfbUJTXEtpbkBkdk1vdUNsf1RvcVVzd2B4cWd8fW56eHOBbpeZfjx1jzlzkVl9hUN7mHiCg2qMkIqej46imo2jnKywoAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUY4DIY1FUBQkEwipNZRwJFmNQ8wdZNGoeEADs=",
+        "width": 5766
+      },
+      "title": "Love of Winter"
+    },
+    {
+      "artist_display": "Henry Ossawa Tanner\nAmerican, 1859–1937",
+      "artist_title": "Henry Ossawa Tanner",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "African American artists",
+        "African Diaspora",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 41,
+        "s": 86,
+        "l": 49,
+        "percentage": 0.0015816528272044285
+      },
+      "colorfulness": 50.2864,
+      "date_display": "c. 1906",
+      "date_end": 1906,
+      "date_start": 1906,
+      "dimensions": "129.5 × 105.7 cm (51 × 41 7/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 87643,
+      "image_id": "46ff0699-8905-a7d7-92f3-5210c2cc5e51",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Paris",
+      "style_title": "Post-Impressionism",
+      "thumbnail": {
+        "alt_text": "A work made of oil on canvas.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAB8aDzEbDCMbEDQjDzghDSUgGScgGzciEjQoGEgiBkApDEYqDVEzCls4DEA7J049IWhACWhDC2VSIYdcEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4IA8DkNAU5QoUhMIwHIYRQgAOw==",
+        "width": 1806
+      },
+      "title": "The Two Disciples at the Tomb"
+    },
+    {
+      "artist_display": "John Singer Sargent\nAmerican, 1856–1925",
+      "artist_title": "John Singer Sargent",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Art Institute Icons",
+        "Essentials",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 37,
+        "s": 15,
+        "l": 53,
+        "percentage": 0.03304837318835822
+      },
+      "colorfulness": 20.5562,
+      "date_display": "1907",
+      "date_end": 1907,
+      "date_start": 1907,
+      "dimensions": "71.4 × 56.5 cm (28 1/8 × 22 1/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 69780,
+      "image_id": "3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Frascati",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Portrait of a woman in white with a bonnet perched on an architectural feature painting something to her right, a spouting water fountain, greenery, and a an ornate, low white fence behind her. Beside her, a man leans back, eying the canvas.",
+        "height": 5675,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAC0wJi81KkA0KUJGNFNBNlRIOllJOVlOQmRXRWJcT2ptX3JjUnFtZGtzbYJ8c5CCdZGMfpicmKGckKKgnQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYBMNATMpwCNByeEshUAYSAgAOw==",
+        "width": 4415
+      },
+      "title": "The Fountain, Villa Torlonia, Frascati, Italy"
+    },
+    {
+      "artist_display": "James McNeill Whistler\nAmerican, 1834–1903",
+      "artist_title": "James McNeill Whistler",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 60,
+        "s": 3,
+        "l": 47,
+        "percentage": 6.191229751583098e-05
+      },
+      "colorfulness": 9.1897,
+      "date_display": "1894",
+      "date_end": 1894,
+      "date_start": 1894,
+      "dimensions": "210.7 × 93.3 cm (82 15/16 × 36 3/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 8958,
+      "image_id": "43165650-0212-8897-0605-dc3fdda88c13",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Paris",
+      "style_title": "Modernism",
+      "thumbnail": {
+        "alt_text": "Very dark painting of a light-skinned, mostly clean-shaven young man in dark suit and dark full-length coat, holding a rolled-up paper and gloves.",
+        "height": 14715,
+        "lqip": "data:image/gif;base64,R0lGODlhAgAFAPMAACclICooIiooIyopIy0qIzIuJTEuJzs1KkI7LgAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAACAAUAAAQI8CBRRhDAkAgAOw==",
+        "width": 6473
+      },
+      "title": "Arrangement in Flesh Color and Brown: Portrait of Arthur Jerome Eddy"
+    },
+    {
+      "artist_display": "John Smibert\nAmerican, born Scotland, 1688–1751",
+      "artist_title": "John Smibert",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 42,
+        "s": 12,
+        "l": 40,
+        "percentage": 0.11749742868762245
+      },
+      "colorfulness": 39.5711,
+      "date_display": "1733",
+      "date_end": 1733,
+      "date_start": 1733,
+      "dimensions": "127.6 × 102.2 cm (50 1/4 × 40 1/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 49702,
+      "image_id": "10bdba64-db41-0811-f681-c904afded43c",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "United States",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Portrait of a light-skinned man in a long white wig and red-orange coat, holding a folded piece of paper and standing next to a desk, a large sailing ship off his left shoulder.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADIoFzYpFjcvHjgqHx4qJEMbCkkuHVYrF3YtEEY5J1E8LmY+KHI8JlpPOHlTO1VRRWRWQGtfRHhmUXN0YwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURINBAj+BIk4EskcIcCTEUQQgAOw==",
+        "width": 1802
+      },
+      "title": "Richard Bill"
+    },
+    {
+      "artist_display": "Raphaelle Peale\nAmerican, 1774–1825",
+      "artist_title": "Raphaelle Peale",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Drinking and Dining",
+        "Essentials",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 44,
+        "s": 95,
+        "l": 47,
+        "percentage": 0.013551412882090923
+      },
+      "colorfulness": 37.3636,
+      "date_display": "1822",
+      "date_end": 1822,
+      "date_start": 1822,
+      "dimensions": "41.1 × 57.8 cm (16 3/16 × 22 3/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 120154,
+      "image_id": "1cddae1c-99d5-462f-4aa6-128c0732ac11",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on wood panel",
+      "place_of_origin": "Philadelphia",
+      "style_title": "Realism",
+      "thumbnail": {
+        "alt_text": "Still life painting of strawberries, nuts, lemon, and porcelain vessels.",
+        "height": 4024,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAABQTEhETFR8aEhkYFxoYFhsZGBwaGR0bGh4cGx8dHDcdFSskGz4kETYrGjYsHDksGVUqF0w+KUo9LUw/L2ZQBE5ALExCLVREOFBKPlpOPV1QOV1SPXRZJFZQRFtUQ1tURGpfRmxkU3NqVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwAMiQRgYFgEFpAAQODoXBgUjeoQ+E44k09BsQB5LpBIEADs=",
+        "width": 5617
+      },
+      "title": "Still Life - Strawberries, Nuts, &c."
+    },
+    {
+      "artist_display": "Winslow Homer\nAmerican, 1836–1910",
+      "artist_title": "Winslow Homer",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Essentials",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 44,
+        "s": 14,
+        "l": 50,
+        "percentage": 0.35541476102642866
+      },
+      "colorfulness": 25.6524,
+      "date_display": "1885",
+      "date_end": 1885,
+      "date_start": 1885,
+      "dimensions": "76.5 × 122.9 cm (30 1/8 × 48 3/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 25865,
+      "image_id": "5dca7347-c6dc-24dd-d073-d705b9cdc575",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "New England",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Painting of two fishermen in small wooden boat on rocky seas.",
+        "height": 6124,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAACkcEzYsGz00JkJCM0BHPVJFM1hGMllJNkVOQFVVQ1JVRVVaTWxeSGBfUGlhT2lkUmhmVmJoVmZnWW9qWWttXXppUYBqUIVuU4VwVot1Vox1VIdxWIp1WI52XI14XI15X5B5XJB6XZV+XouDaJiCZIOIcI+VfpuQdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQMsF4yGFQJlN51M5cESah8NQADBOowZEEBhQTKWJhIBIRBaKIAA7",
+        "width": 6000
+      },
+      "title": "The Herring Net"
+    },
+    {
+      "artist_display": "William Merritt Chase\nAmerican, 1849–1916",
+      "artist_title": "William Merritt Chase",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 39,
+        "s": 47,
+        "l": 62,
+        "percentage": 0.017265473927103137
+      },
+      "colorfulness": 43.4204,
+      "date_display": "c. 1887",
+      "date_end": 1887,
+      "date_start": 1887,
+      "dimensions": "34.6 × 49.9 cm (13 5/8 × 19 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 28849,
+      "image_id": "72a76270-d6f4-e744-d47b-307873a8e8ff",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "New York City",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Small painting of woman in pink and black sitting on park bench.",
+        "height": 2080,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAAEdhPFZmP0ZbQkplQm14U3R8X2eAWXaGVXGTXYyrQJGvVpi0XoieZ4+OdpKReKSVeLGnZretd6CqjKCmlMC3j8+3kc65l866lse6mdS9kdq9k9S8mtG+otO/pc3AoNXCptnY1NrY1d/d2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhQIBBIgqBJoIBwdEoBBiIw8ODoSgWkQ2n80lANJmK5RIEADs=",
+        "width": 3000
+      },
+      "title": "A City Park"
+    },
+    {
+      "artist_display": "William Glackens\nAmerican, 1870–1938",
+      "artist_title": "William James Glackens",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Drinking and Dining",
+        "Essentials",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 193,
+        "s": 43,
+        "l": 39,
+        "percentage": 0.0031859613797761547
+      },
+      "colorfulness": 20.1327,
+      "date_display": "1905",
+      "date_end": 1905,
+      "date_start": 1905,
+      "dimensions": "122.4 × 92.1 cm (48 1/8 × 36 1/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 15401,
+      "image_id": "b146368d-a855-63ac-6115-04b835c60bb0",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "United States",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Opulently dressed light-skinned man and woman drink at a small table. A mirror behind them reflects a crowd. Her blue dress and dark hat dominate.",
+        "height": 5835,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAADs6Nzk7OT49OV1eWWNeV3NnWF5wc29wZnVwYn94Z316aH58bGl3dnd7coCGfG+DhXSGhYCOjIuRiJiekwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4AIUiXIgRBBNjvE0EsQIQwgAOw==",
+        "width": 4400
+      },
+      "title": "At Mouquin's"
+    },
+    {
+      "artist_display": "Winslow Homer\nAmerican, 1836–1910",
+      "artist_title": "Winslow Homer",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Essentials",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 7,
+        "s": 76,
+        "l": 33,
+        "percentage": 0.05942759891689154
+      },
+      "colorfulness": 39.2374,
+      "date_display": "1866",
+      "date_end": 1866,
+      "date_start": 1866,
+      "dimensions": "40.3 × 66.2 cm (15 7/8 × 26 1/16 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 44018,
+      "image_id": "f7b2db45-f393-653c-07ef-84319b0cdb92",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "United States",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Painting of four figures in blue, red, brown dresses playing croquet.",
+        "height": 1826,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAACskDzQpDjkqDz8wBT40CT4yDi8oEzcrFD4wEz02G0AsEEksEEM3FkI3F0o+EkQ0GEY+GkU9H0c+IUc7JUk6IktCFU5AGEtEG1JMHGVNGkxHJE1HKUxMK0JINVpUMXFQNnJTPzZLQidhbkJlXmllT3p7XXl9Z5E/MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwI1AEQAkGI3HhHQwfBaIjGcUoZxAGEtI1JGYShWIhnNxEAaFIAA7",
+        "width": 3000
+      },
+      "title": "Croquet Scene"
+    },
+    {
+      "artist_display": "John Singleton Copley\nAmerican, 1738–1815",
+      "artist_title": "John Singleton Copley",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Essentials",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 40,
+        "s": 44,
+        "l": 38,
+        "percentage": 0.006584020470723985
+      },
+      "colorfulness": 25.9213,
+      "date_display": "c. 1764",
+      "date_end": 1764,
+      "date_start": 1764,
+      "dimensions": "127.6 × 100.9 cm (50 1/4 × 39 3/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 59787,
+      "image_id": "92777387-4f55-e3fa-10ba-a549810aca95",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "England",
+      "style_title": "american colonial",
+      "thumbnail": {
+        "alt_text": "Painted portrait of woman in green dress and cloud backdrop.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAB0WCRMYEhUZEBkdEi4jDyUqJiwuKDAwITk5LC4zMTY4NU1BI1lLJlJOPWBWOGZaPWZaQWNbSWhiUX5wUwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAUR4GAoiRBJRfBMyOFAzcIQQAgAOw==",
+        "width": 1783
+      },
+      "title": "Mrs. Daniel Hubbard (Mary Greene)"
+    },
+    {
+      "artist_display": "Martin Johnson Heade\nAmerican, 1819–1904",
+      "artist_title": "Martin Johnson Heade",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Essentials",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 59,
+        "s": 55,
+        "l": 40,
+        "percentage": 0.0016030265140585425
+      },
+      "colorfulness": 28.5248,
+      "date_display": "1885/95",
+      "date_end": 1895,
+      "date_start": 1885,
+      "dimensions": "38.6 × 61.8 cm (15 1/4 × 24 3/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 100829,
+      "image_id": "0729fbba-51e3-a2d7-6d4d-61c2be62af3f",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Florida",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Still life of sensuously detailed painting of four white magnolias lying on blue velvet cloth.",
+        "height": 6148,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAACAbFSUdFiAcGCQgGTIrHDkxHiEmICQrJyQuJDkvIC4xICwxJCYwKikwKjg8LS86M0E3JEY8JElNJ0pFLUhJKFBDK1dMLlxPMUxTPFdSMVtTNmZYNUBKQkNQQF1XQ2RhQHl/X4F/W4CAU4mKYJSScaCfd7KuitTQpwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlwM2lAkkEBICJJZKheAgDhsRUGp00hUcHJAqRPpgGB+FQGBaHIAA7",
+        "width": 10004
+      },
+      "title": "Magnolias on Light Blue Velvet Cloth"
+    },
+    {
+      "artist_display": "Albert Bierstadt\nAmerican, born Germany, 1830–1902",
+      "artist_title": "Albert Bierstadt",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 37,
+        "s": 32,
+        "l": 48,
+        "percentage": 0.0058452387092337585
+      },
+      "colorfulness": 21.7576,
+      "date_display": "1863",
+      "date_end": 1863,
+      "date_start": 1863,
+      "dimensions": "111.8 × 91.4 cm (44 × 36 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 146701,
+      "image_id": "d55b0cfc-0716-d6cd-3b38-5742903ce046",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "United States",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Painting of a small stream in the middle of the woods. In the center of the painting, there is a small waterfall over a large boulder. Radiant beams of sunlight penetrate the thick forest of birch and other trees, and a small bird sings from a broken branch over the waterfall.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAACwmHCwmHTQrHzMsHTQsHjUsHzUtHy0oIDYxIDkyITk0Iz80I0E3JkE2J0I6JUg5J0E2KEY6KUI6LEo+LQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURIIAMBOMYwjNFSwBJSVMcSggAOw==",
+        "width": 1832
+      },
+      "title": "Mountain Brook"
+    },
+    {
+      "artist_display": "Mary Cassatt\nAmerican, 1844–1926",
+      "artist_title": "Mary Cassatt",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Art Institute Icons",
+        "Essentials",
+        "Women artists",
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 208,
+        "s": 45,
+        "l": 32,
+        "percentage": 0.004150916245579274
+      },
+      "colorfulness": 20.6902,
+      "date_display": "1893",
+      "date_end": 1893,
+      "date_start": 1893,
+      "dimensions": "100.3 × 66.1 cm (39 1/2 × 26 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 111442,
+      "image_id": "5de963b1-55e2-b349-6cd5-85f9bd2687ec",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Impressionism",
+      "thumbnail": {
+        "alt_text": "Painting of mother in blue, purple, and green-stripped dress washing child's feet.",
+        "height": 4894,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAENDPFhJPV9WTVtbSF9dWGNVV2tiXmhnbmNpc2dqdIJ4d296iYyHjoiJj6aengAAACH5BAAAAAAALAAAAAADAAUAAAQLkICBlEjuFLaCaREAOw==",
+        "width": 3209
+      },
+      "title": "The Child's Bath"
+    },
+    {
+      "artist_display": "Vincent van Gogh\nDutch, 1853-1890",
+      "artist_title": "Vincent van Gogh",
+      "artwork_type_title": "Painting",
+      "boost_rank": 2,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 40,
+        "s": 84,
+        "l": 33,
+        "percentage": 0.30623617995004176
+      },
+      "colorfulness": 65.636,
+      "date_display": "1889",
+      "date_end": 1889,
+      "date_start": 1889,
+      "dimensions": "73.6 × 92.3 cm (29 × 36 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 28560,
+      "image_id": "25c31d8d-21a4-9ea1-1d73-6a2eca4dda7e",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Saint-Rémy-de-Provence",
+      "style_title": "Post-Impressionism",
+      "thumbnail": {
+        "alt_text": "Painting of bedroom, blue walls, green window, tan bed, red bedding.",
+        "height": null,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAHhwV3N+bnh/aXR8dJtsG6VsAJx4IIp8PIx0QYZ2SoZ/bIx+b3CGboiAQoKAVoWAVpiLYZqNYIiAcoeIc5SNdJeJfJiKfXyCgneAkXmLp3eFqomMgIWJmZOerAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYoMYEXJdhgwBF1wM4RIE01HYYiVJZk7SEADs=",
+        "width": null
+      },
+      "title": "The Bedroom"
+    },
+    {
+      "artist_display": "William Michael Harnett\nAmerican, born Ireland, 1848–1892",
+      "artist_title": "William Michael Harnett",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Arts of the Americas"
+      ],
+      "color": {
+        "h": 37,
+        "s": 65,
+        "l": 50,
+        "percentage": 0.001190206976993299
+      },
+      "colorfulness": 23.114,
+      "date_display": "1888",
+      "date_end": 1888,
+      "date_start": 1888,
+      "dimensions": "94.3 × 53.6 cm (37 1/8 × 21 1/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 111377,
+      "image_id": "3cea045a-92d6-36cf-1508-2c99ea740218",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "United States",
+      "style_title": "Realism",
+      "thumbnail": {
+        "alt_text": "A plucked chicken, a few stray feathers remaining, hangs upside-down by one foot, illuminated. Behind it the metal hinges and wood panels of a door are visible.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAABoYGR0bGywnIiglJCwoJS4oJC8qKDEsKDMuKDoxKTsyKTw1L01CNFRJPHBgSAAAACH5BAAAAAAALAAAAAADAAUAAAQLkIij0mgOLBZMQREAOw==",
+        "width": 1269
+      },
+      "title": "For Sunday's Dinner"
+    },
+    {
+      "artist_display": "Amedeo Modigliani\nItalian, 1884–1920",
+      "artist_title": "Amedeo Modigliani",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Modern Art",
+        "Essentials"
+      ],
+      "color": {
+        "h": 66,
+        "s": 4,
+        "l": 45,
+        "percentage": 0.00034545178717975094
+      },
+      "colorfulness": 23.4946,
+      "date_display": "1916",
+      "date_end": 1916,
+      "date_start": 1916,
+      "dimensions": "81.3 × 54.3 cm (32 × 21 3/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 27987,
+      "image_id": "7e649536-b186-c3f5-3e6d-0d22d5d798ef",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Italy",
+      "style_title": "Modernism",
+      "thumbnail": {
+        "alt_text": "Large painting, standing man blue turtleneck, sitting woman with white collar.",
+        "height": 13930,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAADAmJDEpJjYsKjcyMUg1KE5FPVxDNlNGPllDOFJORldNRVNRSkxTU2hPQWpkWQAAACH5BAAAAAAALAAAAAADAAUAAAQLsDlWVhqBAIPEUREAOw==",
+        "width": 9289
+      },
+      "title": "Jacques and Berthe Lipchitz"
+    },
+    {
+      "artist_display": "Paul Gauguin\nFrench, 1848-1903",
+      "artist_title": "Paul Gauguin",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 41,
+        "s": 82,
+        "l": 43,
+        "percentage": 0.00544146614863909
+      },
+      "colorfulness": 36.3819,
+      "date_display": "1893",
+      "date_end": 1893,
+      "date_start": 1893,
+      "dimensions": "75 × 53 cm (29 1/2 × 20 7/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 60812,
+      "image_id": "48268fc7-2eb4-ded6-1293-e91f27b66478",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on jute canvas",
+      "place_of_origin": "France",
+      "style_title": "Post-Impressionism",
+      "thumbnail": {
+        "alt_text": "A young girl with medium skin wears a striking dress of black and white stripes with a short lace collar. Behind her is backdrop featuring symbols and native figures. Mangos sit beside her.",
+        "height": 6655,
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAFZEMVNMPVZUP2hcPmxjP01MQFxaRVxgUGFgTnFoQHhvRHhzT2diUnRoVldhYntyYnV5cnB4eaeQd3V/ggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYKIQi3EMSOBMkfBIENAwRQgAOw==",
+        "width": 4678
+      },
+      "title": "Merahi metua no Tehamana (Tehamana Has Many Parents or The Ancestors of Tehamana)"
+    },
+    {
+      "artist_display": "Arnold Böcklin\nSwiss, 1827-1901",
+      "artist_title": "Arnold Böcklin",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 174,
+        "s": 19,
+        "l": 51,
+        "percentage": 0.00895275185210054
+      },
+      "colorfulness": 24.3231,
+      "date_display": "1883",
+      "date_end": 1883,
+      "date_start": 1883,
+      "dimensions": "86.5 × 115 cm (34 3/8 × 45 3/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 110507,
+      "image_id": "fa81bfb9-5a07-5e3c-33b4-4efde68981c8",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on panel",
+      "place_of_origin": "Switzerland",
+      "style_title": null,
+      "thumbnail": {
+        "alt_text": "Painting of centaur with harp, in water, surrounded by mermaids and mermen.",
+        "height": 2250,
+        "lqip": "data:image/gif;base64,R0lGODlhBwAFAPUAACknHgU0MiEtKzo7MTc/Pzk8OiNIRV9bTFlVUFVZUmFjXFBoYltsY3FsYXRtYm53cXF7eWGCfoSBboGBdIWEdImHdpiTfZuTfICdi5iYioydlqKdh5mgla2nka2rl6+znqy3qcrHrMLJuQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAHAAUAAAYhwFDHIblYPJvGBHCgZCqFxEDBgTwICMFCBPowMAFDRBMEADs=",
+        "width": 2980
+      },
+      "title": "In the Sea"
+    },
+    {
+      "artist_display": "Edvard Munch\nNorwegian, 1863-1944",
+      "artist_title": "Edvard Munch",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 209,
+        "s": 49,
+        "l": 41,
+        "percentage": 0.001904076437244497
+      },
+      "colorfulness": 19.8644,
+      "date_display": "1893",
+      "date_end": 1893,
+      "date_start": 1893,
+      "dimensions": "96.5 × 65.4 cm (38 × 25 3/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 154235,
+      "image_id": "d7df2633-3b40-f570-c906-211503a37cde",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Norway",
+      "style_title": "Post-Impressionism",
+      "thumbnail": {
+        "alt_text": "Loosely painted scene of a brown-haired girl in her nightgown standing in a dark room, gazing out a window into a brighter night, her face unseen and her hand drawing back the pale curtain. Light blues and pink whites dominate the girl and the window, while deep browns, blues, and greens color the darkened portions of her room.",
+        "height": 7097,
+        "lqip": "data:image/gif;base64,R0lGODlhAwAFAPMAAEg8Pko/Pz8/Q0tHRUZFUEpHUUxPVVdUX2NfaGJqfG1zh3Z/k3F9lX+FmYSJmQAAACH5BAAAAAAALAAAAAADAAUAAAQLsCnDFkmuHCQCGBEAOw==",
+        "width": 4801
+      },
+      "title": "The Girl by the Window"
+    },
+    {
+      "artist_display": "Paul Cezanne\nFrench, 1839-1906",
+      "artist_title": "Paul Cezanne",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 194,
+        "s": 10,
+        "l": 58,
+        "percentage": 0.0017550281994393705
+      },
+      "colorfulness": 0.0,
+      "date_display": "c. 1885",
+      "date_end": 1890,
+      "date_start": 1880,
+      "dimensions": "80.2 × 100.6 cm (31 5/8 × 39 5/8 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 16487,
+      "image_id": "d4ca6321-8656-3d3f-a362-2ee297b2b813",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Post-Impressionism",
+      "thumbnail": {
+        "alt_text": "Impressionist sea landscape, tan houses, blue ocean, distant mountains.",
+        "height": 10275,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAHx2X15rbk1le1dsfV1wdm9xaWpybnd1YX58ZmRscWJwdIJ1XoJ5Yox/ZZSJb5mIa1NqgVpxiXWDiXeDiHqGjX+Mk4OSmoWTmIqeoo2fpIyeppekoJSlqJmnqAAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYINdlGrZdVkVJk6EMAhQ1QJEEhPMcC4OEADs=",
+        "width": 12821
+      },
+      "title": "The Bay of Marseille, Seen from L'Estaque"
+    },
+    {
+      "artist_display": "Paul Cezanne\nFrench, 1839-1906",
+      "artist_title": "Paul Cezanne",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe",
+        "Essentials"
+      ],
+      "color": {
+        "h": 94,
+        "s": 4,
+        "l": 55,
+        "percentage": 0.0016020295300128164
+      },
+      "colorfulness": 0.0,
+      "date_display": "c. 1893",
+      "date_end": 1900,
+      "date_start": 1887,
+      "dimensions": "65 × 80 cm (25 7/16 × 31 1/2 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 111436,
+      "image_id": "52ac8996-3460-cf71-cb42-5c4d0aa29b74",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "France",
+      "style_title": "Post-Impressionism",
+      "thumbnail": {
+        "alt_text": "Painting of a basket of green and red-yellow apples spilling over into a white cloth placed on a wooden table, with a dark green bottle and a plate of pale biscuits behind.",
+        "height": 10094,
+        "lqip": "data:image/gif;base64,R0lGODlhBgAFAPQAAGdYO1hSRFVUSWFYRGtdRGFcSl9jW2xgS25iTnNlR3FlS2loXGxqY3V0Z3R0anl5aHN6cINuTIJzUHWAc3uGfYeFeYWOfYSOhIuLgIyMhJWVh52ci5majZ6ekQAAAAAAACH5BAAAAAAALAAAAAAGAAUAAAUYIONA1GUJQGA800AsB1IoVYZpSdRw3SaFADs=",
+        "width": 12640
+      },
+      "title": "The Basket of Apples"
+    },
+    {
+      "artist_display": "Frans Snyders\nFlemish, 1579-1657",
+      "artist_title": "Frans Snyders",
+      "artwork_type_title": "Painting",
+      "boost_rank": null,
+      "category_titles": [
+        "Painting and Sculpture of Europe"
+      ],
+      "color": {
+        "h": 211,
+        "s": 14,
+        "l": 26,
+        "percentage": 0.0027245786334351907
+      },
+      "colorfulness": 26.107,
+      "date_display": "1614",
+      "date_end": 1614,
+      "date_start": 1614,
+      "dimensions": "212 × 308 cm (83 1/2 × 121 1/4 in.)",
+      "has_not_been_viewed_much": false,
+      "id": 62042,
+      "image_id": "d9bde524-38b2-4262-3338-e4d06a50746d",
+      "is_boosted": true,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "medium_display": "Oil on canvas",
+      "place_of_origin": "Flanders",
+      "style_title": "Baroque",
+      "thumbnail": {
+        "alt_text": "An older man at left in red raises his hat toward a central table chaotically overflowing with dead game, fruits, and vegetables. The wings of dead birds and limbs of animals are splayed out at dramatic angles; a deer at center is suspended by his back legs. Live birds and a cat animate the scene.",
+        "height": 6043,
+        "lqip": "data:image/gif;base64,R0lGODlhCAAFAPUAABwYHB0aHyUeHSQeHycjJCoiISgjJCwnKTImITUqJzUtKTAyMDYwMTw3ND43OUYtJkkuKEc4LlM6K0U6NWY8MUpBO09BOlBEPVNGPVhLPkRBQk1ISVVKRF5SRVtdWGlVQ2FUSWRUSGlbTnlVTYZ9aoF7eZaEcq6rqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAIAAUAAAYlQM9ioAAEDAwIRRJJFBCZx8j06VgwJM2pxAFdRI2N4xCaECqCIAA7",
+        "width": 9235
+      },
+      "title": "Still Life with Dead Game, Fruits, and Vegetables in a Market"
+    }
+  ],
+  "config": {
+    "iiif_url": "https://www.artic.edu/iiif/2",
+    "website_url": "http://www.artic.edu"
+  }
+}
