@@ -1,4 +1,4 @@
-import FavoriteToggle from "../explore/FavoriteToggle";
+import FavoriteToggle from "./FavoriteToggle";
 
 export default function GalleryView({
   records,

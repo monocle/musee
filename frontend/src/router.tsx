@@ -10,8 +10,8 @@ import { apiGet } from "./services/useApi.ts";
 import queryClient from "./queryClient.ts";
 import App from "./App.tsx";
 import Landing from "./pages/Landing.tsx";
-import Collection from "./collections/Collection.tsx";
-import Record from "./explore/Record.tsx";
+import Collection from "./collection/Collection.tsx";
+import Record from "./collection/Record.tsx";
 
 declare module "@tanstack/router" {
   interface Register {

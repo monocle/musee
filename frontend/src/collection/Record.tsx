@@ -6,7 +6,7 @@ import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
 import FavoriteToggle from "./FavoriteToggle";
 import Spinner from "../common/Spinner";
-import PageControls from "../collections/PageControls";
+import PageControls from "./PageControls";
 
 export default function Painting() {
   const route = "/collections/$collectionId/records/$sequence";
