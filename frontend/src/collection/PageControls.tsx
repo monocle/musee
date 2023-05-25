@@ -20,8 +20,6 @@ export default function PageControls({
   className = "",
   navigate,
 }: Props) {
-  // const navigate = useNavigate();
-
   const handlePageChange = (newPage: number) => {
     if (page > maxPages || page < 1) return;
 

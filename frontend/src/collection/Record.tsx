@@ -84,8 +84,8 @@ export default function Painting() {
   const hslStr = color ? `hsl(${color.h}, ${color.s}%, ${color.l}%)` : "";
 
   return (
-    <div className="absolute top-0 z-50 bg-base-200 lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
-      <nav className="flex flex-wrap items-center gap-1 px-2 pb-2 pt-1 sm:flex-row-reverse lg:order-2 lg:w-1/5 lg:flex-col lg:flex-nowrap lg:px-2">
+    <div className="absolute top-0 z-40 bg-base-200 lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
+      <nav className="sticky top-0 z-50 flex flex-wrap items-center gap-1 bg-base-200 px-2 pb-2 pt-1 sm:flex-row-reverse lg:order-2 lg:w-1/5 lg:flex-col lg:flex-nowrap lg:px-2">
         <PageControls
           className="mx-auto sm:mx-0"
           page={sequence}
