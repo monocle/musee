@@ -55,10 +55,10 @@ class BrowserCache {
 
   async getPage(collectionId: string, page: number) {
     const startSeq = (page - 1) * this.pageSize + 1;
-    const stopSeq = page * this.pageSize + 1;
+    const stopSeq = page * this.pageSize;
 
     if (collectionId === "favorites") {
-      const ids = this.#favorites.slice(startSeq - 1, stopSeq - 1);
+      const ids = this.#favorites.slice(startSeq - 1, stopSeq);
 
       return await Promise.all(
         ids.map(async (id) => await this.getRecordById(id))
@@ -74,7 +74,7 @@ class BrowserCache {
     }
 
     return records.filter(
-      (record) => record.sequence >= startSeq && record.sequence < stopSeq
+      (record) => record.sequence >= startSeq && record.sequence <= stopSeq
     );
   }
 
@@ -112,7 +112,7 @@ class BrowserCache {
   }
 
   #getFileNum(sequence: number) {
-    return 1 + Math.floor(sequence / this.recordsPerFile);
+    return 1 + Math.floor((sequence - 1) / this.recordsPerFile);
   }
 
   #getFileNumIdx(sequence: number): [number, number] {
