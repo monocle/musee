@@ -13,7 +13,7 @@ class ApiImageUrl(BaseModel):
 
 class ApiRecord(BaseModel):
     artist_name: str
-    color: Color
+    color: Color | None
     date: str
     dimensions: list[str]
     id: str

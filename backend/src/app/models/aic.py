@@ -29,7 +29,7 @@ class Artwork(BaseModel):
     artwork_type_title: str  # validate "Painting"
     boost_rank: int | None
     category_titles: list[str]
-    color: Color
+    color: Color | None
     colorfulness: float
     date_display: str
     date_end: int

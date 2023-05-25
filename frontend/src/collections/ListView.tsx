@@ -40,11 +40,13 @@ export default function ListView({
                 <div key={dim}>{dim}</div>
               ))}
             </td>
-            <td>
-              <div>
-                {record.color.h}, {record.color.s}%, {record.color.l}%
-              </div>
-            </td>
+            {record.color && (
+              <td>
+                <div>
+                  {record.color.h}, {record.color.s}%, {record.color.l}%
+                </div>
+              </td>
+            )}
             <td>
               <a
                 className="link-info link"

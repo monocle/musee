@@ -31,6 +31,7 @@ def search_paintings(page: int, limit: int):
                         "must": [
                             {"term": {"artwork_type_id": 1}},
                             {"term": {"is_public_domain": True}},
+                            {"term": {"is_boosted": False}},
                         ]
                     }
                 },
@@ -100,10 +101,10 @@ def create_api_records(
 
 
 def create_data_file(
-    search_response_file: str | None = "search_response_1.json",
-    artworks_response_file: str | None = "artworks_response_1.json",
     file_num,
     records_per_page=100,
+    search_response_file: str | None = "search_response_2.json",
+    artworks_response_file: str | None = "artworks_response_2.json",
 ):
     filename = f"aic_{file_num}.json"
 
@@ -154,4 +155,4 @@ def create_summary(records_per_file=100, total_files=1, total_records=100):
 
 
 # create_summary()
-create_data_file()
+create_data_file(file_num=2)

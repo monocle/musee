@@ -16,7 +16,7 @@ interface ApiImageUrl {
 
 interface ApiRecord {
   artist_name: string;
-  color: ApiColor;
+  color?: ApiColor;
   date: string;
   dimensions: string[];
   favoritesSequence?: number;

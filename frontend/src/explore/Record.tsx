@@ -81,7 +81,7 @@ export default function Painting() {
     source,
   } = record;
 
-  const hslStr = `hsl(${color.h}, ${color.s}%, ${color.l}%)`;
+  const hslStr = color ? `hsl(${color.h}, ${color.s}%, ${color.l}%)` : "";
 
   return (
     <div className="absolute top-0 z-50 bg-base-200 lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
