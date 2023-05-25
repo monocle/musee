@@ -30,23 +30,28 @@ export default function PageControls({
   };
 
   return (
-    <div className={`btn-group ${className}`}>
+    <div className={`btn-group ${className}`} aria-label="Page navigation">
       <Button
         className="btn-sm"
         disabled={page === 1 || isLoading}
         onClick={() => handlePageChange(page - 1)}
+        aria-label="Go back a page"
       >
         <FontAwesomeIcon icon={faChevronLeft} />
       </Button>
 
-      <button className="btn-disabled btn-sm btn">
+      <div
+        className="btn-disabled btn-sm btn"
+        aria-label="Current and max pages"
+      >
         {maxPages === 0 ? 0 : page} / {maxPages}
-      </button>
+      </div>
 
       <Button
         className="btn-sm btn"
         disabled={page >= maxPages || isLoading}
         onClick={() => handlePageChange(page + 1)}
+        aria-label="Go forward a page"
       >
         <FontAwesomeIcon icon={faChevronRight} />
       </Button>

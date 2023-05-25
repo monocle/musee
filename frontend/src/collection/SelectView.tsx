@@ -23,6 +23,7 @@ export default function SelectView({ className = "" }: Props) {
       value={view}
       className={`select select-sm ${className}`}
       onChange={(e) => handleViewChange(e.target.value)}
+      aria-label="View options"
     >
       <option value="gallery">Gallery View</option>
       <option value="list">List View</option>

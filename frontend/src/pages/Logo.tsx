@@ -12,6 +12,7 @@ export default function Logo({ className = "" }: Props) {
       <Link
         to="/"
         className={`text-xl font-semibold text-info hover:text-blue-500 ${className}`}
+        aria-label="Navigate to home page"
       >
         Musee
       </Link>

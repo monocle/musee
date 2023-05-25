@@ -26,6 +26,7 @@ export default function CollectionLink({
       search={{ page: collection.page, view: collection.view }}
       params={{ collectionId }}
       onClick={onClick}
+      aria-label={`Navigate to ${content}`}
     >
       {content}
     </Link>

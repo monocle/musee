@@ -12,17 +12,17 @@ export default function Header() {
     <header className="sticky top-0 z-30 flex items-center justify-between bg-base-200 px-4">
       <Logo />
 
-      <div className="flex items-center gap-1 md:gap-6">
-        <label
-          tabIndex={0}
+      <nav className="flex items-center gap-1 md:gap-6" aria-label="Site">
+        <button
           className="btn-ghost btn"
           onClick={() => setShowNav(!showNav)}
+          aria-label="Click to access site navigation"
         >
           <FontAwesomeIcon icon={faBars} className="h-5" />
-        </label>
+        </button>
         <div
-          className={`absolute right-0 top-12 z-50 flex w-44 flex-col items-center gap-2 rounded bg-base-300 py-4 ${
-            showNav ? "" : "hidden"
+          className={`absolute right-0 top-12 z-50 flex w-44 transform flex-col items-center gap-2 rounded bg-base-300 px-2 py-4 transition-all duration-200 ease-out ${
+            showNav ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
           }`}
         >
           <CollectionLink
@@ -41,7 +41,7 @@ export default function Header() {
         </div>
 
         <ThemeToggler />
-      </div>
+      </nav>
     </header>
   );
 }
