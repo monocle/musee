@@ -135,3 +135,4 @@ dist
 .DS_STORE
 api_key.*
 __pycache__
+*.pyc

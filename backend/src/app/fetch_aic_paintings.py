@@ -21,8 +21,7 @@ def post_aic(data: dict, is_search=False):
     return fetch_data(url, method="POST", headers=headers, data=data)
 
 
-def search_paintings(page: int):
-    limit = 100
+def search_paintings(page: int, limit: int):
     offset = (page - 1) * limit
     data = {
         "query": {
@@ -67,7 +66,9 @@ def validate_artworks(artworks_res: ArtworksResponse, search_res: SearchResponse
     assert set(o.id for o in search_res.data) == set(r.id for r in artworks_res.data)
 
 
-def create_api_records(artworks_res: ArtworksResponse, file_num=1) -> list[ApiRecord]:
+def create_api_records(
+    artworks_res: ArtworksResponse, file_num: int, records_per_page: int
+) -> list[ApiRecord]:
     artworks = artworks_res.data
     config = artworks_res.config
 
@@ -87,7 +88,7 @@ def create_api_records(artworks_res: ArtworksResponse, file_num=1) -> list[ApiRe
             ),
             medium=a.medium_display,
             origin=a.place_of_origin,
-            sequence=i + 1,
+            sequence=i + 1 + (file_num - 1) * records_per_page,
             source_id=a.id,
             source_url=f"{config.website_url}/artworks/{a.id}",
             source="aic",
@@ -99,9 +100,10 @@ def create_api_records(artworks_res: ArtworksResponse, file_num=1) -> list[ApiRe
 
 
 def create_data_file(
-    file_num=1,
     search_response_file: str | None = "search_response_1.json",
     artworks_response_file: str | None = "artworks_response_1.json",
+    file_num,
+    records_per_page=100,
 ):
     filename = f"aic_{file_num}.json"
 
@@ -111,7 +113,7 @@ def create_data_file(
         search_res = (
             SearchResponse.parse_obj(read_json(search_response_file))
             if search_response_file
-            else search_paintings(file_num)
+            else search_paintings(file_num, records_per_page)
         )
         artworks_res = fetch_artworks(search_res)
 
@@ -126,10 +128,12 @@ def create_data_file(
         if not artworks_response_file:
             write_json(
                 artworks_res.dict(),
-                filepath=str(f"artworks_response_{file_num}.json"),
+                filepath=f"artworks_response_{file_num}.json",
             )
 
-    api_records = create_api_records(artworks_res)
+    api_records = create_api_records(
+        artworks_res, file_num=file_num, records_per_page=records_per_page
+    )
     api_response = {
         "records": [r.dict() for r in api_records],
         "count": len(api_records),
