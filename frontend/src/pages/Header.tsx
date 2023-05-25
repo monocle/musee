@@ -48,7 +48,7 @@ export default function Header() {
         </button>
         <div
           className={`absolute right-0 top-12 z-50 flex w-44 transform flex-col items-center gap-2 rounded bg-base-300 px-2 py-4 transition-all duration-300 ease-out ${
-            showNav ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+            showNav ? "" : "hidden"
           }`}
         >
           <CollectionLink
