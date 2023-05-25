@@ -6,7 +6,7 @@ interface Props {
   className?: string;
 }
 
-export default function ThemeIcon({ className }: Props) {
+export default function ThemeToggle({ className = "" }: Props) {
   const [theme, setTheme] = useState(document.documentElement.dataset.theme);
 
   const handleThemeChange = () => {
@@ -18,11 +18,18 @@ export default function ThemeIcon({ className }: Props) {
   };
 
   return (
-    <div className="btn-ghost btn" onClick={handleThemeChange}>
+    <button
+      className="btn-ghost btn"
+      onClick={handleThemeChange}
+      aria-label={
+        theme === "dark" ? "Switch to light mode" : "Switch to dark mode"
+      }
+    >
       <FontAwesomeIcon
+        data-testid="theme-icon"
         icon={theme === "dark" ? faMoon : faSun}
         className={`h-4 text-accent-content ${className}`}
       />
-    </div>
+    </button>
   );
 }
