@@ -35,10 +35,12 @@ export default function Landing() {
 
           <div className="hero-content text-center">
             <div className="max-w-md text-accent-content">
-              <h1 className="mb-8 text-5xl font-bold">Artwork to Inspire</h1>
+              <h1 className="font mb-8 text-5xl">Artwork to Inspire</h1>
               <div className="mx-auto mb-8 w-72">
                 <p>Explore paintings from the</p>
-                <p className="text-xl font-bold">Art Institute of Chicago</p>
+                <p className="text-xl font-semibold">
+                  Art Institute of Chicago
+                </p>
               </div>
 
               <CollectionLink
@@ -50,14 +52,12 @@ export default function Landing() {
           </div>
         </div>
 
-        <figcaption className="flex gap-2 px-2 py-2 text-sm md:gap-4 md:text-base">
-          <p className="font-semibold">{hero.title}</p>
-          <p>
-            <>
-              {hero.artist_name}, {hero.origin} ({hero.date})
-            </>
+        <figcaption className="flex gap-2 px-2 py-4 text-center text-sm sm:gap-4 md:gap-8 md:text-base lg:gap-20">
+          <p className="w-1/3 font-semibold">{hero.title}</p>
+          <p className="w-1/3">
+            {hero.artist_name}, {hero.origin} ({hero.date})
           </p>
-          <cite>
+          <cite className="w-1/3">
             <a
               className="link"
               href={hero.source_url}
