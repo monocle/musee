@@ -1,0 +1,61 @@
+{
+  "records": [
+    {
+      "artist_name": "Guido Reni",
+      "color": {
+        "h": 39,
+        "s": 73,
+        "l": 30,
+        "percentage": 0.0030644523527085807
+      },
+      "date": "c. 1639–42",
+      "dimensions": ["248.5 × 174 cm (97 3/4 × 68 1/2 in.)"],
+      "id": "1-0-aic",
+      "image_alt": "Large painting of woman, in gold and pink dress, placing severed head on platter.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/1f5b595f-dbbd-3c9d-ca49-9263c3d93841/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/1f5b595f-dbbd-3c9d-ca49-9263c3d93841/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/1f5b595f-dbbd-3c9d-ca49-9263c3d93841/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/1f5b595f-dbbd-3c9d-ca49-9263c3d93841/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Italy",
+      "sequence": 1,
+      "source_id": 11434,
+      "source_url": "http://www.artic.edu/artworks/11434",
+      "source": "aic",
+      "style": null,
+      "title": "Salome with the Head of Saint John the Baptist"
+    },
+    {
+      "artist_name": "Hilaire Germain Edgar Degas",
+      "color": {
+        "h": 38,
+        "s": 54,
+        "l": 46,
+        "percentage": 0.003876600066677521
+      },
+      "date": "c. 1879-86",
+      "dimensions": ["100 × 110.7 cm (39 3/8 × 43 9/16 in.)"],
+      "id": "1-1-aic",
+      "image_alt": "Impressionist painting of woman wearing green dress trying on hats.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "France",
+      "sequence": 2,
+      "source_id": 14572,
+      "source_url": "http://www.artic.edu/artworks/14572",
+      "source": "aic",
+      "style": "Impressionism",
+      "title": "The Millinery Shop"
+    }
+  ],
+  "pageSize": 1,
+  "maxPages": 1,
+  "maxRecords": 2
+}

@@ -1,0 +1,34 @@
+{
+  "records": [
+    {
+      "artist_name": "Frans Snyders",
+      "color": {
+        "h": 211,
+        "s": 14,
+        "l": 26,
+        "percentage": 0.0027245786334351907
+      },
+      "date": "1614",
+      "dimensions": ["212 × 308 cm (83 1/2 × 121 1/4 in.)"],
+      "id": "1-99-aic",
+      "image_alt": "An older man at left in red raises his hat toward a central table chaotically overflowing with dead game, fruits, and vegetables. The wings of dead birds and limbs of animals are splayed out at dramatic angles; a deer at center is suspended by his back legs. Live birds and a cat animate the scene.",
+      "image_url": {
+        "sm": "https://www.artic.edu/iiif/2/d9bde524-38b2-4262-3338-e4d06a50746d/full/200,/0/default.jpg",
+        "md": "https://www.artic.edu/iiif/2/d9bde524-38b2-4262-3338-e4d06a50746d/full/400,/0/default.jpg",
+        "lg": "https://www.artic.edu/iiif/2/d9bde524-38b2-4262-3338-e4d06a50746d/full/600,/0/default.jpg",
+        "xl": "https://www.artic.edu/iiif/2/d9bde524-38b2-4262-3338-e4d06a50746d/full/843,/0/default.jpg"
+      },
+      "medium": "Oil on canvas",
+      "origin": "Flanders",
+      "sequence": 100,
+      "source_id": 62042,
+      "source_url": "http://www.artic.edu/artworks/62042",
+      "source": "aic",
+      "style": "Baroque",
+      "title": "Still Life with Dead Game, Fruits, and Vegetables in a Market"
+    }
+  ],
+  "pageSize": 1,
+  "maxPages": 1,
+  "maxRecords": 2
+}
