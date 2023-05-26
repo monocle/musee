@@ -4,8 +4,10 @@ import cache from "./browser_cache";
 const handlers = [
   rest.get("/api/collections/:collectionId", async (req, res, ctx) => {
     const page = Number(req.url.searchParams.get("page")) ?? 1;
-    const collectionId = String(req.params.collectionId ?? "aic");
-    const records = await cache.getPage(collectionId, page < 1 ? 1 : page);
+    const collectionId = String(
+      req.params.collectionId ?? "aic"
+    ) as CollectionId;
+    const records = cache.getPage(collectionId, page < 1 ? 1 : page);
 
     return res(
       ctx.status(200),
@@ -22,11 +24,8 @@ const handlers = [
     "/api/collections/:collectionId/records/:sequence",
     async (req, res, ctx) => {
       const { collectionId: _collectionId, sequence } = req.params;
-      const collectionId = String(_collectionId);
-      const record = await cache.getRecordBySequence(
-        collectionId,
-        Number(sequence)
-      );
+      const collectionId = String(_collectionId) as CollectionId;
+      const record = cache.getRecordBySequence(collectionId, Number(sequence));
 
       if (record) {
         return res(

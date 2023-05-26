@@ -1,140 +1,133 @@
 import axios from "axios";
+import {
+  getLocalStorageItem,
+  setLocalStorageItem,
+  respondToLocalStorageEvent,
+} from "../services/useLocalStorage";
 
 const VITE_BASEPATH: string = import.meta.env.VITE_BASEPATH;
+const favoritesName = "favorites";
 
 // Requires that records in the files are sorted by "sequence"
 class BrowserCache {
   basepath = (VITE_BASEPATH ? "/" + VITE_BASEPATH : "") + "/data";
-  nextFileNum = 1;
   pageSize = 20;
-  totalFiles = 0;
-  recordsPerFile = 0;
   #totalRecords = 0;
+  #records: Record<RecordSource, ApiRecord[]> = { aic: [] };
   #favorites: ApiRecordId[] = [];
-  #fileCache: Record<number, ApiRecord[]> = {};
 
   async init() {
-    await axios
-      .get<FileSummary>(`${this.basepath}/aic_summary.json`)
-      .then(async (res) => {
-        this.totalFiles = res.data.totalFiles;
-        this.#totalRecords = res.data.totalRecords;
-        this.recordsPerFile = res.data.recordsPerFile;
-      });
+    const summary = (
+      await axios.get<FileSummary>(`${this.basepath}/data_summary.json`)
+    ).data;
+
+    await Promise.all(
+      summary.map(async ({ source, numFiles }) => {
+        const records = (
+          await Promise.all(
+            [...Array(numFiles)].map(
+              async (_, i) => (await this.#fetchFile(source, i + 1)).records
+            )
+          )
+        ).flat();
+
+        this.#records[source] = records;
+        this.#totalRecords += records.length;
+      })
+    );
+
+    this.#favorites = getLocalStorageItem(favoritesName, []);
+    this.#setAllFavoritesSequence();
+
+    respondToLocalStorageEvent<ApiRecordId[]>(favoritesName, (newFavorites) => {
+      this.#favorites.forEach((id) => this.#removeFavoritesSequence(id));
+      this.#favorites = newFavorites;
+      this.#setAllFavoritesSequence();
+    });
   }
 
-  maxPages(collectionId = "favorites") {
+  maxPages(collectionId = favoritesName) {
     return Math.ceil(this.maxRecords(collectionId) / this.pageSize);
   }
 
-  maxRecords(collectionId = "favorites") {
-    return collectionId === "favorites"
+  maxRecords(collectionId = favoritesName) {
+    return collectionId === favoritesName
       ? this.#favorites.length
       : this.#totalRecords;
   }
 
-  async getRecordBySequence(collectionId: string, sequence: number) {
-    if (collectionId === "favorites") {
-      return this.getRecordById(this.#favorites[sequence - 1]);
-    }
-
-    const [fileNum, idx] = this.#getFileNumIdx(sequence);
-    const records = await this.#getFileRecords(fileNum);
-    return records[idx];
+  #getRecords(collectionId: CollectionId) {
+    if (collectionId !== favoritesName) return this.#records[collectionId];
+    return this.#favorites.map((id) => this.getRecordById(id));
   }
 
-  async getRecordById(id: string) {
-    if (!id) return undefined;
+  getRecordBySequence(collectionId: CollectionId, sequence: number) {
+    return this.#getRecords(collectionId)[sequence - 1];
+  }
 
+  getRecordById(id: string) {
     const split = id.split("-");
-    const fileNum = Number(split[0]);
     const idx = Number(split[1]);
-    const records = await this.#getFileRecords(fileNum);
-    return records[idx];
+    const source = String(split[2]) as RecordSource;
+    return this.#records[source][idx];
   }
 
-  async getPage(collectionId: string, page: number) {
-    const startSeq = (page - 1) * this.pageSize + 1;
-    const stopSeq = page * this.pageSize;
-
-    if (collectionId === "favorites") {
-      const ids = this.#favorites.slice(startSeq - 1, stopSeq);
-
-      return await Promise.all(
-        ids.map(async (id) => await this.getRecordById(id))
-      );
-    }
-
-    const startFileNum = this.#getFileNum(startSeq);
-    const stopFileNum = this.#getFileNum(stopSeq);
-    let records = await this.#getFileRecords(startFileNum);
-
-    if (startFileNum !== stopFileNum) {
-      records = records.concat(await this.#getFileRecords(stopFileNum));
-    }
-
-    return records.filter(
-      (record) => record.sequence >= startSeq && record.sequence <= stopSeq
-    );
+  getPage(collectionId: CollectionId, page: number) {
+    const startIdx = (page - 1) * this.pageSize;
+    const stopIdx = page * this.pageSize;
+    const records = this.#getRecords(collectionId).slice(startIdx, stopIdx);
+    return records;
   }
 
-  async addFavorite(newId: ApiRecordId) {
+  addFavorite(newId: ApiRecordId) {
     if (this.#favorites.some((id) => id === newId)) return;
 
-    const record = await this.getRecordById(newId);
-
-    if (!record) return;
-
-    record.favoritesSequence = this.#favorites.length + 1;
     this.#favorites.push(newId);
+    this.#setFavoritesSequence(newId, this.#favorites.length);
+    setLocalStorageItem(favoritesName, this.#favorites);
   }
 
-  async removeFavorite(removeId: ApiRecordId) {
-    const record = await this.getRecordById(removeId);
+  #setFavoritesSequence(id: string, sequence: number) {
+    const record = this.getRecordById(id);
+    if (record) record.favoritesSequence = sequence;
+  }
 
-    if (!record) return;
+  #setAllFavoritesSequence() {
+    this.#favorites.map((id, i) => this.#setFavoritesSequence(id, i + 1));
+  }
+
+  #removeFavoritesSequence(id: string) {
+    const record = this.getRecordById(id);
+    if (!record) return false;
 
     record.favoritesSequence = undefined;
+    return true;
+  }
+
+  removeFavorite(removeId: ApiRecordId) {
+    if (!this.#removeFavoritesSequence(removeId)) return;
 
     this.#favorites = this.#favorites.filter((id) => id !== removeId);
-    this.#favorites.forEach(async (id, i) => {
-      const record = await this.getRecordById(id);
-      if (record) record.favoritesSequence = i + 1;
-    });
+    this.#setAllFavoritesSequence();
+    setLocalStorageItem(favoritesName, this.#favorites);
   }
 
   get numFavorites() {
     return this.#favorites.length;
   }
 
-  getPageFromSequence(sequence: number) {
-    return 1 + Math.floor((sequence - 1) / cache.pageSize);
-  }
-
-  #getFileNum(sequence: number) {
-    return 1 + Math.floor((sequence - 1) / this.recordsPerFile);
-  }
-
-  #getFileNumIdx(sequence: number): [number, number] {
-    const pageNum = Math.floor((sequence - 1) / this.recordsPerFile) + 1;
-    const idx = (sequence - 1) % this.recordsPerFile;
-    return [pageNum, idx];
-  }
-
-  async #getFileRecords(fileNum: number) {
-    return this.#fileCache[fileNum] ?? (await this.#fetchFile(fileNum));
-  }
-
-  async #fetchFile(fileNum: number): Promise<ApiRecord[]> {
+  async #fetchFile(
+    source: string,
+    fileNum: number
+  ): Promise<{ records: ApiRecord[] }> {
     try {
-      const fetchRes = await fetch(`${this.basepath}/aic_${fileNum}.json`);
-      const data = await fetchRes.json();
-
-      this.#fileCache[fileNum] = data.records;
-      return data.records;
+      const fetchRes = await fetch(
+        `${this.basepath}/${source}_${fileNum}.json`
+      );
+      return await fetchRes.json();
     } catch {
       console.error("Unable to fetch data file", fileNum);
-      return [];
+      return { records: [] };
     }
   }
 }

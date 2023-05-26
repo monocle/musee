@@ -8,6 +8,10 @@ import FavoriteToggle from "./FavoriteToggle";
 import Spinner from "../common/Spinner";
 import PageControls from "./PageControls";
 
+function getPageFromSequence(sequence: number) {
+  return 1 + Math.floor((sequence - 1) / cache.pageSize);
+}
+
 export default function Painting() {
   const route = "/collections/$collectionId/records/$sequence";
   const navigate = useNavigate();
@@ -40,7 +44,7 @@ export default function Painting() {
         search: {
           ...search,
           sequence,
-          page: cache.getPageFromSequence(sequence),
+          page: getPageFromSequence(sequence),
         },
       }),
     [params, search, sequence, navigate]

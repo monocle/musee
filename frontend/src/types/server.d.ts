@@ -1,4 +1,5 @@
 type ApiRecordId = string;
+type RecordSource = "aic";
 
 interface ApiColor {
   h: number;
@@ -28,7 +29,7 @@ interface ApiRecord {
   sequence: int;
   source_id: int;
   source_url: string;
-  source: "aic";
+  source: RecordSource;
   style?: string;
   title: string;
 }
@@ -40,11 +41,12 @@ interface CollectionResponse {
   records: Record[];
 }
 
-interface FileSummary {
-  totalFiles: number;
-  totalRecords: number;
-  recordsPerFile: number;
+interface SourceSummary {
+  source: RecordSource;
+  numFiles: number;
 }
+
+type FileSummary = SourceSummary[];
 
 interface ApiRecordResponse {
   record: ApiRecord;
