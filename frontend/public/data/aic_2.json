@@ -12,7 +12,7 @@
       "dimensions": [
         "339.1 × 199.5 cm (133 1/2 × 78 1/2 in.)"
       ],
-      "id": "2-0",
+      "id": "2-0-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/a49c5ada-f461-d7d1-0f1b-468ac577a872/full/200,/0/default.jpg",
@@ -41,7 +41,7 @@
       "dimensions": [
         "68 × 90.7 cm (26 3/4 × 35 11/16 in.)"
       ],
-      "id": "2-1",
+      "id": "2-1-aic",
       "image_alt": "A work made of oil on cotton canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/604fe021-6008-f666-bce8-456b2fdc9bd4/full/200,/0/default.jpg",
@@ -70,7 +70,7 @@
       "dimensions": [
         "89.9 × 92.7 cm (35 3/8 × 36 1/2 in.)"
       ],
-      "id": "2-2",
+      "id": "2-2-aic",
       "image_alt": "Painting of softly rendered shapes in pale blue, green, and white. A textured green mass at left resembles foliage. Blue and white cloud-like forms fill the rest of the frame.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/838d8c33-a3b4-68ea-587b-87ceec2011af/full/200,/0/default.jpg",
@@ -99,7 +99,7 @@
       "dimensions": [
         "68.2 × 49.2 cm (26 11/16 × 19 3/8 in.)"
       ],
-      "id": "2-3",
+      "id": "2-3-aic",
       "image_alt": "A work made of oil, probably with some tempera, on panel; transferred to canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/db37b494-6b09-18ce-a618-0b16352f33a2/full/200,/0/default.jpg",
@@ -129,7 +129,7 @@
         "Diam.: 34.4 cm (13 1/2 in.)",
         " Painted surface Diameter: Diam.: 32.5 cm (12 13/16 in.)"
       ],
-      "id": "2-4",
+      "id": "2-4-aic",
       "image_alt": "A work made of tempera on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/eb49ab17-f2d9-275a-ee71-e8f0016b34aa/full/200,/0/default.jpg",
@@ -159,7 +159,7 @@
         "35.3 × 25.8 cm (13 7/8 × 10 1/8 in.)",
         " Painted surface: 31.4 × 25.8 cm (12 3/8 × 10 1/8 in.)"
       ],
-      "id": "2-5",
+      "id": "2-5-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/2b751a0e-a492-7fa9-749c-6667cdd1c928/full/200,/0/default.jpg",
@@ -188,7 +188,7 @@
       "dimensions": [
         "61.4 × 50.5 cm (24 3/16 × 19 7/8 in.)"
       ],
-      "id": "2-6",
+      "id": "2-6-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/147e3ce7-1c08-fa84-57f7-f59d4ec90d3c/full/200,/0/default.jpg",
@@ -218,7 +218,7 @@
         "Frame: 41.1 × 33.4 cm (16 3/16 × 13 1/8 in.)",
         " Painted surface: 34.5 × 26.8 cm (14 1/16 × 10 1/2 in.)"
       ],
-      "id": "2-7",
+      "id": "2-7-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/72083f93-6fe2-bfa8-b9a0-82e50c123015/full/200,/0/default.jpg",
@@ -248,7 +248,7 @@
         "38.4 × 28.3 cm (15 1/8 × 11 1/8 in.)",
         " Painted surface: 36.5 × 27 cm (14 3/8 × 10 5/8 in.)"
       ],
-      "id": "2-8",
+      "id": "2-8-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/7db6cf67-3cd0-40dc-112b-4494eca99d73/full/200,/0/default.jpg",
@@ -277,7 +277,7 @@
       "dimensions": [
         "66.5 × 82.5 cm (26 3/16 × 32 1/2 in.)"
       ],
-      "id": "2-9",
+      "id": "2-9-aic",
       "image_alt": "Apples and grapes rest in a shallow wicker basket on a table covered with a light-colored cloth. Additional fruit is scattered on the table.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/c12058f4-188f-c6ed-f0fe-52b32acfb296/full/200,/0/default.jpg",
@@ -306,7 +306,7 @@
       "dimensions": [
         "Frame: 41.3 × 33.3 cm (16 1/4 × 13 1/8 in.)\nPainted surface: 34.9 × 26.6 (13 3/4 × 10 7/16 in.)\nReverse: 34.7 × 26.5 cm (13 5/8 × 10 7/16 in.)"
       ],
-      "id": "2-10",
+      "id": "2-10-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/11f6e7f8-9c46-1dd7-4ba8-4ef07bfc3bfa/full/200,/0/default.jpg",
@@ -335,7 +335,7 @@
       "dimensions": [
         "47.5 × 56.4 cm (18 11/16 × 22 3/16 in.)"
       ],
-      "id": "2-11",
+      "id": "2-11-aic",
       "image_alt": "Surrounded by lush, bright foliage, man and a young girl at close range lean against a fence near a lake. The man is smoking, and both wear straw hats.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/26e1c560-acca-3148-46dc-c144ac22bd3e/full/200,/0/default.jpg",
@@ -365,7 +365,7 @@
         "Panel: 107.5 × 36.4 cm (42 5/16 × 14 5/16 in.)",
         " Painted Surface: 105.7 × 36.4 cm (41 5/8 × 14 5/16 in.)"
       ],
-      "id": "2-12",
+      "id": "2-12-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/b07c2b88-f2a2-4d0a-e401-ebf8d7928373/full/200,/0/default.jpg",
@@ -394,7 +394,7 @@
       "dimensions": [
         "42 × 131.7 cm (16 3/4 × 51 7/8 in.)"
       ],
-      "id": "2-13",
+      "id": "2-13-aic",
       "image_alt": "A work made of tempera on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/2295d601-573b-72f8-9760-cfec0d116b48/full/200,/0/default.jpg",
@@ -423,7 +423,7 @@
       "dimensions": [
         "69.9 × 87.3 cm (27 1/2 × 34 3/8 in.)"
       ],
-      "id": "2-14",
+      "id": "2-14-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/c1f5d7ea-65f6-0ac6-d22f-549d27cfdd38/full/200,/0/default.jpg",
@@ -452,7 +452,7 @@
       "dimensions": [
         "66.3 × 55.5 cm (26 1/8 × 21 7/8 in.)"
       ],
-      "id": "2-15",
+      "id": "2-15-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/77f1c8e3-16c6-1147-f4aa-4cfc8bd3eb8b/full/200,/0/default.jpg",
@@ -481,7 +481,7 @@
       "dimensions": [
         "77.2 × 64.5 cm (30 3/8 × 25 3/8 in.)"
       ],
-      "id": "2-16",
+      "id": "2-16-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/d763c113-194b-62a5-3e39-e2b479c5df47/full/200,/0/default.jpg",
@@ -510,7 +510,7 @@
       "dimensions": [
         "255 × 222.9 cm (100 7/8 × 87 3/4 in.)"
       ],
-      "id": "2-17",
+      "id": "2-17-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/83092988-7180-21d1-b8a3-cf39ddf39a68/full/200,/0/default.jpg",
@@ -539,7 +539,7 @@
       "dimensions": [
         "101.9 × 69.2 cm (40 1/8 × 27 1/4 in.)"
       ],
-      "id": "2-18",
+      "id": "2-18-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/7f755a11-26ef-8f17-0178-15029c321e88/full/200,/0/default.jpg",
@@ -568,7 +568,7 @@
       "dimensions": [
         "68.9 × 102.2 cm (27 1/8 × 40 1/4 in.)"
       ],
-      "id": "2-19",
+      "id": "2-19-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/dcfa012e-b6ef-2bf7-a862-ee6e0ee9537d/full/200,/0/default.jpg",
@@ -592,7 +592,7 @@
       "dimensions": [
         "193.7 × 163.2 cm (76 1/4 × 64 1/4 in.)"
       ],
-      "id": "2-20",
+      "id": "2-20-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/a75b2aba-0042-ae61-b3a0-0204e2b29b3c/full/200,/0/default.jpg",
@@ -621,7 +621,7 @@
       "dimensions": [
         "66 × 55.2 cm (26 × 21 1/2 in.)"
       ],
-      "id": "2-21",
+      "id": "2-21-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/36d829a6-b07a-d84b-5774-02763512d73f/full/200,/0/default.jpg",
@@ -650,7 +650,7 @@
       "dimensions": [
         "81 × 103 cm (31 7/8 × 40 1/2 in.)"
       ],
-      "id": "2-22",
+      "id": "2-22-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/6f67b87f-5e9c-3a35-143a-122ffeb0caee/full/200,/0/default.jpg",
@@ -679,7 +679,7 @@
       "dimensions": [
         "53.7 × 48.6 cm (21 1/8 × 19 1/8 in.)"
       ],
-      "id": "2-23",
+      "id": "2-23-aic",
       "image_alt": "A work made of oil.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/5a47a0b8-d21b-b5ae-c8f2-3b99476e6e75/full/200,/0/default.jpg",
@@ -708,7 +708,7 @@
       "dimensions": [
         "86.6 × 101 cm (34 1/8 × 39 3/4 in.)"
       ],
-      "id": "2-24",
+      "id": "2-24-aic",
       "image_alt": "Painting of several light-skinned people gathered around a table in front of a gilded mirror, playing instruments. At left, seated next to a woman in an off-the-shoulder gown, a man in a plumed hat plays a lute. At center right, another man plays a cello, while a dog and cat eat from a dish underfoot.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/87433360-2578-5b1b-c0b7-67921dc226fa/full/200,/0/default.jpg",
@@ -737,7 +737,7 @@
       "dimensions": [
         "58.6 × 84.2 cm (23 × 33 1/8 in.)"
       ],
-      "id": "2-25",
+      "id": "2-25-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/3a32bf1b-5094-f06b-1ea1-a54cd847a5d5/full/200,/0/default.jpg",
@@ -766,7 +766,7 @@
       "dimensions": [
         "33 × 55 cm (13 × 21 5/8 in.)"
       ],
-      "id": "2-26",
+      "id": "2-26-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/1501b057-0441-f1fa-e949-298b06ec6270/full/200,/0/default.jpg",
@@ -795,7 +795,7 @@
       "dimensions": [
         "71.5 × 92 cm (28 1/4 × 36 in.)"
       ],
-      "id": "2-27",
+      "id": "2-27-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/ff3b5c8a-5b14-5c35-8775-3d021e92a381/full/200,/0/default.jpg",
@@ -824,7 +824,7 @@
       "dimensions": [
         "21.7 × 27 cm (8 9/16 × 10 5/8 in.)"
       ],
-      "id": "2-28",
+      "id": "2-28-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/3527f037-a9b2-9253-1a92-dcd281b54340/full/200,/0/default.jpg",
@@ -853,7 +853,7 @@
       "dimensions": [
         "81.3 × 125.2 cm (32 × 49 1/2 in.)"
       ],
-      "id": "2-29",
+      "id": "2-29-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/ab49fdd2-5acc-981e-f11e-c631bbd5487f/full/200,/0/default.jpg",
@@ -882,7 +882,7 @@
       "dimensions": [
         "60.9 × 100 cm (23 5/8 × 39 3/8 in.)"
       ],
-      "id": "2-30",
+      "id": "2-30-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/f117b976-3897-fbbd-7a1f-ac8a5ccbfa51/full/200,/0/default.jpg",
@@ -912,7 +912,7 @@
         "48.3 × 36.4 cm (19 × 14 3/8 in.)",
         " Panel: 48.3 × 35.3 cm (19 × 13 7/8 in.)"
       ],
-      "id": "2-31",
+      "id": "2-31-aic",
       "image_alt": "A work made of oil on panel, with added strips.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/fe9b9d07-5f4e-c9ea-95a7-816f2b85d20e/full/200,/0/default.jpg",
@@ -941,7 +941,7 @@
       "dimensions": [
         "57.6 × 71.2 cm (22 11/16 × 28 in.)"
       ],
-      "id": "2-32",
+      "id": "2-32-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/b246d3eb-8bfe-a031-4848-e00c053546ea/full/200,/0/default.jpg",
@@ -970,7 +970,7 @@
       "dimensions": [
         "61.3 × 49.8 cm (24 3/8 × 19 5/8 in.)"
       ],
-      "id": "2-33",
+      "id": "2-33-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/0e94a829-b3b7-8317-b609-d1826f0369f0/full/200,/0/default.jpg",
@@ -999,7 +999,7 @@
       "dimensions": [
         "81.3 × 125.2 cm (32 × 49 1/2 in.)"
       ],
-      "id": "2-34",
+      "id": "2-34-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/c5e50da8-6bff-ea02-ed3c-c154b356cceb/full/200,/0/default.jpg",
@@ -1028,7 +1028,7 @@
       "dimensions": [
         "Diam.: 104.2 cm (41 in.)"
       ],
-      "id": "2-35",
+      "id": "2-35-aic",
       "image_alt": "A work made of tempera on panel (poplar).",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/24c1565b-f22d-fb73-4a7f-f35bcb3dcc09/full/200,/0/default.jpg",
@@ -1058,7 +1058,7 @@
         "72.7 × 50.3 cm (28 5/8 × 19 3/4 in.)",
         " With Frame: 81.9 × 61 cm (32 1/4 × 24 in.)"
       ],
-      "id": "2-36",
+      "id": "2-36-aic",
       "image_alt": "A work made of tempera on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/4c862fdf-89d6-7c37-ccd2-3c5ee85e5161/full/200,/0/default.jpg",
@@ -1087,7 +1087,7 @@
       "dimensions": [
         "132.3 × 178 cm (51 5/8 × 69 5/8 in.)"
       ],
-      "id": "2-37",
+      "id": "2-37-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/f8a1f3b3-4506-d336-aceb-5aec6c4a2e3d/full/200,/0/default.jpg",
@@ -1117,7 +1117,7 @@
         "Panel: 175.8 × 93.3 cm (69 1/4 × 36 3/4 in.)",
         " Painted Surface: 167 × 84.5 cm (65 3/4 × 33 1/4 in.)"
       ],
-      "id": "2-38",
+      "id": "2-38-aic",
       "image_alt": "A work made of oil and gold on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/0aaa4cff-d1d8-8241-d230-0cecc9956f39/full/200,/0/default.jpg",
@@ -1146,7 +1146,7 @@
       "dimensions": [
         "56.2 × 47.4 cm (22 1/16 × 18 5/8 in.)"
       ],
-      "id": "2-39",
+      "id": "2-39-aic",
       "image_alt": "Painting of a young woman in a black and white striped gown, seated at a table with cherries, staring directly at the viewer.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/ec4367a5-52b8-79a5-7e7d-dbaff46d4f4e/full/200,/0/default.jpg",
@@ -1175,7 +1175,7 @@
       "dimensions": [
         "119.4 × 95.2 cm (47 × 37 1/2 in.)"
       ],
-      "id": "2-40",
+      "id": "2-40-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/9a93001d-887a-f34d-ecc2-83240e2ad54c/full/200,/0/default.jpg",
@@ -1204,7 +1204,7 @@
       "dimensions": [
         "15 × 29.2 cm (5 7/8 × 11 1/2 in.)"
       ],
-      "id": "2-41",
+      "id": "2-41-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/a414da01-a3bf-85e0-53a6-9dd1918bf4c2/full/200,/0/default.jpg",
@@ -1233,7 +1233,7 @@
       "dimensions": [
         "55.7 × 84.2 cm (21 7/8 × 33 1/8 in.)"
       ],
-      "id": "2-42",
+      "id": "2-42-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/70ebfef5-7a98-2834-1be7-cc95e038fe82/full/200,/0/default.jpg",
@@ -1263,7 +1263,7 @@
         "121.1 × 82.5 cm (47 3/4 × 32 1/2 in.)",
         " Painted surface: 119.4 × 82.5 cm (47 × 32 1/2 in.)"
       ],
-      "id": "2-43",
+      "id": "2-43-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/f5eb11a2-945f-f7cb-9994-ab54e8f24804/full/200,/0/default.jpg",
@@ -1292,7 +1292,7 @@
       "dimensions": [
         "143.3 × 100.4 cm (56 7/16 × 39 1/2 in.)"
       ],
-      "id": "2-44",
+      "id": "2-44-aic",
       "image_alt": "Painting depicting Christ anointed by a woman in yellow, seated centrally at a crowded table of guests with long thin grayish faces in colorful robes with strong white highlights. In the background, tall grey archways, a steepled building, and city architecture.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/75886aaa-002a-2047-a05c-baf73f0ac093/full/200,/0/default.jpg",
@@ -1321,7 +1321,7 @@
       "dimensions": [
         "49.5 × 61 cm (19 1/2 × 24 in.)"
       ],
-      "id": "2-45",
+      "id": "2-45-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/96458291-2c6c-76ba-4be9-dca201687edf/full/200,/0/default.jpg",
@@ -1350,7 +1350,7 @@
       "dimensions": [
         "52.4 × 37.5 cm (20 5/8 × 14 3/4 in.)"
       ],
-      "id": "2-46",
+      "id": "2-46-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/a599382c-d166-8f30-904b-64b19514265e/full/200,/0/default.jpg",
@@ -1379,7 +1379,7 @@
       "dimensions": [
         "34 × 40.2 cm (13 1/2 × 15 1/2 in.)"
       ],
-      "id": "2-47",
+      "id": "2-47-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/b4b14539-0be0-e7f8-19ad-8848f79c33df/full/200,/0/default.jpg",
@@ -1408,7 +1408,7 @@
       "dimensions": [
         "81.5 × 99.9 cm (32 1/16 × 39 1/4 in.)"
       ],
-      "id": "2-48",
+      "id": "2-48-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/7a313db7-2369-1c7b-b4f7-a1d29218f778/full/200,/0/default.jpg",
@@ -1437,7 +1437,7 @@
       "dimensions": [
         "144.7 × 133 cm (57 × 44 1/2 in.)"
       ],
-      "id": "2-49",
+      "id": "2-49-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/87cb3fad-65e7-f5e7-291c-dca132489ec3/full/200,/0/default.jpg",
@@ -1466,7 +1466,7 @@
       "dimensions": [
         "34.5 × 26 cm (15 × 10 3/8 in.)"
       ],
-      "id": "2-50",
+      "id": "2-50-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/93d95655-0b4e-b5b4-36b5-5fe8f84d5549/full/200,/0/default.jpg",
@@ -1496,7 +1496,7 @@
         "38.1 × 54.5 cm (15 × 21 7/16 in.)",
         " Painted surface: 37.9 × 54.3 cm (14 15/16 × 21 3/8 in.)"
       ],
-      "id": "2-51",
+      "id": "2-51-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/e88a2253-69a0-425e-32d1-e9640111ef39/full/200,/0/default.jpg",
@@ -1525,7 +1525,7 @@
       "dimensions": [
         "33 × 24.9 cm (13 × 9 7/8 in.)"
       ],
-      "id": "2-52",
+      "id": "2-52-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/4339f21a-5a1c-8f40-931c-32686eefd8d5/full/200,/0/default.jpg",
@@ -1549,7 +1549,7 @@
       "dimensions": [
         "21.5 × 31.3 cm (8 7/16 × 12 5/16 in.)"
       ],
-      "id": "2-53",
+      "id": "2-53-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/9c2c809d-7637-84b0-747c-0520fa16e901/full/200,/0/default.jpg",
@@ -1578,7 +1578,7 @@
       "dimensions": [
         "60.5 × 73.8 cm (23 3/16 × 29 1/16 in.)"
       ],
-      "id": "2-54",
+      "id": "2-54-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/cb47a74b-4048-0636-d3cc-8e6be7e4c3f2/full/200,/0/default.jpg",
@@ -1607,7 +1607,7 @@
       "dimensions": [
         "Each: 178 × 376 cm (70 × 148 in.)"
       ],
-      "id": "2-55",
+      "id": "2-55-aic",
       "image_alt": "A work made of pair of six-panel screens; ink and gold leaf on paper.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/5a67db8d-0902-2d04-adc8-f67bf99a3529/full/200,/0/default.jpg",
@@ -1636,7 +1636,7 @@
       "dimensions": [
         "106.5 × 142.8 cm (41 7/8 × 56 1/4 in.)"
       ],
-      "id": "2-56",
+      "id": "2-56-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/beb2f648-c934-34ba-ba3d-f30db836c6b1/full/200,/0/default.jpg",
@@ -1665,7 +1665,7 @@
       "dimensions": [
         "66 × 82.3 cm (26 × 32 7/16 in.)"
       ],
-      "id": "2-57",
+      "id": "2-57-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/eaf98472-70cc-0005-c2c9-6109f549f24a/full/200,/0/default.jpg",
@@ -1694,7 +1694,7 @@
       "dimensions": [
         "65.9 × 93.1 cm (25 15/16 × 36 5/8 in.)"
       ],
-      "id": "2-58",
+      "id": "2-58-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/ec1f6262-09c2-8f7e-baa9-9c0b267337ff/full/200,/0/default.jpg",
@@ -1723,7 +1723,7 @@
       "dimensions": [
         "90.5 × 72 cm (35 5/8 × 28 3/8 in.)"
       ],
-      "id": "2-59",
+      "id": "2-59-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/a7638f95-22e3-5fff-8605-49fd6d8aac79/full/200,/0/default.jpg",
@@ -1752,7 +1752,7 @@
       "dimensions": [
         "76.2 × 46.2 cm (29 3/4 × 18 in.)"
       ],
-      "id": "2-60",
+      "id": "2-60-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/ec7fea8a-1b10-2ebe-7bb3-0c431f1a3f68/full/200,/0/default.jpg",
@@ -1782,7 +1782,7 @@
         "73.5 × 27.5 cm (28 7/8 × 10 7/8 in.)",
         " Image: 72.7 × 26.8 cm (28 5/8 × 10 9/16 in.)"
       ],
-      "id": "2-61",
+      "id": "2-61-aic",
       "image_alt": "A work made of oil on panel, transferred to canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/cd544f40-0226-b2ce-cf8a-419fde75d643/full/200,/0/default.jpg",
@@ -1811,7 +1811,7 @@
       "dimensions": [
         "32.4 × 41.2 cm (12 3/4 × 16 1/4 in.)"
       ],
-      "id": "2-62",
+      "id": "2-62-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/6fb6c48d-5877-1077-0f9d-6a17cee3c4f8/full/200,/0/default.jpg",
@@ -1840,7 +1840,7 @@
       "dimensions": [
         "127 × 102.3 cm (50 × 40 1/2 in.)"
       ],
-      "id": "2-63",
+      "id": "2-63-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/ef091180-c344-5d67-7a4a-6afd4c1193ad/full/200,/0/default.jpg",
@@ -1869,7 +1869,7 @@
       "dimensions": [
         "73 × 56.6 cm (28 3/4 × 22 1/4 in.)"
       ],
-      "id": "2-64",
+      "id": "2-64-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/371ba960-c86a-ec5b-d5aa-40b510917c4c/full/200,/0/default.jpg",
@@ -1898,7 +1898,7 @@
       "dimensions": [
         "146.7 × 221.2 cm (57 3/4 × 87 1/16 in.)"
       ],
-      "id": "2-65",
+      "id": "2-65-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/b30b708a-be47-c3cc-f3af-2a6798b7b088/full/200,/0/default.jpg",
@@ -1927,7 +1927,7 @@
       "dimensions": [
         "65.3 × 100.4 cm (25 11/16 × 39 1/2 in.)"
       ],
-      "id": "2-66",
+      "id": "2-66-aic",
       "image_alt": "Two haystacks, dusted with snow, in a hazy, snow-covered field at sunset. The snow is highlighted in purple tones, the sky a yellow and orange gradient.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/be0d3e50-a600-6f33-ea8f-16a34d892442/full/200,/0/default.jpg",
@@ -1956,7 +1956,7 @@
       "dimensions": [
         "42.3 × 33 cm (16 5/8 × 13 in.)"
       ],
-      "id": "2-67",
+      "id": "2-67-aic",
       "image_alt": "A work made of oil on cradled panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/f1dce916-58a3-db57-d5cd-be0994dc98c7/full/200,/0/default.jpg",
@@ -1985,7 +1985,7 @@
       "dimensions": [
         "37.8 × 24.6 cm (14 7/8 × 9 11/16 in.)"
       ],
-      "id": "2-68",
+      "id": "2-68-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/3dae143d-6840-2e6e-dff5-cd2eea745da2/full/200,/0/default.jpg",
@@ -2014,7 +2014,7 @@
       "dimensions": [
         "65.3 × 92.3 cm (25 3/4 × 36 3/8 in.)"
       ],
-      "id": "2-69",
+      "id": "2-69-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/200,/0/default.jpg",
@@ -2043,7 +2043,7 @@
       "dimensions": [
         "210.6 × 109.3 cm (82 7/8 × 43 in.)"
       ],
-      "id": "2-70",
+      "id": "2-70-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/389e3222-0ff0-9e88-4b84-80e78fbb6b8d/full/200,/0/default.jpg",
@@ -2072,7 +2072,7 @@
       "dimensions": [
         "Edges irregular, approx.: 40.6 × 29.8 cm (16 × 11 3/4 in.)"
       ],
-      "id": "2-71",
+      "id": "2-71-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/e1e16ea4-4f55-e222-7f36-561eab6c68bd/full/200,/0/default.jpg",
@@ -2101,7 +2101,7 @@
       "dimensions": [
         "46.7 × 41 cm (18 3/8 × 16 1/8 in.)"
       ],
-      "id": "2-72",
+      "id": "2-72-aic",
       "image_alt": "A work made of oil on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/747149cf-b1eb-4877-52cb-49ba2341a72b/full/200,/0/default.jpg",
@@ -2130,7 +2130,7 @@
       "dimensions": [
         "60 × 92 cm (23 5/8 × 36 1/4 in.)"
       ],
-      "id": "2-73",
+      "id": "2-73-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/43fcfad0-8256-4923-9f9c-03ca90417907/full/200,/0/default.jpg",
@@ -2159,7 +2159,7 @@
       "dimensions": [
         "Diam.: 26.7 cm (10 1/2 in.)"
       ],
-      "id": "2-74",
+      "id": "2-74-aic",
       "image_alt": "A work made of tambourine with oil on vellum painting.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/f37b8965-3643-d101-a401-9c5f033cb312/full/200,/0/default.jpg",
@@ -2189,7 +2189,7 @@
         "68.5 × 36.2 cm (27 × 14 1/4 in.)",
         " Painted surface: 66.3 × 34 cm (26 1/16 × 13 7/16 in.)"
       ],
-      "id": "2-75",
+      "id": "2-75-aic",
       "image_alt": "A work made of tempera on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/e8d8a10a-0a24-6029-4fdc-3e59caaac457/full/200,/0/default.jpg",
@@ -2219,7 +2219,7 @@
         "37.6 × 66.1 cm (14 3/4 × 26 in.)",
         " Painted surface: 36 × 64.4 cm (14 1/8 × 25 3/8 in.)"
       ],
-      "id": "2-76",
+      "id": "2-76-aic",
       "image_alt": "A work made of tempera on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/c8111709-059f-0a65-cc42-a7bee4cfd79e/full/200,/0/default.jpg",
@@ -2249,7 +2249,7 @@
         "37.4 × 65.7 cm (14 3/4 × 25 7/8 in.)",
         " Painted surface: 35.8 × 64.4 cm (14 1/8 × 25 3/8 in.)"
       ],
-      "id": "2-77",
+      "id": "2-77-aic",
       "image_alt": "A work made of tempera on panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/336a83f3-c184-add1-ee03-f295aa97a0b0/full/200,/0/default.jpg",
@@ -2278,7 +2278,7 @@
       "dimensions": [
         "66.5 × 82.3 cm (26 1/8 × 32 7/16 in.)"
       ],
-      "id": "2-78",
+      "id": "2-78-aic",
       "image_alt": "Painting of a cliff overlooking the sea. Two figures in long dresses, one with a parasol, stand on the cliff beneath blue sky.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/200,/0/default.jpg",
@@ -2307,7 +2307,7 @@
       "dimensions": [
         "92.1 × 71.5 cm (36 1/4 × 28 1/8 in.)"
       ],
-      "id": "2-79",
+      "id": "2-79-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/eac2c2c9-fe4a-ba6f-948c-b579b0f2bca3/full/200,/0/default.jpg",
@@ -2336,7 +2336,7 @@
       "dimensions": [
         "50.2 × 73.3 cm (19 3/4 × 28 7/8 in.)"
       ],
-      "id": "2-80",
+      "id": "2-80-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/9e72fb46-920e-86a7-bc49-9a525eac4e1c/full/200,/0/default.jpg",
@@ -2365,7 +2365,7 @@
       "dimensions": [
         "95.9 × 75.6 cm (37 3/4 × 29 3/4 in.)"
       ],
-      "id": "2-81",
+      "id": "2-81-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/f837e639-5a6c-3043-3c2c-a4d5ece3bf1d/full/200,/0/default.jpg",
@@ -2394,7 +2394,7 @@
       "dimensions": [
         "87 × 101.5 cm (34 1/4 × 39 3/4 in.)"
       ],
-      "id": "2-82",
+      "id": "2-82-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/ff5e49d3-448f-2aba-4461-6e36c1dc7dfa/full/200,/0/default.jpg",
@@ -2423,7 +2423,7 @@
       "dimensions": [
         "171.8 × 125.4 cm (67 5/8 × 49 3/8 in.)"
       ],
-      "id": "2-83",
+      "id": "2-83-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/91fcc71a-50eb-f418-85f5-d11fc81e8d83/full/200,/0/default.jpg",
@@ -2452,7 +2452,7 @@
       "dimensions": [
         "81.9 × 66.4 cm (32 1/4 × 26 1/8 in.)"
       ],
-      "id": "2-84",
+      "id": "2-84-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/6ea9b674-8204-02b0-66a4-55da1a037b81/full/200,/0/default.jpg",
@@ -2481,7 +2481,7 @@
       "dimensions": [
         "57.1 × 46.7 cm (22 1/2 × 18 3/8 in.)"
       ],
-      "id": "2-85",
+      "id": "2-85-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/99e276fd-f076-f396-b5c1-b22c3ce62b45/full/200,/0/default.jpg",
@@ -2510,7 +2510,7 @@
       "dimensions": [
         "127.7 × 101.6 cm (50 1/4 × 40 in.)"
       ],
-      "id": "2-86",
+      "id": "2-86-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/2d717e79-f94a-83fd-0e18-3e1a82f85310/full/200,/0/default.jpg",
@@ -2539,7 +2539,7 @@
       "dimensions": [
         "52.1 × 71.4 cm (20 1/2 × 28 1/8 in.)"
       ],
-      "id": "2-87",
+      "id": "2-87-aic",
       "image_alt": "A work made of oil on canvas mounted on cradled panel.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/28a7765b-fc38-1a56-87dd-cbcdb647fcdb/full/200,/0/default.jpg",
@@ -2568,7 +2568,7 @@
       "dimensions": [
         "163.2 × 107.3 cm (64 1/4 × 42 1/4 in.)"
       ],
-      "id": "2-88",
+      "id": "2-88-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/59bf5216-383d-c2d4-912a-f8cfcbdaa55a/full/200,/0/default.jpg",
@@ -2597,7 +2597,7 @@
       "dimensions": [
         "30.5 × 50.8 cm (12 × 20 in.)"
       ],
-      "id": "2-89",
+      "id": "2-89-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/42924282-d483-cd95-e676-52aee4bc4164/full/200,/0/default.jpg",
@@ -2626,7 +2626,7 @@
       "dimensions": [
         "56.3 × 91.8 cm (22 3/8 × 36 1/8 in.)"
       ],
-      "id": "2-90",
+      "id": "2-90-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/0b66bb30-3170-f7d1-543a-93e02ffe194f/full/200,/0/default.jpg",
@@ -2655,7 +2655,7 @@
       "dimensions": [
         "29.5 × 62.4 cm (11 5/8 × 24 1/4 in.)"
       ],
-      "id": "2-91",
+      "id": "2-91-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/50f98ea2-ea74-d991-b2fc-ddbc616283bd/full/200,/0/default.jpg",
@@ -2684,7 +2684,7 @@
       "dimensions": [
         "160.5 × 112.7 cm (65 × 83 3/4 in.)"
       ],
-      "id": "2-92",
+      "id": "2-92-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/68415b1d-baec-303a-1c09-4c6b7ccb575c/full/200,/0/default.jpg",
@@ -2713,7 +2713,7 @@
       "dimensions": [
         "195.6 × 97.8 cm (77 × 38 1/2 in.)"
       ],
-      "id": "2-93",
+      "id": "2-93-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/3edec075-6e0b-0ccc-0036-5328de3e064c/full/200,/0/default.jpg",
@@ -2742,7 +2742,7 @@
       "dimensions": [
         "75.9 × 107 cm (29 7/8 × 42 1/8 in.)"
       ],
-      "id": "2-94",
+      "id": "2-94-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/9c2e39ad-fc3f-356e-cd98-db0038cfe8da/full/200,/0/default.jpg",
@@ -2766,7 +2766,7 @@
       "dimensions": [
         "190.5 × 61 cm (75 × 24 in.)"
       ],
-      "id": "2-95",
+      "id": "2-95-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/e6dd6199-c245-d1b4-a997-ce89eafb48ca/full/200,/0/default.jpg",
@@ -2795,7 +2795,7 @@
       "dimensions": [
         "95.3 × 130.6 cm (37 1/2 × 51 3/8 in.)"
       ],
-      "id": "2-96",
+      "id": "2-96-aic",
       "image_alt": "A work made of oil on jute canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/2adb35ce-8e94-cda5-210e-b04d488bbdc8/full/200,/0/default.jpg",
@@ -2824,7 +2824,7 @@
       "dimensions": [
         "51.5 × 77.2 cm (20 1/4 × 30 3/8 in.)"
       ],
-      "id": "2-97",
+      "id": "2-97-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/37f802ca-7831-14d6-82c6-060d825baabd/full/200,/0/default.jpg",
@@ -2853,7 +2853,7 @@
       "dimensions": [
         "200.5 × 105 cm (79 × 41 1/2 in.)"
       ],
-      "id": "2-98",
+      "id": "2-98-aic",
       "image_alt": "A work made of oil on canvas.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/ba6ef7ee-677c-0bcd-8150-ef7487f17a36/full/200,/0/default.jpg",
@@ -2882,7 +2882,7 @@
       "dimensions": [
         "59.4 × 73.4 cm (23 3/8 × 28 7/8 in.)"
       ],
-      "id": "2-99",
+      "id": "2-99-aic",
       "image_alt": "Painting of three male figures, two older men in top hats and a younger man with red hair, standing outdoors around a wooden table with a pitcher on it, drinking from glasses. A much smaller, childlike figure at left peers over the table and drinks from a white cup. The scene is rendered in winding paint strokes in shades of green and blue.",
       "image_url": {
         "sm": "https://www.artic.edu/iiif/2/d0ff5b36-bb38-b156-6042-5c8545352c2f/full/200,/0/default.jpg",

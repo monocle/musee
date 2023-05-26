@@ -79,7 +79,7 @@ def create_api_records(
             color=a.color,
             date=a.date_display,
             dimensions=a.dimensions.split(";"),
-            id=f"{file_num}-{i}",
+            id=f"{file_num}-{i}-aic",
             image_alt=a.thumbnail.alt_text,
             image_url=ApiImageUrl(
                 sm=f"{config.iiif_url}/{a.image_id}/full/200,/0/default.jpg",
@@ -103,8 +103,8 @@ def create_api_records(
 def create_data_file(
     file_num,
     records_per_page=100,
-    search_response_file: str | None = "search_response_2.json",
-    artworks_response_file: str | None = "artworks_response_2.json",
+    search_response_file: str | None = "search_response_1.json",
+    artworks_response_file: str | None = "artworks_response_1.json",
 ):
     filename = f"aic_{file_num}.json"
 
@@ -145,14 +145,10 @@ def create_data_file(
 
 def create_summary(records_per_file=100, total_files=1, total_records=100):
     write_json(
-        {
-            "recordsPerFile": records_per_file,
-            "totalFiles": total_files,
-            "totalRecords": total_records,
-        },
+        [{"source": "aic", "numFiles": 2}],
         filepath=str(frontend_data_dir / "aic_summary.json"),
     )
 
 
 # create_summary()
-create_data_file(file_num=2)
+create_data_file(file_num=1)
