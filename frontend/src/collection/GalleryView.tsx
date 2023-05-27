@@ -24,12 +24,11 @@ export default function GalleryView({
           <div className="relative mx-auto flex h-80 w-80 items-center justify-center">
             <div className="absolute inset-0 bg-base-300"></div>
             <img
-              className="absolute h-full w-full cursor-pointer object-contain transition-opacity duration-500"
-              style={{ opacity: 0 }}
+              className="absolute h-full w-full cursor-pointer object-contain opacity-0 transition-opacity duration-500"
               src={`${record.image_url.xl}`}
               alt={record.title}
               onLoad={(e) =>
-                ((e.target as HTMLImageElement).style.opacity = "1")
+                (e.target as HTMLElement).classList.remove("opacity-0")
               }
               onClick={() => onClickRecord(record)}
             />
