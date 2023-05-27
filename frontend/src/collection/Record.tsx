@@ -5,7 +5,6 @@ import { useGetRecord } from "../services/useApi";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
 import FavoriteToggle from "./FavoriteToggle";
-import Spinner from "../common/Spinner";
 import PageControls from "./PageControls";
 
 function getPageFromSequence(sequence: number) {
@@ -88,8 +87,8 @@ export default function Painting() {
   const hslStr = color ? `hsl(${color.h}, ${color.s}%, ${color.l}%)` : "";
 
   return (
-    <div className="absolute top-0 z-40 bg-base-200 lg:flex lg:h-screen lg:w-screen lg:flex-col lg:flex-wrap">
-      <nav className="sticky top-0 z-50 flex flex-wrap items-center gap-1 bg-base-200 px-2 pb-2 pt-1 sm:flex-row-reverse lg:order-2 lg:w-1/5 lg:flex-col lg:flex-nowrap lg:px-2">
+    <div className="absolute top-0 z-40 flex flex-col gap-3 bg-base-200 lg:h-screen lg:w-screen lg:flex-wrap lg:gap-0">
+      <nav className="sticky top-0 z-50 flex items-center bg-base-200 px-2 pb-2 pt-1 sm:flex-row-reverse lg:order-2 lg:w-1/5 lg:flex-col lg:flex-nowrap lg:px-2">
         <PageControls
           className="mx-auto sm:mx-0"
           page={sequence}
@@ -100,7 +99,6 @@ export default function Painting() {
       </nav>
 
       <section className="relative flex w-full items-center justify-center bg-base-100 lg:order-1 lg:w-4/5">
-        {!isImgLoaded && <Spinner className="absolute" />}
         <button
           className="btn-active btn-xs btn absolute right-2 top-2"
           onClick={navigateToCollection}
@@ -123,25 +121,24 @@ export default function Painting() {
         </figure>
       </section>
 
-      <section className="overflow-y-auto px-4 pb-4 pt-2 lg:order-3 lg:flex lg:w-1/5 lg:flex-1 lg:flex-wrap lg:px-4">
+      <section className="overflow-y-auto px-4 py-4 lg:order-3 lg:w-1/5 lg:flex-1">
         <FavoriteToggle
-          className="btn-block btn-sm my-2 "
+          className="btn-block btn-sm mb-8"
           record={record}
           page={page}
         />
-
-        <ul className="list">
-          <li className="mb-3 font-extrabold">{title}</li>
-          <li className="mb-3 font-bold">{artist_name}</li>
-          {origin && <li className="mb-3">{origin}</li>}
-          <li className="mb-3">{date}</li>
-          <li className="mb-3">{medium}</li>
-          <li className="mb-3 lg:text-sm">
+        <ul className="flex flex-col gap-6">
+          <li className="font-extrabold">{title}</li>
+          <li className="font-bold">{artist_name}</li>
+          {origin && <li>{origin}</li>}
+          <li>{date}</li>
+          <li>{medium}</li>
+          <li className="lg:text-sm">
             {dimensions.slice(0, 1).map((dim) => (
               <div key={dim}>{dim}</div>
             ))}
           </li>
-          <li className="mb-3">
+          <li>
             <a
               className="link-info link"
               href={source_url}
@@ -151,10 +148,10 @@ export default function Painting() {
               {source === "aic" ? "Art Institute of Chicago" : "Museum"}
             </a>
           </li>
-          <li className="mb-3 lg:text-xs">
-            <div className="flex">
-              <div className="w-2/3">{hslStr}</div>
-              <div style={{ backgroundColor: hslStr }} className="w-1/3"></div>
+          <li className="lg:text-xs">
+            <div className="flex gap-4">
+              <div className="">{hslStr}</div>
+              <div style={{ backgroundColor: hslStr }} className="w-16"></div>
             </div>
           </li>
         </ul>
