@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import CollectionLink from "./CollectionLink";
+import CollectionLink from "../common/CollectionLink";
 import Logo from "./Logo";
 import ThemeToggler from "./ThemeToggle";
 

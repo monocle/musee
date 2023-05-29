@@ -3,7 +3,7 @@ import {
   getLocalStorageItem,
   setLocalStorageItem,
   respondToLocalStorageEvent,
-} from "../services/useLocalStorage";
+} from "../hooks/useLocalStorage";
 
 const VITE_BASEPATH: string = import.meta.env.VITE_BASEPATH;
 const favoritesName = "favorites";

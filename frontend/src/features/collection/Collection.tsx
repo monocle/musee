@@ -1,12 +1,12 @@
 import { useEffect, useRef } from "react";
 import { useNavigate, useParams, useSearch } from "@tanstack/react-router";
-import { useGetCollection } from "../services/useApi";
+import { useGetCollection } from "../../hooks/useApi";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 import ErrorMessage from "../common/ErrorMessage";
 import ListView from "./ListView";
 import GalleryView from "./GalleryView";
 import PageControls from "./PageControls";
-import SelectView from "./SelectView";
+import SelectView from "./ViewSelect";
 
 export default function Collection() {
   const route = "/collections/$collectionId/";

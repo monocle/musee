@@ -1,6 +1,6 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import useLocalStorage from "../services/useLocalStorage";
+import useLocalStorage from "./useLocalStorage";
 
 const API_PREFIX = "/api/";
 

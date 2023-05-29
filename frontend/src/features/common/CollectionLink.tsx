@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import useLocalStorage from "../services/useLocalStorage";
+import useLocalStorage from "../../hooks/useLocalStorage";
 
 interface Props {
   className?: string;

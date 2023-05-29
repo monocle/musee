@@ -17,12 +17,12 @@ export default defineConfig({
   test: {
     globals: true,
     environment: "jsdom",
-    setupFiles: "./src/test/setup.ts",
+    setupFiles: "./src/testing/setup.ts",
     coverage: {
       exclude: [
         ...configDefaults.coverage.exclude,
-        "src/test/*",
-        "src/mocks/*",
+        "src/testing/*",
+        "src/worker/*",
       ],
     },
   },

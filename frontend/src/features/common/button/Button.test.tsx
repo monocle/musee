@@ -1,4 +1,4 @@
-import { render, screen } from "../test/testHelpers";
+import { render, screen } from "../../../testing";
 import Button from "./Button";
 
 const button = () => screen.getByRole("button");

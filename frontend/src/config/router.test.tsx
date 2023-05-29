@@ -1,13 +1,8 @@
-import {
-  renderComponent,
-  screen,
-  userEvent,
-  waitFor,
-} from "../test/testHelpers";
-import { serveData } from "../test/testHelpers";
-import * as data from "../mocks/aic_collection_response_2.json";
-import * as favorites from "../mocks/favorites_response.json";
-import router from "../router";
+import { renderComponent, screen, userEvent, waitFor } from "../testing";
+import { serveData } from "../testing";
+import * as data from "../testing/data/aic_collection_response_2.json";
+import * as favorites from "../testing/data/favorites_response.json";
+import router from "./router";
 
 // Using one test until proper testing with TanStack Router is figured out.
 test("all routing links", async () => {

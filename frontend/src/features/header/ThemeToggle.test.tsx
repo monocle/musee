@@ -1,4 +1,4 @@
-import { render, screen, userEvent } from "../test/testHelpers";
+import { render, screen, userEvent } from "../../testing";
 import ThemeToggle from "./ThemeToggle";
 
 describe("ThemeToggle", () => {

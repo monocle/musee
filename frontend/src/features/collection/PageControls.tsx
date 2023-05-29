@@ -3,7 +3,7 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
-import Button from "../common/Button";
+import Button from "../common/button/Button";
 
 interface Props {
   page: number;

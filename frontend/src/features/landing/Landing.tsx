@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CollectionLink from "./CollectionLink";
+import CollectionLink from "../common/CollectionLink";
 import CenterScreenSpinner from "../common/CenterScreenSpinner";
 
 const hero = {

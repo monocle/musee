@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useState } from "react";
 import { useNavigate, useParams, useSearch } from "@tanstack/react-router";
-import cache from "../mocks/browser_cache";
-import { useGetRecord } from "../services/useApi";
-import CenterScreenSpinner from "../common/CenterScreenSpinner";
-import ErrorMessage from "../common/ErrorMessage";
-import FavoriteToggle from "./FavoriteToggle";
-import PageControls from "./PageControls";
+import cache from "../../../worker/browser_cache";
+import { useGetRecord } from "../../../hooks/useApi";
+import CenterScreenSpinner from "../../common/CenterScreenSpinner";
+import ErrorMessage from "../../common/ErrorMessage";
+import FavoriteToggle from "../FavoriteToggle";
+import PageControls from "../PageControls";
 
 function getPageFromSequence(sequence: number) {
   return 1 + Math.floor((sequence - 1) / cache.pageSize);

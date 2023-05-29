@@ -6,12 +6,12 @@ import {
   Route,
   Router,
 } from "@tanstack/react-router";
-import { apiGet } from "./services/useApi.ts";
+import { apiGet } from "../hooks/useApi.ts";
 import queryClient from "./queryClient.ts";
-import App from "./App.tsx";
-import Landing from "./pages/Landing.tsx";
-import Collection from "./collection/Collection.tsx";
-import Record from "./collection/Record.tsx";
+import App from "../App.tsx";
+import Landing from "../features/landing/Landing.tsx";
+import Collection from "../features/collection/Collection.tsx";
+import Record from "../features/collection/record/Record.tsx";
 
 declare module "@tanstack/router" {
   interface Register {

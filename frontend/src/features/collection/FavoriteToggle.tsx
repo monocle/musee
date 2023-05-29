@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar as faStarSolid } from "@fortawesome/free-solid-svg-icons";
 import { faStar as faStarReg } from "@fortawesome/free-regular-svg-icons";
-import Button from "../common/Button";
-import { useUpdateFavorite } from "../services/useApi";
+import Button from "../common/button/Button";
+import { useUpdateFavorite } from "../../hooks/useApi";
 
 interface Props {
   page: number;

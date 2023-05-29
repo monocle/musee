@@ -5,7 +5,7 @@ interface Props {
   className?: string;
 }
 
-export default function SelectView({ className = "" }: Props) {
+export default function ViewSelect({ className = "" }: Props) {
   const navigate = useNavigate({ from: "/collections/$collectionId" });
   const router = useRouter();
   const [view, setView] = useState(router.state.currentLocation.search.view);

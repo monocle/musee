@@ -3,7 +3,7 @@ import {
   renderComponent,
   screen,
   waitFor,
-} from "../test/testHelpers";
+} from "../../testing";
 import Landing from "./Landing";
 
 const router = createTestRouter(Landing);
