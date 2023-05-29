@@ -74,7 +74,7 @@ export default function Collection() {
           page={page}
           maxPages={data.maxPages}
           isLoading={isFetching}
-          navigate={handlePageChange}
+          onPageChange={handlePageChange}
         />
       </nav>
 

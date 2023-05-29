@@ -94,7 +94,7 @@ export default function Painting() {
           page={sequence}
           maxPages={data.maxSequence}
           isLoading={isLoading}
-          navigate={handlePageChange}
+          onPageChange={handlePageChange}
         />
       </nav>
 

@@ -10,7 +10,7 @@ interface Props {
   maxPages: number;
   isLoading?: boolean;
   className?: string;
-  navigate: (newPage: number) => void;
+  onPageChange: (newPage: number) => void;
 }
 
 export default function PageControls({
@@ -18,13 +18,13 @@ export default function PageControls({
   maxPages,
   isLoading = false,
   className = "",
-  navigate,
+  onPageChange,
 }: Props) {
   const handlePageChange = (newPage: number) => {
     if (page > maxPages || page < 1) return;
 
     window.scroll({ top: 0 });
-    navigate(newPage);
+    onPageChange(newPage);
   };
 
   return (
