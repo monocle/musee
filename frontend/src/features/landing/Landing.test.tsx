@@ -6,7 +6,7 @@ import {
 } from "../../testing";
 import Landing from "./Landing";
 
-const router = createTestRouter(Landing);
+const router = createTestRouter(<Landing />);
 
 test("renders Landing component", async () => {
   renderComponent(router);

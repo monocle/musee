@@ -6,7 +6,7 @@ import {
   createMemoryHistory,
 } from "@tanstack/react-router";
 
-export function createTestRouter(component: () => JSX.Element) {
+export function createTestRouter(component: JSX.Element) {
   const rootRoute = new RootRoute({
     component: Outlet,
   });
@@ -14,7 +14,7 @@ export function createTestRouter(component: () => JSX.Element) {
   const componentRoute = new Route({
     getParentRoute: () => rootRoute,
     path: "/",
-    component,
+    component: () => component,
   });
 
   const router = new Router({
