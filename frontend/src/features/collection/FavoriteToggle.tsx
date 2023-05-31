@@ -25,11 +25,19 @@ export default function FavoriteToggle({
   };
 
   return (
-    <Button
-      className={`btn ${color} ${className}`}
-      onClick={handleFavoriteToggle}
-    >
-      <FontAwesomeIcon icon={icon} />
-    </Button>
+    <>
+      <Button
+        className={`btn ${color} ${className}`}
+        onClick={handleFavoriteToggle}
+        aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
+      >
+        <FontAwesomeIcon icon={icon} data-testid="favorite-toggle-icon" />
+      </Button>
+      {updateFavorite.isError && (
+        <div className="alert alert-error my-1 text-sm" aria-label="error">
+          Unable to set favorite. Click the star to try again.
+        </div>
+      )}
+    </>
   );
 }
