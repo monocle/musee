@@ -26,6 +26,9 @@ frontend_shell:
 frontend_test:
 	docker exec -it $(PROJ_NAME)-$(FRONTEND)-1 npm run test
 
+frontend_test_cov:
+	docker exec -it $(PROJ_NAME)-$(FRONTEND)-1 npx vitest run --coverage
+
 list:
 	@echo
 	@echo "Available targets:"
