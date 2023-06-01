@@ -35,9 +35,12 @@ export function respondToLocalStorageEvent<T>(
   key: string,
   callback: (newValue: T) => void
 ) {
-  window.addEventListener("storage", (e: StorageEvent) => {
+  const listener = (e: StorageEvent) => {
     if (e.key === key) callback(JSON.parse(e.newValue as string));
-  });
+  };
+
+  window.addEventListener("storage", listener);
+  return listener;
 }
 
 function useLocalStorage<T>(key: string, initialValue: T) {
