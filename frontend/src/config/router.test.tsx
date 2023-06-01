@@ -1,7 +1,6 @@
 import {
   renderComponent,
   screen,
-  userEvent,
   expectInDocument,
   expectNotInDocument,
 } from "../testing";
@@ -29,17 +28,16 @@ async function expectCollectionPage() {
 
 // Using one test until proper testing with TanStack Router is figured out.
 test("all routing links", async () => {
-  const user = userEvent.setup();
-
   serveData({ path: "collections/aic", data });
   serveData({ path: "collections/favorites", data: favorites });
-  renderComponent(router);
+
+  const { user } = renderComponent(router);
 
   // Initial landing page
   await expectLandingPage();
 
   // Hero button link
-  await user.click(screen.getByRole("link", { name: /let's go/i }));
+  await user.clickLink("hero");
   await expectCollectionPage();
 
   // Logo link back to home
@@ -47,7 +45,7 @@ test("all routing links", async () => {
   await expectLandingPage();
 
   // Favorites menu link
-  await user.click(screen.getByRole("link", { name: /favorites/i }));
+  await user.clickLink("favorites");
 
   await expectNotInDocument(/artwork to inspire/i);
   await expectNotInDocument(record0.title);
@@ -55,6 +53,6 @@ test("all routing links", async () => {
   await expectInDocument(favorite0.title);
 
   // All menu link
-  await user.click(screen.getByRole("link", { name: /all/i }));
+  await user.clickLink("all");
   await expectCollectionPage();
 });
