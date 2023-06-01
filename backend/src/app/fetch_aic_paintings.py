@@ -73,13 +73,16 @@ def create_api_records(
     artworks = artworks_res.data
     config = artworks_res.config
 
+    def get_sequence(i: int):
+        return i + 1 + (file_num - 1) * records_per_page
+
     return [
         ApiRecord(
             artist_name=a.artist_title or "Unknown",
             color=a.color,
             date=a.date_display,
             dimensions=a.dimensions.split(";"),
-            id=f"{file_num}-{i}-aic",
+            id=f"{file_num}-{get_sequence(i)-1}-aic",
             image_alt=a.thumbnail.alt_text,
             image_url=ApiImageUrl(
                 sm=f"{config.iiif_url}/{a.image_id}/full/200,/0/default.jpg",
@@ -89,7 +92,7 @@ def create_api_records(
             ),
             medium=a.medium_display,
             origin=a.place_of_origin,
-            sequence=i + 1 + (file_num - 1) * records_per_page,
+            sequence=get_sequence(i),
             source_id=a.id,
             source_url=f"{config.website_url}/artworks/{a.id}",
             source="aic",
@@ -103,10 +106,16 @@ def create_api_records(
 def create_data_file(
     file_num,
     records_per_page=100,
-    search_response_file: str | None = "search_response_1.json",
-    artworks_response_file: str | None = "artworks_response_1.json",
+    search_response_file: str | None = None,
+    artworks_response_file: str | None = None,
 ):
     filename = f"aic_{file_num}.json"
+
+    if not search_response_file:
+        search_response_file = f"search_response_{file_num}.json"
+
+    if not artworks_response_file:
+        artworks_response_file = f"artworks_response_{file_num}.json"
 
     if artworks_response_file:
         artworks_res = ArtworksResponse.parse_file(artworks_response_file)
@@ -151,4 +160,4 @@ def create_summary(records_per_file=100, total_files=1, total_records=100):
 
 
 # create_summary()
-create_data_file(file_num=1)
+create_data_file(file_num=2)

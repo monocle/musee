@@ -102,6 +102,7 @@ export default function Painting() {
         <button
           className="btn-active btn-xs btn absolute right-2 top-2"
           onClick={navigateToCollection}
+          aria-label="Return to collection view"
         >
           X
         </button>
