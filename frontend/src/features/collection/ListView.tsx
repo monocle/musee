@@ -3,7 +3,10 @@ export default function ListView({
   onClickRecord,
 }: CollectionViewProps) {
   return (
-    <table className="table-compact w-full text-left">
+    <table
+      className="table-compact w-full text-left"
+      data-testid="collection-list-view"
+    >
       <thead>
         <tr>
           <th></th>

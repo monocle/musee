@@ -6,7 +6,10 @@ export default function GalleryView({
   onClickRecord,
 }: CollectionViewProps) {
   return (
-    <div className="my-2 flex flex-wrap justify-center gap-2 py-4 sm:gap-5 md:gap-8">
+    <div
+      className="my-2 flex flex-wrap justify-center gap-2 py-4 sm:gap-5 md:gap-8"
+      data-testid="collection-gallery-view"
+    >
       {records.map((record) => (
         <figure
           className="relative w-[22rem] border-4 border-base-200 bg-base-300 py-5"
