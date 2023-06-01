@@ -28,35 +28,30 @@ The key features of Musee include:
 
 * The ability to favorite paintings so that users can create their own personalized collections:
 
-<div style="text-align:center">
+<div align="center">
   <img src="images/Musee-favorites-mobile.png" alt="Favorites page on mobile" style="width:200px;">
   <br>
-  <em style="font-size: 0.8rem;">Mobile View</em>
+  <em>Mobile View</em>
 </div>
 
 ## Learning Journey & Technical Challenges
 
-1. __Getting Back into React Development and Embracing New Libraries__
-<br>
+1. __Getting Back into React Development and Embracing New Libraries__  
 After a gap in web development, I chose this project as part of getting reacquainted with React and modern front end tools. I intentionally selected TanStack's Query and Router, and Tailwind CSS, despite my previous experience with React Router, Redux, and Bootstrap. This challenge provided an opportunity to get hands-on with different libraries and enhance my adaptability as a developer.
 
-1. __Styling with TailwindCSS and daisyUI__
-<br>
+1. __Styling with TailwindCSS and daisyUI__  
 Given my self-proclaimed weakness in styling, adopting Tailwind CSS was a deliberate decision to push myself and improve my styling skills. I supplemented Tailwind with daisyUI to accelerate the process. This venture improved my CSS understanding and utility-first design approach, even though styling remains an area of further growth.
 
-1. __REST API Development with Mock Service Worker__ <br>
+1. __REST API Development with Mock Service Worker__  
 In the absence of a backend API server, I simulated one using Mock Service Worker. This created a mock REST API for the application, allowing me to design and fine-tune front end behavior and user interface based on simulated server responses. This experience not only added to the project's complexity but also prepared me for potential future integration with an actual backend server.
 
-1. __State Persistence__
-<br>
+1. __State Persistence__  
 One of the crucial aspects of Musee is state persistence. This was achieved by leveraging local storage and URLs, a strategy which not only enhances the user experience but also introduced me to advanced state management techniques. This allows users to bookmark or refresh their pages without losing their place in the application, thereby providing a smoother browsing experience. This state persistence was also crucial in implementing the favorites feature.
 
-1. __DevOps and CI/CD__
-<br>
+1. __DevOps and CI/CD__  
 One of Musee's development goals was to introduce robust DevOps practices through setting up continuous integration and deployment (CI/CD). Building a CI/CD pipeline was a challenging and rewarding process. It involved learning to configure GitHub workflows, understanding how to automate testing and code style checks with tools like ESLint, and setting up automatic builds and deployments to GitHub Pages. These practices were crucial in maintaining high code quality and ensuring smooth, automated deployments.
 
-1. __Embracing Testing Practices__
-<br>
+1. __Embracing Testing Practices__  
 Given Musee's iterative development and my initial focus on new libraries, I prioritized feature implementation. However, understanding the importance of testing, I back-filled tests after core functionalities were built. This approach allowed me to validate Musee's stability, improve code quality, and further familiarize myself with testing tools like Vitest and React Testing Library.
 
 ## Technical Details
