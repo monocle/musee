@@ -46,6 +46,10 @@ class BrowserCache {
     });
   }
 
+  get numFavorites() {
+    return this.#favorites.length;
+  }
+
   maxPages(collectionId = favoritesName) {
     return Math.ceil(this.maxRecords(collectionId) / this.pageSize);
   }
@@ -54,11 +58,6 @@ class BrowserCache {
     return collectionId === favoritesName
       ? this.#favorites.length
       : this.#totalRecords;
-  }
-
-  #getRecords(collectionId: CollectionId) {
-    if (collectionId !== favoritesName) return this.#records[collectionId];
-    return this.#favorites.map((id) => this.getRecordById(id));
   }
 
   getRecordBySequence(collectionId: CollectionId, sequence: number) {
@@ -87,6 +86,19 @@ class BrowserCache {
     setLocalStorageItem(favoritesName, this.#favorites);
   }
 
+  removeFavorite(removeId: ApiRecordId) {
+    if (!this.#removeFavoritesSequence(removeId)) return;
+
+    this.#favorites = this.#favorites.filter((id) => id !== removeId);
+    this.#setAllFavoritesSequence();
+    setLocalStorageItem(favoritesName, this.#favorites);
+  }
+
+  #getRecords(collectionId: CollectionId) {
+    if (collectionId !== favoritesName) return this.#records[collectionId];
+    return this.#favorites.map((id) => this.getRecordById(id));
+  }
+
   #setFavoritesSequence(id: string, sequence: number) {
     const record = this.getRecordById(id);
     if (record) record.favoritesSequence = sequence;
@@ -102,18 +114,6 @@ class BrowserCache {
 
     record.favoritesSequence = undefined;
     return true;
-  }
-
-  removeFavorite(removeId: ApiRecordId) {
-    if (!this.#removeFavoritesSequence(removeId)) return;
-
-    this.#favorites = this.#favorites.filter((id) => id !== removeId);
-    this.#setAllFavoritesSequence();
-    setLocalStorageItem(favoritesName, this.#favorites);
-  }
-
-  get numFavorites() {
-    return this.#favorites.length;
   }
 
   async #fetchFile(
