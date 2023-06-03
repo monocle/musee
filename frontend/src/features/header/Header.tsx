@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import useKeyboard from "../../hooks/useKeyboard";
 import CollectionLink from "../common/CollectionLink";
 import Logo from "./Logo";
 import ThemeToggler from "./ThemeToggle";
@@ -8,6 +9,8 @@ import ThemeToggler from "./ThemeToggle";
 export default function Header() {
   const [showNav, setShowNav] = useState(false);
   const navRef = useRef<HTMLDivElement>(null);
+  const fPressRef = useKeyboard("F");
+  const aPressRef = useKeyboard("A");
 
   useEffect(() => {
     const listener = showNav
@@ -56,6 +59,8 @@ export default function Header() {
             collectionId="favorites"
             content="Favorites"
             onClick={() => setShowNav(false)}
+            keyboardShortCut="Shift+F"
+            ref={fPressRef}
           />
 
           <CollectionLink
@@ -63,6 +68,8 @@ export default function Header() {
             collectionId="aic"
             content="All"
             onClick={() => setShowNav(false)}
+            keyboardShortCut="Shift+A"
+            ref={aPressRef}
           />
         </div>
 
