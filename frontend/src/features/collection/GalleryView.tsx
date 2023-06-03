@@ -17,9 +17,7 @@ export default function GalleryView({
           key={record.id}
         >
           <div className="absolute top-0 z-10 flex w-full justify-between">
-            <div className="badge-neutral badge text-sm text-neutral-content">
-              {record.sequence}
-            </div>
+            <div className="pl-1 text-xs">{record.sequence}</div>
 
             <FavoriteToggle className="btn-xs" page={page} record={record} />
           </div>

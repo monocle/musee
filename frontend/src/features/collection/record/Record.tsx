@@ -141,7 +141,7 @@ export default function Painting() {
           </li>
           <li>
             <a
-              className="link-info link"
+              className="link hover:link-info"
               href={source_url}
               target="_blank"
               rel="noreferrer"

@@ -18,7 +18,6 @@ export default function FavoriteToggle({
   const updateFavorite = useUpdateFavorite();
   const isFavorite = !!record.favoritesSequence;
   const icon = isFavorite ? faStarSolid : faStarReg;
-  const color = isFavorite ? "btn-ghost text-accent" : "text-accent";
 
   const handleFavoriteToggle = () => {
     updateFavorite.mutate({ record, isAdd: !isFavorite, page });
@@ -27,7 +26,7 @@ export default function FavoriteToggle({
   return (
     <>
       <Button
-        className={`btn ${color} ${className}`}
+        className={`btn-ghost btn text-primary ${className}`}
         onClick={handleFavoriteToggle}
         aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
       >

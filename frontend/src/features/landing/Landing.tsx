@@ -29,7 +29,7 @@ export default function Landing() {
           <img
             src={hero.image_url}
             alt={hero.title}
-            className="absolute left-0 top-0 h-full w-full object-cover opacity-60"
+            className="absolute left-0 top-0 h-full w-full object-cover opacity-80"
             onLoad={() => setIsImgLoaded(true)}
           />
 
@@ -44,7 +44,7 @@ export default function Landing() {
               </div>
 
               <CollectionLink
-                className="btn-accent btn"
+                className="btn-primary btn"
                 collectionId="aic"
                 content="Let's Go"
               />

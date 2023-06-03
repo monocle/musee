@@ -11,7 +11,7 @@ export default function Logo({ className = "" }: Props) {
     <div className="flex items-center">
       <Link
         to="/"
-        className={`text-xl font-semibold text-info hover:text-blue-500 ${className}`}
+        className={`text-xl font-semibold text-primary hover:link-info ${className}`}
         aria-label="Navigate to home page"
       >
         Musee
